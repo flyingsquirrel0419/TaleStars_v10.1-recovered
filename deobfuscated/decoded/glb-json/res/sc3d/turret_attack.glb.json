@@ -1,0 +1,210 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 333,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 48,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 912
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 666
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 672,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 864,
+      "byteLength": 48
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 9,
+        "lastFrame": 8.75,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 51,
+              "flags": 28,
+              "frameCount": 9,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 53,
+              "flags": 26,
+              "frameCount": 9,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 53,
+              "flags": 26,
+              "frameCount": 9,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 51,
+              "flags": 28,
+              "frameCount": 9,
+              "nodeIndex": 5
+            },
+            {
+              "dataSize": 51,
+              "flags": 28,
+              "frameCount": 9,
+              "nodeIndex": 6
+            },
+            {
+              "dataSize": 74,
+              "flags": 30,
+              "frameCount": 9,
+              "nodeIndex": 7
+            }
+          ],
+          "stride": 48,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "Root",
+      "extensions": {}
+    },
+    {
+      "name": "turret_main_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        2.134689,
+        0.150628
+      ],
+      "name": "turret_bone_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "base_R_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "base_L_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "turret_bone2_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "cannon_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "name": "cannon_crown_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.776473,
+        0.0
+      ],
+      "name": "cannon_null",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.776473,
+        0.0
+      ],
+      "name": "cannon_crown_null",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1716,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 5,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 1071,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 40,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 20,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 38536
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 35864
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35872,
+      "byteLength": 320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36192,
+      "byteLength": 2142
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38336,
+      "byteLength": 160
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38496,
+      "byteLength": 40
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 41,
+        "lastFrame": 40.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 165,
+              "flags": 2,
+              "frameCount": 41,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 288,
+              "flags": 6,
+              "frameCount": 41,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 288,
+              "flags": 6,
+              "frameCount": 41,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 165,
+              "flags": 2,
+              "frameCount": 41,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 165,
+              "flags": 2,
+              "frameCount": 41,
+              "nodeIndex": 5
+            }
+          ],
+          "stride": 31,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "FBXASC0481FBXASC032FBXASC045FBXASC032Default",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "tick_004_atk_projectile.pvr#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 3440,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 26600,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.329222,
+              -0.076538,
+              -0.344027
+            ],
+            [
+              0.34456,
+              0.074298,
+              0.249723
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "atk",
+      "extensions": {}
+    },
+    {
+      "name": "Point001",
+      "extensions": {}
+    },
+    {
+      "name": "Point005",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "Point004",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "Point003",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "Point002",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.305723,
+              -0.076538,
+              -0.26341,
+              0.306051,
+              0.074298,
+              0.249723
+            ],
+            [
+              -0.329222,
+              -0.033785,
+              0.059086,
+              -0.187028,
+              0.033636,
+              0.211276
+            ],
+            [
+              0.224266,
+              -0.033785,
+              0.077664,
+              0.34456,
+              0.033636,
+              0.190053
+            ],
+            [
+              0.082164,
+              -0.022404,
+              -0.344027,
+              0.209041,
+              0.022687,
+              -0.165139
+            ],
+            [
+              -0.202377,
+              -0.022404,
+              -0.344027,
+              -0.07547,
+              0.022687,
+              -0.165139
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

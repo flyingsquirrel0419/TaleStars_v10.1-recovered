@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.376488,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    },
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.688609,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "cameras",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.149693,
+        -0.146107,
+        0.022372,
+        0.977622
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -3.097528,
+        3.767277,
+        14.234218
+      ],
+      "name": "portrait_small",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.111587,
+        0.032948,
+        -0.003702,
+        0.993201
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.588995,
+        3.741782,
+        13.739711
+      ],
+      "name": "portrait_large",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "portrait_small:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "portrait_large:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "camera": 0,
+      "name": "portrait_smallShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "camera": 1,
+      "name": "portrait_largeShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1453 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 5760,
+      "componentType": 5123,
+      "count": 7698,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1440,
+      "componentType": 5123,
+      "count": 2160,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 720,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 21156,
+      "componentType": 5123,
+      "count": 1164,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23484,
+      "componentType": 5123,
+      "count": 216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 18,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 102720
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 101564
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 101568,
+      "byteLength": 1152
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "STENCIL",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_hair_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "hair_specular_lightmap.png#repeat",
+              "lightmapTex2D": "hair_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "STENCIL",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_metal_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "metal_specular_lightmap.png#repeat",
+              "lightmapTex2D": "metal_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "EMISSION",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_emit_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "emission": [
+                1.0,
+                0.137255,
+                0.098039,
+                0.058824
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 23920,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 79380,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -9.160913,
+              0.006843,
+              -2.346296
+            ],
+            [
+              9.160913,
+              10.113055,
+              2.407885
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.010517,
+              8.208408,
+              -1.152543
+            ],
+            [
+              1.010517,
+              11.543896,
+              1.747633
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            7,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        -0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "name": "RootBone",
+      "extensions": {}
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "rotation": [
+        -0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "name": "body",
+      "extensions": {}
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "rotation": [
+        -0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "name": "head",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.707106,
+        0.0012,
+        0.707106,
+        0.00123
+      ],
+      "translation": [
+        0.0,
+        0.434888,
+        4.251526
+      ],
+      "name": "PelvisBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.129522,
+        0.991577
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.273932,
+        -0.050152,
+        -1e-06
+      ],
+      "name": "ChestBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.052904,
+        0.998571,
+        -0.006921,
+        0.002953
+      ],
+      "scale": [
+        0.999999,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.125529,
+        0.435653,
+        -0.981245
+      ],
+      "name": "RLegBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.052904,
+        0.998571,
+        0.006921,
+        -0.002953
+      ],
+      "scale": [
+        0.999999,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.125529,
+        0.435653,
+        0.981246
+      ],
+      "name": "LLegBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.005537,
+        0.999985
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.399338,
+        -0.029365,
+        -0.0
+      ],
+      "name": "SpineBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        0.315316,
+        0.004064,
+        -0.0
+      ],
+      "name": "BeltBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.304325,
+        -0.710246,
+        -0.053797,
+        0.632489
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.133883,
+        2.465917,
+        0.168388
+      ],
+      "name": "LCollarBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.304325,
+        0.710246,
+        -0.053797,
+        0.632489
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.133885,
+        2.465918,
+        -0.168388
+      ],
+      "name": "RCollarBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.000492,
+        0.0,
+        0.233921,
+        0.972256
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.999999
+      ],
+      "translation": [
+        1.174961,
+        -0.233841,
+        0.0
+      ],
+      "name": "NeckBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.979986,
+        -0.199067
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.914395,
+        -1.284813,
+        1e-06
+      ],
+      "name": "BackPackBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.008951,
+        0.002276,
+        -0.09981,
+        0.994964
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.584932,
+        -1.6e-05,
+        -2e-06
+      ],
+      "name": "RKneeBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.008951,
+        -0.002276,
+        -0.099627,
+        0.994982
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        1.584934,
+        -1.6e-05,
+        1e-06
+      ],
+      "name": "LKneeBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.075912,
+        -0.205314,
+        0.257634,
+        0.941121
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        3.329976,
+        2e-06,
+        -1e-06
+      ],
+      "name": "LArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.075912,
+        0.205314,
+        0.257634,
+        0.941121
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        3.329977,
+        -3e-06,
+        -3e-06
+      ],
+      "name": "RArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.000492,
+        3.1e-05,
+        -0.104302,
+        0.994546
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.641707,
+        -0.0,
+        0.0
+      ],
+      "name": "HeadBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.031219,
+        0.999513
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.355244,
+        -0.0,
+        -0.0
+      ],
+      "name": "CapeBone1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.000431,
+        -0.005875,
+        0.194054,
+        0.980973
+      ],
+      "scale": [
+        1.000001,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.267663,
+        0.0,
+        1e-06
+      ],
+      "name": "RAnkleBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 13
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.000431,
+        0.005813,
+        0.193196,
+        0.981143
+      ],
+      "scale": [
+        1.0,
+        1.000001,
+        1.0
+      ],
+      "translation": [
+        2.267662,
+        0.0,
+        2e-06
+      ],
+      "name": "LAnkleBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.063731,
+        0.037802,
+        -0.01461,
+        0.997144
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.854208,
+        -0.0,
+        1e-06
+      ],
+      "name": "LForeArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 15
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.063731,
+        -0.037802,
+        -0.01461,
+        0.997144
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.854208,
+        -1e-06,
+        -2e-06
+      ],
+      "name": "RForeArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 16
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.159791,
+        -0.035834,
+        -0.028329,
+        0.986093
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.839584,
+        1.467178,
+        -0.613573
+      ],
+      "name": "REyebrowBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.159791,
+        0.035834,
+        -0.028329,
+        0.986093
+      ],
+      "scale": [
+        0.999999,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.839499,
+        1.46599,
+        0.61318
+      ],
+      "name": "LEyebrowBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.003414,
+        -0.000338,
+        0.984269,
+        -0.176645
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.000001
+      ],
+      "translation": [
+        2.211136,
+        -2.279953,
+        -0.035559
+      ],
+      "name": "HairBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "translation": [
+        2.133176,
+        0.081775,
+        -0.0
+      ],
+      "name": "HatBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.011565,
+        -0.002092,
+        0.996127,
+        -0.087137
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.080007,
+        -3.129796,
+        -0.052311
+      ],
+      "name": "HairBone2",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.009812,
+        0.999952
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.639664,
+        1e-06,
+        -5e-06
+      ],
+      "name": "CapeBone2",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 18
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.000461,
+        0.0,
+        0.504569,
+        0.863371
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.999999
+      ],
+      "translation": [
+        0.205327,
+        0.819291,
+        0.01433
+      ],
+      "name": "RFootBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 19
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.000461,
+        0.0,
+        0.504569,
+        0.863371
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.205329,
+        0.819292,
+        -0.01433
+      ],
+      "name": "LFootBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 20
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.782048,
+        -0.044693,
+        0.02067,
+        0.62127
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.437712,
+        -0.0,
+        -8e-06
+      ],
+      "name": "LHandBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.056995,
+        0.0,
+        0.0,
+        0.998375
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.999999
+      ],
+      "translation": [
+        1.828283,
+        -0.0,
+        -6e-06
+      ],
+      "name": "LHandTwistBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.782048,
+        0.044693,
+        0.02067,
+        0.62127
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.43771,
+        -0.0,
+        6e-06
+      ],
+      "name": "RHandBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 22
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.056995,
+        0.0,
+        0.0,
+        0.998375
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.999999
+      ],
+      "translation": [
+        1.828284,
+        -1e-06,
+        7e-06
+      ],
+      "name": "RHandTwistBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 22
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.01744,
+        0.031989,
+        0.018455,
+        0.999166
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.020901,
+        -0.024734,
+        -0.308891
+      ],
+      "name": "LFinger2Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.017133,
+        0.009935,
+        0.018701,
+        0.999629
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.000001
+      ],
+      "translation": [
+        2.061221,
+        -0.051787,
+        0.599585
+      ],
+      "name": "LFinger1Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.292268,
+        -0.513053,
+        -0.015318,
+        0.806921
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        0.922317,
+        -0.009847,
+        0.911623
+      ],
+      "name": "LThumbBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.01661,
+        0.0,
+        0.999862
+      ],
+      "translation": [
+        2.193847,
+        -0.951127,
+        -0.062627
+      ],
+      "name": "LGunBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.292268,
+        0.513053,
+        -0.015318,
+        0.806921
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.999999
+      ],
+      "translation": [
+        0.922319,
+        -0.009846,
+        -0.911624
+      ],
+      "name": "RThumbBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.017133,
+        -0.009935,
+        0.018701,
+        0.999629
+      ],
+      "scale": [
+        1.000001,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.061223,
+        -0.051786,
+        -0.599585
+      ],
+      "name": "RFinger1Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.01744,
+        -0.031989,
+        0.018455,
+        0.999166
+      ],
+      "scale": [
+        1.000001,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        2.020903,
+        -0.024733,
+        0.308891
+      ],
+      "name": "RFinger2Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.01661,
+        0.0,
+        0.999862
+      ],
+      "translation": [
+        2.19385,
+        -0.951127,
+        0.062627
+      ],
+      "name": "RGunBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 5,
+      "joints": [
+        7,
+        3,
+        6,
+        5,
+        20,
+        14,
+        30,
+        4,
+        19,
+        13,
+        29,
+        22,
+        16,
+        33,
+        15,
+        21,
+        31,
+        17
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.458542,
+              4.928683,
+              -0.885577,
+              1.458542,
+              6.004315,
+              1.148108
+            ],
+            [
+              -1.198499,
+              3.464231,
+              -1.028351,
+              1.198499,
+              5.260269,
+              1.290883
+            ],
+            [
+              0.343406,
+              2.494048,
+              -0.485559,
+              1.521064,
+              4.60083,
+              0.749645
+            ],
+            [
+              -1.521064,
+              2.494048,
+              -0.485559,
+              -0.343406,
+              4.60083,
+              0.749645
+            ],
+            [
+              0.034527,
+              0.006843,
+              -1.268176,
+              1.842074,
+              1.374868,
+              0.552747
+            ],
+            [
+              0.044792,
+              0.609981,
+              -1.268176,
+              1.862604,
+              3.039329,
+              0.552747
+            ],
+            [
+              0.044792,
+              0.006843,
+              -0.351804,
+              1.862604,
+              1.278129,
+              0.850116
+            ],
+            [
+              -3.155353,
+              5.250004,
+              -2.346296,
+              3.155353,
+              10.113055,
+              2.407885
+            ],
+            [
+              -1.842074,
+              0.006843,
+              -1.268176,
+              -0.034527,
+              1.374868,
+              0.552747
+            ],
+            [
+              -1.862604,
+              0.609981,
+              -1.268176,
+              -0.044792,
+              3.039329,
+              0.552747
+            ],
+            [
+              -1.862604,
+              0.006843,
+              -0.351804,
+              -0.044792,
+              1.278129,
+              0.850116
+            ],
+            [
+              -7.105765,
+              4.491339,
+              -1.210319,
+              -3.685392,
+              7.40189,
+              1.278129
+            ],
+            [
+              -4.720276,
+              6.340256,
+              -1.167704,
+              -2.034307,
+              8.794799,
+              1.152774
+            ],
+            [
+              -9.160913,
+              2.022798,
+              -1.412506,
+              -5.45499,
+              6.521913,
+              2.404152
+            ],
+            [
+              2.034307,
+              6.340256,
+              -1.167704,
+              4.720276,
+              8.794799,
+              1.152774
+            ],
+            [
+              3.685392,
+              4.491339,
+              -1.210319,
+              7.105765,
+              7.40189,
+              1.278129
+            ],
+            [
+              5.45499,
+              2.022798,
+              -1.412506,
+              9.160913,
+              6.521913,
+              2.404152
+            ],
+            [
+              -1.010517,
+              8.208408,
+              -1.152543,
+              1.010517,
+              11.543896,
+              1.747633
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

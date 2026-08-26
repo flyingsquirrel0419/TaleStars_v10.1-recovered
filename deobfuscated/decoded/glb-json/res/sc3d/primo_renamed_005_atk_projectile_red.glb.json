@@ -1,0 +1,199 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1368,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 31,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 8,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 4,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 8792
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 8676
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8688,
+      "byteLength": 62
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8752,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8784,
+      "byteLength": 8
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 5,
+        "lastFrame": 5.0,
+        "packed": {
+          "dataAccessor": 1,
+          "nodeAccessor": 2,
+          "nodes": [
+            {
+              "dataSize": 31,
+              "flags": 28,
+              "frameCount": 5,
+              "nodeIndex": 0
+            }
+          ],
+          "stride": 7,
+          "uintAccessor": 3
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "asdFBXASC058___Default1",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0,
+              "opacity": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "primo_005_atk_projectile_red.pvr#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat",
+              "opacityTex2D": "primo_005_atk_projectile_alpha.pvr#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 2736,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 6300,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.788727,
+              -1.117671,
+              -0.559646
+            ],
+            [
+              0.788727,
+              1.286336,
+              1.070193
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "asdFBXASC058Box001",
+      "extensions": {}
+    }
+  ]
+}

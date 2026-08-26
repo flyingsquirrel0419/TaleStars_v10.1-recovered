@@ -1,0 +1,380 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2760,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6444,
+      "componentType": 5123,
+      "count": 84,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6612,
+      "componentType": 5123,
+      "count": 54,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6720,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6732,
+      "componentType": 5123,
+      "count": 84,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5520,
+      "componentType": 5123,
+      "count": 462,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 27112
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 27112
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "specular",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.688,
+                0.688,
+                0.688,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_oddities_shop_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_night.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "lit",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.24,
+                0.24,
+                0.24,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_oddities_shop_tex.sctx#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "diffuse.003",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.231,
+                0.231,
+                0.231,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_oddities_shop_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_night.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP"
+          ],
+          "name": "candle_flame",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                0.316,
+                0.258,
+                0.638,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_candle_flame",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 1,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "candle_glow_gradient",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                0.316,
+                0.258,
+                0.638,
+                1.0
+              ],
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#1,16,tex_light_gradient_6"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 6912,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 19032,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.405489,
+              -0.503051,
+              -0.491694
+            ],
+            [
+              0.508226,
+              0.305127,
+              1.132926
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.427513,
+              -0.336448,
+              -0.002255
+            ],
+            [
+              0.388903,
+              0.412702,
+              0.193073
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.276631,
+        -0.084679,
+        0.265687,
+        0.919628
+      ],
+      "scale": [
+        1.179025,
+        1.179025,
+        1.179025
+      ],
+      "translation": [
+        -0.077512,
+        0.196762,
+        0.268312
+      ],
+      "name": "fragile",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.707107,
+        0.707107
+      ],
+      "name": "fragile_destroyed",
+      "extensions": {}
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 186,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 372,
+      "componentType": 5123,
+      "count": 156,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 684,
+      "componentType": 5123,
+      "count": 42,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 3408
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3408
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 5,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "OPACITY"
+          ],
+          "name": "outline",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "opacity": [
+                0.928,
+                0.928,
+                0.928,
+                1.0
+              ],
+              "specular": [
+                0.338,
+                0.338,
+                0.338,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/special_tiles_tex.sctx#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 5,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "OPACITY"
+          ],
+          "name": "center",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "opacity": [
+                0.79,
+                0.79,
+                0.79,
+                1.0
+              ],
+              "specular": [
+                0.338,
+                0.338,
+                0.338,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/special_tiles_tex.sctx#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 2,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "OPACITY"
+          ],
+          "name": "sd",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "opacity": [
+                0.077,
+                0.077,
+                0.077,
+                1.0
+              ],
+              "specular": [
+                0.338,
+                0.338,
+                0.338,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/special_tiles_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 768,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 2352,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.75,
+              -0.815879,
+              0.05
+            ],
+            [
+              0.75,
+              0.75,
+              0.15
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "respawn_point_blue",
+      "extensions": {}
+    }
+  ]
+}

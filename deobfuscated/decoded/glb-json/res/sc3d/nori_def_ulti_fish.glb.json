@@ -1,0 +1,603 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6066,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 9,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 514,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 80,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 40,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 50368
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 48348
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48352,
+      "byteLength": 576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48928,
+      "byteLength": 1028
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 49968,
+      "byteLength": 320
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 50288,
+      "byteLength": 80
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.25,
+        "frameRate": 30.0,
+        "keyframeCount": 24,
+        "lastFrame": 25.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 241,
+              "flags": 30,
+              "frameCount": 24,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 37,
+              "flags": 26,
+              "frameCount": 24,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 24,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 24,
+              "flags": 2,
+              "frameCount": 24,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 50,
+              "flags": 2,
+              "frameCount": 24,
+              "nodeIndex": 5
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 24,
+              "nodeIndex": 6
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 24,
+              "nodeIndex": 7
+            },
+            {
+              "dataSize": 66,
+              "flags": 2,
+              "frameCount": 24,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 48,
+              "flags": 2,
+              "frameCount": 24,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 48,
+              "flags": 2,
+              "frameCount": 24,
+              "nodeIndex": 10
+            }
+          ],
+          "stride": 44,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SHADOWMAP"
+          ],
+          "name": "nori_def_fish_tex",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/nori_def_tunafish_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 12144,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 38004,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.131113,
+              0.288062,
+              -1.273304
+            ],
+            [
+              1.131113,
+              4.587187,
+              0.602154
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        -0.640852,
+        0.0,
+        0.0,
+        0.767665
+      ],
+      "scale": [
+        1.029062,
+        0.738568,
+        0.931099
+      ],
+      "translation": [
+        0.0,
+        0.226745,
+        -0.781225
+      ],
+      "name": "Armature",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "nori_tunafish_geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.031267,
+        -0.00098,
+        0.02882,
+        0.999095
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "name": "Bone.001",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.086271,
+        0.007461,
+        -0.155293,
+        0.984066
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        1.124406,
+        0.0
+      ],
+      "name": "Bone.002",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.107512,
+        -0.321688,
+        0.238916,
+        0.909877
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        0.770519,
+        0.0
+      ],
+      "name": "Bone.003",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.645258,
+        0.60487,
+        -0.182788,
+        0.429374
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        0.770519,
+        0.0
+      ],
+      "name": "Bone.004.l",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.772157,
+        -0.465105,
+        0.276346,
+        0.333293
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        0.770519,
+        0.0
+      ],
+      "name": "Bone.004.r",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.086659,
+        -0.047639,
+        -0.158271,
+        0.982431
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0,
+        0.958748,
+        0.0
+      ],
+      "name": "Bone.005",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.13541,
+        -0.061217,
+        0.273377,
+        0.950359
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.787701,
+        -0.0
+      ],
+      "name": "Bone.006.l",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.116904,
+        0.08638,
+        -0.320406,
+        0.936062
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        1.033593,
+        0.0
+      ],
+      "name": "Bone.006.r",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        6,
+        9,
+        7,
+        10
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.597931,
+              0.288062,
+              -1.273304,
+              0.597931,
+              3.512661,
+              0.147302
+            ],
+            [
+              -0.769979,
+              1.130121,
+              -1.273304,
+              0.769979,
+              3.522483,
+              0.509679
+            ],
+            [
+              -0.769979,
+              1.573989,
+              -1.273304,
+              0.769979,
+              3.800141,
+              0.553549
+            ],
+            [
+              -1.120899,
+              2.118046,
+              -1.273304,
+              1.131113,
+              4.38797,
+              0.602154
+            ],
+            [
+              -0.770872,
+              2.46384,
+              -0.989288,
+              0.770872,
+              4.587187,
+              0.602154
+            ],
+            [
+              -0.251742,
+              2.090867,
+              -0.516463,
+              0.937406,
+              3.776155,
+              0.593825
+            ],
+            [
+              0.580347,
+              2.076156,
+              -0.016596,
+              1.131113,
+              3.059649,
+              0.270825
+            ],
+            [
+              -1.01453,
+              2.323037,
+              -0.047014,
+              0.250816,
+              3.715656,
+              0.547913
+            ],
+            [
+              -1.131113,
+              2.076156,
+              -0.016596,
+              -0.580347,
+              3.059649,
+              0.270825
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

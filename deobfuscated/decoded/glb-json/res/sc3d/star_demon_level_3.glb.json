@@ -1,0 +1,528 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 7332,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 3,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 3302,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 12,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 92664
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 85736
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85744,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85936,
+      "byteLength": 6604
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 92544,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 92640,
+      "byteLength": 24
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.5,
+        "yfov": 0.280499,
+        "zfar": 500.0,
+        "znear": 5.0
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 122,
+        "lastFrame": 121.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 1154,
+              "flags": 30,
+              "frameCount": 122,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 1074,
+              "flags": 30,
+              "frameCount": 122,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 1074,
+              "flags": 30,
+              "frameCount": 122,
+              "nodeIndex": 10
+            }
+          ],
+          "stride": 33,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "CLIP_PLANE",
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SPECULAR"
+          ],
+          "name": "character_mat",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "animatedComplexMode": false,
+              "disableAnimatedOverride": false,
+              "enableAnimatedScreenSpace": false,
+              "enableFlattenOverride": false,
+              "enableGlow": false,
+              "enableGlowDirectional": false,
+              "enableGlowSpherical": false,
+              "enableHCFace": false,
+              "enableIngameVertexOffset": false,
+              "enableNormalOutline": false,
+              "enableOpacityAnimation": false,
+              "enableOpacityScreenSpace": false,
+              "enableSnapAngle": false,
+              "enableVertexAnimation": false,
+              "hasNormalOutline": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "clipPlane": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorizeTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "diffuse": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emissionTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "glowDir": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "opacityTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "outlineColor": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "stencilScaleOffset": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "stencilTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "floats": {
+              "glowIntensity": 1.0,
+              "glowSpeed": 1.0,
+              "glowSphericalSpeed": 1.0,
+              "glowWorldScale": 1.0,
+              "opacity": 1.0,
+              "opacityTexSpeed": 0.0,
+              "outlineIngameMul": 2.0,
+              "outlineWidth": 0.0,
+              "screenSpaceTextureScale": 1.0,
+              "snapAngleIngame": 45.0,
+              "snapAngleLobby": 15.0,
+              "vertextAnimationDistance": 0.1
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/demon_reward_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat",
+              "specularTex2D": "sc3d/demon_reward_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 14672,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 65432,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.25924,
+              25.105484,
+              14.031311
+            ],
+            [
+              4.046537,
+              33.228455,
+              23.958336
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "STAR_LEVEL_3",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.03615,
+        0.0,
+        0.0,
+        0.999346
+      ],
+      "translation": [
+        0.0,
+        0.391778,
+        124.419365
+      ],
+      "name": "LOBBY_CAM",
+      "extensions": {}
+    },
+    {
+      "name": "JOINTS",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "camera": 0,
+      "name": "LOBBY_CAMShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "Root_star",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "Demon_level3_reward_body",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.005063,
+        19.083805
+      ],
+      "name": "star_00_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.423261,
+        0.0,
+        0.906008
+      ],
+      "scale": [
+        0.539474,
+        0.539474,
+        0.539474
+      ],
+      "translation": [
+        0.0,
+        29.161905,
+        0.0
+      ],
+      "name": "star_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        0.999927,
+        1.0
+      ],
+      "translation": [
+        -5.11259,
+        1e-06,
+        0.0
+      ],
+      "name": "R_wing_star_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        0.999929,
+        1.0
+      ],
+      "translation": [
+        5.112593,
+        0.0,
+        0.0
+      ],
+      "name": "L_wing_star_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        8,
+        10,
+        9
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.227676,
+              25.105484,
+              16.410809,
+              2.80735,
+              33.228455,
+              21.866001
+            ],
+            [
+              1.677061,
+              26.398603,
+              14.031311,
+              4.046537,
+              31.477293,
+              16.844278
+            ],
+            [
+              -4.25924,
+              26.398609,
+              21.145369,
+              -1.889763,
+              31.477289,
+              23.958336
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

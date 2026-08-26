@@ -1,0 +1,547 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 4164,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 9,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 32832
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 32248
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32256,
+      "byteLength": 576
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "CLIP_PLANE",
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SPECULAR"
+          ],
+          "name": "character_mat",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "clipPlane": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorizeTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "diffuse": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emissionTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacityTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "stencilScaleOffset": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "stencilTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "floats": {
+              "opacity": 1.0
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/otis_oni_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat",
+              "specularTex2D": "sc3d/otis_oni_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 8336,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 25416,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.735972,
+              0.002263,
+              -0.213605
+            ],
+            [
+              0.739883,
+              1.313393,
+              0.375415
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.019626,
+        2.288568,
+        -2.604738
+      ],
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.654375,
+        0.0
+      ],
+      "name": "star_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.019626,
+        -2.288568,
+        2.604738
+      ],
+      "name": "GEO:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "translation": [
+        0.001259,
+        0.129433,
+        0.290192
+      ],
+      "name": "star_eyebrow_base_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.87371,
+        -0.486447,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.233664,
+        -0.275086,
+        -0.00097
+      ],
+      "name": "star_branch_05",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.486447,
+        0.87371
+      ],
+      "translation": [
+        0.233687,
+        -0.275082,
+        -0.00097
+      ],
+      "name": "star_branch_04",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.707107,
+        0.707107
+      ],
+      "translation": [
+        -7e-05,
+        0.144138,
+        -0.00097
+      ],
+      "name": "star_branch_01",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.992462,
+        0.122549
+      ],
+      "translation": [
+        0.219175,
+        -0.050406,
+        -0.00097
+      ],
+      "name": "star_branch_02",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.122549,
+        0.992462,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.219532,
+        -0.050406,
+        -0.00097
+      ],
+      "name": "star_branch_03",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        0.001955,
+        0.608446,
+        3.6e-05
+      ],
+      "name": "star_geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.239466,
+        -0.968168,
+        0.043935,
+        0.058104
+      ],
+      "translation": [
+        -0.163,
+        0.068007,
+        -0.030505
+      ],
+      "name": "star_eyebrow_L_s1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.03058,
+        -0.066116,
+        -0.966907,
+        0.244509
+      ],
+      "translation": [
+        0.163066,
+        0.068007,
+        -0.030505
+      ],
+      "name": "star_eyebrow_L_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "translation": [
+        -0.001955,
+        -0.608446,
+        -3.6e-05
+      ],
+      "name": "star_geo:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        3,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        13,
+        12
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.735972,
+              0.002263,
+              -0.213605,
+              0.739883,
+              1.313393,
+              0.215619
+            ],
+            [
+              -0.735972,
+              0.03453,
+              -0.210938,
+              0.201641,
+              1.294608,
+              0.212952
+            ],
+            [
+              -0.192151,
+              0.03453,
+              -0.210938,
+              0.739883,
+              1.294608,
+              0.212952
+            ],
+            [
+              -0.735972,
+              0.382868,
+              -0.213605,
+              0.739883,
+              1.313393,
+              0.215619
+            ],
+            [
+              -0.480101,
+              0.002263,
+              -0.213605,
+              0.702662,
+              1.060484,
+              0.215619
+            ],
+            [
+              -0.698751,
+              0.002263,
+              -0.213605,
+              0.484011,
+              1.060484,
+              0.215619
+            ],
+            [
+              -0.527078,
+              0.687666,
+              0.099066,
+              0.530989,
+              1.213753,
+              0.375415
+            ],
+            [
+              0.001955,
+              0.687666,
+              0.099066,
+              0.530989,
+              1.213753,
+              0.375415
+            ],
+            [
+              -0.527078,
+              0.74472,
+              0.099066,
+              -0.128495,
+              1.213753,
+              0.363223
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

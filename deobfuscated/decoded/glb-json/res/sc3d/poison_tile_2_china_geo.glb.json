@@ -1,0 +1,460 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 1216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 2784
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 192,
+      "byteLength": 2432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2624,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2752,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 101,
+        "lastFrame": 100.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 304,
+              "flags": 24,
+              "frameCount": 101,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 304,
+              "flags": 24,
+              "frameCount": 101,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 304,
+              "flags": 24,
+              "frameCount": 101,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 304,
+              "flags": 24,
+              "frameCount": 101,
+              "nodeIndex": 4
+            }
+          ],
+          "stride": 16,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 0,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE"
+          ],
+          "name": "poison_CN",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "diffuse": [
+                0.996222,
+                0.935206,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_poison_fog_CN",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE"
+          ],
+          "name": "poison2_CN",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "diffuse": [
+                0.996222,
+                0.935206,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_poison_fog_2_CN",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 32,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 128,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.5,
+              -1.071429,
+              0.0
+            ],
+            [
+              1.5,
+              1.071429,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.5,
+              -1.071429,
+              0.0
+            ],
+            [
+              1.5,
+              1.071429,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.251516
+      ],
+      "name": "poison_tile_effect_poison_tile_CN",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.624231,
+        0.0,
+        0.0,
+        0.78124
+      ],
+      "scale": [
+        0.523298,
+        0.523298,
+        1.046596
+      ],
+      "translation": [
+        -0.13483,
+        -0.323479,
+        0.264641
+      ],
+      "name": "cloud_left.003",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.624231,
+        0.0,
+        0.0,
+        0.78124
+      ],
+      "scale": [
+        0.523298,
+        0.523298,
+        1.046596
+      ],
+      "translation": [
+        0.139646,
+        -0.106921,
+        0.264641
+      ],
+      "name": "cloud_right.003",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.624231,
+        0.0,
+        0.0,
+        0.78124
+      ],
+      "scale": [
+        0.523298,
+        0.523298,
+        1.046596
+      ],
+      "translation": [
+        -0.13483,
+        0.12221,
+        0.264641
+      ],
+      "name": "cloud_left2.003",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.624231,
+        0.0,
+        0.0,
+        0.78124
+      ],
+      "scale": [
+        0.523442,
+        0.523442,
+        1.046884
+      ],
+      "translation": [
+        0.139646,
+        0.342313,
+        0.264641
+      ],
+      "name": "cloud_right2.003",
+      "extensions": {}
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 5874,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 4,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 54432
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 53648
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53648,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 53904,
+      "byteLength": 360
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54272,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54400,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 11,
+        "lastFrame": 10.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 45,
+              "flags": 2,
+              "frameCount": 11,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 45,
+              "flags": 2,
+              "frameCount": 11,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 45,
+              "flags": 2,
+              "frameCount": 11,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 45,
+              "flags": 2,
+              "frameCount": 11,
+              "nodeIndex": 5
+            }
+          ],
+          "stride": 20,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SHADOWMAP"
+          ],
+          "name": "tex",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/nori_def_atk_prj_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 11760,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 41680,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.444594,
+              -0.679989,
+              -0.561548
+            ],
+            [
+              0.444517,
+              0.713714,
+              0.738336
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.0,
+        -0.707107,
+        -0.707107,
+        0.0
+      ],
+      "scale": [
+        0.411509,
+        0.411509,
+        0.411509
+      ],
+      "name": "Armature",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.707107,
+        0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "fish_GEO.001",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "name": "Bone.001",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.227694,
+        -0.0
+      ],
+      "name": "Bone.002",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.227694,
+        -0.0
+      ],
+      "name": "Bone.003",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.444594,
+              -0.679989,
+              -0.561548,
+              0.444517,
+              0.713714,
+              0.738336
+            ],
+            [
+              -0.124279,
+              0.412743,
+              -0.301031,
+              0.124203,
+              0.630705,
+              0.255091
+            ],
+            [
+              -0.152822,
+              0.34138,
+              -0.356441,
+              0.152745,
+              0.713714,
+              0.310501
+            ],
+            [
+              -0.147144,
+              0.412327,
+              -0.356441,
+              0.147067,
+              0.713714,
+              0.310501
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

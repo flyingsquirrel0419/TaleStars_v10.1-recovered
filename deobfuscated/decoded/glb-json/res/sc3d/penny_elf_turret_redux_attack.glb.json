@@ -1,0 +1,244 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 758,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 48,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1760
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1516
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1520,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1712,
+      "byteLength": 48
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 29,
+        "lastFrame": 28.0,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 55,
+              "flags": 4,
+              "frameCount": 29,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 137,
+              "flags": 26,
+              "frameCount": 29,
+              "nodeIndex": 6
+            },
+            {
+              "dataSize": 124,
+              "flags": 28,
+              "frameCount": 29,
+              "nodeIndex": 7
+            },
+            {
+              "dataSize": 144,
+              "flags": 26,
+              "frameCount": 29,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 124,
+              "flags": 28,
+              "frameCount": 29,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 174,
+              "flags": 26,
+              "frameCount": 29,
+              "nodeIndex": 10
+            }
+          ],
+          "stride": 42,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "turret_bone_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "sides_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "cannon_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "name": "turret_bone_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "scale": [
+        0.666667,
+        0.666667,
+        0.666667
+      ],
+      "translation": [
+        0.0,
+        1.670545,
+        0.021553
+      ],
+      "name": "cannon_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.344469,
+        0.0,
+        0.0,
+        0.938798
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "name": "cannon_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "scale": [
+        0.666667,
+        0.666667,
+        0.666667
+      ],
+      "translation": [
+        0.0,
+        -0.140921,
+        1.83159
+      ],
+      "name": "cannon_tip_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "name": "cannon_tip_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    }
+  ]
+}

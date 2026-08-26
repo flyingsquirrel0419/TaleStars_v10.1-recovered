@@ -1,0 +1,507 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 234,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 468,
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 612,
+      "componentType": 5123,
+      "count": 960,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2532,
+      "componentType": 5123,
+      "count": 288,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4896,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3108,
+      "componentType": 5123,
+      "count": 894,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 1175,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 26672
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 24152
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24160,
+      "byteLength": 2350
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26512,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26640,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 125,
+        "lastFrame": 124.999992,
+        "packed": {
+          "dataAccessor": 6,
+          "nodeAccessor": 7,
+          "nodes": [
+            {
+              "dataSize": 246,
+              "flags": 24,
+              "frameCount": 125,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 540,
+              "flags": 28,
+              "frameCount": 125,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 356,
+              "flags": 4,
+              "frameCount": 125,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 33,
+              "flags": 8,
+              "frameCount": 125,
+              "nodeIndex": 4
+            }
+          ],
+          "stride": 17,
+          "uintAccessor": 8
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "spring_board_metal",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.333,
+                0.333,
+                0.333,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/spring_board_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "metal_specular_lightmap.png#repeat",
+              "lightmapTex2D": "metal_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "spring_board",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.725,
+                0.725,
+                0.725,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/spring_board_tex.sctx#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "spring_board_arrow",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.725,
+                0.725,
+                0.725,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#128,128,tex_spring_board_arrow"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 4912,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 16456,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.386799,
+              -0.386799,
+              0.0
+            ],
+            [
+              0.386799,
+              0.386799,
+              0.606518
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.159556,
+              -0.159556,
+              -0.00073
+            ],
+            [
+              0.159556,
+              0.159556,
+              1.081261
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.9,
+              -0.9,
+              -0.080826
+            ],
+            [
+              0.9,
+              0.9,
+              0.1
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 4,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.546404,
+              -0.552595,
+              0.180135
+            ],
+            [
+              0.538648,
+              0.609682,
+              0.180135
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.832723,
+              -0.833583,
+              -0.037767
+            ],
+            [
+              0.832603,
+              0.831743,
+              0.205487
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        1.0,
+        1.0,
+        0.1
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.08
+      ],
+      "name": "spring_board_piston_b",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        1.0,
+        1.0,
+        0.1
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.02933
+      ],
+      "name": "spring_board_piston_a",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "name": "spring_board_base",
+      "extensions": {}
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        0.0,
+        0.0,
+        0.006
+      ],
+      "name": "spring_board_platform",
+      "extensions": {}
+    },
+    {
+      "mesh": 3,
+      "scale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.00542
+      ],
+      "name": "spring_board_platform_arrow",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    }
+  ]
+}
