@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Privacy manifest file for Quago SDK for iOS -->
+	<key>NSPrivacyTracking</key>
+	<false/>
+
+	<!-- Privacy manifest file for Quago SDK for iOS -->
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	
+	<!-- Privacy manifest file for Quago SDK for iOS -->
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array>
+		<dict>
+			<!-- Collecting DeviceId -->
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypeDeviceID</string>
+
+			<!-- Quago SDK does not link its collected data with user's identity --> 
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+
+			<!-- Quago SDK does not use its collected data for tracking -->
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+				<string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
+			</array>
+		</dict>
+
+		<dict>
+			<!-- Collecting TouchEvents and Sensors -->
+			<key>NSPrivacyCollectedDataType</key>
+			<string>NSPrivacyCollectedDataTypeProductInteraction</string>
+
+			<!-- Quago SDK does not link its collected data with user's identity --> 
+			<key>NSPrivacyCollectedDataTypeLinked</key>
+			<false/>
+
+			<!-- Quago SDK does not use its collected data for tracking -->
+			<key>NSPrivacyCollectedDataTypeTracking</key>
+			<false/>
+
+			<key>NSPrivacyCollectedDataTypePurposes</key>
+			<array>
+				<string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+				<string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- Privacy manifest file for Quago SDK for iOS -->
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<!-- Quago SDK uses systemUptime to calculate duration between events -->
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+
+			<!-- Quago SDK sends the calculated durations and doesn't send-off raw systemUptime -->
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>35F9.1</string>
+			</array>
+		</dict>
+	</array>
+
+</dict>
+</plist>
