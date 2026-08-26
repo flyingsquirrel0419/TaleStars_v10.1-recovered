@@ -73,7 +73,9 @@ in their headers.
 The remaining non-readable set is limited to the encrypted or hashed
 `res/tale/csv_logic/transactions.csv` and one hashed binary text resource.
 Their hashes, entropy, headers, and bounded string evidence are recorded in
-`decoded/opaque/opaque-analysis.json`; no bytes were discarded or replaced.
+`decoded/opaque/opaque-analysis.json`. The additional framework, public-package,
+host-copy, and Git-history checks for these two files are recorded in
+`decoded/opaque/remaining-forensics.json`; no bytes were discarded or replaced.
 
 All files in this directory are derived artifacts. The shipped app bundle was
 not overwritten.

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-08-26",
+  "scope": "remaining non-readable resources",
+  "files": [
+    {
+      "source": "com/supercell/laser/dd0b45e28ed1abe4371e.txt",
+      "size": 1032,
+      "sha256": "df800487b843e350b69ef383e0f30771c408de35972ece166a58551ff897aa00",
+      "classification": "high-entropy opaque blob; no validated text recovery",
+      "observations": [
+        "7.813414 bits/byte sample entropy",
+        "no known container signature",
+        "no meaningful UTF-8 or UTF-16 strings",
+        "same bytes found in alternate host copy, IPA, and Git history"
+      ],
+      "attempted_sources": [
+        "local bundle and alternate host copy",
+        "same-version IPA",
+        "Git history and blobs",
+        "public current APK/IPA",
+        "native laser loader",
+        "laserx framework",
+        "Tale framework JavaScript"
+      ],
+      "status": "preserved-original-only"
+    },
+    {
+      "source": "res/tale/csv_logic/transactions.csv",
+      "size": 304,
+      "sha256": "f5c3997496227842ac8daefbd00aaf7d4594afe998664a7ecf11893b8e9ef26a",
+      "classification": "high-entropy opaque blob; no validated CSV recovery",
+      "observations": [
+        "7.363151 bits/byte sample entropy",
+        "304 bytes is block-aligned but no standard header or padding validation",
+        "no meaningful UTF-8 or UTF-16 strings",
+        "same bytes found in alternate host copy, IPA, and Git history"
+      ],
+      "attempted_sources": [
+        "local bundle and alternate host copy",
+        "same-version IPA",
+        "Git history and blobs",
+        "public current APK/IPA",
+        "native laser loader",
+        "laserx framework",
+        "Tale framework JavaScript"
+      ],
+      "status": "preserved-original-only"
+    }
+  ],
+  "related_runtime_evidence": {
+    "laserx": "Frameworks/laserx.framework/laserx",
+    "laserx_sha256": "514d57774330082f8260bc94f3233a11b705917fcdd05be66860064ccf6b1819",
+    "laserx_size": 17643360,
+    "laserx_findings": [
+      "contains static OpenSSL/App Attestation support",
+      "contains no literal transactions.csv, csv_logic, tale101, referral, or config.json",
+      "AppAttestation class has no Objective-C base method list",
+      "no validated file-specific decryptor or embedded key identified"
+    ],
+    "public_package_findings": [
+      "current public Android package contains plaintext assets/tale config/emotes/player_frames/projectiles_skin",
+      "current public Android package contains no matching transactions.csv",
+      "current public IPA matches the local source bytes for both remaining files"
+    ],
+    "exact_plaintext_related_file": {
+      "source": "Frameworks/laserx.framework/decryptme.txt",
+      "value": "no dont decrypt me\\n"
+    }
+  },
+  "recovery_policy": "Original bytes are retained unchanged. No guessed plaintext is emitted as a recovery."
+}
