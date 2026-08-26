@@ -1,0 +1,3923 @@
+{
+  "source": "Frameworks/Tale.framework/Tale.dylib",
+  "size": 9623984,
+  "sha256": "335d449084de032cf5f9cbee27c734826faf14b08e45aa0cb07600d2798aa45c",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1048709,
+    "numberOfCommands": 19,
+    "commandsSize": 2648,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@executable_path/Frameworks/FridaGadget.dylib",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/usr/lib/libobjc.A.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 5735360,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 4320,
+      "offset": 5751744,
+      "virtualAddress": 5751744,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 4344,
+      "offset": 5756064,
+      "virtualAddress": 5756064,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_stubs",
+      "size": 160,
+      "offset": 5760416,
+      "virtualAddress": 5760416,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 2576600,
+      "offset": 5760576,
+      "virtualAddress": 5760576,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 419191,
+      "offset": 8337176,
+      "virtualAddress": 8337176,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__ustring",
+      "size": 78,
+      "offset": 8756368,
+      "virtualAddress": 8756368,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 82,
+      "offset": 8756446,
+      "virtualAddress": 8756446,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 73128,
+      "offset": 8756528,
+      "virtualAddress": 8756528,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__eh_frame",
+      "size": 4104,
+      "offset": 8829656,
+      "virtualAddress": 8829656,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 256,
+      "offset": 8847360,
+      "virtualAddress": 8847360,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 2880,
+      "offset": 8847616,
+      "virtualAddress": 8847616,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__mod_init_func",
+      "size": 48,
+      "offset": 8850496,
+      "virtualAddress": 8850496,
+      "type": "TYPE.MOD_INIT_FUNC_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__const",
+      "size": 498568,
+      "offset": 8850544,
+      "virtualAddress": 8850544,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__cfstring",
+      "size": 32,
+      "offset": 9349112,
+      "virtualAddress": 9349112,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 9349144,
+      "virtualAddress": 9349144,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 40,
+      "offset": 9349152,
+      "virtualAddress": 9349152,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 8,
+      "offset": 9349192,
+      "virtualAddress": 9349192,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 36736,
+      "offset": 9349200,
+      "virtualAddress": 9349200,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__common",
+      "size": 3288,
+      "offset": 0,
+      "virtualAddress": 9385936,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__bss",
+      "size": 176520,
+      "offset": 0,
+      "virtualAddress": 9389232,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "UTF8String",
+    "bundleIdentifier",
+    "firstObject",
+    "mainBundle",
+    "objectForInfoDictionaryKey:"
+  ],
+  "importedFunctions": [
+    "_CCCrypt",
+    "_CCHmac",
+    "_CCRandomGenerateBytes",
+    "_CC_SHA1",
+    "_CC_SHA256",
+    "_CFArrayCreate",
+    "_CFArrayGetCount",
+    "_CFArrayGetValueAtIndex",
+    "_CFDictionaryGetValue",
+    "_CFRelease",
+    "_CFRetain",
+    "_CFStringCreateWithCString",
+    "_CFStringGetCString",
+    "_CFStringGetLength",
+    "_CFStringGetMaximumSizeForEncoding",
+    "_NDR_record",
+    "_NSSearchPathForDirectoriesInDomains",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OSAtomicAdd32Barrier",
+    "_OSAtomicCompareAndSwapIntBarrier",
+    "_SCDynamicStoreCopyKeyList",
+    "_SCDynamicStoreCopyValue",
+    "_SCDynamicStoreCreate",
+    "_SCDynamicStoreSetDispatchQueue",
+    "_SCDynamicStoreSetNotificationKeys",
+    "__Block_object_assign",
+    "__Block_object_dispose",
+    "__NSConcreteStackBlock",
+    "__NSGetExecutablePath",
+    "___CFConstantStringClassReference",
+    "____mb_cur_max_l",
+    "___error",
+    "___mb_cur_max",
+    "___memcpy_chk",
+    "___memmove_chk",
+    "___memset_chk",
+    "___proc_info",
+    "___srget",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "___stderrp",
+    "___stdinp",
+    "___stdoutp",
+    "___strcat_chk",
+    "___strcpy_chk",
+    "___strlcat_chk",
+    "___strlcpy_chk",
+    "___strncpy_chk",
+    "___tolower",
+    "___udivti3",
+    "___umodti3",
+    "__dyld_get_image_header",
+    "__dyld_get_image_name",
+    "__dyld_get_image_vmaddr_slide",
+    "__dyld_image_count",
+    "__dyld_register_func_for_add_image",
+    "__dyld_register_func_for_remove_image",
+    "__exit",
+    "_abort",
+    "_accept",
+    "_access",
+    "_acos",
+    "_acosh",
+    "_arc4random_buf",
+    "_asin",
+    "_asinh",
+    "_atan",
+    "_atan2",
+    "_atanh",
+    "_atof",
+    "_atoi",
+    "_bind",
+    "_bootstrap_look_up",
+    "_bsearch",
+    "_bzero",
+    "_cbrt",
+    "_ceil",
+    "_chdir",
+    "_chmod",
+    "_chown",
+    "_close",
+    "_closedir",
+    "_confstr",
+    "_connect",
+    "_cos",
+    "_cosh",
+    "_dispatch_async_f",
+    "_dispatch_queue_create",
+    "_dispatch_release",
+    "_dispatch_semaphore_create",
+    "_dispatch_semaphore_signal",
+    "_dispatch_semaphore_wait",
+    "_dladdr",
+    "_dlclose",
+    "_dlerror",
+    "_dlopen",
+    "_dlsym",
+    "_dup",
+    "_dup2",
+    "_endfsent",
+    "_endservent",
+    "_environ",
+    "_execv",
+    "_execve",
+    "_exit",
+    "_exp",
+    "_expm1",
+    "_fabs",
+    "_fchmod",
+    "_fchown",
+    "_fclose",
+    "_fcntl",
+    "_fdopen",
+    "_fdopendir",
+    "_feof",
+    "_ferror",
+    "_fesetround",
+    "_fflush",
+    "_fgets",
+    "_fileno",
+    "_flock",
+    "_floor",
+    "_fmod",
+    "_fnmatch",
+    "_fopen",
+    "_fork",
+    "_fputc",
+    "_fputs",
+    "_fread",
+    "_freeaddrinfo",
+    "_freeifaddrs",
+    "_frexp",
+    "_frexpl",
+    "_fsctl",
+    "_fseek",
+    "_fstat",
+    "_fstatat",
+    "_fstatfs",
+    "_fsync",
+    "_ftell",
+    "_ftruncate",
+    "_futimes",
+    "_fwrite",
+    "_gai_strerror",
+    "_getaddrinfo",
+    "_getcwd",
+    "_getegid",
+    "_getenv",
+    "_geteuid",
+    "_getfsent",
+    "_getfsstat",
+    "_getgid",
+    "_getgrgid_r",
+    "_getifaddrs",
+    "_getnameinfo",
+    "_getpagesize",
+    "_getpeername",
+    "_getpid",
+    "_getppid",
+    "_getpwnam_r",
+    "_getpwuid",
+    "_getpwuid_r",
+    "_getservbyname",
+    "_getsockname",
+    "_getsockopt",
+    "_gettimeofday",
+    "_getuid",
+    "_gmtime",
+    "_h_errno",
+    "_host_get_special_port",
+    "_hypot",
+    "_in6addr_any",
+    "_in6addr_loopback",
+    "_inet_aton",
+    "_inet_ntop",
+    "_inet_pton",
+    "_ioctl",
+    "_isatty",
+    "_issetugid",
+    "_isspace",
+    "_kCFTypeArrayCallBacks",
+    "_kevent",
+    "_kill",
+    "_kqueue",
+    "_lchmod",
+    "_lchown",
+    "_ldexp",
+    "_link",
+    "_listen",
+    "_localeconv",
+    "_localtime",
+    "_localtime_r",
+    "_log",
+    "_log10",
+    "_log1p",
+    "_log2",
+    "_longjmp",
+    "_lrand48",
+    "_lseek",
+    "_lstat",
+    "_mach_absolute_time",
+    "_mach_error_string",
+    "_mach_host_self",
+    "_mach_msg",
+    "_mach_port_deallocate",
+    "_mach_port_mod_refs",
+    "_mach_port_type",
+    "_mach_task_self_",
+    "_mach_thread_self",
+    "_mach_timebase_info",
+    "_mach_vm_allocate",
+    "_mach_vm_copy",
+    "_mach_vm_deallocate",
+    "_mach_vm_page_info",
+    "_mach_vm_protect",
+    "_mach_vm_read_overwrite",
+    "_mach_vm_region_recurse",
+    "_mach_vm_remap",
+    "_mach_vm_write",
+    "_malloc_create_zone",
+    "_malloc_default_zone",
+    "_malloc_get_all_zones",
+    "_malloc_set_zone_name",
+    "_malloc_zone_free",
+    "_malloc_zone_malloc",
+    "_malloc_zone_realloc",
+    "_mbrtowc",
+    "_mbsinit",
+    "_memchr",
+    "_memcmp",
+    "_memmove",
+    "_memset",
+    "_memset_pattern16",
+    "_mig_dealloc_reply_port",
+    "_mig_get_reply_port",
+    "_mig_put_reply_port",
+    "_mkdir",
+    "_mprotect",
+    "_nanosleep",
+    "_nl_langinfo",
+    "_objc_autoreleasePoolPop",
+    "_objc_autoreleasePoolPush",
+    "_objc_getClass",
+    "_objc_msgSend",
+    "_objc_release",
+    "_objc_retainAutorelease",
+    "_objc_retainAutoreleasedReturnValue",
+    "_open",
+    "_openat",
+    "_opendir",
+    "_os_unfair_lock_lock_with_options",
+    "_os_unfair_lock_unlock",
+    "_perror",
+    "_pid_for_task",
+    "_pipe",
+    "_posix_spawn",
+    "_posix_spawn_file_actions_addclose",
+    "_posix_spawn_file_actions_adddup2",
+    "_posix_spawn_file_actions_destroy",
+    "_posix_spawn_file_actions_init",
+    "_posix_spawnattr_destroy",
+    "_posix_spawnattr_init",
+    "_posix_spawnattr_setflags",
+    "_posix_spawnattr_setsigdefault",
+    "_posix_spawnp",
+    "_pow",
+    "_pread",
+    "_proc_pidinfo",
+    "_pthread_attr_destroy",
+    "_pthread_attr_init",
+    "_pthread_attr_setinheritsched",
+    "_pthread_attr_setstacksize",
+    "_pthread_cond_broadcast",
+    "_pthread_cond_destroy",
+    "_pthread_cond_init",
+    "_pthread_cond_signal",
+    "_pthread_cond_timedwait_relative_np",
+    "_pthread_cond_wait",
+    "_pthread_condattr_destroy",
+    "_pthread_condattr_init",
+    "_pthread_create",
+    "_pthread_detach",
+    "_pthread_equal",
+    "_pthread_get_stackaddr_np",
+    "_pthread_get_stacksize_np",
+    "_pthread_getspecific",
+    "_pthread_introspection_hook_install",
+    "_pthread_join",
+    "_pthread_key_create",
+    "_pthread_key_delete",
+    "_pthread_mach_thread_np",
+    "_pthread_mutex_destroy",
+    "_pthread_mutex_init",
+    "_pthread_mutex_lock",
+    "_pthread_mutex_trylock",
+    "_pthread_mutex_unlock",
+    "_pthread_mutexattr_destroy",
+    "_pthread_mutexattr_init",
+    "_pthread_mutexattr_settype",
+    "_pthread_once",
+    "_pthread_rwlock_destroy",
+    "_pthread_rwlock_init",
+    "_pthread_rwlock_rdlock",
+    "_pthread_rwlock_unlock",
+    "_pthread_rwlock_wrlock",
+    "_pthread_rwlockattr_init",
+    "_pthread_self",
+    "_pthread_setname_np",
+    "_pthread_setspecific",
+    "_pthread_sigmask",
+    "_pthread_threadid_np",
+    "_putchar",
+    "_puts",
+    "_pwrite",
+    "_qsort",
+    "_raise",
+    "_random",
+    "_readdir",
+    "_readlink",
+    "_recv",
+    "_recvmsg",
+    "_remove",
+    "_rename",
+    "_rmdir",
+    "_sched_yield",
+    "_send",
+    "_sendmsg",
+    "_setfsent",
+    "_setjmp",
+    "_setlocale",
+    "_setsockopt",
+    "_setvbuf",
+    "_shutdown",
+    "_sigaction",
+    "_siglongjmp",
+    "_signal",
+    "_sigprocmask",
+    "_sigsetjmp",
+    "_sin",
+    "_sinh",
+    "_sleep",
+    "_socket",
+    "_sqrt",
+    "_srandomdev",
+    "_sscanf",
+    "_stat",
+    "_statfs",
+    "_stpcpy",
+    "_strcasecmp",
+    "_strcat",
+    "_strchr",
+    "_strcmp",
+    "_strcpy",
+    "_strcspn",
+    "_strerror",
+    "_strerror_r",
+    "_strftime",
+    "_strlen",
+    "_strncmp",
+    "_strncpy",
+    "_strnlen",
+    "_strpbrk",
+    "_strrchr",
+    "_strspn",
+    "_strstr",
+    "_strtod",
+    "_strtof",
+    "_strtol",
+    "_strtold",
+    "_strtoll",
+    "_strtoul",
+    "_strtoull",
+    "_symlink",
+    "_sys_dcache_flush",
+    "_sys_icache_invalidate",
+    "_sysconf",
+    "_sysctl",
+    "_sysctlbyname",
+    "_tan",
+    "_tanh",
+    "_task_for_pid",
+    "_task_get_special_port",
+    "_task_info",
+    "_task_set_exception_ports",
+    "_task_swap_exception_ports",
+    "_task_threads",
+    "_tcgetattr",
+    "_tcsetattr",
+    "_thread_abort_safely",
+    "_thread_get_state",
+    "_thread_info",
+    "_thread_resume",
+    "_thread_set_state",
+    "_thread_suspend",
+    "_time",
+    "_trunc",
+    "_ungetc",
+    "_unlink",
+    "_uselocale",
+    "_utimensat",
+    "_utimes",
+    "_vm_allocate",
+    "_vm_deallocate",
+    "_vm_kernel_page_size",
+    "_vm_protect",
+    "_vm_remap",
+    "_voucher_mach_msg_set",
+    "_waitpid",
+    "_wcrtomb",
+    "_wcslen",
+    "_writev",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [],
+  "symbols": [
+    {
+      "name": "radr://5614542",
+      "value": 90260802,
+      "size": 0,
+      "type": "TYPE.PREBOUND",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CCCrypt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CCHmac",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CCRandomGenerateBytes",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CC_SHA1",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CC_SHA256",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFArrayCreate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFArrayGetCount",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFArrayGetValueAtIndex",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFDictionaryGetValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFStringCreateWithCString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFStringGetCString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFStringGetLength",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFStringGetMaximumSizeForEncoding",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NDR_record",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSSearchPathForDirectoriesInDomains",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSBundle",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OSAtomicAdd32Barrier",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OSAtomicCompareAndSwapIntBarrier",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_SCDynamicStoreCopyKeyList",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_SCDynamicStoreCopyValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_SCDynamicStoreCreate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_SCDynamicStoreSetDispatchQueue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_SCDynamicStoreSetNotificationKeys",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_object_assign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_object_dispose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSGetExecutablePath",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___CFConstantStringClassReference",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "____mb_cur_max_l",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___error",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___mb_cur_max",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___memcpy_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___memmove_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___memset_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___proc_info",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___srget",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stderrp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stdinp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stdoutp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___strcat_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___strcpy_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___strlcat_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___strlcpy_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___strncpy_chk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___tolower",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___udivti3",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___umodti3",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_get_image_header",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_get_image_name",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_get_image_vmaddr_slide",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_image_count",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_add_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_remove_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__exit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_abort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_accept",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_access",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_acos",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_acosh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_arc4random_buf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_asin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_asinh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_atan",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_atan2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_atanh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_atof",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_atoi",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bind",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bootstrap_look_up",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bsearch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bzero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_cbrt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ceil",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_chdir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_chmod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_chown",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_close",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_closedir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_confstr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_connect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_cos",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_cosh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_async_f",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_queue_create",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_semaphore_create",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_semaphore_signal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_semaphore_wait",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dladdr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlclose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlerror",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlopen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dup",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dup2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_endfsent",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_endservent",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_environ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_execv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_execve",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_exit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_exp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_expm1",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fabs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fchmod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fchown",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fclose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fcntl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fdopen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fdopendir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_feof",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ferror",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fesetround",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fflush",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fgets",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fileno",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_flock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_floor",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fmod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fnmatch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fopen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fork",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fputc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fputs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fread",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_freeaddrinfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_freeifaddrs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_frexp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_frexpl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fsctl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fseek",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fstat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fstatat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fstatfs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fsync",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ftell",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ftruncate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_futimes",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fwrite",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_gai_strerror",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getaddrinfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getcwd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getegid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getenv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_geteuid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getfsent",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getfsstat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getgid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getgrgid_r",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getifaddrs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getnameinfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpagesize",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpeername",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getppid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpwnam_r",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpwuid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getpwuid_r",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getservbyname",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsockname",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsockopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_gettimeofday",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getuid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_gmtime",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_h_errno",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_host_get_special_port",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_hypot",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_in6addr_any",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_in6addr_loopback",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_inet_aton",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_inet_ntop",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_inet_pton",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ioctl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_isatty",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_issetugid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_isspace",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kCFTypeArrayCallBacks",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kevent",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kill",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kqueue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_lchmod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_lchown",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ldexp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_link",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_listen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_localeconv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_localtime",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_localtime_r",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_log",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_log10",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_log1p",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_log2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_longjmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_lrand48",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_lseek",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_lstat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_absolute_time",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_error_string",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_host_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_msg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_port_deallocate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_port_mod_refs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_port_type",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_task_self_",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_thread_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_timebase_info",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_allocate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_deallocate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_page_info",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_protect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_read_overwrite",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_region_recurse",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_remap",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mach_vm_write",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_create_zone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_default_zone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_get_all_zones",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_set_zone_name",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_zone_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_zone_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_zone_realloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mbrtowc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mbsinit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memchr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memmove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memset",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memset_pattern16",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mig_dealloc_reply_port",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mig_get_reply_port",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mig_put_reply_port",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mkdir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_mprotect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_nanosleep",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_nl_langinfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleasePoolPop",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleasePoolPush",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutorelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_open",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_openat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_opendir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_lock_with_options",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_perror",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pid_for_task",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pipe",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawn_file_actions_addclose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawn_file_actions_adddup2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawn_file_actions_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawn_file_actions_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawnattr_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawnattr_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawnattr_setflags",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawnattr_setsigdefault",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_spawnp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pow",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pread",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_proc_pidinfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_attr_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_attr_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_attr_setinheritsched",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_attr_setstacksize",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_broadcast",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_signal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_timedwait_relative_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_cond_wait",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_condattr_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_condattr_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_create",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_detach",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_equal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_get_stackaddr_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_get_stacksize_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_getspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_introspection_hook_install",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_join",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_key_create",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_key_delete",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mach_thread_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_trylock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutexattr_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutexattr_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutexattr_settype",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_once",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlock_destroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlock_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlock_rdlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlock_wrlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_rwlockattr_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setname_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_sigmask",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_threadid_np",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_putchar",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_puts",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pwrite",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_qsort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_raise",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_random",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_readdir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_readlink",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_recv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_recvmsg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_remove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_rename",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_rmdir",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sched_yield",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_send",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sendmsg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_setfsent",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_setjmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_setlocale",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_setsockopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_setvbuf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_shutdown",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sigaction",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_siglongjmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_signal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sigprocmask",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sigsetjmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sinh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sleep",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_socket",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sqrt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_srandomdev",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sscanf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_stat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_statfs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_stpcpy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcasecmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strchr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcpy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcspn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strerror",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strerror_r",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strftime",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strncmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strncpy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strnlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strpbrk",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strrchr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strspn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strstr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtof",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtol",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtold",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtoll",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtoul",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strtoull",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symlink",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sys_dcache_flush",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sys_icache_invalidate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sysconf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sysctl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sysctlbyname",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_tan",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_tanh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_for_pid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_get_special_port",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_info",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_set_exception_ports",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_swap_exception_ports",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_task_threads",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_tcgetattr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_tcsetattr",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_abort_safely",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_get_state",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_info",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_resume",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_set_state",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_thread_suspend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_time",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_trunc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ungetc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_unlink",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_uselocale",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_utimensat",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_utimes",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_vm_allocate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_vm_deallocate",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_vm_kernel_page_size",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_vm_protect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_vm_remap",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_voucher_mach_msg_set",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_waitpid",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_wcrtomb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_wcslen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_writev",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

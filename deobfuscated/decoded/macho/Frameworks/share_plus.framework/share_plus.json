@@ -1,0 +1,2329 @@
+{
+  "source": "Frameworks/share_plus.framework/share_plus",
+  "size": 117872,
+  "sha256": "26bec64dafff971ec5033da109b8c78f2f5b52fe6dec1fd4c031d3004d883456",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1048709,
+    "numberOfCommands": 25,
+    "commandsSize": 3352,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/share_plus.framework/share_plus",
+    "/System/Library/Frameworks/LinkPresentation.framework/LinkPresentation",
+    "@rpath/Flutter.framework/Flutter",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+    "/System/Library/Frameworks/UIKit.framework/UIKit"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 7168,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 264,
+      "offset": 23552,
+      "virtualAddress": 23552,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 288,
+      "offset": 23816,
+      "virtualAddress": 23816,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_stubs",
+      "size": 2080,
+      "offset": 24128,
+      "virtualAddress": 24128,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 64,
+      "offset": 26208,
+      "virtualAddress": 26208,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 595,
+      "offset": 26272,
+      "virtualAddress": 26272,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 3541,
+      "offset": 26867,
+      "virtualAddress": 26867,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_classname",
+      "size": 237,
+      "offset": 30408,
+      "virtualAddress": 30408,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methtype",
+      "size": 1948,
+      "offset": 30645,
+      "virtualAddress": 30645,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__ustring",
+      "size": 8,
+      "offset": 32594,
+      "virtualAddress": 32594,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 216,
+      "offset": 32604,
+      "virtualAddress": 32604,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 48,
+      "offset": 49152,
+      "virtualAddress": 49152,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__const",
+      "size": 80,
+      "offset": 49200,
+      "virtualAddress": 49200,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__cfstring",
+      "size": 832,
+      "offset": 49280,
+      "virtualAddress": 49280,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 40,
+      "offset": 50112,
+      "virtualAddress": 50112,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_protolist",
+      "size": 40,
+      "offset": 50152,
+      "virtualAddress": 50152,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 50192,
+      "virtualAddress": 50192,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 176,
+      "offset": 65536,
+      "virtualAddress": 65536,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 4080,
+      "offset": 65712,
+      "virtualAddress": 65712,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 544,
+      "offset": 69792,
+      "virtualAddress": 69792,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 144,
+      "offset": 70336,
+      "virtualAddress": 70336,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_superrefs",
+      "size": 16,
+      "offset": 70480,
+      "virtualAddress": 70480,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_ivar",
+      "size": 32,
+      "offset": 70496,
+      "virtualAddress": 70496,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 400,
+      "offset": 70528,
+      "virtualAddress": 70528,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 488,
+      "offset": 70928,
+      "virtualAddress": 70928,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "_result",
+    "T#,R",
+    "connectedScenes",
+    "T@\"NSString\",?,R,C",
+    "initWithObject:",
+    "T@\"NSString\",R,C,N,V_mimeType",
+    "isProxy",
+    "T@\"NSString\",R,C,N,V_subject",
+    "setOriginalURL:",
+    "T@\"UIActivityViewSuccessCompanion\",&,V_companion",
+    "subject",
+    "TB,V_completed",
+    "windows",
+    ".cxx_destruct",
+    "applicationWillEnterForeground:",
+    "T@\"NSString\",&,V_activityType",
+    "dealloc",
+    "T@\"NSString\",R,C",
+    "initWithResult:",
+    "T@\"NSString\",R,C,N,V_path",
+    "release",
+    "T@\"NSString\",R,C,N,V_text",
+    "stringFromByteCount:countStyle:",
+    "T@?,C,V_result",
+    "uppercaseString",
+    "TQ,R",
+    "URLWithString:",
+    "_activityType",
+    "_companion",
+    "_completed",
+    "_mimeType",
+    "_path",
+    "_subject",
+    "_text",
+    "activityType",
+    "activityViewController:dataTypeIdentifierForActivityType:",
+    "activityViewController:itemForActivityType:",
+    "activityViewController:subjectForActivityType:",
+    "activityViewController:thumbnailImageForActivityType:suggestedSize:",
+    "activityViewControllerLinkMetadata:",
+    "activityViewControllerPlaceholderItem:",
+    "activityViewControllerShareRecipients:",
+    "addObject:",
+    "application:continueUserActivity:restorationHandler:",
+    "application:didFailToRegisterForRemoteNotificationsWithError:",
+    "application:didFinishLaunchingWithOptions:",
+    "application:didReceiveLocalNotification:",
+    "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+    "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+    "application:didRegisterUserNotificationSettings:",
+    "application:handleEventsForBackgroundURLSession:completionHandler:",
+    "application:handleOpenURL:",
+    "application:openURL:options:",
+    "application:openURL:sourceApplication:annotation:",
+    "application:performActionForShortcutItem:completionHandler:",
+    "application:performFetchWithCompletionHandler:",
+    "application:willFinishLaunchingWithOptions:",
+    "applicationDidBecomeActive:",
+    "applicationDidEnterBackground:",
+    "applicationWillResignActive:",
+    "applicationWillTerminate:",
+    "arguments",
+    "arrayWithObjects:count:",
+    "attributesOfItemAtPath:error:",
+    "autorelease",
+    "bounds",
+    "class",
+    "companion",
+    "completed",
+    "conformsToProtocol:",
+    "count",
+    "countByEnumeratingWithState:objects:count:",
+    "debugDescription",
+    "defaultManager",
+    "description",
+    "detachFromEngineForRegistrar:",
+    "doesNotRecognizeSelector:",
+    "doubleValue",
+    "drawInRect:",
+    "errorWithCode:message:details:",
+    "fileSize",
+    "fileURLWithPath:",
+    "frame",
+    "handleMethodCall:result:",
+    "hasPrefix:",
+    "hash",
+    "imageWithContentsOfFile:",
+    "imageWithImage:scaledToSize:",
+    "init",
+    "initWithActivityItems:applicationActivities:",
+    "initWithFile:mimeType:",
+    "initWithFile:mimeType:subject:",
+    "initWithSubject:text:",
+    "isEqual:",
+    "isEqualToString:",
+    "isKeyWindow",
+    "isKindOfClass:",
+    "isMemberOfClass:",
+    "length",
+    "messenger",
+    "method",
+    "methodChannelWithName:binaryMessenger:",
+    "mimeType",
+    "objectAtIndexedSubscript:",
+    "objectForKeyedSubscript:",
+    "path",
+    "pathExtension",
+    "performSelector:",
+    "performSelector:withObject:",
+    "performSelector:withObject:withObject:",
+    "popoverPresentationController",
+    "presentViewController:animated:completion:",
+    "presentedViewController",
+    "registerWithRegistrar:",
+    "respondsToSelector:",
+    "result",
+    "retain",
+    "retainCount",
+    "rootViewController",
+    "self",
+    "setActivityType:",
+    "setCompanion:",
+    "setCompleted:",
+    "setCompletionWithItemsHandler:",
+    "setImageProvider:",
+    "setMethodCallHandler:",
+    "setPluginRegistrantCallback:",
+    "setResult:",
+    "setSourceRect:",
+    "setSourceView:",
+    "setTitle:",
+    "setValue:forKey:",
+    "share:withSubject:withController:atSource:toResult:",
+    "shareFiles:withMimeType:withSubject:withText:withController:atSource:toResult:",
+    "shareText:subject:withController:atSource:toResult:",
+    "shareUri:withController:atSource:toResult:",
+    "sharedApplication",
+    "stringByAppendingString:",
+    "stringWithFormat:",
+    "superclass",
+    "text",
+    "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+    "userNotificationCenter:openSettingsForNotification:",
+    "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+    "view",
+    "visibleViewController",
+    "zone",
+    "UIActivityViewSuccessCompanion",
+    "UIActivityViewSuccessController",
+    "SharePlusData",
+    "UIActivityItemSource",
+    "NSObject",
+    "FPPSharePlusPlugin",
+    "FlutterPlugin",
+    "FlutterApplicationLifeCycleDelegate",
+    "UNUserNotificationCenterDelegate",
+    "PodsDummy_share_plus",
+    "@24@0:8@?16",
+    "v16@0:8",
+    "@?16@0:8",
+    "v24@0:8@?16",
+    "@16@0:8",
+    "v24@0:8@16",
+    "B16@0:8",
+    "v20@0:8B16",
+    "@?",
+    "@\"NSString\"",
+    "@\"UIActivityViewSuccessCompanion\"",
+    "B24@0:8@16",
+    "#16@0:8",
+    "@24@0:8:16",
+    "@32@0:8:16@24",
+    "@40@0:8:16@24@32",
+    "B24@0:8#16",
+    "B24@0:8:16",
+    "Vv16@0:8",
+    "Q16@0:8",
+    "^{_NSZone=}16@0:8",
+    "B24@0:8@\"Protocol\"16",
+    "@\"NSString\"16@0:8",
+    "@24@0:8@16",
+    "@32@0:8@16@24",
+    "@48@0:8@16@24{CGSize=dd}32",
+    "@24@0:8@\"UIActivityViewController\"16",
+    "@32@0:8@\"UIActivityViewController\"16@\"NSString\"24",
+    "@\"NSString\"32@0:8@\"UIActivityViewController\"16@\"NSString\"24",
+    "@\"UIImage\"48@0:8@\"UIActivityViewController\"16@\"NSString\"24{CGSize=dd}32",
+    "@\"LPLinkMetadata\"24@0:8@\"UIActivityViewController\"16",
+    "@\"NSArray\"24@0:8@\"UIActivityViewController\"16",
+    "@40@0:8@16@24@32",
+    "@40@0:8@16{CGSize=dd}24",
+    "v80@0:8@16@24@32{CGRect={CGPoint=dd}{CGSize=dd}}40@?72",
+    "v72@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@?64",
+    "v96@0:8@16@24@32@40@48{CGRect={CGPoint=dd}{CGSize=dd}}56@?88",
+    "v40@0:8@16@24@?32",
+    "v32@0:8@16@24",
+    "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24@?<v@?Q>32",
+    "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24@?<v@?>32",
+    "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24",
+    "B32@0:8@16@24",
+    "B40@0:8@16@24@?32",
+    "B40@0:8@16@24@32",
+    "B48@0:8@16@24@32@40",
+    "B32@0:8@16@?24",
+    "B32@0:8@\"UIApplication\"16@\"NSDictionary\"24",
+    "v24@0:8@\"UIApplication\"16",
+    "v32@0:8@\"UIApplication\"16@\"UIUserNotificationSettings\"24",
+    "v32@0:8@\"UIApplication\"16@\"NSData\"24",
+    "v32@0:8@\"UIApplication\"16@\"NSError\"24",
+    "B40@0:8@\"UIApplication\"16@\"NSDictionary\"24@?<v@?Q>32",
+    "v32@0:8@\"UIApplication\"16@\"UILocalNotification\"24",
+    "B40@0:8@\"UIApplication\"16@\"NSURL\"24@\"NSDictionary\"32",
+    "B32@0:8@\"UIApplication\"16@\"NSURL\"24",
+    "B48@0:8@\"UIApplication\"16@\"NSURL\"24@\"NSString\"32@40",
+    "B40@0:8@\"UIApplication\"16@\"UIApplicationShortcutItem\"24@?<v@?B>32",
+    "B40@0:8@\"UIApplication\"16@\"NSString\"24@?<v@?>32",
+    "B32@0:8@\"UIApplication\"16@?<v@?Q>24",
+    "B40@0:8@\"UIApplication\"16@\"NSUserActivity\"24@?<v@?@\"NSArray\">32",
+    "v32@0:8@16@?24",
+    "v24@0:8^?16",
+    "v24@0:8@\"NSObject<FlutterPluginRegistrar>\"16",
+    "v32@0:8@\"FlutterMethodCall\"16@?<v@?@>24"
+  ],
+  "importedFunctions": [
+    "_CGRectContainsRect",
+    "_CGRectIsEmpty",
+    "_CGRectZero",
+    "_FlutterMethodNotImplemented",
+    "_NSStringFromCGRect",
+    "_OBJC_CLASS_$_FlutterError",
+    "_OBJC_CLASS_$_FlutterMethodChannel",
+    "_OBJC_CLASS_$_LPLinkMetadata",
+    "_OBJC_CLASS_$_NSArray",
+    "_OBJC_CLASS_$_NSByteCountFormatter",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_NSItemProvider",
+    "_OBJC_CLASS_$_NSMutableArray",
+    "_OBJC_CLASS_$_NSNull",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSURL",
+    "_OBJC_CLASS_$_UIActivityViewController",
+    "_OBJC_CLASS_$_UIApplication",
+    "_OBJC_CLASS_$_UIImage",
+    "_OBJC_CLASS_$_UINavigationController",
+    "_OBJC_CLASS_$_UIWindowScene",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$_UIActivityViewController",
+    "_UIGraphicsBeginImageContext",
+    "_UIGraphicsEndImageContext",
+    "_UIGraphicsGetImageFromCurrentImageContext",
+    "__NSConcreteStackBlock",
+    "___CFConstantStringClassReference",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__objc_empty_cache",
+    "_objc_alloc",
+    "_objc_alloc_init",
+    "_objc_autoreleaseReturnValue",
+    "_objc_enumerationMutation",
+    "_objc_getProperty",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleaseReturnValue",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_setProperty_atomic",
+    "_objc_setProperty_atomic_copy",
+    "_objc_storeStrong",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_OBJC_CLASS_$_FPPSharePlusPlugin",
+    "_OBJC_CLASS_$_PodsDummy_share_plus",
+    "_OBJC_CLASS_$_SharePlusData",
+    "_OBJC_CLASS_$_UIActivityViewSuccessCompanion",
+    "_OBJC_CLASS_$_UIActivityViewSuccessController",
+    "_OBJC_METACLASS_$_FPPSharePlusPlugin",
+    "_OBJC_METACLASS_$_PodsDummy_share_plus",
+    "_OBJC_METACLASS_$_SharePlusData",
+    "_OBJC_METACLASS_$_UIActivityViewSuccessCompanion",
+    "_OBJC_METACLASS_$_UIActivityViewSuccessController",
+    "_share_plusVersionNumber",
+    "_share_plusVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "-[UIActivityViewSuccessCompanion initWithResult:]",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion dealloc]",
+      "value": 16504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion result]",
+      "value": 16684,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion setResult:]",
+      "value": 16696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion activityType]",
+      "value": 16704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion setActivityType:]",
+      "value": 16716,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion completed]",
+      "value": 16724,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion setCompleted:]",
+      "value": 16736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessCompanion .cxx_destruct]",
+      "value": 16744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessController companion]",
+      "value": 16792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessController setCompanion:]",
+      "value": 16808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[UIActivityViewSuccessController .cxx_destruct]",
+      "value": 16820,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData init]",
+      "value": 16840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData initWithSubject:text:]",
+      "value": 16920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData initWithFile:mimeType:]",
+      "value": 17108,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData initWithFile:mimeType:subject:]",
+      "value": 17272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData activityViewControllerPlaceholderItem:]",
+      "value": 17508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData activityViewController:itemForActivityType:]",
+      "value": 17520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData activityViewController:subjectForActivityType:]",
+      "value": 17728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData activityViewController:thumbnailImageForActivityType:suggestedSize:]",
+      "value": 17736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData imageWithImage:scaledToSize:]",
+      "value": 17944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData activityViewControllerLinkMetadata:]",
+      "value": 18064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData subject]",
+      "value": 18712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData text]",
+      "value": 18720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData path]",
+      "value": 18728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData mimeType]",
+      "value": 18736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[SharePlusData .cxx_destruct]",
+      "value": 18744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[FPPSharePlusPlugin registerWithRegistrar:]",
+      "value": 18816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___44+[FPPSharePlusPlugin registerWithRegistrar:]_block_invoke",
+      "value": 18996,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_TopViewControllerForViewController",
+      "value": 21292,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[FPPSharePlusPlugin share:withSubject:withController:atSource:toResult:]",
+      "value": 21476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___73+[FPPSharePlusPlugin share:withSubject:withController:atSource:toResult:]_block_invoke",
+      "value": 22336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32s",
+      "value": 22388,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___destroy_helper_block_e8_32s",
+      "value": 22396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[FPPSharePlusPlugin shareUri:withController:atSource:toResult:]",
+      "value": 22404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[FPPSharePlusPlugin shareText:subject:withController:atSource:toResult:]",
+      "value": 22704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[FPPSharePlusPlugin shareFiles:withMimeType:withSubject:withText:withController:atSource:toResult:]",
+      "value": 23048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$URLWithString:",
+      "value": 24128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$activityType",
+      "value": 24160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$activityViewController:itemForActivityType:",
+      "value": 24192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$addObject:",
+      "value": 24224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$arguments",
+      "value": 24256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$arrayWithObjects:count:",
+      "value": 24288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$attributesOfItemAtPath:error:",
+      "value": 24320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$bounds",
+      "value": 24352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$completed",
+      "value": 24384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$connectedScenes",
+      "value": 24416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$count",
+      "value": 24448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$countByEnumeratingWithState:objects:count:",
+      "value": 24480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$defaultManager",
+      "value": 24512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$doubleValue",
+      "value": 24544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$drawInRect:",
+      "value": 24576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$errorWithCode:message:details:",
+      "value": 24608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$fileSize",
+      "value": 24640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$fileURLWithPath:",
+      "value": 24672,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$frame",
+      "value": 24704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$hasPrefix:",
+      "value": 24736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$imageWithContentsOfFile:",
+      "value": 24768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$imageWithImage:scaledToSize:",
+      "value": 24800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithActivityItems:applicationActivities:",
+      "value": 24832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithFile:mimeType:subject:",
+      "value": 24864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithObject:",
+      "value": 24896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithResult:",
+      "value": 24928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithSubject:text:",
+      "value": 24960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isEqualToString:",
+      "value": 24992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isKeyWindow",
+      "value": 25024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$length",
+      "value": 25056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$messenger",
+      "value": 25088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$method",
+      "value": 25120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$methodChannelWithName:binaryMessenger:",
+      "value": 25152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectAtIndexedSubscript:",
+      "value": 25184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectForKeyedSubscript:",
+      "value": 25216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$pathExtension",
+      "value": 25248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$popoverPresentationController",
+      "value": 25280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$presentViewController:animated:completion:",
+      "value": 25312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$presentedViewController",
+      "value": 25344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$result",
+      "value": 25376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$rootViewController",
+      "value": 25408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setActivityType:",
+      "value": 25440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setCompanion:",
+      "value": 25472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setCompleted:",
+      "value": 25504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setCompletionWithItemsHandler:",
+      "value": 25536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setImageProvider:",
+      "value": 25568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setMethodCallHandler:",
+      "value": 25600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setOriginalURL:",
+      "value": 25632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setResult:",
+      "value": 25664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setSourceRect:",
+      "value": 25696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setSourceView:",
+      "value": 25728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setTitle:",
+      "value": 25760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setValue:forKey:",
+      "value": 25792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$share:withSubject:withController:atSource:toResult:",
+      "value": 25824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$shareFiles:withMimeType:withSubject:withText:withController:atSource:toResult:",
+      "value": 25856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$shareText:subject:withController:atSource:toResult:",
+      "value": 25888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$shareUri:withController:atSource:toResult:",
+      "value": 25920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$sharedApplication",
+      "value": 25952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringByAppendingString:",
+      "value": 25984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringFromByteCount:countStyle:",
+      "value": 26016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringWithFormat:",
+      "value": 26048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$uppercaseString",
+      "value": 26080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$view",
+      "value": 26112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$visibleViewController",
+      "value": 26144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$windows",
+      "value": 26176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_40_e37_v24\u0001?0\u0001\"FlutterMethodCall\"8\u0001?<v\u0001?\u0001>16l",
+      "value": 49200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_40_e8_32s_e45_v36\u0001?0\u0001\"NSString\"8B16\u0001\"NSArray\"20\u0001\"NSError\"28l",
+      "value": 49232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_NSObject",
+      "value": 50152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_UIActivityItemSource",
+      "value": 50160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate",
+      "value": 50168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate",
+      "value": 50176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterPlugin",
+      "value": 50184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_UIActivityViewSuccessCompanion",
+      "value": 65712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_METHODS_UIActivityViewSuccessCompanion",
+      "value": 65784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_VARIABLES_UIActivityViewSuccessCompanion",
+      "value": 66008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_UIActivityViewSuccessCompanion",
+      "value": 66112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_UIActivityViewSuccessCompanion",
+      "value": 66168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_UIActivityViewSuccessController",
+      "value": 66240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_METHODS_UIActivityViewSuccessController",
+      "value": 66312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_VARIABLES_UIActivityViewSuccessController",
+      "value": 66392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_UIActivityViewSuccessController",
+      "value": 66432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_UIActivityViewSuccessController",
+      "value": 66456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject",
+      "value": 66528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject",
+      "value": 66992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_NSObject",
+      "value": 67024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject",
+      "value": 67096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_UIActivityItemSource",
+      "value": 67256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIActivityItemSource",
+      "value": 67280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIActivityItemSource",
+      "value": 67336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_UIActivityItemSource",
+      "value": 67464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_PROTOCOLS_$_SharePlusData",
+      "value": 67520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_SharePlusData",
+      "value": 67544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_METHODS_SharePlusData",
+      "value": 67616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_VARIABLES_SharePlusData",
+      "value": 67984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_SharePlusData",
+      "value": 68120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_SharePlusData",
+      "value": 68256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_CLASS_METHODS_FPPSharePlusPlugin",
+      "value": 68328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate",
+      "value": 68456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate",
+      "value": 68480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate",
+      "value": 68560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate",
+      "value": 68584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate",
+      "value": 68608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate",
+      "value": 69072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_FlutterPlugin",
+      "value": 69224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin",
+      "value": 69256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin",
+      "value": 69288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin",
+      "value": 69344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin",
+      "value": 69376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_PROTOCOLS_$_FPPSharePlusPlugin",
+      "value": 69408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_FPPSharePlusPlugin",
+      "value": 69432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_FPPSharePlusPlugin",
+      "value": 69504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_FPPSharePlusPlugin",
+      "value": 69576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PodsDummy_share_plus",
+      "value": 69648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PodsDummy_share_plus",
+      "value": 69720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_UIActivityViewSuccessCompanion._completed",
+      "value": 70496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_UIActivityViewSuccessCompanion._result",
+      "value": 70500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_UIActivityViewSuccessCompanion._activityType",
+      "value": 70504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_UIActivityViewSuccessController._companion",
+      "value": 70508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_SharePlusData._subject",
+      "value": 70512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_SharePlusData._text",
+      "value": 70516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_SharePlusData._path",
+      "value": 70520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_SharePlusData._mimeType",
+      "value": 70524,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_NSObject",
+      "value": 70928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_UIActivityItemSource",
+      "value": 71024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate",
+      "value": 71120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate",
+      "value": 71216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterPlugin",
+      "value": 71312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 71408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FPPSharePlusPlugin",
+      "value": 70808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PodsDummy_share_plus",
+      "value": 70888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_SharePlusData",
+      "value": 70688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIActivityViewSuccessCompanion",
+      "value": 70528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIActivityViewSuccessController",
+      "value": 70648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FPPSharePlusPlugin",
+      "value": 70768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PodsDummy_share_plus",
+      "value": 70848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_SharePlusData",
+      "value": 70728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_UIActivityViewSuccessCompanion",
+      "value": 70568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_UIActivityViewSuccessController",
+      "value": 70608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_share_plusVersionNumber",
+      "value": 26248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_share_plusVersionString",
+      "value": 26208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CGRectContainsRect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CGRectIsEmpty",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CGRectZero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_FlutterMethodNotImplemented",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSStringFromCGRect",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterMethodChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_LPLinkMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSArray",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSByteCountFormatter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSFileManager",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSItemProvider",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSMutableArray",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNull",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSURL",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIActivityViewController",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIApplication",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIImage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UINavigationController",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIWindowScene",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_UIActivityViewController",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIGraphicsBeginImageContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIGraphicsEndImageContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIGraphicsGetImageFromCurrentImageContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___CFConstantStringClassReference",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_alloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_alloc_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_enumerationMutation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getProperty",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_class",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_isKindOfClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_setProperty_atomic",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_setProperty_atomic_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_storeStrong",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

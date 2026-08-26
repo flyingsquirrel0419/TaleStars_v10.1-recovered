@@ -43,12 +43,24 @@ contains the same models rewritten as standard glTF 2.0 GLB files.
 particle emitter database. `decoded/compiled-strings/` contains searchable
 ASCII and UTF-16 strings extracted from NIB and asset-catalog binaries.
 
+`decoded/si-svg/` contains SVG reconstructions of all 112 ScalableImage `.si`
+vector assets, including paths, groups, colors, gradients, text, and embedded
+images where present.
+
+`decoded/macho/` contains LIEF reports for all 56 Mach-O files, including
+headers, load-linked libraries, sections, imports, symbols, and Objective-C
+metadata. `decoded/opaque/opaque-analysis.json` records bounded forensic
+metadata for every file still detected as an unknown binary. Standard font,
+MP4, ICU, and Flutter manifest metadata is under `decoded/standard/` and
+`decoded/flutter/`.
+
 ## Recovery boundary
 
 Some files remain compiled or packaged artifacts: Mach-O executables and
 frameworks, compiled Flutter manifests, fonts, OGG audio, and ECC blobs. Their
 exact type, size, and path are recorded in `manifest.json` and
-`binary-manifest.json`. The ECC blobs are encrypted and cannot be converted to
+`binary-manifest.json`; format-specific metadata is added under `decoded/` as
+it becomes available. The ECC blobs are encrypted and cannot be converted to
 source or plaintext without their runtime key.
 
 All files in this directory are derived artifacts. The shipped app bundle was

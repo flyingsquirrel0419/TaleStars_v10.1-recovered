@@ -1,0 +1,3378 @@
+{
+  "source": "Frameworks/social_plugin.framework/social_plugin",
+  "size": 125296,
+  "sha256": "72a828dfd5792cce4b618dd3cee135f0a000c6ef8894635b073d7bab9ad26af0",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1048709,
+    "numberOfCommands": 28,
+    "commandsSize": 3552,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/social_plugin.framework/social_plugin",
+    "@rpath/Flutter.framework/Flutter",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+    "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+    "/System/Library/Frameworks/CoreVideo.framework/CoreVideo",
+    "/System/Library/Frameworks/UIKit.framework/UIKit",
+    "/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 10856,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 396,
+      "offset": 27240,
+      "virtualAddress": 27240,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 420,
+      "offset": 27636,
+      "virtualAddress": 27636,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_stubs",
+      "size": 3648,
+      "offset": 28064,
+      "virtualAddress": 28064,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 72,
+      "offset": 31712,
+      "virtualAddress": 31712,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 869,
+      "offset": 31784,
+      "virtualAddress": 31784,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 4914,
+      "offset": 32653,
+      "virtualAddress": 32653,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_classname",
+      "size": 298,
+      "offset": 37567,
+      "virtualAddress": 37567,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methtype",
+      "size": 1961,
+      "offset": 37865,
+      "virtualAddress": 37865,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 264,
+      "offset": 39828,
+      "virtualAddress": 39828,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 120,
+      "offset": 49152,
+      "virtualAddress": 49152,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__const",
+      "size": 336,
+      "offset": 49272,
+      "virtualAddress": 49272,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__cfstring",
+      "size": 1248,
+      "offset": 49608,
+      "virtualAddress": 49608,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 32,
+      "offset": 50856,
+      "virtualAddress": 50856,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_protolist",
+      "size": 64,
+      "offset": 50888,
+      "virtualAddress": 50888,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 50952,
+      "virtualAddress": 50952,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 264,
+      "offset": 65536,
+      "virtualAddress": 65536,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 4672,
+      "offset": 65800,
+      "virtualAddress": 65800,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 928,
+      "offset": 70472,
+      "virtualAddress": 70472,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 184,
+      "offset": 71400,
+      "virtualAddress": 71400,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_superrefs",
+      "size": 16,
+      "offset": 71584,
+      "virtualAddress": 71584,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_ivar",
+      "size": 52,
+      "offset": 71600,
+      "virtualAddress": 71600,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 320,
+      "offset": 71656,
+      "virtualAddress": 71656,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 776,
+      "offset": 71976,
+      "virtualAddress": 71976,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "T{CGSize=dd},N,V_scanWindowSize",
+    "T#,R",
+    "_captureSession",
+    "T@\"AVCaptureSession\",R,N,V_captureSession",
+    "_scanWindowSize",
+    "T@\"NSObject<OS_dispatch_queue>\",&,N,V_backgroundQueue",
+    "applicationWillEnterForeground:",
+    "T@\"NSString\",R,C",
+    "copyPixelBuffer",
+    "T@?,C,N,V_sink",
+    "initWithString:",
+    "T^{__CVBuffer=},N,V_latestBuffer",
+    "numberWithBool:",
+    "Tq,R,N,V_textureId",
+    "outputs",
+    "UUIDString",
+    "stopWithResult:",
+    ".cxx_destruct",
+    "T{CGSize=dd},N,V_viewFinderSize",
+    "T@\"AVCaptureDevice\",R,N,V_device",
+    "_device",
+    "T@\"NSObject<FlutterTextureRegistry>\",R,N,V_registry",
+    "_viewFinderSize",
+    "T@\"NSString\",?,R,C",
+    "backgroundQueue",
+    "T@\"UIView\",&,N,V_scanAreaView",
+    "dealloc",
+    "TQ,R",
+    "isProxy",
+    "Tq,N,V_initialVideoOrientation",
+    "openAppSettings",
+    "T{CGSize=dd},N,V_imageSize",
+    "release",
+    "_backgroundQueue",
+    "_imageSize",
+    "_initialVideoOrientation",
+    "_latestBuffer",
+    "_registry",
+    "_scanAreaView",
+    "_scanCode",
+    "_sink",
+    "_textureId",
+    "activeFormat",
+    "addInput:",
+    "addMethodCallDelegate:channel:",
+    "addOutput:",
+    "application:continueUserActivity:restorationHandler:",
+    "application:didFailToRegisterForRemoteNotificationsWithError:",
+    "application:didFinishLaunchingWithOptions:",
+    "application:didReceiveLocalNotification:",
+    "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+    "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+    "application:didRegisterUserNotificationSettings:",
+    "application:handleEventsForBackgroundURLSession:completionHandler:",
+    "application:handleOpenURL:",
+    "application:openURL:options:",
+    "application:openURL:sourceApplication:annotation:",
+    "application:performActionForShortcutItem:completionHandler:",
+    "application:performFetchWithCompletionHandler:",
+    "application:willFinishLaunchingWithOptions:",
+    "applicationDidBecomeActive:",
+    "applicationDidEnterBackground:",
+    "applicationWillResignActive:",
+    "applicationWillTerminate:",
+    "arguments",
+    "arrayWithObject:",
+    "authorizationStatus",
+    "authorizationStatusForMediaType:",
+    "autorelease",
+    "beginConfiguration",
+    "bundleIdentifier",
+    "calculateFinalScanRectWithImageSize:screenSize:",
+    "canAddInput:",
+    "canAddOutput:",
+    "captureOutput:didDropSampleBuffer:fromConnection:",
+    "captureOutput:didOutputMetadataObjects:fromConnection:",
+    "captureOutput:didOutputSampleBuffer:fromConnection:",
+    "captureSession",
+    "checkPermissionWithResult:",
+    "class",
+    "commitConfiguration",
+    "conformsToProtocol:",
+    "connectionWithInputPorts:output:",
+    "count",
+    "countByEnumeratingWithState:objects:count:",
+    "currentDevice",
+    "currentLocale",
+    "currentNotificationCenter",
+    "debugDescription",
+    "defaultDeviceWithDeviceType:mediaType:position:",
+    "defaultDeviceWithMediaType:",
+    "description",
+    "detachFromEngineForRegistrar:",
+    "device",
+    "deviceInputWithDevice:error:",
+    "dictionaryWithObjects:forKeys:count:",
+    "doubleValue",
+    "errorWithCode:message:details:",
+    "eventChannelWithName:binaryMessenger:",
+    "formatDescription",
+    "getMetadataOutput",
+    "getNotificationSettingsWithCompletionHandler:",
+    "getPushNotificationsPermissionStatus:",
+    "handleMethodCall:result:",
+    "hash",
+    "identifierForVendor",
+    "imageSize",
+    "init",
+    "initWithRegistry:",
+    "initialVideoOrientation",
+    "inputs",
+    "isAutoFocusRangeRestrictionSupported",
+    "isEqual:",
+    "isEqualToString:",
+    "isFocusModeSupported:",
+    "isKindOfClass:",
+    "isLowLightBoostEnabled",
+    "isMemberOfClass:",
+    "isRotatedWithOrientation:",
+    "isSmoothAutoFocusSupported",
+    "latestBuffer",
+    "localTimeZone",
+    "lockForConfiguration:",
+    "mainBundle",
+    "messenger",
+    "method",
+    "methodChannelWithName:binaryMessenger:",
+    "name",
+    "numberWithDouble:",
+    "numberWithInteger:",
+    "numberWithLongLong:",
+    "numberWithUnsignedInt:",
+    "numberWithUnsignedInteger:",
+    "objectAtIndex:",
+    "objectForInfoDictionaryKey:",
+    "objectForKey:",
+    "objectForKeyedSubscript:",
+    "onCancelWithArguments:",
+    "onListenWithArguments:eventSink:",
+    "onTextureUnregistered:",
+    "openURL:options:completionHandler:",
+    "performSelector:",
+    "performSelector:withObject:",
+    "performSelector:withObject:withObject:",
+    "physicalMemory",
+    "ports",
+    "processInfo",
+    "registerForRemoteNotifications",
+    "registerTexture:",
+    "registerWithRegistrar:",
+    "registry",
+    "removeInput:",
+    "removeOutput:",
+    "requestAccessForMediaType:completionHandler:",
+    "requestAuthorizationWithOptions:completionHandler:",
+    "requestPermissionWithResult:",
+    "requestPushNotificationsPermission:",
+    "respondsToSelector:",
+    "retain",
+    "retainCount",
+    "scanAreaView",
+    "scanSingleCodeWithResult:",
+    "scanWindowSize",
+    "self",
+    "setAlwaysDiscardsLateVideoFrames:",
+    "setAutoFocusRangeRestriction:",
+    "setAutomaticallyEnablesLowLightBoostWhenAvailable:",
+    "setBackgroundQueue:",
+    "setFocusMode:",
+    "setImageSize:",
+    "setInitialVideoOrientation:",
+    "setLatestBuffer:",
+    "setMetadataObjectTypes:",
+    "setMetadataObjectsDelegate:queue:",
+    "setPluginRegistrantCallback:",
+    "setRectOfInterest:",
+    "setSampleBufferDelegate:queue:",
+    "setScanAreaView:",
+    "setScanWindowSize:",
+    "setSessionPreset:",
+    "setSink:",
+    "setSmoothAutoFocusEnabled:",
+    "setStreamHandler:",
+    "setVideoOrientation:",
+    "setVideoSettings:",
+    "setViewFinderSize:",
+    "sharedApplication",
+    "sink",
+    "startRunning",
+    "startWithResult:",
+    "statusBarOrientation",
+    "stopRunning",
+    "stringValue",
+    "stringWithFormat:",
+    "stringWithUTF8String:",
+    "superclass",
+    "systemName",
+    "systemVersion",
+    "textureFrameAvailable:",
+    "textureId",
+    "textures",
+    "type",
+    "uiOrientation",
+    "unlockForConfiguration",
+    "unregisterTexture:",
+    "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+    "userNotificationCenter:openSettingsForNotification:",
+    "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+    "videoOrientation",
+    "viewFinderSize",
+    "zone",
+    "MobileScannerPlugin",
+    "FlutterPlugin",
+    "NSObject",
+    "FlutterApplicationLifeCycleDelegate",
+    "UNUserNotificationCenterDelegate",
+    "FlutterStreamHandler",
+    "AVCaptureVideoDataOutputSampleBufferDelegate",
+    "AVCaptureMetadataOutputObjectsDelegate",
+    "FlutterTexture",
+    "PlatformInterfacePlugin",
+    "PodsDummy_social_plugin",
+    "SocialPlugin",
+    "v24@0:8@16",
+    "B24@0:8@16",
+    "#16@0:8",
+    "@16@0:8",
+    "@24@0:8:16",
+    "@32@0:8:16@24",
+    "@40@0:8:16@24@32",
+    "B16@0:8",
+    "B24@0:8#16",
+    "B24@0:8:16",
+    "Vv16@0:8",
+    "Q16@0:8",
+    "^{_NSZone=}16@0:8",
+    "B24@0:8@\"Protocol\"16",
+    "@\"NSString\"16@0:8",
+    "v40@0:8@16@24@?32",
+    "v32@0:8@16@24",
+    "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24@?<v@?Q>32",
+    "v40@0:8@\"UNUserNotificationCenter\"16@\"UNNotificationResponse\"24@?<v@?>32",
+    "v32@0:8@\"UNUserNotificationCenter\"16@\"UNNotification\"24",
+    "B32@0:8@16@24",
+    "B40@0:8@16@24@?32",
+    "B40@0:8@16@24@32",
+    "B48@0:8@16@24@32@40",
+    "B32@0:8@16@?24",
+    "B32@0:8@\"UIApplication\"16@\"NSDictionary\"24",
+    "v24@0:8@\"UIApplication\"16",
+    "v32@0:8@\"UIApplication\"16@\"UIUserNotificationSettings\"24",
+    "v32@0:8@\"UIApplication\"16@\"NSData\"24",
+    "v32@0:8@\"UIApplication\"16@\"NSError\"24",
+    "B40@0:8@\"UIApplication\"16@\"NSDictionary\"24@?<v@?Q>32",
+    "v32@0:8@\"UIApplication\"16@\"UILocalNotification\"24",
+    "B40@0:8@\"UIApplication\"16@\"NSURL\"24@\"NSDictionary\"32",
+    "B32@0:8@\"UIApplication\"16@\"NSURL\"24",
+    "B48@0:8@\"UIApplication\"16@\"NSURL\"24@\"NSString\"32@40",
+    "B40@0:8@\"UIApplication\"16@\"UIApplicationShortcutItem\"24@?<v@?B>32",
+    "B40@0:8@\"UIApplication\"16@\"NSString\"24@?<v@?>32",
+    "B32@0:8@\"UIApplication\"16@?<v@?Q>24",
+    "B40@0:8@\"UIApplication\"16@\"NSUserActivity\"24@?<v@?@\"NSArray\">32",
+    "v32@0:8@16@?24",
+    "v24@0:8^?16",
+    "v24@0:8@\"NSObject<FlutterPluginRegistrar>\"16",
+    "v32@0:8@\"FlutterMethodCall\"16@?<v@?@>24",
+    "@32@0:8@16@?24",
+    "@24@0:8@16",
+    "@\"FlutterError\"32@0:8@16@?<v@?@>24",
+    "@\"FlutterError\"24@0:8@16",
+    "v40@0:8@16^{opaqueCMSampleBuffer=}24@32",
+    "v40@0:8@\"AVCaptureOutput\"16^{opaqueCMSampleBuffer=}24@\"AVCaptureConnection\"32",
+    "v40@0:8@16@24@32",
+    "v40@0:8@\"AVCaptureOutput\"16@\"NSArray\"24@\"AVCaptureConnection\"32",
+    "^{__CVBuffer=}16@0:8",
+    "v24@0:8@\"NSObject<FlutterTexture>\"16",
+    "v16@0:8",
+    "v24@0:8@?16",
+    "q16@0:8",
+    "B24@0:8q16",
+    "{CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGSize=dd}16{CGSize=dd}32",
+    "@?16@0:8",
+    "v24@0:8^{__CVBuffer=}16",
+    "v24@0:8q16",
+    "{CGSize=dd}16@0:8",
+    "v32@0:8{CGSize=dd}16",
+    "@\"NSObject<FlutterTextureRegistry>\"",
+    "@?",
+    "@\"AVCaptureSession\"",
+    "@\"AVCaptureDevice\"",
+    "^{__CVBuffer=}",
+    "@\"NSObject<OS_dispatch_queue>\"",
+    "@\"UIView\"",
+    "{CGSize=\"width\"d\"height\"d}"
+  ],
+  "importedFunctions": [
+    "_AVCaptureDeviceTypeBuiltInDualWideCamera",
+    "_AVCaptureSessionPresetHigh",
+    "_AVMediaTypeVideo",
+    "_AVMetadataObjectTypeQRCode",
+    "_CFRelease",
+    "_CFRetain",
+    "_CGSizeZero",
+    "_CMSampleBufferGetImageBuffer",
+    "_CMVideoFormatDescriptionGetPresentationDimensions",
+    "_CVPixelBufferGetHeight",
+    "_CVPixelBufferGetWidth",
+    "_FlutterMethodNotImplemented",
+    "_NSLocaleCountryCode",
+    "_OBJC_CLASS_$_AVCaptureConnection",
+    "_OBJC_CLASS_$_AVCaptureDevice",
+    "_OBJC_CLASS_$_AVCaptureDeviceInput",
+    "_OBJC_CLASS_$_AVCaptureMetadataOutput",
+    "_OBJC_CLASS_$_AVCaptureSession",
+    "_OBJC_CLASS_$_AVCaptureVideoDataOutput",
+    "_OBJC_CLASS_$_FlutterError",
+    "_OBJC_CLASS_$_FlutterEventChannel",
+    "_OBJC_CLASS_$_FlutterMethodChannel",
+    "_OBJC_CLASS_$_NSArray",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_NSDictionary",
+    "_OBJC_CLASS_$_NSLocale",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$_NSProcessInfo",
+    "_OBJC_CLASS_$_NSString",
+    "_OBJC_CLASS_$_NSTimeZone",
+    "_OBJC_CLASS_$_NSURL",
+    "_OBJC_CLASS_$_UIApplication",
+    "_OBJC_CLASS_$_UIDevice",
+    "_OBJC_CLASS_$_UNUserNotificationCenter",
+    "_OBJC_METACLASS_$_NSObject",
+    "_UIApplicationOpenSettingsURLString",
+    "__Block_object_assign",
+    "__NSConcreteStackBlock",
+    "___CFConstantStringClassReference",
+    "___NSDictionary0__",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__dispatch_main_q",
+    "__objc_empty_cache",
+    "_dispatch_after",
+    "_dispatch_async",
+    "_dispatch_queue_create",
+    "_dispatch_time",
+    "_free",
+    "_kCVPixelBufferPixelFormatTypeKey",
+    "_malloc",
+    "_objc_alloc",
+    "_objc_alloc_init",
+    "_objc_autoreleaseReturnValue",
+    "_objc_copyWeak",
+    "_objc_destroyWeak",
+    "_objc_enumerationMutation",
+    "_objc_initWeak",
+    "_objc_loadWeakRetained",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_class",
+    "_objc_opt_isKindOfClass",
+    "_objc_opt_new",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_retainBlock",
+    "_objc_setProperty_nonatomic_copy",
+    "_objc_storeStrong",
+    "_sysctlbyname",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_OBJC_CLASS_$_MobileScannerPlugin",
+    "_OBJC_CLASS_$_PlatformInterfacePlugin",
+    "_OBJC_CLASS_$_PodsDummy_social_plugin",
+    "_OBJC_CLASS_$_SocialPlugin",
+    "_OBJC_METACLASS_$_MobileScannerPlugin",
+    "_OBJC_METACLASS_$_PlatformInterfacePlugin",
+    "_OBJC_METACLASS_$_PodsDummy_social_plugin",
+    "_OBJC_METACLASS_$_SocialPlugin",
+    "_social_pluginVersionNumber",
+    "_social_pluginVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "+[MobileScannerPlugin registerWithRegistrar:]",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin initWithRegistry:]",
+      "value": 16692,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin dealloc]",
+      "value": 16884,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin handleMethodCall:result:]",
+      "value": 16960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin checkPermissionWithResult:]",
+      "value": 18024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin requestPermissionWithResult:]",
+      "value": 18172,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___51-[MobileScannerPlugin requestPermissionWithResult:]_block_invoke",
+      "value": 18328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32b",
+      "value": 18404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___destroy_helper_block_e8_32s",
+      "value": 18420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin startWithResult:]",
+      "value": 18428,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___39-[MobileScannerPlugin startWithResult:]_block_invoke",
+      "value": 20160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___39-[MobileScannerPlugin startWithResult:]_block_invoke_2",
+      "value": 20416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32s40b48w",
+      "value": 20888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___destroy_helper_block_e8_32s40s48w",
+      "value": 20952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin scanSingleCodeWithResult:]",
+      "value": 21000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin stopWithResult:]",
+      "value": 21024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin onCancelWithArguments:]",
+      "value": 21544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin onListenWithArguments:eventSink:]",
+      "value": 21580,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin copyPixelBuffer]",
+      "value": 21636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin captureOutput:didOutputMetadataObjects:fromConnection:]",
+      "value": 21652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___77-[MobileScannerPlugin captureOutput:didOutputMetadataObjects:fromConnection:]_block_invoke",
+      "value": 21988,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32s40w",
+      "value": 22220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___destroy_helper_block_e8_32s40w",
+      "value": 22268,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin captureOutput:didOutputSampleBuffer:fromConnection:]",
+      "value": 22308,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___74-[MobileScannerPlugin captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke",
+      "value": 23036,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32s",
+      "value": 23108,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin uiOrientation]",
+      "value": 23116,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin isRotatedWithOrientation:]",
+      "value": 23212,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin getMetadataOutput]",
+      "value": 23248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin calculateFinalScanRectWithImageSize:screenSize:]",
+      "value": 23544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin registry]",
+      "value": 23808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin sink]",
+      "value": 23816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setSink:]",
+      "value": 23824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin textureId]",
+      "value": 23832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin captureSession]",
+      "value": 23840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin device]",
+      "value": 23848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin latestBuffer]",
+      "value": 23856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setLatestBuffer:]",
+      "value": 23864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin backgroundQueue]",
+      "value": 23872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setBackgroundQueue:]",
+      "value": 23880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin initialVideoOrientation]",
+      "value": 23892,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setInitialVideoOrientation:]",
+      "value": 23900,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin imageSize]",
+      "value": 23908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setImageSize:]",
+      "value": 23916,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin viewFinderSize]",
+      "value": 23924,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setViewFinderSize:]",
+      "value": 23932,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin scanWindowSize]",
+      "value": 23940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setScanWindowSize:]",
+      "value": 23948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin scanAreaView]",
+      "value": 23956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin setScanAreaView:]",
+      "value": 23964,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[MobileScannerPlugin .cxx_destruct]",
+      "value": 23976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[PlatformInterfacePlugin registerWithRegistrar:]",
+      "value": 24072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[PlatformInterfacePlugin init]",
+      "value": 24232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[PlatformInterfacePlugin openAppSettings]",
+      "value": 24320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[PlatformInterfacePlugin getPushNotificationsPermissionStatus:]",
+      "value": 24440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___64-[PlatformInterfacePlugin getPushNotificationsPermissionStatus:]_block_invoke",
+      "value": 24604,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___64-[PlatformInterfacePlugin getPushNotificationsPermissionStatus:]_block_invoke_2",
+      "value": 24760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___copy_helper_block_e8_32s40b",
+      "value": 24844,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___destroy_helper_block_e8_32s40s",
+      "value": 24896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[PlatformInterfacePlugin requestPushNotificationsPermission:]",
+      "value": 24936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___62-[PlatformInterfacePlugin requestPushNotificationsPermission:]_block_invoke",
+      "value": 25068,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___62-[PlatformInterfacePlugin requestPushNotificationsPermission:]_block_invoke_2",
+      "value": 25220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___62-[PlatformInterfacePlugin requestPushNotificationsPermission:]_block_invoke_3",
+      "value": 25328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "-[PlatformInterfacePlugin handleMethodCall:result:]",
+      "value": 25396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "+[SocialPlugin registerWithRegistrar:]",
+      "value": 27164,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$UUIDString",
+      "value": 28064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$activeFormat",
+      "value": 28096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$addInput:",
+      "value": 28128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$addMethodCallDelegate:channel:",
+      "value": 28160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$addOutput:",
+      "value": 28192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$arguments",
+      "value": 28224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$arrayWithObject:",
+      "value": 28256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$authorizationStatus",
+      "value": 28288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$authorizationStatusForMediaType:",
+      "value": 28320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$beginConfiguration",
+      "value": 28352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$bundleIdentifier",
+      "value": 28384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$calculateFinalScanRectWithImageSize:screenSize:",
+      "value": 28416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$canAddInput:",
+      "value": 28448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$canAddOutput:",
+      "value": 28480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$captureSession",
+      "value": 28512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$checkPermissionWithResult:",
+      "value": 28544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$commitConfiguration",
+      "value": 28576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$connectionWithInputPorts:output:",
+      "value": 28608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$count",
+      "value": 28640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$countByEnumeratingWithState:objects:count:",
+      "value": 28672,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$currentDevice",
+      "value": 28704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$currentLocale",
+      "value": 28736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$currentNotificationCenter",
+      "value": 28768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$defaultDeviceWithDeviceType:mediaType:position:",
+      "value": 28800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$defaultDeviceWithMediaType:",
+      "value": 28832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$deviceInputWithDevice:error:",
+      "value": 28864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$dictionaryWithObjects:forKeys:count:",
+      "value": 28896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$doubleValue",
+      "value": 28928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$errorWithCode:message:details:",
+      "value": 28960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$eventChannelWithName:binaryMessenger:",
+      "value": 28992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$formatDescription",
+      "value": 29024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$getMetadataOutput",
+      "value": 29056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$getNotificationSettingsWithCompletionHandler:",
+      "value": 29088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$getPushNotificationsPermissionStatus:",
+      "value": 29120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$identifierForVendor",
+      "value": 29152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithRegistry:",
+      "value": 29184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$initWithString:",
+      "value": 29216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$inputs",
+      "value": 29248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isAutoFocusRangeRestrictionSupported",
+      "value": 29280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isEqualToString:",
+      "value": 29312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isFocusModeSupported:",
+      "value": 29344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isLowLightBoostEnabled",
+      "value": 29376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isRotatedWithOrientation:",
+      "value": 29408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$isSmoothAutoFocusSupported",
+      "value": 29440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$localTimeZone",
+      "value": 29472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$lockForConfiguration:",
+      "value": 29504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$mainBundle",
+      "value": 29536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$messenger",
+      "value": 29568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$method",
+      "value": 29600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$methodChannelWithName:binaryMessenger:",
+      "value": 29632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$name",
+      "value": 29664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithBool:",
+      "value": 29696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithDouble:",
+      "value": 29728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithInteger:",
+      "value": 29760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithLongLong:",
+      "value": 29792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithUnsignedInt:",
+      "value": 29824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$numberWithUnsignedInteger:",
+      "value": 29856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectAtIndex:",
+      "value": 29888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectForInfoDictionaryKey:",
+      "value": 29920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectForKey:",
+      "value": 29952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$objectForKeyedSubscript:",
+      "value": 29984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$openAppSettings",
+      "value": 30016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$openURL:options:completionHandler:",
+      "value": 30048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$outputs",
+      "value": 30080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$physicalMemory",
+      "value": 30112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$ports",
+      "value": 30144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$processInfo",
+      "value": 30176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$registerForRemoteNotifications",
+      "value": 30208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$registerTexture:",
+      "value": 30240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$registerWithRegistrar:",
+      "value": 30272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$removeInput:",
+      "value": 30304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$removeOutput:",
+      "value": 30336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$requestAccessForMediaType:completionHandler:",
+      "value": 30368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$requestAuthorizationWithOptions:completionHandler:",
+      "value": 30400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$requestPermissionWithResult:",
+      "value": 30432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$requestPushNotificationsPermission:",
+      "value": 30464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$scanSingleCodeWithResult:",
+      "value": 30496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$scanWindowSize",
+      "value": 30528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setAlwaysDiscardsLateVideoFrames:",
+      "value": 30560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setAutoFocusRangeRestriction:",
+      "value": 30592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setAutomaticallyEnablesLowLightBoostWhenAvailable:",
+      "value": 30624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setFocusMode:",
+      "value": 30656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setImageSize:",
+      "value": 30688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setMetadataObjectTypes:",
+      "value": 30720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setMetadataObjectsDelegate:queue:",
+      "value": 30752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setRectOfInterest:",
+      "value": 30784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setSampleBufferDelegate:queue:",
+      "value": 30816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setScanWindowSize:",
+      "value": 30848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setSessionPreset:",
+      "value": 30880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setSmoothAutoFocusEnabled:",
+      "value": 30912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setStreamHandler:",
+      "value": 30944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setVideoOrientation:",
+      "value": 30976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setVideoSettings:",
+      "value": 31008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$setViewFinderSize:",
+      "value": 31040,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$sharedApplication",
+      "value": 31072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$sink",
+      "value": 31104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$startRunning",
+      "value": 31136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$startWithResult:",
+      "value": 31168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$statusBarOrientation",
+      "value": 31200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stopRunning",
+      "value": 31232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stopWithResult:",
+      "value": 31264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringValue",
+      "value": 31296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringWithFormat:",
+      "value": 31328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$stringWithUTF8String:",
+      "value": 31360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$systemName",
+      "value": 31392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$systemVersion",
+      "value": 31424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$textureFrameAvailable:",
+      "value": 31456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$textures",
+      "value": 31488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$type",
+      "value": 31520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$uiOrientation",
+      "value": 31552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$unlockForConfiguration",
+      "value": 31584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$unregisterTexture:",
+      "value": 31616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$videoOrientation",
+      "value": 31648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend$viewFinderSize",
+      "value": 31680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_40_e8_32bs_e8_v12\u0001?0B8l",
+      "value": 49272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_65_e8_32s40bs48w_e5_v8\u0001?0l",
+      "value": 49320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_48_e8_32s40w_e5_v8\u0001?0l",
+      "value": 49368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_72_e8_32s_e5_v8\u0001?0l",
+      "value": 49416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_48_e8_32s40bs_e5_v8\u0001?0l",
+      "value": 49464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_40_e8_32bs_e32_v16\u0001?0\u0001\"UNNotificationSettings\"8l",
+      "value": 49512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___block_descriptor_48_e8_32s40bs_e20_v20\u0001?0B8\u0001\"NSError\"12l",
+      "value": 49560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_NSObject",
+      "value": 50888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate",
+      "value": 50896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate",
+      "value": 50904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterPlugin",
+      "value": 50912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterStreamHandler",
+      "value": 50920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate",
+      "value": 50928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate",
+      "value": 50936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_LABEL_PROTOCOL_$_FlutterTexture",
+      "value": 50944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_CLASS_METHODS_MobileScannerPlugin",
+      "value": 65800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject",
+      "value": 65832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject",
+      "value": 66296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_NSObject",
+      "value": 66328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject",
+      "value": 66400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate",
+      "value": 66560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate",
+      "value": 66584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate",
+      "value": 66664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate",
+      "value": 66688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate",
+      "value": 66712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate",
+      "value": 67176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_FlutterPlugin",
+      "value": 67328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin",
+      "value": 67360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin",
+      "value": 67392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin",
+      "value": 67448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin",
+      "value": 67480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_FlutterStreamHandler",
+      "value": 67512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterStreamHandler",
+      "value": 67568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_AVCaptureVideoDataOutputSampleBufferDelegate",
+      "value": 67584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureVideoDataOutputSampleBufferDelegate",
+      "value": 67608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureVideoDataOutputSampleBufferDelegate",
+      "value": 67664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_AVCaptureMetadataOutputObjectsDelegate",
+      "value": 67680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureMetadataOutputObjectsDelegate",
+      "value": 67704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureMetadataOutputObjectsDelegate",
+      "value": 67736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_REFS_FlutterTexture",
+      "value": 67744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_FlutterTexture",
+      "value": 67768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterTexture",
+      "value": 67800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterTexture",
+      "value": 67832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_PROTOCOLS_$_MobileScannerPlugin",
+      "value": 67848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_MobileScannerPlugin",
+      "value": 67904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_METHODS_MobileScannerPlugin",
+      "value": 67976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_VARIABLES_MobileScannerPlugin",
+      "value": 68896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_MobileScannerPlugin",
+      "value": 69320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_MobileScannerPlugin",
+      "value": 69584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_CLASS_METHODS_PlatformInterfacePlugin",
+      "value": 69656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_PROTOCOLS_$_PlatformInterfacePlugin",
+      "value": 69688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PlatformInterfacePlugin",
+      "value": 69712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_INSTANCE_METHODS_PlatformInterfacePlugin",
+      "value": 69784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_PlatformInterfacePlugin",
+      "value": 69912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PlatformInterfacePlugin",
+      "value": 69984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PodsDummy_social_plugin",
+      "value": 70056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PodsDummy_social_plugin",
+      "value": 70128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_CLASS_METHODS_SocialPlugin",
+      "value": 70200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_PROTOCOLS_$_SocialPlugin",
+      "value": 70232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_SocialPlugin",
+      "value": 70256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_$_PROP_LIST_SocialPlugin",
+      "value": 70328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_SocialPlugin",
+      "value": 70400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._scanCode",
+      "value": 71600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._registry",
+      "value": 71604,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._sink",
+      "value": 71608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._textureId",
+      "value": 71612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._captureSession",
+      "value": 71616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._device",
+      "value": 71620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._latestBuffer",
+      "value": 71624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._backgroundQueue",
+      "value": 71628,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._initialVideoOrientation",
+      "value": 71632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._scanAreaView",
+      "value": 71636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._imageSize",
+      "value": 71640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._viewFinderSize",
+      "value": 71644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_IVAR_$_MobileScannerPlugin._scanWindowSize",
+      "value": 71648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_NSObject",
+      "value": 71976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate",
+      "value": 72072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate",
+      "value": 72168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterPlugin",
+      "value": 72264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterStreamHandler",
+      "value": 72360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate",
+      "value": 72456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_AVCaptureMetadataOutputObjectsDelegate",
+      "value": 72552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_PROTOCOL_$_FlutterTexture",
+      "value": 72648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 72744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_MobileScannerPlugin",
+      "value": 71656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PlatformInterfacePlugin",
+      "value": 71736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PodsDummy_social_plugin",
+      "value": 71856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_SocialPlugin",
+      "value": 71936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_MobileScannerPlugin",
+      "value": 71696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PlatformInterfacePlugin",
+      "value": 71776,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PodsDummy_social_plugin",
+      "value": 71816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_SocialPlugin",
+      "value": 71896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_social_pluginVersionNumber",
+      "value": 31760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_social_pluginVersionString",
+      "value": 31712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_AVCaptureDeviceTypeBuiltInDualWideCamera",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_AVCaptureSessionPresetHigh",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_AVMediaTypeVideo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_AVMetadataObjectTypeQRCode",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CFRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CGSizeZero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CMSampleBufferGetImageBuffer",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CMVideoFormatDescriptionGetPresentationDimensions",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CVPixelBufferGetHeight",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_CVPixelBufferGetWidth",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_FlutterMethodNotImplemented",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSLocaleCountryCode",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureConnection",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureDevice",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureDeviceInput",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureMetadataOutput",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureSession",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_AVCaptureVideoDataOutput",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterEventChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterMethodChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSArray",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSBundle",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSDictionary",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSLocale",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNumber",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSProcessInfo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSTimeZone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSURL",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIApplication",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIDevice",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UNUserNotificationCenter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIApplicationOpenSettingsURLString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_object_assign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___CFConstantStringClassReference",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___NSDictionary0__",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dispatch_main_q",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_after",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_async",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_queue_create",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_time",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kCVPixelBufferPixelFormatTypeKey",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_alloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_alloc_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_copyWeak",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_destroyWeak",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_enumerationMutation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_initWeak",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_loadWeakRetained",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_class",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_isKindOfClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_new",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_setProperty_nonatomic_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_storeStrong",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sysctlbyname",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

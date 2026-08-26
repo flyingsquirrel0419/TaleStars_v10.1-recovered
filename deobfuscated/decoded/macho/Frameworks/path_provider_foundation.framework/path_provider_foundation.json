@@ -1,0 +1,4410 @@
+{
+  "source": "Frameworks/path_provider_foundation.framework/path_provider_foundation",
+  "size": 144288,
+  "sha256": "3134526aa5b73aa2e82e4f66404fdfcdd8afc74481e913600829997f787db1f0",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1114245,
+    "numberOfCommands": 39,
+    "commandsSize": 5024,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/path_provider_foundation.framework/path_provider_foundation",
+    "@rpath/Flutter.framework/Flutter",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/swift/libswiftCore.dylib",
+    "/usr/lib/swift/libswiftCoreAudio.dylib",
+    "/usr/lib/swift/libswiftCoreFoundation.dylib",
+    "/usr/lib/swift/libswiftCoreImage.dylib",
+    "/usr/lib/swift/libswiftCoreMedia.dylib",
+    "/usr/lib/swift/libswiftDarwin.dylib",
+    "/usr/lib/swift/libswiftDispatch.dylib",
+    "/usr/lib/swift/libswiftMetal.dylib",
+    "/usr/lib/swift/libswiftOSLog.dylib",
+    "/usr/lib/swift/libswiftObjectiveC.dylib",
+    "/usr/lib/swift/libswiftQuartzCore.dylib",
+    "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+    "/usr/lib/swift/libswiftXPC.dylib",
+    "/usr/lib/swift/libswiftos.dylib",
+    "/usr/lib/swift/libswiftsimd.dylib",
+    "/usr/lib/swift/libswiftFoundation.dylib",
+    "/usr/lib/swift/libswiftUIKit.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 14588,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 912,
+      "offset": 30972,
+      "virtualAddress": 30972,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 912,
+      "offset": 31884,
+      "virtualAddress": 31884,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 776,
+      "offset": 32800,
+      "virtualAddress": 32800,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_classname",
+      "size": 35,
+      "offset": 33576,
+      "virtualAddress": 33576,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 2844,
+      "offset": 33616,
+      "virtualAddress": 33616,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__constg_swiftt",
+      "size": 468,
+      "offset": 36460,
+      "virtualAddress": 36460,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_typeref",
+      "size": 328,
+      "offset": 36928,
+      "virtualAddress": 36928,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_reflstr",
+      "size": 138,
+      "offset": 37264,
+      "virtualAddress": 37264,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_fieldmd",
+      "size": 252,
+      "offset": 37404,
+      "virtualAddress": 37404,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 1701,
+      "offset": 37656,
+      "virtualAddress": 37656,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_capture",
+      "size": 48,
+      "offset": 39360,
+      "virtualAddress": 39360,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_assocty",
+      "size": 24,
+      "offset": 39408,
+      "virtualAddress": 39408,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_protos",
+      "size": 4,
+      "offset": 39432,
+      "virtualAddress": 39432,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_proto",
+      "size": 20,
+      "offset": 39436,
+      "virtualAddress": 39436,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_types",
+      "size": 32,
+      "offset": 39456,
+      "virtualAddress": 39456,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 464,
+      "offset": 39488,
+      "virtualAddress": 39488,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__eh_frame",
+      "size": 104,
+      "offset": 39952,
+      "virtualAddress": 39952,
+      "type": "TYPE.COALESCED",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 80,
+      "offset": 49152,
+      "virtualAddress": 49152,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__const",
+      "size": 656,
+      "offset": 49232,
+      "virtualAddress": 49232,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 64,
+      "offset": 49888,
+      "virtualAddress": 49888,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_protolist",
+      "size": 32,
+      "offset": 49952,
+      "virtualAddress": 49952,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 49984,
+      "virtualAddress": 49984,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 592,
+      "offset": 65536,
+      "virtualAddress": 65536,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 1968,
+      "offset": 66128,
+      "virtualAddress": 66128,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 104,
+      "offset": 68096,
+      "virtualAddress": 68096,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_protorefs",
+      "size": 32,
+      "offset": 68200,
+      "virtualAddress": 68200,
+      "type": "TYPE.COALESCED",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 24,
+      "offset": 68232,
+      "virtualAddress": 68232,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 2976,
+      "offset": 68256,
+      "virtualAddress": 68256,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 616,
+      "offset": 71232,
+      "virtualAddress": 71232,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift51_hooks",
+      "size": 184,
+      "offset": 71848,
+      "virtualAddress": 71848,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__s_async_hook",
+      "size": 400,
+      "offset": 72032,
+      "virtualAddress": 72032,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift56_hooks",
+      "size": 176,
+      "offset": 72432,
+      "virtualAddress": 72432,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__common",
+      "size": 8,
+      "offset": 0,
+      "virtualAddress": 72608,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__bss",
+      "size": 816,
+      "offset": 0,
+      "virtualAddress": 72624,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "PodsDummy_path_provider_foundation",
+    "applicationWillEnterForeground:",
+    "application:continueUserActivity:restorationHandler:",
+    "isProxy",
+    "application:didFinishLaunchingWithOptions:",
+    "release",
+    "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+    ".cxx_destruct",
+    "dealloc",
+    "application:didFailToRegisterForRemoteNotificationsWithError:",
+    "readerWithData:",
+    "application:didReceiveLocalNotification:",
+    "writerWithData:",
+    "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+    "application:didRegisterUserNotificationSettings:",
+    "application:handleEventsForBackgroundURLSession:completionHandler:",
+    "application:handleOpenURL:",
+    "application:openURL:options:",
+    "application:openURL:sourceApplication:annotation:",
+    "application:performActionForShortcutItem:completionHandler:",
+    "application:performFetchWithCompletionHandler:",
+    "application:willFinishLaunchingWithOptions:",
+    "applicationDidBecomeActive:",
+    "applicationDidEnterBackground:",
+    "applicationWillResignActive:",
+    "applicationWillTerminate:",
+    "autorelease",
+    "class",
+    "codecWithReaderWriter:",
+    "conformsToProtocol:",
+    "containerURLForSecurityApplicationGroupIdentifier:",
+    "debugDescription",
+    "defaultManager",
+    "description",
+    "detachFromEngineForRegistrar:",
+    "handleMethodCall:result:",
+    "hash",
+    "init",
+    "initWithData:",
+    "initWithName:binaryMessenger:codec:",
+    "isEqual:",
+    "isKindOfClass:",
+    "isMemberOfClass:",
+    "messenger",
+    "performSelector:",
+    "performSelector:withObject:",
+    "performSelector:withObject:withObject:",
+    "readValue",
+    "readValueOfType:",
+    "registerWithRegistrar:",
+    "respondsToSelector:",
+    "retain",
+    "retainCount",
+    "self",
+    "setMessageHandler:",
+    "setPluginRegistrantCallback:",
+    "superclass",
+    "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+    "userNotificationCenter:openSettingsForNotification:",
+    "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+    "writeByte:",
+    "writeValue:",
+    "zone"
+  ],
+  "importedFunctions": [
+    "_$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ",
+    "_$s10Foundation3URLV4pathSSvg",
+    "_$s10Foundation3URLVMa",
+    "_$s10Foundation3URLVMn",
+    "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+    "_$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+    "_$s8RawValueSYTl",
+    "_$sBOWV",
+    "_$sBoWV",
+    "_$sSH13_rawHashValue4seedS2i_tFTq",
+    "_$sSH4hash4intoys6HasherVz_tFTq",
+    "_$sSH9hashValueSivgTq",
+    "_$sSHMp",
+    "_$sSHSQTb",
+    "_$sSQ2eeoiySbx_xtFZTq",
+    "_$sSQMp",
+    "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+    "_$sSS5countSivg",
+    "_$sSS6appendyySSF",
+    "_$sSSN",
+    "_$sSY8rawValue03RawB0QzvgTq",
+    "_$sSY8rawValuexSg03RawB0Qz_tcfCTq",
+    "_$sSYMp",
+    "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+    "_$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF",
+    "_$sSiN",
+    "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+    "_$ss11_StringGutsV4growyySiF",
+    "_$ss23_ContiguousArrayStorageCMn",
+    "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+    "_$ss5ErrorMp",
+    "_$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq",
+    "_$ss5ErrorP5_codeSivgTq",
+    "_$ss5ErrorP7_domainSSvgTq",
+    "_$ss5ErrorP9_userInfoyXlSgvgTq",
+    "_$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF",
+    "_$ss5ErrorPsE5_codeSivg",
+    "_$ss5ErrorPsE7_domainSSvg",
+    "_$ss5ErrorPsE9_userInfoyXlSgvg",
+    "_$ss6HasherV5_seedABSi_tcfC",
+    "_$ss6HasherV8_combineyySuF",
+    "_$ss6HasherV9_finalizeSiyF",
+    "_$sypN",
+    "_NSSearchPathForDirectoriesInDomains",
+    "_OBJC_CLASS_$_FlutterBasicMessageChannel",
+    "_OBJC_CLASS_$_FlutterStandardMessageCodec",
+    "_OBJC_CLASS_$_FlutterStandardReader",
+    "_OBJC_CLASS_$_FlutterStandardReaderWriter",
+    "_OBJC_CLASS_$_FlutterStandardWriter",
+    "_OBJC_CLASS_$_NSFileManager",
+    "_OBJC_CLASS_$_NSNull",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$__TtCs12_SwiftObject",
+    "_OBJC_METACLASS_$_FlutterStandardMessageCodec",
+    "_OBJC_METACLASS_$_FlutterStandardReader",
+    "_OBJC_METACLASS_$_FlutterStandardReaderWriter",
+    "_OBJC_METACLASS_$_FlutterStandardWriter",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+    "__Block_copy",
+    "__Block_release",
+    "__NSConcreteStackBlock",
+    "__ZdlPv",
+    "__Znwm",
+    "___chkstk_darwin",
+    "__dyld_register_func_for_add_image",
+    "__objc_empty_cache",
+    "__swift_FORCE_LOAD_$_swiftCoreAudio",
+    "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+    "__swift_FORCE_LOAD_$_swiftCoreImage",
+    "__swift_FORCE_LOAD_$_swiftCoreMedia",
+    "__swift_FORCE_LOAD_$_swiftDispatch",
+    "__swift_FORCE_LOAD_$_swiftFoundation",
+    "__swift_FORCE_LOAD_$_swiftMetal",
+    "__swift_FORCE_LOAD_$_swiftOSLog",
+    "__swift_FORCE_LOAD_$_swiftObjectiveC",
+    "__swift_FORCE_LOAD_$_swiftQuartzCore",
+    "__swift_FORCE_LOAD_$_swiftUIKit",
+    "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+    "__swift_FORCE_LOAD_$_swiftXPC",
+    "__swift_FORCE_LOAD_$_swift_Builtin_float",
+    "__swift_FORCE_LOAD_$_swiftos",
+    "__swift_FORCE_LOAD_$_swiftsimd",
+    "__swift_stdlib_operatingSystemVersion",
+    "_abort",
+    "_dispatch_once_f",
+    "_dlsym",
+    "_free",
+    "_getsectiondata",
+    "_malloc",
+    "_memcmp",
+    "_memmove",
+    "_objc_allocWithZone",
+    "_objc_autoreleaseReturnValue",
+    "_objc_getClass",
+    "_objc_lookUpClass",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_self",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleasedReturnValue",
+    "_os_release",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_posix_memalign",
+    "_pthread_getspecific",
+    "_pthread_mutex_init",
+    "_pthread_mutex_lock",
+    "_pthread_mutex_unlock",
+    "_pthread_setspecific",
+    "_realloc",
+    "_strcmp",
+    "_strlen",
+    "_swift_allocObject",
+    "_swift_bridgeObjectRelease",
+    "_swift_bridgeObjectRetain",
+    "_swift_deallocClassInstance",
+    "_swift_deallocObject",
+    "_swift_deletedMethodError",
+    "_swift_dynamicCast",
+    "_swift_errorRetain",
+    "_swift_getObjCClassFromMetadata",
+    "_swift_getObjCClassMetadata",
+    "_swift_getObjectType",
+    "_swift_getTypeByMangledNameInContext",
+    "_swift_getWitnessTable",
+    "_swift_lookUpClassMethod",
+    "_swift_once",
+    "_swift_release",
+    "_swift_retain",
+    "_swift_unknownObjectRelease",
+    "_swift_unknownObjectRetain",
+    "_voucher_adopt",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_$s24path_provider_foundation18PathProviderPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+    "_$s24path_provider_foundation18PathProviderPluginCACycfC",
+    "_$s24path_provider_foundation18PathProviderPluginCACycfc",
+    "_$s24path_provider_foundation18PathProviderPluginCMa",
+    "_$s24path_provider_foundation18PathProviderPluginCMn",
+    "_$s24path_provider_foundation18PathProviderPluginCMo",
+    "_$s24path_provider_foundation18PathProviderPluginCMu",
+    "_$s24path_provider_foundation18PathProviderPluginCN",
+    "_$s24path_provider_foundation18PathProviderPluginCfD",
+    "_OBJC_CLASS_$_PodsDummy_path_provider_foundation",
+    "_OBJC_CLASS_$__TtC24path_provider_foundation18PathProviderPlugin",
+    "_OBJC_METACLASS_$_PodsDummy_path_provider_foundation",
+    "_OBJC_METACLASS_$__TtC24path_provider_foundation18PathProviderPlugin",
+    "_path_provider_foundationVersionNumber",
+    "_path_provider_foundationVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCfD",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCMa",
+      "value": 16452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAsADP7_domainSSvgTW",
+      "value": 16484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAsADP5_codeSivgTW",
+      "value": 16488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAsADP9_userInfoyXlSgvgTW",
+      "value": 16492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW",
+      "value": 16496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation10nilOrValue33_7EDA05D020E1F315CC375C7C1D72F461LLyxSgypSglFSi_Tg5",
+      "value": 16500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSQAASQ2eeoiySbx_xtFZTW",
+      "value": 16768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAASH9hashValueSivgTW",
+      "value": 16788,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAASH4hash4intoys6HasherVz_tFTW",
+      "value": 16856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAASH13_rawHashValue4seedS2i_tFTW",
+      "value": 16896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSYAASY8rawValuexSg03RawG0Qz_tcfCTW",
+      "value": 16960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSYAASY8rawValue03RawG0QzvgTW",
+      "value": 17000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLC9readValue6ofTypeypSgs5UInt8V_tF",
+      "value": 17012,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLC9readValue6ofTypeypSgs5UInt8V_tFTo",
+      "value": 17428,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLC4dataAD10Foundation4DataV_tcfcTo",
+      "value": 17652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCADycfcTo",
+      "value": 17812,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCfD",
+      "value": 17828,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCMa",
+      "value": 17844,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC10writeValueyyypF",
+      "value": 17876,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC10writeValueyyypFTo",
+      "value": 18124,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC4dataADSo13NSMutableDataC_tcfcTo",
+      "value": 18228,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCADycfcTo",
+      "value": 18300,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCfD",
+      "value": 18316,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMa",
+      "value": 18332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC6reader4withSo015FlutterStandardG0C10Foundation4DataV_tFTo",
+      "value": 18364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC6writer4withSo015FlutterStandardH0CSo13NSMutableDataC_tFTo",
+      "value": 18516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCADycfcTo",
+      "value": 18572,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCfD",
+      "value": 18588,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMa",
+      "value": 18604,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecC6shared_WZ",
+      "value": 18636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCACycfcTo",
+      "value": 18748,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCADycfcToTm",
+      "value": 18760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCfD",
+      "value": 18824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCfDTm",
+      "value": 18836,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCfETo",
+      "value": 18884,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCMa",
+      "value": 18888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU_",
+      "value": 18920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgAAIegn_Iegng_yXlSgABIeyBy_IeyByy_TR",
+      "value": 19308,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TR",
+      "value": 19528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU0_",
+      "value": 19768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCfD",
+      "value": 20176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCMa",
+      "value": 20192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV15_RepresentationOWOe",
+      "value": 20224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypWOc",
+      "value": 20288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_project_boxed_opaque_existential_0",
+      "value": 20348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_instantiateConcreteTypeFromMangledNameV2",
+      "value": 20384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeO8rawValueACSgSi_tcfCTf4nd_n",
+      "value": 20452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypWOb",
+      "value": 20468,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo6NSNullCMa",
+      "value": 20484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZTf4nnnd_n",
+      "value": 20552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOcTm",
+      "value": 21680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pSgWOhTm",
+      "value": 21752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOhTm",
+      "value": 21752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pWOb",
+      "value": 21816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pWOc",
+      "value": 21840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_0Tm",
+      "value": 21944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU0_TA",
+      "value": 21976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 21984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 22000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU_TA",
+      "value": 22008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA",
+      "value": 22052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_memcpy1_1",
+      "value": 22060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_noop_void_return",
+      "value": 22072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOwet",
+      "value": 22076,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOwst",
+      "value": 22220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOwug",
+      "value": 22396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s",
+      "value": 22404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOwup",
+      "value": 22404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOwui",
+      "value": 22408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOMa",
+      "value": 22416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAASQWb",
+      "value": 22432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOACSQAAWl",
+      "value": 22436,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.4",
+      "value": 22500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.5",
+      "value": 22508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC8register4withySo07FlutterF9Registrar_p_tFZTo",
+      "value": 22764,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCACycfcTo",
+      "value": 23024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC012getDirectoryD04typeSSSgAA0H4TypeO_tFTf4nd_n",
+      "value": 23144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC012getContainerD018appGroupIdentifierSSSgSS_tFTf4nd_n",
+      "value": 23288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLVSgWOb",
+      "value": 23736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv",
+      "value": 23816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+      "value": 23864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv",
+      "value": 25164,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE",
+      "value": 25260,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm",
+      "value": 25948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvENUlPvE_8__invokeES8_",
+      "value": 26232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_",
+      "value": 26280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvENUlPvE_8__invokeES6_",
+      "value": 26324,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_",
+      "value": 26372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE",
+      "value": 26696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header",
+      "value": 26900,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl",
+      "value": 27352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_1",
+      "value": 27356,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_0",
+      "value": 27356,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv.cold.1",
+      "value": 27364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.1",
+      "value": 27384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.1",
+      "value": 27384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.3",
+      "value": 27408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.5",
+      "value": 27408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.2",
+      "value": 27408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.4",
+      "value": 27444,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.2",
+      "value": 27480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.3",
+      "value": 27500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE",
+      "value": 27520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E",
+      "value": 28100,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE",
+      "value": 28332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E",
+      "value": 28340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE",
+      "value": 28612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE",
+      "value": 28628,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask18flagAsRunning_slowEv",
+      "value": 28644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask20flagAsSuspended_slowEv",
+      "value": 28996,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE",
+      "value": 29348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvENUlPvE_8__invokeES4_",
+      "value": 29428,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE",
+      "value": 29476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE.cold.1",
+      "value": 29708,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift28swift_Concurrency_fatalErrorEjPKcz",
+      "value": 29732,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift21swift_task_getCurrentEv",
+      "value": 29744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift24_swift_task_clearCurrentEv",
+      "value": 29752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE",
+      "value": 29804,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE",
+      "value": 29848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL27_initializeVouchersDisabledPv",
+      "value": 30024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE",
+      "value": 30080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_",
+      "value": 30276,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE.cold.1",
+      "value": 30324,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE.cold.1",
+      "value": 30324,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv",
+      "value": 30348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv",
+      "value": 30420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 30492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 30540,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv.cold.1",
+      "value": 30588,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv.cold.1",
+      "value": 30612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb",
+      "value": 30636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s",
+      "value": 30644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s",
+      "value": 30664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc",
+      "value": 30684,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc",
+      "value": 30756,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 30828,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 30876,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 30924,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 30948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorC4codeSSvpWvd",
+      "value": 32896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorC7messageSSSgvpWvd",
+      "value": 32904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorC7detailss8Sendable_pSgvpWvd",
+      "value": 32912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAMc",
+      "value": 33144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMR",
+      "value": 33208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss8Sendable_pSgMR",
+      "value": 33216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypSgGMR",
+      "value": 33232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCyypSgGMR",
+      "value": 33240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSYAAMc",
+      "value": 33264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAAMc",
+      "value": 33320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSQAAMc",
+      "value": 33384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_reflection_version",
+      "value": 33424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pSgMR",
+      "value": 33440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCAA0dE3ApiAAMc",
+      "value": 33448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLVSgMR",
+      "value": 33512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundationMXM",
+      "value": 36460,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCMn",
+      "value": 36472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorC4code7message7detailsACSS_SSSgs8Sendable_pSgtcfCTq",
+      "value": 36524,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCMXX",
+      "value": 36532,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCMn",
+      "value": 36540,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMXX",
+      "value": 36584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMn",
+      "value": 36592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMXX",
+      "value": 36636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMn",
+      "value": 36644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCMn",
+      "value": 36688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApiMp",
+      "value": 36732,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApiTL",
+      "value": 36748,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApiP012getDirectoryD04typeSSSgAA0H4TypeO_tKFTq",
+      "value": 36756,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApiP012getContainerD018appGroupIdentifierSSSgSS_tKFTq",
+      "value": 36764,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCMn",
+      "value": 36772,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCACycfCTq",
+      "value": 36824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOMn",
+      "value": 36832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC012getDirectoryD04typeSSSgAA0H4TypeO_tFTq",
+      "value": 36912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC012getContainerD018appGroupIdentifierSSSgSS_tFTq",
+      "value": 36920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation11PigeonErrorC",
+      "value": 36928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS",
+      "value": 36934,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SSSg",
+      "value": 36938,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ypSg",
+      "value": 36944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So21FlutterStandardReaderC",
+      "value": 36950,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLC",
+      "value": 36978,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So21FlutterStandardWriterC",
+      "value": 36984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC",
+      "value": 37012,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So27FlutterStandardReaderWriterC",
+      "value": 37018,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLC",
+      "value": 37052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So27FlutterStandardMessageCodecC",
+      "value": 37058,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation19MessagesPigeonCodecC",
+      "value": 37092,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s24path_provider_foundation15PathProviderApiP",
+      "value": 37098,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation20PathProviderApiSetupC",
+      "value": 37146,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______pSg 24path_provider_foundation15PathProviderApiP",
+      "value": 37152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______p 24path_provider_foundation15PathProviderApiP",
+      "value": 37162,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SayypSgG",
+      "value": 37170,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____yypSgG s23_ContiguousArrayStorageC",
+      "value": 37180,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yXlSgIeyBy_",
+      "value": 37192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation13DirectoryTypeO",
+      "value": 37204,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Si",
+      "value": 37210,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $sSY",
+      "value": 37214,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 24path_provider_foundation13DirectoryTypeOSHAASQ",
+      "value": 37220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So8NSObjectC",
+      "value": 37228,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 24path_provider_foundation18PathProviderPluginC",
+      "value": 37242,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____Sg 10Foundation3URLV",
+      "value": 37248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCMF",
+      "value": 37404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCMF",
+      "value": 37456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMF",
+      "value": 37472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMF",
+      "value": 37488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCMF",
+      "value": 37504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pMF",
+      "value": 37520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCMF",
+      "value": 37536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOMF",
+      "value": 37552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMF",
+      "value": 37640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSYAAMA",
+      "value": 39408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation_$_path_provider_foundation",
+      "value": 49232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float_$_path_provider_foundation",
+      "value": 49240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC_$_path_provider_foundation",
+      "value": 49248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation_$_path_provider_foundation",
+      "value": 49256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch_$_path_provider_foundation",
+      "value": 49264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC_$_path_provider_foundation",
+      "value": 49272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia_$_path_provider_foundation",
+      "value": 49280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd_$_path_provider_foundation",
+      "value": 49288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal_$_path_provider_foundation",
+      "value": 49296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio_$_path_provider_foundation",
+      "value": 49304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit_$_path_provider_foundation",
+      "value": 49312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore_$_path_provider_foundation",
+      "value": 49320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage_$_path_provider_foundation",
+      "value": 49328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_path_provider_foundation",
+      "value": 49336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos_$_path_provider_foundation",
+      "value": 49344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog_$_path_provider_foundation",
+      "value": 49352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51_$_path_provider_foundation",
+      "value": 49360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_path_provider_foundation",
+      "value": 49368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56_$_path_provider_foundation",
+      "value": 49376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 49424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.6",
+      "value": 49504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOWV",
+      "value": 49584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOMf",
+      "value": 49696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeON",
+      "value": 49712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCAA0dE3ApiAAWP",
+      "value": 49856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PodsDummy_path_provider_foundation",
+      "value": 66128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PodsDummy_path_provider_foundation",
+      "value": 66200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundation11PigeonError",
+      "value": 66272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC24path_provider_foundation11PigeonError",
+      "value": 66344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundation11PigeonError",
+      "value": 66448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecReader",
+      "value": 66520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecWriter",
+      "value": 66592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46131MessagesPigeonCodecReaderWriter",
+      "value": 66664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundation19MessagesPigeonCodec",
+      "value": 66736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundation20PathProviderApiSetup",
+      "value": 66808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundation20PathProviderApiSetup",
+      "value": 66880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterPlugin",
+      "value": 66952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 67048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 67064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC24path_provider_foundation18PathProviderPlugin.1",
+      "value": 67136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_NSObject",
+      "value": 67152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterApplicationLifeCycleDelegate",
+      "value": 67248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterPlugin",
+      "value": 67344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterPlugin",
+      "value": 67368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROPERTIES_NSObject",
+      "value": 67424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_NSObject",
+      "value": 67496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_UNUserNotificationCenterDelegate",
+      "value": 67712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterApplicationLifeCycleDelegate",
+      "value": 67808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate",
+      "value": 67824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_UNUserNotificationCenterDelegate",
+      "value": 68032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate",
+      "value": 68048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecReader",
+      "value": 68336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecReader",
+      "value": 68416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCMf",
+      "value": 68488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecReader33_7EDA05D020E1F315CC375C7C1D72F461LLCN",
+      "value": 68512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecWriter",
+      "value": 68592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecWriter",
+      "value": 68672,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMf",
+      "value": 68744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation25MessagesPigeonCodecWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCN",
+      "value": 68768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46131MessagesPigeonCodecReaderWriter",
+      "value": 68848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46131MessagesPigeonCodecReaderWriter",
+      "value": 68928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCMf",
+      "value": 69000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation31MessagesPigeonCodecReaderWriter33_7EDA05D020E1F315CC375C7C1D72F461LLCN",
+      "value": 69024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC24path_provider_foundation19MessagesPigeonCodec",
+      "value": 69104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundation19MessagesPigeonCodec",
+      "value": 69160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCMf",
+      "value": 69232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC24path_provider_foundation19MessagesPigeonCodec",
+      "value": 69256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecCN",
+      "value": 69256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__CLASS_METHODS__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 69336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 69368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 69400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMf",
+      "value": 69472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_FlutterPlugin",
+      "value": 69592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin",
+      "value": 69648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin",
+      "value": 69752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_NSObject",
+      "value": 69784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_NSObject",
+      "value": 70416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate",
+      "value": 70448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate",
+      "value": 71080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecC6shared_Wz",
+      "value": 71232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCMm",
+      "value": 71240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCMf",
+      "value": 71280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCN",
+      "value": 71304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecReader",
+      "value": 71416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46125MessagesPigeonCodecWriter",
+      "value": 71456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC24path_provider_foundationP33_7EDA05D020E1F315CC375C7C1D72F46131MessagesPigeonCodecReaderWriter",
+      "value": 71496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC24path_provider_foundation19MessagesPigeonCodec",
+      "value": 71536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCMm",
+      "value": 71576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCMf",
+      "value": 71616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation20PathProviderApiSetupCN",
+      "value": 71640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMd",
+      "value": 71728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo6NSNullCML",
+      "value": 71736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss8Sendable_pSgMd",
+      "value": 71744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation15PathProviderApi_pSgMd",
+      "value": 71752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypSgGMd",
+      "value": 71760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCyypSgGMd",
+      "value": 71768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOACSQAAWL",
+      "value": 71776,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLVSgMd",
+      "value": 71824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51",
+      "value": 71832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56",
+      "value": 71833,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency",
+      "value": 71834,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 71840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift51Overrides",
+      "value": 71848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56ConcurrencyOverrides",
+      "value": 72032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56RuntimeOverrides",
+      "value": 72432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation19MessagesPigeonCodecC6sharedACvpZ",
+      "value": 72608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation11PigeonErrorCs0E0AAMcMK",
+      "value": 72624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSYAAMcMK",
+      "value": 72752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSHAAMcMK",
+      "value": 72880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation13DirectoryTypeOSQAAMcMK",
+      "value": 73008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_112ConformancesE",
+      "value": 73136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvE7TheLazy",
+      "value": 73272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvE7TheLazy",
+      "value": 73288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvE7TheLazy",
+      "value": 73304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvE7TheLazy",
+      "value": 73320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL20StatusRecordLockLockE",
+      "value": 73336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL23voucherDisableCheckOnce",
+      "value": 73344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL16vouchersDisabled",
+      "value": 73352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvE7TheLazy",
+      "value": 73360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvE7TheLazy",
+      "value": 73376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvE7TheLazy",
+      "value": 73392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 73408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 73424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+      "value": 22512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCACycfC",
+      "value": 22700,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCACycfc",
+      "value": 22976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMa",
+      "value": 22732,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMn",
+      "value": 36860,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMo",
+      "value": 33496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCMu",
+      "value": 23132,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCN",
+      "value": 69496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s24path_provider_foundation18PathProviderPluginCfD",
+      "value": 23084,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PodsDummy_path_provider_foundation",
+      "value": 68296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 69496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PodsDummy_path_provider_foundation",
+      "value": 68256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC24path_provider_foundation18PathProviderPlugin",
+      "value": 71784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_path_provider_foundationVersionNumber",
+      "value": 32856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_path_provider_foundationVersionString",
+      "value": 32800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLV4pathSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation3URLVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8RawValueSYTl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sBOWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sBoWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSH13_rawHashValue4seedS2i_tFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSH4hash4intoys6HasherVz_tFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSH9hashValueSivgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSHMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSHSQTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSQ2eeoiySbx_xtFZTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSQMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS5countSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS6appendyySSF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSSN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSY8rawValue03RawB0QzvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSY8rawValuexSg03RawB0Qz_tcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSYMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSiN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_StringGutsV4growyySiF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP5_codeSivgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP7_domainSSvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP9_userInfoyXlSgvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE5_codeSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE7_domainSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE9_userInfoyXlSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV5_seedABSi_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV8_combineyySuF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV9_finalizeSiyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSSearchPathForDirectoriesInDomains",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterBasicMessageChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardMessageCodec",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardReader",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardReaderWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSFileManager",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNull",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardMessageCodec",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardReader",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardReaderWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZdlPv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Znwm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___chkstk_darwin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_add_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_stdlib_operatingSystemVersion",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_abort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_once_f",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsectiondata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memmove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_allocWithZone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_lookUpClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_memalign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_getspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_realloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocClassInstance",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deletedMethodError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_dynamicCast",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassFromMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjectType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getTypeByMangledNameInContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getWitnessTable",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_lookUpClassMethod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_once",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_voucher_adopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

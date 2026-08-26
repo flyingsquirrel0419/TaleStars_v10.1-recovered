@@ -1,0 +1,5974 @@
+{
+  "source": "Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation",
+  "size": 198608,
+  "sha256": "95dccf6411dab2672f93616113e6331f634b86055cf0c6e3bea9ddf3a4331623",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1114245,
+    "numberOfCommands": 39,
+    "commandsSize": 4952,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/shared_preferences_foundation.framework/shared_preferences_foundation",
+    "@rpath/Flutter.framework/Flutter",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/swift/libswiftCore.dylib",
+    "/usr/lib/swift/libswiftCoreAudio.dylib",
+    "/usr/lib/swift/libswiftCoreFoundation.dylib",
+    "/usr/lib/swift/libswiftCoreImage.dylib",
+    "/usr/lib/swift/libswiftCoreMedia.dylib",
+    "/usr/lib/swift/libswiftDarwin.dylib",
+    "/usr/lib/swift/libswiftDispatch.dylib",
+    "/usr/lib/swift/libswiftMetal.dylib",
+    "/usr/lib/swift/libswiftOSLog.dylib",
+    "/usr/lib/swift/libswiftObjectiveC.dylib",
+    "/usr/lib/swift/libswiftQuartzCore.dylib",
+    "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+    "/usr/lib/swift/libswiftXPC.dylib",
+    "/usr/lib/swift/libswiftos.dylib",
+    "/usr/lib/swift/libswiftsimd.dylib",
+    "/usr/lib/swift/libswiftFoundation.dylib",
+    "/usr/lib/swift/libswiftUIKit.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 38640,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 1320,
+      "offset": 55024,
+      "virtualAddress": 55024,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 1320,
+      "offset": 56344,
+      "virtualAddress": 56344,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 808,
+      "offset": 57664,
+      "virtualAddress": 57664,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_classname",
+      "size": 40,
+      "offset": 58472,
+      "virtualAddress": 58472,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 4241,
+      "offset": 58512,
+      "virtualAddress": 58512,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__constg_swiftt",
+      "size": 764,
+      "offset": 62756,
+      "virtualAddress": 62756,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_typeref",
+      "size": 485,
+      "offset": 63520,
+      "virtualAddress": 63520,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_reflstr",
+      "size": 31,
+      "offset": 64005,
+      "virtualAddress": 64005,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_fieldmd",
+      "size": 240,
+      "offset": 64036,
+      "virtualAddress": 64036,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 1908,
+      "offset": 64276,
+      "virtualAddress": 64276,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_capture",
+      "size": 208,
+      "offset": 66184,
+      "virtualAddress": 66184,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_protos",
+      "size": 8,
+      "offset": 66392,
+      "virtualAddress": 66392,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_proto",
+      "size": 12,
+      "offset": 66400,
+      "virtualAddress": 66400,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_types",
+      "size": 40,
+      "offset": 66412,
+      "virtualAddress": 66412,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 640,
+      "offset": 66452,
+      "virtualAddress": 66452,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__eh_frame",
+      "size": 652,
+      "offset": 67096,
+      "virtualAddress": 67096,
+      "type": "TYPE.COALESCED",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 168,
+      "offset": 81920,
+      "virtualAddress": 81920,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__const",
+      "size": 1400,
+      "offset": 82088,
+      "virtualAddress": 82088,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 80,
+      "offset": 83488,
+      "virtualAddress": 83488,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_protolist",
+      "size": 32,
+      "offset": 83568,
+      "virtualAddress": 83568,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 83600,
+      "virtualAddress": 83600,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 864,
+      "offset": 98304,
+      "virtualAddress": 98304,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 2216,
+      "offset": 99168,
+      "virtualAddress": 99168,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 216,
+      "offset": 101384,
+      "virtualAddress": 101384,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_protorefs",
+      "size": 32,
+      "offset": 101600,
+      "virtualAddress": 101600,
+      "type": "TYPE.COALESCED",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 48,
+      "offset": 101632,
+      "virtualAddress": 101632,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 3304,
+      "offset": 101680,
+      "virtualAddress": 101680,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 872,
+      "offset": 104984,
+      "virtualAddress": 104984,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift51_hooks",
+      "size": 184,
+      "offset": 105856,
+      "virtualAddress": 105856,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__s_async_hook",
+      "size": 400,
+      "offset": 106040,
+      "virtualAddress": 106040,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift56_hooks",
+      "size": 176,
+      "offset": 106440,
+      "virtualAddress": 106440,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__common",
+      "size": 8,
+      "offset": 0,
+      "virtualAddress": 106616,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__bss",
+      "size": 472,
+      "offset": 0,
+      "virtualAddress": 106624,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "PodsDummy_shared_preferences_foundation",
+    "applicationWillEnterForeground:",
+    "application:continueUserActivity:restorationHandler:",
+    "details",
+    "application:didFinishLaunchingWithOptions:",
+    "message",
+    "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+    "release",
+    "application:didRegisterUserNotificationSettings:",
+    "writerWithData:",
+    ".cxx_destruct",
+    "dealloc",
+    "application:didFailToRegisterForRemoteNotificationsWithError:",
+    "isProxy",
+    "application:didReceiveLocalNotification:",
+    "readerWithData:",
+    "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+    "setBool:forKey:",
+    "application:handleEventsForBackgroundURLSession:completionHandler:",
+    "application:handleOpenURL:",
+    "application:openURL:options:",
+    "application:openURL:sourceApplication:annotation:",
+    "application:performActionForShortcutItem:completionHandler:",
+    "application:performFetchWithCompletionHandler:",
+    "application:willFinishLaunchingWithOptions:",
+    "applicationDidBecomeActive:",
+    "applicationDidEnterBackground:",
+    "applicationWillResignActive:",
+    "applicationWillTerminate:",
+    "autorelease",
+    "bundleIdentifier",
+    "callStackSymbols",
+    "class",
+    "code",
+    "codecWithReaderWriter:",
+    "conformsToProtocol:",
+    "debugDescription",
+    "description",
+    "detachFromEngineForRegistrar:",
+    "dictionaryRepresentation",
+    "errorWithCode:message:details:",
+    "handleMethodCall:result:",
+    "hash",
+    "init",
+    "initWithData:",
+    "initWithName:binaryMessenger:codec:",
+    "initWithSuiteName:",
+    "isEqual:",
+    "isKindOfClass:",
+    "isMemberOfClass:",
+    "mainBundle",
+    "messenger",
+    "objectForKey:",
+    "performSelector:",
+    "performSelector:withObject:",
+    "performSelector:withObject:withObject:",
+    "persistentDomainForName:",
+    "readValue",
+    "readValueOfType:",
+    "registerWithRegistrar:",
+    "removeObjectForKey:",
+    "respondsToSelector:",
+    "retain",
+    "retainCount",
+    "self",
+    "setDouble:forKey:",
+    "setMessageHandler:",
+    "setObject:forKey:",
+    "setPluginRegistrantCallback:",
+    "standardUserDefaults",
+    "superclass",
+    "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+    "userNotificationCenter:openSettingsForNotification:",
+    "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+    "writeByte:",
+    "writeValue:",
+    "zone"
+  ],
+  "importedFunctions": [
+    "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+    "_$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+    "_$sBOWV",
+    "_$sBoWV",
+    "_$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+    "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+    "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+    "_$sSS4hash4intoys6HasherVz_tF",
+    "_$sSS5countSivg",
+    "_$sSS6appendyySSF",
+    "_$sSS8IteratorV4nextSJSgyF",
+    "_$sSS9hasPrefixySbSSF",
+    "_$sSSN",
+    "_$sSSSHsWP",
+    "_$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF",
+    "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+    "_$sSa11descriptionSSvg",
+    "_$sSbN",
+    "_$sSdN",
+    "_$sSh15minimumCapacityShyxGSi_tcfC",
+    "_$sSiN",
+    "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+    "_$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ",
+    "_$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ",
+    "_$ss11_SetStorageCMn",
+    "_$ss11_StringGutsV4growyySiF",
+    "_$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF",
+    "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+    "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+    "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+    "_$ss18_DictionaryStorageCMn",
+    "_$ss23_ContiguousArrayStorageCMn",
+    "_$ss26DefaultStringInterpolationVN",
+    "_$ss26DefaultStringInterpolationVs16TextOutputStreamsWP",
+    "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+    "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+    "_$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+    "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+    "_$ss5ErrorMp",
+    "_$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq",
+    "_$ss5ErrorP5_codeSivgTq",
+    "_$ss5ErrorP7_domainSSvgTq",
+    "_$ss5ErrorP9_userInfoyXlSgvgTq",
+    "_$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF",
+    "_$ss5ErrorPsE5_codeSivg",
+    "_$ss5ErrorPsE7_domainSSvg",
+    "_$ss5ErrorPsE9_userInfoyXlSgvg",
+    "_$ss6HasherV5_seedABSi_tcfC",
+    "_$ss6HasherV9_finalizeSiyF",
+    "_$ss9_typeName_9qualifiedSSypXp_SbtF",
+    "_$sypN",
+    "_OBJC_CLASS_$_FlutterBasicMessageChannel",
+    "_OBJC_CLASS_$_FlutterError",
+    "_OBJC_CLASS_$_FlutterStandardMessageCodec",
+    "_OBJC_CLASS_$_FlutterStandardReader",
+    "_OBJC_CLASS_$_FlutterStandardReaderWriter",
+    "_OBJC_CLASS_$_FlutterStandardWriter",
+    "_OBJC_CLASS_$_NSBundle",
+    "_OBJC_CLASS_$_NSNull",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$_NSThread",
+    "_OBJC_CLASS_$_NSUserDefaults",
+    "_OBJC_CLASS_$__TtCs12_SwiftObject",
+    "_OBJC_METACLASS_$_FlutterStandardMessageCodec",
+    "_OBJC_METACLASS_$_FlutterStandardReader",
+    "_OBJC_METACLASS_$_FlutterStandardReaderWriter",
+    "_OBJC_METACLASS_$_FlutterStandardWriter",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+    "__Block_copy",
+    "__Block_release",
+    "__NSConcreteStackBlock",
+    "__ZdlPv",
+    "__Znwm",
+    "___chkstk_darwin",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__availability_version_check",
+    "__dyld_register_func_for_add_image",
+    "__objc_empty_cache",
+    "__swiftEmptyArrayStorage",
+    "__swiftEmptyDictionarySingleton",
+    "__swift_FORCE_LOAD_$_swiftCoreAudio",
+    "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+    "__swift_FORCE_LOAD_$_swiftCoreImage",
+    "__swift_FORCE_LOAD_$_swiftCoreMedia",
+    "__swift_FORCE_LOAD_$_swiftDispatch",
+    "__swift_FORCE_LOAD_$_swiftFoundation",
+    "__swift_FORCE_LOAD_$_swiftMetal",
+    "__swift_FORCE_LOAD_$_swiftOSLog",
+    "__swift_FORCE_LOAD_$_swiftObjectiveC",
+    "__swift_FORCE_LOAD_$_swiftQuartzCore",
+    "__swift_FORCE_LOAD_$_swiftUIKit",
+    "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+    "__swift_FORCE_LOAD_$_swiftXPC",
+    "__swift_FORCE_LOAD_$_swift_Builtin_float",
+    "__swift_FORCE_LOAD_$_swiftos",
+    "__swift_FORCE_LOAD_$_swiftsimd",
+    "__swift_stdlib_operatingSystemVersion",
+    "_abort",
+    "_bzero",
+    "_dispatch_once_f",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fread",
+    "_free",
+    "_fseek",
+    "_ftell",
+    "_getsectiondata",
+    "_malloc",
+    "_malloc_size",
+    "_memcmp",
+    "_memmove",
+    "_objc_allocWithZone",
+    "_objc_autoreleaseReturnValue",
+    "_objc_getClass",
+    "_objc_lookUpClass",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_self",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleasedReturnValue",
+    "_os_release",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_posix_memalign",
+    "_pthread_getspecific",
+    "_pthread_mutex_init",
+    "_pthread_mutex_lock",
+    "_pthread_mutex_unlock",
+    "_pthread_setspecific",
+    "_realloc",
+    "_rewind",
+    "_sscanf",
+    "_strcmp",
+    "_strlen",
+    "_swift_allocBox",
+    "_swift_allocObject",
+    "_swift_bridgeObjectRelease",
+    "_swift_bridgeObjectRelease_n",
+    "_swift_bridgeObjectRetain",
+    "_swift_bridgeObjectRetain_n",
+    "_swift_deallocClassInstance",
+    "_swift_deallocObject",
+    "_swift_deletedMethodError",
+    "_swift_dynamicCast",
+    "_swift_errorRelease",
+    "_swift_errorRetain",
+    "_swift_getDynamicType",
+    "_swift_getErrorValue",
+    "_swift_getObjCClassFromMetadata",
+    "_swift_getObjCClassMetadata",
+    "_swift_getObjectType",
+    "_swift_getTypeByMangledNameInContext",
+    "_swift_isUniquelyReferenced_nonNull_native",
+    "_swift_lookUpClassMethod",
+    "_swift_once",
+    "_swift_release",
+    "_swift_retain",
+    "_swift_slowAlloc",
+    "_swift_slowDealloc",
+    "_swift_stdlib_isStackAllocationSafe",
+    "_swift_unexpectedError",
+    "_swift_unknownObjectRelease",
+    "_swift_unknownObjectRetain",
+    "_swift_willThrow",
+    "_voucher_adopt",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfC",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfc",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCMa",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCMn",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCMo",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCMu",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCN",
+    "_$s29shared_preferences_foundation23SharedPreferencesPluginCfD",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfC",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfc",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMa",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMn",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMo",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMu",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCN",
+    "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCfD",
+    "_OBJC_CLASS_$_PodsDummy_shared_preferences_foundation",
+    "_OBJC_CLASS_$__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+    "_OBJC_CLASS_$__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+    "_OBJC_METACLASS_$_PodsDummy_shared_preferences_foundation",
+    "_OBJC_METACLASS_$__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+    "_OBJC_METACLASS_$__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+    "_shared_preferences_foundationVersionNumber",
+    "_shared_preferences_foundationVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCfD",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCMa",
+      "value": 16452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAsADP7_domainSSvgTW",
+      "value": 16484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAsADP5_codeSivgTW",
+      "value": 16488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAsADP9_userInfoyXlSgvgTW",
+      "value": 16492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW",
+      "value": 16496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation9wrapError33_CCD8851934D588835E18C29B514F4159LLySayypSgGypF",
+      "value": 16500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation10nilOrValue33_CCD8851934D588835E18C29B514F4159LLyxSgypSglFSS_Tg5",
+      "value": 17420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation10nilOrValue33_CCD8851934D588835E18C29B514F4159LLyxSgypSglFSaySSG_Tg5",
+      "value": 17700,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLC9readValue6ofTypeypSgs5UInt8V_tF",
+      "value": 17992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLC9readValue6ofTypeypSgs5UInt8V_tFTo",
+      "value": 18368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLC4dataAD10Foundation4DataV_tcfcTo",
+      "value": 18592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCADycfcTo",
+      "value": 18752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCfD",
+      "value": 18768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCMa",
+      "value": 18784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLC10writeValueyyypF",
+      "value": 18816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLC10writeValueyyypFTo",
+      "value": 19184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLC4dataADSo13NSMutableDataC_tcfcTo",
+      "value": 19288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCADycfcTo",
+      "value": 19360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCfD",
+      "value": 19376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCMa",
+      "value": 19392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLC6reader4withSo015FlutterStandardG0C10Foundation4DataV_tFTo",
+      "value": 19424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLC6writer4withSo015FlutterStandardH0CSo13NSMutableDataC_tFTo",
+      "value": 19576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCADycfcTo",
+      "value": 19632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCfD",
+      "value": 19648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCMa",
+      "value": 19664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecC0A0_WZ",
+      "value": 19696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCACycfcTo",
+      "value": 19808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCADycfcToTm",
+      "value": 19820,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCfD",
+      "value": 19884,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCfDTm",
+      "value": 19896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCfETo",
+      "value": 19944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCMa",
+      "value": 19948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU_",
+      "value": 19980,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgAAIegn_Iegng_yXlSgABIeyBy_IeyByy_TR",
+      "value": 20436,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TR",
+      "value": 20656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU0_",
+      "value": 20896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU1_",
+      "value": 21460,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU2_",
+      "value": 22032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU3_",
+      "value": 22608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU4_",
+      "value": 23104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCMa",
+      "value": 23588,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU_",
+      "value": 23620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU0_",
+      "value": 24400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU1_",
+      "value": 24984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU2_",
+      "value": 25624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU3_",
+      "value": 26324,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCfD",
+      "value": 27056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCMa",
+      "value": 27072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV15_RepresentationOWOe",
+      "value": 27104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypWOc",
+      "value": 27168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_instantiateConcreteTypeFromMangledNameV2",
+      "value": 27228,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypWOb",
+      "value": 27296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5",
+      "value": 27312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSD4KeysVySSyp_G_Tg5",
+      "value": 27440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZTf4nnnd_n",
+      "value": 27780,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZTf4nnnd_n",
+      "value": 30804,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_0",
+      "value": 33412,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_0Tm",
+      "value": 33412,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU3_TA",
+      "value": 33444,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 33452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 33468,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU2_TA",
+      "value": 33476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU1_TA",
+      "value": 33484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU0_TA",
+      "value": 33492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryK0_p_AA0deF0_pSgSStFZyypSg_yAKctcfU_TA",
+      "value": 33500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_allocate_boxed_opaque_existential_0",
+      "value": 33508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo6NSNullCMaTm",
+      "value": 33568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_project_boxed_opaque_existential_0",
+      "value": 33632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_project_boxed_opaque_existential_0Tm",
+      "value": 33632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA",
+      "value": 33704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSD8IteratorV8_VariantOySSyp__GWOe",
+      "value": 33712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOcTm",
+      "value": 33720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApi_pSgWOhTm",
+      "value": 33792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOhTm",
+      "value": 33792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApi_pWOcTm",
+      "value": 33856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU4_TA",
+      "value": 33924,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU3_TA",
+      "value": 33932,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU2_TA",
+      "value": 33940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU1_TA",
+      "value": 33948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU0_TA",
+      "value": 33956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupC5setUp15binaryMessenger3api20messageChannelSuffixySo013FlutterBinaryL0_p_AA0defG0_pSgSStFZyypSg_yAKctcfU_TA",
+      "value": 33964,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwxx",
+      "value": 34016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwca",
+      "value": 34024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_memcpy16_8",
+      "value": 34088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwta",
+      "value": 34100,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwet",
+      "value": 34148,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwst",
+      "value": 34240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVMa",
+      "value": 34320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.4",
+      "value": 34336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.10",
+      "value": 34340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.16",
+      "value": 34344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.22",
+      "value": 34348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.31",
+      "value": 34352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.37",
+      "value": 34356,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.43",
+      "value": 34360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.49",
+      "value": 34364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.55",
+      "value": 34368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.61",
+      "value": 34372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCfD",
+      "value": 34376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.5",
+      "value": 34420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.11",
+      "value": 34424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.17",
+      "value": 34428,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.23",
+      "value": 34432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.32",
+      "value": 34436,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.38",
+      "value": 34440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.44",
+      "value": 34444,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.50",
+      "value": 34448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.56",
+      "value": 34452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.62",
+      "value": 34456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwCP",
+      "value": 34460,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVwcp",
+      "value": 34460,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC8register4withySo07FlutterG9Registrar_p_tFZTo",
+      "value": 34684,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFZ",
+      "value": 34896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfcTo",
+      "value": 35464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC8register4withySo07FlutterF9Registrar_p_tFZTo",
+      "value": 35524,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSTsSQ7ElementRpzrlE6starts4withSbqd___tSTRd__AAQyd__ABRSlFSS_SSTg5",
+      "value": 35572,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC8getValue3key7optionsypSgSS_AA0dE13PigeonOptionsVtKF",
+      "value": 35916,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC16isTypeCompatible5valueSbyp_tFZ",
+      "value": 36268,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfcTm",
+      "value": 36676,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfcTo",
+      "value": 36724,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfcToTm",
+      "value": 36736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCfDTm",
+      "value": 36808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5",
+      "value": 36856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5",
+      "value": 36956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV4copyyyFSS_ypTg5",
+      "value": 37136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5",
+      "value": 37552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFSS_ypTg5158$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFZSbSS3key_yp5valuet_tXEfU1_07shared_G11_foundation0ijK0CXMTTf1cn_n",
+      "value": 38244,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_UnsafeBitsetVKXEfU_SS_ypTg5158$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFZSbSS3key_yp5valuet_tXEfU1_07shared_I11_foundation0klM0CXMTTf1nnc_n",
+      "value": 38620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV07extractB05using5countAByxq_Gs13_UnsafeBitsetV_SitFSS_ypTg5",
+      "value": 39024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5",
+      "value": 39600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5",
+      "value": 39932,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss10_NativeSetV4copyyyFSS_Tg5",
+      "value": 40312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5",
+      "value": 40656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5",
+      "value": 41220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n",
+      "value": 41824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n",
+      "value": 42124,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC15getUserDefaults33_AEA60E88226208FD23718A35E75268ADLL7optionsSo06NSUserI0CAA0dE13PigeonOptionsV_tKFZTf4nd_n",
+      "value": 42272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_UnsafeBitsetVKXEfU_SS_ypTg5158$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFZSbSS3key_yp5valuet_tXEfU0_ShySSGTf1nnc_nTf4nng_n",
+      "value": 43256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tKXEKFSS_ypTg5158$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFZSbSS3key_yp5valuet_tXEfU0_ShySSGTf1cn_nTf4ng_n",
+      "value": 43888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC11getAllPrefs6prefix9allowListSDySSypGSS_SaySSGSgtFTf4nnd_n",
+      "value": 44364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC5clear6prefix9allowListSbSS_SaySSGSgtFTf4nnd_n",
+      "value": 45180,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC5clear9allowList7optionsySaySSGSg_AA0dE13PigeonOptionsVtKFTf4nnd_n",
+      "value": 45628,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n",
+      "value": 46104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo12FlutterErrorCMa",
+      "value": 46536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_compatibilityInitializeAvailabilityCheck",
+      "value": 46608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___isPlatformVersionAtLeast",
+      "value": 46616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_initializeAvailabilityCheck",
+      "value": 47008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__initializeAvailabilityCheck",
+      "value": 47016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_0",
+      "value": 47816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv",
+      "value": 47824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+      "value": 47872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv",
+      "value": 49172,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE",
+      "value": 49268,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm",
+      "value": 49956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvENUlPvE_8__invokeES8_",
+      "value": 50240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_",
+      "value": 50288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvENUlPvE_8__invokeES6_",
+      "value": 50332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_",
+      "value": 50380,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE",
+      "value": 50704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header",
+      "value": 50908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl",
+      "value": 51360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_1",
+      "value": 51364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_0",
+      "value": 51364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv.cold.1",
+      "value": 51372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.1",
+      "value": 51392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.1",
+      "value": 51392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.3",
+      "value": 51416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.5",
+      "value": 51416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.2",
+      "value": 51416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.4",
+      "value": 51452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.2",
+      "value": 51488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.3",
+      "value": 51508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE",
+      "value": 51528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E",
+      "value": 52108,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE",
+      "value": 52340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E",
+      "value": 52348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE",
+      "value": 52620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE",
+      "value": 52636,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask18flagAsRunning_slowEv",
+      "value": 52652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask20flagAsSuspended_slowEv",
+      "value": 53004,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE",
+      "value": 53356,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvENUlPvE_8__invokeES4_",
+      "value": 53436,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE",
+      "value": 53484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE.cold.1",
+      "value": 53716,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift28swift_Concurrency_fatalErrorEjPKcz",
+      "value": 53740,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift21swift_task_getCurrentEv",
+      "value": 53752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift24_swift_task_clearCurrentEv",
+      "value": 53760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE",
+      "value": 53812,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE",
+      "value": 53856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL27_initializeVouchersDisabledPv",
+      "value": 54032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE",
+      "value": 54088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_",
+      "value": 54284,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE.cold.1",
+      "value": 54332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE.cold.1",
+      "value": 54332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv",
+      "value": 54356,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv",
+      "value": 54428,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 54500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 54548,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv.cold.1",
+      "value": 54596,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv.cold.1",
+      "value": 54620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb",
+      "value": 54644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s",
+      "value": 54652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s",
+      "value": 54656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s",
+      "value": 54676,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc",
+      "value": 54696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc",
+      "value": 54768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 54840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 54888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 54936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 54960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___isPlatformVersionAtLeast.cold.1",
+      "value": 54984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___isPlatformVersionAtLeast.cold.2",
+      "value": 55004,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorC4codeSSvpWvd",
+      "value": 57792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorC7messageSSSgvpWvd",
+      "value": 57800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorC7detailsypSgvpWvd",
+      "value": 57808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAMc",
+      "value": 58104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCyypSgGMR",
+      "value": 58168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMR",
+      "value": 58176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypSgGMR",
+      "value": 58184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApi_pSgMR",
+      "value": 58192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSaySSGMR",
+      "value": 58200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSDySSypGMR",
+      "value": 58208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCySSGMR",
+      "value": 58216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApi_pSgMR",
+      "value": 58224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_reflection_version",
+      "value": 58272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCAA0D15UserDefaultsApiAAMc",
+      "value": 58280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCAA15UserDefaultsApiAAMc",
+      "value": 58296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypGMR",
+      "value": 58416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5Error_pMR",
+      "value": 58424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_SetStorageCySSGMR",
+      "value": 58440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS3key_yp5valuetMR",
+      "value": 58448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySSypGMR",
+      "value": 58456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS_yptMR",
+      "value": 58464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundationMXM",
+      "value": 62756,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCMn",
+      "value": 62768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorC4code7message7detailsACSS_SSSgypSgtcfCTq",
+      "value": 62820,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCMXX",
+      "value": 62828,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCMn",
+      "value": 62836,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCMXX",
+      "value": 62880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCMn",
+      "value": 62888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCMXX",
+      "value": 62932,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCMn",
+      "value": 62940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCMn",
+      "value": 62984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiMp",
+      "value": 63028,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiTL",
+      "value": 63044,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP6remove3keyySS_tKFTq",
+      "value": 63052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP7setBool3key5valueySS_SbtKFTq",
+      "value": 63060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP9setDouble3key5valueySS_SdtKFTq",
+      "value": 63068,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP8setValue3key5valueySS_yptKFTq",
+      "value": 63076,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP6getAll6prefix9allowListSDySSypGSS_SaySSGSgtKFTq",
+      "value": 63084,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApiP5clear6prefix9allowListSbSS_SaySSGSgtKFTq",
+      "value": 63092,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCMn",
+      "value": 63100,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCACycfCTq",
+      "value": 63152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiMp",
+      "value": 63160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiTL",
+      "value": 63176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiP3set3key5value7optionsySS_ypAA30SharedPreferencesPigeonOptionsVtKFTq",
+      "value": 63184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiP5clear9allowList7optionsySaySSGSg_AA30SharedPreferencesPigeonOptionsVtKFTq",
+      "value": 63192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiP6getAll9allowList7optionsSDySSypGSaySSGSg_AA30SharedPreferencesPigeonOptionsVtKFTq",
+      "value": 63200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiP8getValue3key7optionsypSgSS_AA30SharedPreferencesPigeonOptionsVtKFTq",
+      "value": 63208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApiP7getKeys9allowList7optionsSaySSGAGSg_AA30SharedPreferencesPigeonOptionsVtKFTq",
+      "value": 63216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCMn",
+      "value": 63224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCACycfCTq",
+      "value": 63276,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVMn",
+      "value": 63284,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC6getAll6prefix9allowListSDySSypGSS_SaySSGSgtFTq",
+      "value": 63364,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC7setBool3key5valueySS_SbtFTq",
+      "value": 63372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC9setDouble3key5valueySS_SdtFTq",
+      "value": 63380,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC8setValue3key5valueySS_yptFTq",
+      "value": 63388,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC6remove3keyySS_tFTq",
+      "value": 63396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC5clear6prefix9allowListSbSS_SaySSGSgtFTq",
+      "value": 63404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC11getAllPrefs6prefix9allowListSDySSypGSS_SaySSGSgtFTq",
+      "value": 63412,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC7getKeys9allowList7optionsSaySSGAGSg_AA0dE13PigeonOptionsVtKFTq",
+      "value": 63472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC6getAll9allowList7optionsSDySSypGSaySSGSg_AA0dE13PigeonOptionsVtKFTq",
+      "value": 63480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC3set3key5value7optionsySS_ypAA0dE13PigeonOptionsVtKFTq",
+      "value": 63488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC8getValue3key7optionsypSgSS_AA0dE13PigeonOptionsVtKFTq",
+      "value": 63496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC6remove3key7optionsySS_AA0dE13PigeonOptionsVtKFTq",
+      "value": 63504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC5clear9allowList7optionsySaySSGSg_AA0dE13PigeonOptionsVtKFTq",
+      "value": 63512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation11PigeonErrorC",
+      "value": 63520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS",
+      "value": 63526,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SSSg",
+      "value": 63530,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ypSg",
+      "value": 63536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So21FlutterStandardReaderC",
+      "value": 63542,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLC",
+      "value": 63570,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So21FlutterStandardWriterC",
+      "value": 63576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLC",
+      "value": 63604,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So27FlutterStandardReaderWriterC",
+      "value": 63610,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLC",
+      "value": 63644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So27FlutterStandardMessageCodecC",
+      "value": 63650,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation19MessagesPigeonCodecC",
+      "value": 63684,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s29shared_preferences_foundation21LegacyUserDefaultsApiP",
+      "value": 63690,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation26LegacyUserDefaultsApiSetupC",
+      "value": 63748,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s29shared_preferences_foundation15UserDefaultsApiP",
+      "value": 63754,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation20UserDefaultsApiSetupC",
+      "value": 63806,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____yypSgG s23_ContiguousArrayStorageC",
+      "value": 63812,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SayypSgG",
+      "value": 63824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______pSg 29shared_preferences_foundation15UserDefaultsApiP",
+      "value": 63834,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______p 29shared_preferences_foundation15UserDefaultsApiP",
+      "value": 63844,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SaySSG",
+      "value": 63852,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SDySSypG",
+      "value": 63860,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yXlSgIeyBy_",
+      "value": 63870,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySSG s23_ContiguousArrayStorageC",
+      "value": 63882,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______pSg 29shared_preferences_foundation21LegacyUserDefaultsApiP",
+      "value": 63892,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______p 29shared_preferences_foundation21LegacyUserDefaultsApiP",
+      "value": 63902,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation30SharedPreferencesPigeonOptionsV",
+      "value": 63910,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So8NSObjectC",
+      "value": 63916,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation29LegacySharedPreferencesPluginC",
+      "value": 63930,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 29shared_preferences_foundation23SharedPreferencesPluginC",
+      "value": 63936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SayypG",
+      "value": 63942,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______p s5ErrorP",
+      "value": 63950,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySSG s11_SetStorageC",
+      "value": 63958,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS3key_yp5valuet",
+      "value": 63968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySSypG s18_DictionaryStorageC",
+      "value": 63986,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS_ypt",
+      "value": 63998,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCMF",
+      "value": 64036,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCMF",
+      "value": 64088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCMF",
+      "value": 64104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCMF",
+      "value": 64120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCMF",
+      "value": 64136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApi_pMF",
+      "value": 64152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCMF",
+      "value": 64168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApi_pMF",
+      "value": 64184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCMF",
+      "value": 64200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVMF",
+      "value": 64216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMF",
+      "value": 64244,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMF",
+      "value": 64260,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation_$_shared_preferences_foundation",
+      "value": 82088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float_$_shared_preferences_foundation",
+      "value": 82096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC_$_shared_preferences_foundation",
+      "value": 82104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation_$_shared_preferences_foundation",
+      "value": 82112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch_$_shared_preferences_foundation",
+      "value": 82120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC_$_shared_preferences_foundation",
+      "value": 82128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia_$_shared_preferences_foundation",
+      "value": 82136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd_$_shared_preferences_foundation",
+      "value": 82144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal_$_shared_preferences_foundation",
+      "value": 82152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio_$_shared_preferences_foundation",
+      "value": 82160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit_$_shared_preferences_foundation",
+      "value": 82168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore_$_shared_preferences_foundation",
+      "value": 82176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage_$_shared_preferences_foundation",
+      "value": 82184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_shared_preferences_foundation",
+      "value": 82192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos_$_shared_preferences_foundation",
+      "value": 82200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog_$_shared_preferences_foundation",
+      "value": 82208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51_$_shared_preferences_foundation",
+      "value": 82216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_shared_preferences_foundation",
+      "value": 82224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56_$_shared_preferences_foundation",
+      "value": 82232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 82280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.6",
+      "value": 82360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.12",
+      "value": 82440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.18",
+      "value": 82520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.24",
+      "value": 82600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.33",
+      "value": 82720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.39",
+      "value": 82800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.45",
+      "value": 82880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.51",
+      "value": 82960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.57",
+      "value": 83040,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.63",
+      "value": 83120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVWV",
+      "value": 83160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVMf",
+      "value": 83248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation30SharedPreferencesPigeonOptionsVN",
+      "value": 83264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCAA0D15UserDefaultsApiAAWP",
+      "value": 83328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCAA15UserDefaultsApiAAWP",
+      "value": 83384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PodsDummy_shared_preferences_foundation",
+      "value": 99168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PodsDummy_shared_preferences_foundation",
+      "value": 99240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation11PigeonError",
+      "value": 99312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC29shared_preferences_foundation11PigeonError",
+      "value": 99384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation11PigeonError",
+      "value": 99488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecReader",
+      "value": 99560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecWriter",
+      "value": 99632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415931MessagesPigeonCodecReaderWriter",
+      "value": 99704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation19MessagesPigeonCodec",
+      "value": 99776,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation26LegacyUserDefaultsApiSetup",
+      "value": 99848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation26LegacyUserDefaultsApiSetup",
+      "value": 99920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation20UserDefaultsApiSetup",
+      "value": 99992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation20UserDefaultsApiSetup",
+      "value": 100064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterPlugin",
+      "value": 100136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 100232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 100248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin.1",
+      "value": 100320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 100336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 100352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC29shared_preferences_foundation23SharedPreferencesPlugin.2",
+      "value": 100424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_NSObject",
+      "value": 100440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterApplicationLifeCycleDelegate",
+      "value": 100536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterPlugin",
+      "value": 100632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterPlugin",
+      "value": 100656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROPERTIES_NSObject",
+      "value": 100712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_NSObject",
+      "value": 100784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_UNUserNotificationCenterDelegate",
+      "value": 101000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterApplicationLifeCycleDelegate",
+      "value": 101096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate",
+      "value": 101112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_UNUserNotificationCenterDelegate",
+      "value": 101320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate",
+      "value": 101336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecReader",
+      "value": 101760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecReader",
+      "value": 101840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCMf",
+      "value": 101912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecReader33_CCD8851934D588835E18C29B514F4159LLCN",
+      "value": 101936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecWriter",
+      "value": 102016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecWriter",
+      "value": 102096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCMf",
+      "value": 102168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation25MessagesPigeonCodecWriter33_CCD8851934D588835E18C29B514F4159LLCN",
+      "value": 102192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415931MessagesPigeonCodecReaderWriter",
+      "value": 102272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415931MessagesPigeonCodecReaderWriter",
+      "value": 102352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCMf",
+      "value": 102424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation31MessagesPigeonCodecReaderWriter33_CCD8851934D588835E18C29B514F4159LLCN",
+      "value": 102448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundation19MessagesPigeonCodec",
+      "value": 102528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation19MessagesPigeonCodec",
+      "value": 102584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCMf",
+      "value": 102656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC29shared_preferences_foundation19MessagesPigeonCodec",
+      "value": 102680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecCN",
+      "value": 102680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__CLASS_METHODS__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 102760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 102792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 102824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMf",
+      "value": 102896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__CLASS_METHODS__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 103056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 103088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 103120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMf",
+      "value": 103192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_FlutterPlugin",
+      "value": 103344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin",
+      "value": 103400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin",
+      "value": 103504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_NSObject",
+      "value": 103536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_NSObject",
+      "value": 104168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate",
+      "value": 104200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate",
+      "value": 104832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecC0A0_Wz",
+      "value": 104984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCMm",
+      "value": 104992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCMf",
+      "value": 105032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCN",
+      "value": 105056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecReader",
+      "value": 105168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415925MessagesPigeonCodecWriter",
+      "value": 105208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundationP33_CCD8851934D588835E18C29B514F415931MessagesPigeonCodecReaderWriter",
+      "value": 105248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundation19MessagesPigeonCodec",
+      "value": 105288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCMm",
+      "value": 105328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCMf",
+      "value": 105368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation26LegacyUserDefaultsApiSetupCN",
+      "value": 105392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCMm",
+      "value": 105480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCMf",
+      "value": 105520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation20UserDefaultsApiSetupCN",
+      "value": 105544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCyypSgGMd",
+      "value": 105632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMd",
+      "value": 105640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypSgGMd",
+      "value": 105648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo6NSNullCML",
+      "value": 105656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation15UserDefaultsApi_pSgMd",
+      "value": 105664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo12FlutterErrorCML",
+      "value": 105672,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSaySSGMd",
+      "value": 105680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSDySSypGMd",
+      "value": 105688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCySSGMd",
+      "value": 105696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation21LegacyUserDefaultsApi_pSgMd",
+      "value": 105704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayypGMd",
+      "value": 105792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5Error_pMd",
+      "value": 105800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_SetStorageCySSGMd",
+      "value": 105808,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS3key_yp5valuetMd",
+      "value": 105816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySSypGMd",
+      "value": 105824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS_yptMd",
+      "value": 105832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51",
+      "value": 105840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56",
+      "value": 105841,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency",
+      "value": 105842,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 105848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift51Overrides",
+      "value": 105856,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56ConcurrencyOverrides",
+      "value": 106040,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56RuntimeOverrides",
+      "value": 106440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation19MessagesPigeonCodecC0A0ACvpZ",
+      "value": 106616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation11PigeonErrorCs0E0AAMcMK",
+      "value": 106624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__MergedGlobals",
+      "value": 106752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_112ConformancesE",
+      "value": 106792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvE7TheLazy",
+      "value": 106928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvE7TheLazy",
+      "value": 106944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvE7TheLazy",
+      "value": 106960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvE7TheLazy",
+      "value": 106976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL20StatusRecordLockLockE",
+      "value": 106992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL23voucherDisableCheckOnce",
+      "value": 107000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL16vouchersDisabled",
+      "value": 107008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvE7TheLazy",
+      "value": 107016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvE7TheLazy",
+      "value": 107032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvE7TheLazy",
+      "value": 107048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 107064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 107080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+      "value": 35488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfC",
+      "value": 35492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCACycfc",
+      "value": 36664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMa",
+      "value": 46436,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMn",
+      "value": 63420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMo",
+      "value": 58392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCMu",
+      "value": 46480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCN",
+      "value": 103216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation23SharedPreferencesPluginCfD",
+      "value": 36796,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+      "value": 34464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfC",
+      "value": 46604,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCACycfc",
+      "value": 35452,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMa",
+      "value": 34652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMn",
+      "value": 63312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMo",
+      "value": 58352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCMu",
+      "value": 46468,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCN",
+      "value": 102920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s29shared_preferences_foundation29LegacySharedPreferencesPluginCfD",
+      "value": 35476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PodsDummy_shared_preferences_foundation",
+      "value": 101720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 103216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 102920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PodsDummy_shared_preferences_foundation",
+      "value": 101680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundation23SharedPreferencesPlugin",
+      "value": 105752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC29shared_preferences_foundation29LegacySharedPreferencesPlugin",
+      "value": 105712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_shared_preferences_foundationVersionNumber",
+      "value": 57728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_shared_preferences_foundationVersionString",
+      "value": 57664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sBOWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sBoWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS4hash4intoys6HasherVz_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS5countSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS6appendyySSF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS8IteratorV4nextSJSgyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS9hasPrefixySbSSF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSSN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSSSHsWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSa11descriptionSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSbN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSdN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSh15minimumCapacityShyxGSi_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSiN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_SetStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss11_StringGutsV4growyySiF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss26DefaultStringInterpolationVN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss26DefaultStringInterpolationVs16TextOutputStreamsWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP5_codeSivgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP7_domainSSvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP9_userInfoyXlSgvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE5_codeSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE7_domainSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorPsE9_userInfoyXlSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV5_seedABSi_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV9_finalizeSiyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss9_typeName_9qualifiedSSypXp_SbtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterBasicMessageChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardMessageCodec",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardReader",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardReaderWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSBundle",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNull",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSThread",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSUserDefaults",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardMessageCodec",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardReader",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardReaderWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_FlutterStandardWriter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZdlPv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Znwm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___chkstk_darwin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__availability_version_check",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_add_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyArrayStorage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyDictionarySingleton",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_stdlib_operatingSystemVersion",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_abort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bzero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_once_f",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fclose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fopen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fread",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fseek",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ftell",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsectiondata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_size",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memmove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_allocWithZone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_lookUpClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_memalign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_getspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_realloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_rewind",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sscanf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocBox",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease_n",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain_n",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocClassInstance",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deletedMethodError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_dynamicCast",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getDynamicType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getErrorValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassFromMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjectType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getTypeByMangledNameInContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_isUniquelyReferenced_nonNull_native",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_lookUpClassMethod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_once",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_slowAlloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_slowDealloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_stdlib_isStackAllocationSafe",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unexpectedError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_willThrow",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_voucher_adopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

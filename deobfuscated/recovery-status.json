@@ -4,12 +4,19 @@
   "outputRoot": "deobfuscated",
   "counts": {
     "readable-source-copy": 1729,
-    "preserved-original": 8404,
+    "preserved-original": 8216,
     "searchable-strings": 66,
+    "opaque-binary-analysis": 7,
+    "macho-metadata": 56,
+    "flutter-manifest-paired-json": 1,
+    "standard-font-metadata": 10,
     "decompressed-text": 1,
+    "svg-vector-recovery": 112,
     "xml-plist": 74,
+    "icu-data-metadata": 1,
     "javascript-recovered": 1,
     "decoded-json": 1,
+    "standard-mp4-metadata": 1,
     "decoded-container-and-textures": 275,
     "standard-glb-and-json": 7390,
     "decoded-texture-and-png": 2000
@@ -92,8 +99,10 @@
       "size": 1032,
       "sha256": "df800487b843e350b69ef383e0f30771c408de35972ece166a58551ff897aa00",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -176,8 +185,10 @@
       "size": 15353984,
       "sha256": "7b897398484af993a1fc6050af62538223a1278a718202dc6460784f9a2ed2b5",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/App.framework/App.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -185,8 +196,10 @@
       "size": 89840,
       "sha256": "95aea12b389ff722c4af8253bda4de9ef1e5cebca6c19e6a2f44ccd1c838c62a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "flutter-manifest-paired-json",
+      "outputs": [
+        "deobfuscated/decoded/flutter/AssetManifest.bin.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -216,8 +229,10 @@
       "size": 5236,
       "sha256": "9e4f4e155670aa2878f92d540e3e7058355adfe732fb49e079e7528547823a40",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -7188,8 +7203,10 @@
       "size": 935,
       "sha256": "c331229597d08af1d4f2426f2cd4ce00a47e5268af0fd920c0dc91366f9b3d98",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/account_protection_active.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7197,8 +7214,10 @@
       "size": 1143,
       "sha256": "a2af764f0e76a0c87b7237acafb6f2dcb634f976fe4d775be29beeb06c498146",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/account_protection_not_active.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7206,8 +7225,10 @@
       "size": 146,
       "sha256": "1d51b41859e0f5be5d7e4979e594a3fa9645582de8fd7ebdd6ce83e03ee8c7d7",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/arrow_load.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7215,8 +7236,10 @@
       "size": 76,
       "sha256": "e35812cace3c50a8f3d2f625fe3c448232595409fd39be5103d24fa266c052f1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/back_arrow_black.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7224,8 +7247,10 @@
       "size": 76,
       "sha256": "de57593ab1c2816bc63236abb68d70670a975de104dcc5bb3d10273e057f8f43",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/back_arrow_white.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7233,8 +7258,10 @@
       "size": 1093,
       "sha256": "1429aa12f2fa0c41ae65d4125457cf2f332964a3748405b0b331d61827da488f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/blue_face_icon.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7242,8 +7269,10 @@
       "size": 88,
       "sha256": "b0d4d4112995b2317c9260a4fb7803e08cacafac42fd893c1d7ae1bb6513b16b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/cancel_black_l.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7251,8 +7280,10 @@
       "size": 88,
       "sha256": "753dc3c3746f831bc5bcca04960e05d5e85bcf7ff7945405e3bd2dd46b56e02c",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/cancel_black_s.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7260,8 +7291,10 @@
       "size": 88,
       "sha256": "22a6cb6cfacc74da60bd5648f85237c3b786e5cdb2b6e01c2d0898194d7f48ef",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/cancel_white_l.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7269,8 +7302,10 @@
       "size": 88,
       "sha256": "57ae1a4cce65a427273024557f9e93ebaa50e25851966daa72e106fa0a9039d0",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/cancel_white_s.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7278,8 +7313,10 @@
       "size": 76,
       "sha256": "192d86cef6535ce7fc0b0092893cf69b6d822571c9e07ebd8b68288a58664b68",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/check_mark.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7287,8 +7324,10 @@
       "size": 76,
       "sha256": "af501f493001aef466c77e5c892f0ecb698621e2d35e7be08e6f3c4875e17331",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/check_sign.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7296,8 +7335,10 @@
       "size": 76,
       "sha256": "37a2bbec19864fc6dbebcf3c66cb108ba9c60225d09182ab8d6f1bd0feecea3a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/chevron_down.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7305,8 +7346,10 @@
       "size": 76,
       "sha256": "e7a4e354721563ae49674e2598dc33e7339736e75b06139a1d95482872f3df2f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/chevron_up.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7314,8 +7357,10 @@
       "size": 111,
       "sha256": "0f2fbc6d41869f0b7a6c21b208473f19be2a11e22877ce5c021f05941228a53a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/close.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7323,8 +7368,10 @@
       "size": 640,
       "sha256": "7a910349c664fbdffd035acf65507a5ce0858d7d3505bc66a82216fac342d471",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/connect.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7332,8 +7379,10 @@
       "size": 167,
       "sha256": "5ca4a0da54a7cfc1784dbe08c46dfa9f3b1bf1b8c0abd582682ad27ce4fe0c99",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/create_plus.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7341,8 +7390,10 @@
       "size": 936,
       "sha256": "1c7c8f3e434e942570498f5cfe746a2dc7bb468515fd3667c1c74ad9eb49952b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/create_scid.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7350,8 +7401,10 @@
       "size": 132,
       "sha256": "5a06f06158e730b63172458321b88b06595505a819fd614320b08bf565550cf1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/download.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7359,8 +7412,10 @@
       "size": 402,
       "sha256": "57c80b0ffb646e8ea6776426a6ca3be3d9f9def08f40d139213fda626f084f35",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/edit.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7368,8 +7423,10 @@
       "size": 346,
       "sha256": "d8eaa8927a12e3ecad06f82d59dda2df67e1a5b83829d310f9e9dcc7f941d022",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/emote_bg.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7377,8 +7434,10 @@
       "size": 384,
       "sha256": "11b089800e808e9bc287267f0ad8ac79fc3eafe45d689d426fe09db6cfbadb69",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/external_links.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7386,8 +7445,10 @@
       "size": 790,
       "sha256": "3ea3d469d5d055d3693134322a78a8ed386f6674a6d4c251774f5347cb9bb6e7",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/eye_closed.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7395,8 +7456,10 @@
       "size": 204,
       "sha256": "1705061b9a07282f225aa2b6a2ef61c40efd2e3695bd9d28310a5985bfc806fa",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/eye_open.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7404,8 +7467,10 @@
       "size": 1093,
       "sha256": "3f8b976676a82cacb88dd66402d199160aa3e9435b2d9e40cc30144ece8a295a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/face_icon.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7413,8 +7478,10 @@
       "size": 121,
       "sha256": "f924b94cbae7ed416edf130c2cf707c3895e179b161fc6475baeaf5c057eac0b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/forward_sign.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7422,8 +7489,10 @@
       "size": 1148,
       "sha256": "a98acb2b4e57cbbda5dde531a99dc99a73008ea6147216c5f3e3d0fe61ed224a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/friends.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7431,8 +7500,10 @@
       "size": 88,
       "sha256": "74dce6d15a2af1521f0e52aa257683f50b506604ef618c0e2517fa5204d1c348",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/grabber.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7440,8 +7511,10 @@
       "size": 2663,
       "sha256": "0ea7b7e7cfb09afac5537919f72a9d89c54caab4b0da4d83f8d184e70c5b3884",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_age_backfill_complete.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7449,8 +7522,10 @@
       "size": 2772,
       "sha256": "8edc120c8cccbce6318fe392276db6bc08e944935728d3d27f9fe649787c8a9a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_age_backfill.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7458,8 +7533,10 @@
       "size": 1057,
       "sha256": "2b7e737c1eeb8b3ec4ec8060e4596937916e3fa397913ce5fc1fe985f1f674d6",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_change_email_confirmed.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7467,8 +7544,10 @@
       "size": 1261,
       "sha256": "b69efeb4f395cc3ace93c392cd36f871714545e056428deca7f4655618e66459",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_change_email.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7476,8 +7555,10 @@
       "size": 11276,
       "sha256": "89c8c37e969de0cba464cc4c0a3d5d52ccee741d324978d5f75b4dcdc3db1421",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_connect_game_account.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7485,8 +7566,10 @@
       "size": 622,
       "sha256": "94dd7e2ff1afb86a536c24ea460d3afb484edecf6b93706af7338cedaf4cebf3",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_email_sent.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7494,8 +7577,10 @@
       "size": 1688,
       "sha256": "fd78c9c4e385588dc63ae6c16d9bb0f1673b191f54cf81ae8ba9098f82a2a990",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_enable_account_protection_confirmed.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7503,8 +7588,10 @@
       "size": 1916,
       "sha256": "b63a993c1b6f6a29cce053a0bc490f7e9c509176b2a43737636a3a0f552f5d92",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_enable_account_protection.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7512,8 +7599,10 @@
       "size": 113,
       "sha256": "f760d5459608368d376cbdcea35d25e5fa3c55bc192c2640949d1fc0b50346af",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_fail.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7521,8 +7610,10 @@
       "size": 11272,
       "sha256": "7e254cf5e0f4ee36e18266104b1bacef60dcb5c54cb2763685fba039e457714c",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_load_game_account.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7530,8 +7621,10 @@
       "size": 1600,
       "sha256": "c44c75a3178df4ef34478fa2fb189c888146d53faa720aa8967f23f378a07816",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_login.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7539,8 +7632,10 @@
       "size": 1266,
       "sha256": "3c8854547984f3cdead6e23c35014459f4c1e8e326d4e7694419c282986bfaaa",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_register_email.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7548,8 +7643,10 @@
       "size": 1855,
       "sha256": "536f3fd6b60ce9b3fc540b0528cd6da4158bf93c5306853a99163dad18480ebe",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_register_start.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7557,8 +7654,10 @@
       "size": 1627,
       "sha256": "59c13fe138a22552a9a75af1e121c157bcbecae0a95ca54b755d2e5a4c965914",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_registration_done.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7566,8 +7665,10 @@
       "size": 838,
       "sha256": "a519614a58145dcc5a2c504e5a49e0f4578436ba8730f89f1e34b6c7821095b9",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_request_permission.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7575,8 +7676,10 @@
       "size": 949,
       "sha256": "cb67f96b52ef55c111d3ad9164d5a64320012a74693f61d4d912193a9ec7dad3",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_trusted_adult_email.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7584,8 +7687,10 @@
       "size": 758,
       "sha256": "06f8ce9b34898e4c6b6dddb2b606cc3111acdc086169dda4e2b2f8634debfd88",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_verify.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7593,8 +7698,10 @@
       "size": 1430,
       "sha256": "f4c9ccd92e23c4334149e6e24a2cb2f8aa7aeb7a6556d34d5fb2dfdb86efad02",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/illustration_welcome_back.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7602,8 +7709,10 @@
       "size": 118,
       "sha256": "d69c3cff3641b30d66e1441baee05e327fb8e56b38e4800a155ff86ca5049b3b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/info.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7611,8 +7720,10 @@
       "size": 1319,
       "sha256": "35b76bba57ff89964b60caa75cd9643c246f48e7eb569180730cf9b09ca4a3c5",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/invite_in_game_friends_red.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7620,8 +7731,10 @@
       "size": 2834,
       "sha256": "59c1cbc5d6fa20b841a82757b2e56c5ecf29f2acd6a7857e61cbba25934df1f6",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/invite_in_game_friends_red2.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7629,8 +7742,10 @@
       "size": 871,
       "sha256": "966e412600be69dc9c12ac0395e80ba6364478b764cccd5353a74e93b10dba1b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/invite_in_game_friends_red3.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7638,8 +7753,10 @@
       "size": 1093,
       "sha256": "1429aa12f2fa0c41ae65d4125457cf2f332964a3748405b0b331d61827da488f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/invite_in_game_friends.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7647,8 +7764,10 @@
       "size": 254,
       "sha256": "dd98f9c920efbdc24d1ad4f418a8559aaf8ce34f45dc1865fc7fd5402c9afe53",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/lock.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7656,8 +7775,10 @@
       "size": 892,
       "sha256": "2f2086ce1350e280bb2906c7cd728d44c87c111219892f4252430603aa8ee4f1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/log_in_to_scid.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7665,8 +7786,10 @@
       "size": 892,
       "sha256": "6b40491877a181679090b23a61448a91d80a1a88dcc2b2f6763deef3d98473dd",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/log_out.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7674,8 +7797,10 @@
       "size": 83,
       "sha256": "bc3bd8c5928b195f7001afe06944d6fd020244665cb054b48190056b49a8b9b1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/magnifying_glass.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7683,8 +7808,10 @@
       "size": 422,
       "sha256": "281026fd3485a2469c5d93eb5f0e417e96819d18ab7d789e0778a7472c6c30e2",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/mute_icon.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7692,8 +7819,10 @@
       "size": 121,
       "sha256": "4c865e5328dedac44331f0368d68995ea7deb83e807ed89ae4bbc9f9647ff2d1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/next.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7701,8 +7830,10 @@
       "size": 76,
       "sha256": "8894bf49f94f6c8d6a2d9d1256c18fae6012c66e42b88d7f95c4445f863a25b1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/open_arrow_black.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7710,8 +7841,10 @@
       "size": 76,
       "sha256": "7b09bcf451f535bee52c2fbf78638b361556b22f1d4820f4e5fb2a9781f75589",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/open_arrow_blue.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7719,8 +7852,10 @@
       "size": 800,
       "sha256": "934ce4539a832b181a96906aaf346c8fb47404885a8200f1d63505335412d17e",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/player_id_photo.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7728,8 +7863,10 @@
       "size": 88,
       "sha256": "4222a882af6771a8d5a58ea5711921c31add693aae78cdd7d69dcf38a7c14fad",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/plus.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7737,8 +7874,10 @@
       "size": 580,
       "sha256": "8116a8166c626e92c3f2168ee085f9ca2c2729b582c700848e0c2140329d7bf8",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/profile_image_fallback.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7746,8 +7885,10 @@
       "size": 170,
       "sha256": "2a11d97c56ece238a4efc5af2778ddc784a5b92793c04ae3647fb07bf3e7c54d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/progress_bar_placeholder.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7755,8 +7896,10 @@
       "size": 837,
       "sha256": "0d5f739513651c2d6f6fcb7492dffe1ab99ede4abc2fab255f6827db1ff0fdd5",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/progress_indicator_face_alternative.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7764,8 +7907,10 @@
       "size": 1093,
       "sha256": "6e14ecbe38be5ef0326c5f05b3359218270dc1020ce74d4046a7e8b2bf575b1b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/progress_indicator_face.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7773,8 +7918,10 @@
       "size": 1151,
       "sha256": "31002cb5e641c7f16c856ab7be763dc9ed417a3387a4b70a676b8fb326c6e37f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/progress_indicator_id.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7782,8 +7929,10 @@
       "size": 826,
       "sha256": "7d543cf438bc2d9cc96bedb9ac321a092563c65fa4dc8603db5aaa872a6cde9d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/progress_indicator_star.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7791,8 +7940,10 @@
       "size": 494,
       "sha256": "67e1df57efd516aeffd9b328fcf1ed82a4f51c562dcb7a2b872b54353ac2ee76",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/qr_reader.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7800,8 +7951,10 @@
       "size": 562,
       "sha256": "c1b4361473b392bbbcf098bf973934772c3205500fc73080d88cbef8c29fbbd2",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/rays_of_happiness.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7809,8 +7962,10 @@
       "size": 408,
       "sha256": "61972e3b8ce1f2bb91c5e07d572682739602ac61f393b33ff4382f2ac6155ec7",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/refresh.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7818,8 +7973,10 @@
       "size": 1293,
       "sha256": "461045561f94a3cfec63fe224b2f988cffcb2c64c7fc638d056a52bfb746967d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/request_received.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7827,8 +7984,10 @@
       "size": 1201,
       "sha256": "83a91d2951ef5e1b8c37057e5c07dd3de34d1cca7f140197f6ce730e6a1c05d7",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/request_sent.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7836,8 +7995,10 @@
       "size": 452,
       "sha256": "09f42f13cefb8ceed497a51759919942008f5ffb808965d262c019ae0a0f4c31",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_background_pattern.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7845,8 +8006,10 @@
       "size": 1162,
       "sha256": "44661fa781dafe6d791ea5aaa6fee51d6bac311ed73139ae148263c97cc20e69",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_card_id_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7854,8 +8017,10 @@
       "size": 1162,
       "sha256": "483ba74f8206f3d31daea1c200eac844d223f60e27f0375fcaa12d52698cc5d1",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_card_id.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7863,8 +8028,10 @@
       "size": 271,
       "sha256": "73a7bca1f3845c8dc66a12ded74741df0443558b55daa7826f8bd58213d79084",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_card_shadow.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7872,8 +8039,10 @@
       "size": 730,
       "sha256": "ab4b6b304ee71b01a9d1a3f2363d9e538058cedf1c323d14387acc3945b1671d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_card_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7881,8 +8050,10 @@
       "size": 747,
       "sha256": "d02924f47aa041d438e834898b4a0cc372d5cafb17cfcb94f4914c43c2d359ca",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_card.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7890,8 +8061,10 @@
       "size": 534,
       "sha256": "3b48b2345926f4b4102f877642152b397272e998247df66411d5460809ff0a5e",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/reward_coin.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7899,8 +8072,10 @@
       "size": 1499,
       "sha256": "7b9078451da84d4e679ff428a91832cadb081539736336f906db1c6288f47dd2",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/rewards_card_background.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7908,8 +8083,10 @@
       "size": 992,
       "sha256": "e7d034c9f8b9736ef125d938801f99d306e2b7b75786fb6242460f127117be53",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scan_qr_flat.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7917,8 +8094,10 @@
       "size": 1222,
       "sha256": "a353d196e22f6d70a49e175908d8ffe1db27f35c31f6d3d6fd7e5029974e79c2",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scan_qr.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7926,8 +8105,10 @@
       "size": 950,
       "sha256": "e7e1e06bc5b6da2e9ed6808aaa3825352b619d5d1f573df1ee3a4586650e607f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scid_icon_black.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7935,8 +8116,10 @@
       "size": 950,
       "sha256": "c4ceed74bbf3bab091da8f07d309f87d642db65aaff28edeafad511b94d47a78",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scid_icon_text_medium_grey.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7944,8 +8127,10 @@
       "size": 709,
       "sha256": "5c1e1afee5d347dedc9d3241f5fab30a50778a28600319256a14bbf906d40470",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scid_icon_white.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7953,8 +8138,10 @@
       "size": 4032,
       "sha256": "18137565cd492038d24afea76117ec53142abb35e269e299ee669f3011647ad9",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scid_logo_black.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7962,8 +8149,10 @@
       "size": 4032,
       "sha256": "3f72cdbd3559040e1e0003d15d852a3a406700490d703d5418372f548bf0ca69",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/scid_logo_white.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7971,8 +8160,10 @@
       "size": 1428,
       "sha256": "cd45ba25f97b227785f108e5cee11359a1c46d12b68b4a4924dfcd8db8de97bf",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/search_by_id.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7980,8 +8171,10 @@
       "size": 955,
       "sha256": "490b837fc539f2177ad03e672cefb45949f4ba304a1d6b3792820ceccbb372ba",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/settings_icon_pressed.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7989,8 +8182,10 @@
       "size": 955,
       "sha256": "c54e03ea43f9dcef9e7db295fdb6dc90e2956db57331ccf55a728cda8a6f6272",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/settings_icon.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -7998,8 +8193,10 @@
       "size": 1464,
       "sha256": "0fac8932aaa53c286bb44f48d225b6470ff9dde8e32399db4db5b7a2f6e4563e",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/share_icon_android.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8007,8 +8204,10 @@
       "size": 254,
       "sha256": "ffbbf4ffa24d81e252b61f1d88103e4b1d54f62bc8587f19480d9a1160d1da06",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/share_icon_ios.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8016,8 +8215,10 @@
       "size": 778,
       "sha256": "98bb90b22ddb7ac8c52e6ef9018fcb1dbbee05a52ee03b54ac2a59d181cae934",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/share_invite.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8025,8 +8226,10 @@
       "size": 1951,
       "sha256": "3263d3f54d6e04d13189950bc52b8c21621ad3157e3b32ab7217d0b2f8aad012",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/show_qr.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8034,8 +8237,10 @@
       "size": 1215,
       "sha256": "590c416d55895e42292743bc45971f60543ae7b959bcaff9df84d7e9f8da9a3c",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/stranger.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8043,8 +8248,10 @@
       "size": 1699,
       "sha256": "0ddb3a5709ce6e19f9e7be140b06cbdf2c071862ce10db221c39102f66fd613d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/supercell_logo_black.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8052,8 +8259,10 @@
       "size": 1699,
       "sha256": "dece06bbdcb0f4d9c8ca5a47d4f3482d116db6cfdde63bc31d10d75a6fa7bd19",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/supercell_logo_white.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8061,8 +8270,10 @@
       "size": 953,
       "sha256": "f072422f8f0cb4a88fa7cedc53631519c39a5e8ff5c6c87e57c2638bf9b50f27",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/switch_scid.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8070,8 +8281,10 @@
       "size": 1093,
       "sha256": "38e61b2210739f45a75067d508d974340bbb88c9e52255e66c2caeab81fc32f0",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_blue_face_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8079,8 +8292,10 @@
       "size": 1093,
       "sha256": "ecbceaeb12a10f2e831872084606dd0340a2614d4d7ebb70ac8ec353736727e5",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_blue_face.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8088,8 +8303,10 @@
       "size": 1534,
       "sha256": "2c48084820c6e86dc35cbba64c364007bd8a791b64f2a88560dcb9123b7c8418",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_gear_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8097,8 +8314,10 @@
       "size": 1526,
       "sha256": "2b3555be22c6206c868814053e48b8dcc1491d23a13083c43e808409096a539b",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_gear.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8106,8 +8325,10 @@
       "size": 1151,
       "sha256": "edd26b9de20264d2e43268c1369ca4905a2c73bc503774d7acb4b964d5959428",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_id_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8115,8 +8336,10 @@
       "size": 1159,
       "sha256": "9c7a585500903a2c3f7712f0202ec9cfee8c8a1e59b8025144b5286ecc865fa7",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_id.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8124,8 +8347,10 @@
       "size": 1101,
       "sha256": "7d9aa267050534fff7645a4f42f3535ff87a0a082768f6c6853afe12ab80eb09",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_red_face_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8133,8 +8358,10 @@
       "size": 1093,
       "sha256": "2e523c497deeeff98c1de7fe63ffd75a189dadfd9ff6a61e247b61899468af34",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_red_face.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8142,8 +8369,10 @@
       "size": 826,
       "sha256": "36e5b609c0094423580aa39ca016a6cfe63ab676bfc4a5b8e46b9478ce5096ea",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_star_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8151,8 +8380,10 @@
       "size": 826,
       "sha256": "f62d0614861d2dc49fcda1d4c70ac1923694e409182df069a91ccdd31eff2230",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_star.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8160,8 +8391,10 @@
       "size": 851,
       "sha256": "d533904a3460caeaeb144a2649afd600b1a7600742fae7264e8a17adee3a6273",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_sword_unselected.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8169,8 +8402,10 @@
       "size": 843,
       "sha256": "2c3f00cd9f6272dfbd71a6b15ee2a0fefd67f65e60034a4204b458bc82addb40",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icon_sword.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8178,8 +8413,10 @@
       "size": 311,
       "sha256": "8ff053f2e2137d3c9ec68d201bb5d0324c0767d67416eb004b22e088d17f4a06",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/tab_icons_shadow.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8187,8 +8424,10 @@
       "size": 95,
       "sha256": "cc20df31f2305a691053a05a050baedfbfeb6e6d9d18e2a0e7efae4888c928e9",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "svg-vector-recovery",
+      "outputs": [
+        "deobfuscated/decoded/si-svg/validation_check.svg"
+      ],
       "outputsPresent": true
     },
     {
@@ -8218,8 +8457,10 @@
       "size": 70780,
       "sha256": "cd1700d26bece0d366a3f04f460e12360868b13fd67b8f93902aad714b3fa3f3",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8227,8 +8468,10 @@
       "size": 71368,
       "sha256": "1af1b031d454e2f7fd009afdb7e88caf125c300bb6c16092dacc645ccc1f1a7f",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8236,8 +8479,10 @@
       "size": 201364,
       "sha256": "e08c56a57773aa05ddc52d0577fd10714ffc1795f31aada5d9339f53f500e49d",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8245,8 +8490,10 @@
       "size": 200156,
       "sha256": "9e5463b56bd96d3fee7c19646f740732a9314789c0dc08e5c78491a3ab827631",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8254,8 +8501,10 @@
       "size": 200492,
       "sha256": "8bd0e6d40fbc59d1446df808c9c8eb0b75c1a0f5ef6f8fcdb50f2f5145b4ed20",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8296,8 +8545,10 @@
       "size": 35504,
       "sha256": "93c2d0417f90d03ea84adf3f7e2cc80032f839717f088b079e84af3079b80712",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/AppsFlyerLib.framework/AppsFlyerLib.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8349,8 +8600,10 @@
       "size": 1070336,
       "sha256": "cba5a76208b8bd621d8895b79b8e3cec2fb55f6e3b85729188f7937bb8a0a0b9",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/CommonUISDK.framework/CommonUISDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8787,8 +9040,10 @@
       "size": 121856,
       "sha256": "ae3ee2768a14e2fa1536614671f675fbe41133d45af2f7f30734eb293fa85156",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/cupertino_http.framework/cupertino_http.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8818,8 +9073,10 @@
       "size": 35568,
       "sha256": "8b5678cc14d9c032db68de44ef6b5f8a1cdfaed69d71cfd7fd119ca504438f58",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/FBLPromises.framework/FBLPromises.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8871,8 +9128,10 @@
       "size": 35584,
       "sha256": "46175c8242dc8bcfe6f430e5228e99962bef02f55e7822f7823007d27b03dce3",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8902,8 +9161,10 @@
       "size": 35568,
       "sha256": "5ebc672f02bd36c6afa7f9654a5f34af532e582cf116c8093e82b24add370470",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/FirebaseCore.framework/FirebaseCore.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -8955,8 +9216,10 @@
       "size": 35584,
       "sha256": "e5fecd2718e60790d2b6894b930df4645762cf33b5e031e022f7798a7ffa02a9",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9008,8 +9271,10 @@
       "size": 35600,
       "sha256": "f1f1925d97554ace25cd70d2f4ef4488661cb95a6a94615a7f876328d116fef7",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/FirebaseInstallations.framework/FirebaseInstallations.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9061,8 +9326,10 @@
       "size": 2198384,
       "sha256": "a17785c6d6011d08c48edf60cb241b4d1f9f826f43d7a6adb02d2c66733dafda",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/flutter_inappwebview_ios.framework/flutter_inappwebview_ios.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9158,8 +9425,10 @@
       "size": 8777968,
       "sha256": "6993ab92c4345644bd4aee208aae8c476b430159a563a3c7502dcd73d5b3bc79",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Flutter.framework/Flutter.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9167,8 +9436,10 @@
       "size": 778864,
       "sha256": "c12537022ef818991a7bfed41a76d8d6ae962ffbc0e6511ac762a5d0845e7f7c",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "icu-data-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9209,8 +9480,10 @@
       "size": 35616,
       "sha256": "749c3800e22dde7071337edd9649c2be1d51acd82291557f196114938417306f",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9240,8 +9513,10 @@
       "size": 35584,
       "sha256": "7d89a8e5a4d7086a0ba1d4c19686470d81a01555a7e58019d33919cdb00daf3b",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9271,8 +9546,10 @@
       "size": 35632,
       "sha256": "9085189d6b488cc11c27e0e7998e5f66592626f8df94d72a9e17205770b9a6fc",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9302,8 +9579,10 @@
       "size": 35584,
       "sha256": "7ad443af53088d78647719a7b52a7d09c00b04664d52714bf4c3924f4f331a5a",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/GoogleUtilities.framework/GoogleUtilities.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9443,8 +9722,10 @@
       "size": 712160,
       "sha256": "1cc1a01f8f05e7d4329d3e4ea277468baf81ffcea1e131e9dfb2ad4bbd1147cc",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/HelpshiftX.framework/HelpshiftX.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9518,8 +9799,10 @@
       "size": 17643360,
       "sha256": "514d57774330082f8260bc94f3233a11b705917fcdd05be66860064ccf6b1819",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/laserx.framework/laserx.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9549,8 +9832,10 @@
       "size": 236000,
       "sha256": "1e7f376860abea635ea741271ff0a81935316cd24a89f091cd251a6f3471ab29",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/MessagingAPI.framework/MessagingAPI.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -9591,8 +9876,10 @@
       "size": 253552,
       "sha256": "7af4350606342c77fbb4f6fc00b487271833ce3ffe378a64a1c9901b9b5e9322",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/MessagingSDK.framework/MessagingSDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10029,8 +10316,10 @@
       "size": 35552,
       "sha256": "935407ff196c83af87bff88f10b8fc07dadc17437013cbf01bfbbb2952d79156",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/nanopb.framework/nanopb.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10082,8 +10371,10 @@
       "size": 144288,
       "sha256": "3134526aa5b73aa2e82e4f66404fdfcdd8afc74481e913600829997f787db1f0",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/path_provider_foundation.framework/path_provider_foundation.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10135,8 +10426,10 @@
       "size": 35552,
       "sha256": "97e850d15701574d46bf3bb2439f66f9c2280cc2c7fdf85ac9ec6767bbe10673",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/permission_handler_apple.framework/permission_handler_apple.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10177,8 +10470,10 @@
       "size": 35504,
       "sha256": "6e1728b0a7494bb119083f70ce4bc410d71919a5aa73cee7a6c7a238406ba739",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Quago.framework/Quago.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10208,8 +10503,10 @@
       "size": 35536,
       "sha256": "7c7b032bb463c51f6be713b66c3d2ee65d86dfd196e84e312d6a6b8104062cf1",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/RecaptchaEnterprise.framework/RecaptchaEnterprise.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10239,8 +10536,10 @@
       "size": 69888,
       "sha256": "102d3bfcf4236fd55d2af6ac76965df20011a8945da66137ccf53c2135497f4e",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/RecaptchaInterop.framework/RecaptchaInterop.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10270,8 +10569,10 @@
       "size": 151440,
       "sha256": "1e3d4d6c81c1a18e2e40b9d574cf7c0e11acbbf268268fb9b3c24491e2a292f0",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/scid_plugin.framework/scid_plugin.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10301,8 +10602,10 @@
       "size": 4209952,
       "sha256": "6699786c4cfb2e13836aea4902436d34c95a483f44058d634be6b2371f0a10d0",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Scid.framework/Scid.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10332,8 +10635,10 @@
       "size": 110592,
       "sha256": "3c51feb652c75163134ea069f99a226872befbcac8d82e43b2e111feb5c0e2ff",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/SDKConfigurations.framework/SDKConfigurations.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10363,8 +10668,10 @@
       "size": 147856,
       "sha256": "8d9d4ccabe733fbb164fe42134de83e9a0e96d9154ba9f3c139f725da9000fe5",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/sensors_plus.framework/sensors_plus.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10405,8 +10712,10 @@
       "size": 35536,
       "sha256": "ec43a8d31fad21acba351faa0dd8d67343fc918e4a7064bc931b74e1703421ab",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Sentry.framework/Sentry.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10436,8 +10745,10 @@
       "size": 117872,
       "sha256": "26bec64dafff971ec5033da109b8c78f2f5b52fe6dec1fd4c031d3004d883456",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/share_plus.framework/share_plus.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10489,8 +10800,10 @@
       "size": 198608,
       "sha256": "95dccf6411dab2672f93616113e6331f634b86055cf0c6e3bea9ddf3a4331623",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10542,8 +10855,10 @@
       "size": 107520,
       "sha256": "8d5dcdd9f36c50a10964ce91c228a2152a580a66734efa332b2227a96920d115",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/smart_auth.framework/smart_auth.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10573,8 +10888,10 @@
       "size": 870480,
       "sha256": "9579a5dbed90079c44bcf3d7e29a069be2ba3abb08207def25a6316d8a562e5a",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/snowplow_tracker.framework/snowplow_tracker.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10604,8 +10921,10 @@
       "size": 2766752,
       "sha256": "1116acbc6f081e91192a6933472f882d796ce6908e030bf4f35bce53b246c5c7",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/SnowplowTracker.framework/SnowplowTracker.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10657,8 +10976,10 @@
       "size": 125296,
       "sha256": "72a828dfd5792cce4b618dd3cee135f0a000c6ef8894635b073d7bab9ad26af0",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/social_plugin.framework/social_plugin.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -10699,8 +11020,10 @@
       "size": 655952,
       "sha256": "020021877cdc6e67c93ca84192df61eaa1ab839fcba31fd819ae7b0b8ab9c575",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/SupportProvidersSDK.framework/SupportProvidersSDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11014,8 +11337,10 @@
       "size": 1890832,
       "sha256": "29f892fb464adb61f5cc25dc3b3a6934fe2bf43f18403fa308be5353ea28f8f3",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/SupportSDK.framework/SupportSDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11586,8 +11911,10 @@
       "size": 9623984,
       "sha256": "335d449084de032cf5f9cbee27c734826faf14b08e45aa0cb07600d2798aa45c",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Tale.framework/Tale.dylib.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11617,8 +11944,10 @@
       "size": 183120,
       "sha256": "342829c48e0ea80d759bfb1367d89ee22c26440f48e0c38ed66b86d6744e3efd",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/url_launcher_ios.framework/url_launcher_ios.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11681,8 +12010,10 @@
       "size": 7928960,
       "sha256": "3408f639a24f5bc3a9e60be53c0b92f2583494a49b5e90100f9e65f12fd58fb3",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/Usercentrics.framework/Usercentrics.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11712,8 +12043,10 @@
       "size": 841728,
       "sha256": "50f78dcb9647ef17fb11e9afd182a6a8118900d9ab80880d58f15ff212f63e4d",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/UsercentricsUI.framework/UsercentricsUI.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11754,8 +12087,10 @@
       "size": 643232,
       "sha256": "3a1f5294cce0fd426efb9703507855984e5cef020c188c57e6cab99d51805892",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskCoreSDK.framework/ZendeskCoreSDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11796,8 +12131,10 @@
       "size": 609104,
       "sha256": "d4b326ae3c4f6cb45c03dd3d3d6f411c28049b475a2625635df694f3d6b51871",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDK.framework/ZendeskSDK.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11838,8 +12175,10 @@
       "size": 193696,
       "sha256": "69cbd15adc02a0a6c7efd3fa387191cb930713b5ee822c5084d3f2d12cf6ada2",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKAnalyticsKit.framework/ZendeskSDKAnalyticsKit.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11891,8 +12230,10 @@
       "size": 1833808,
       "sha256": "b2b89fee500e93e04ee0eda819436bfa891304970828949a9889fa79ee450093",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKConversationKit.framework/ZendeskSDKConversationKit.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11933,8 +12274,10 @@
       "size": 179808,
       "sha256": "9800aeae339bba5a27b029169145e0560e28dad4358c4de513319f05d0d7b663",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -11975,8 +12318,10 @@
       "size": 203712,
       "sha256": "277ebaaf69fb5cb8f53c43a505b04c29dff941a9a259a1cfa5ae3b428566ce8d",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKFayeClient.framework/ZendeskSDKFayeClient.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12017,8 +12362,10 @@
       "size": 233632,
       "sha256": "8a0fd7f72e8016adde353c6bd3d2c0826776925aca1ad5397ec8cb8d28519816",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKGuideKit.framework/ZendeskSDKGuideKit.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12059,8 +12406,10 @@
       "size": 195712,
       "sha256": "0d1ea9568a6fd82a8a8dc7794fcbd785289e5b33938d51150825d79018f80bfa",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKHTTPClient.framework/ZendeskSDKHTTPClient.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12101,8 +12450,10 @@
       "size": 105968,
       "sha256": "b9d6474a5f17cea0d03680dcf1b72e479c217d54c54fd8004a176d291ef04682",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKLogger.framework/ZendeskSDKLogger.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12572,8 +12923,10 @@
       "size": 2137984,
       "sha256": "c66736f2ea95bbad6eba7c143b7e43b96d6865b0fb71bdff7e7dd7f3757d2e8d",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKMessaging.framework/ZendeskSDKMessaging.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12614,8 +12967,10 @@
       "size": 253680,
       "sha256": "2c79abff2624d785e7c46350bc80f677900979c60a9626d7faab64e7d639a745",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKSocketClient.framework/ZendeskSDKSocketClient.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -12656,8 +13011,10 @@
       "size": 143232,
       "sha256": "2dcbb7e5dad482669ee4ebe01b25c77774e6f79bdc819d39c3ad85e95ee0e1d3",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKStorage.framework/ZendeskSDKStorage.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -13116,8 +13473,10 @@
       "size": 1094416,
       "sha256": "ff23f0a07f052a7e51e49c0400c2081b14f702aa3ad6b0b12bf7866a5754bb2a",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/Frameworks/ZendeskSDKUIComponents.framework/ZendeskSDKUIComponents.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -13211,8 +13570,10 @@
       "size": 18102848,
       "sha256": "0183de82f0aa5974135d033ca6bfe5ffc724b92e1cfaea9af050a8d562aecf5f",
       "kind": "Mach-O 64-bit",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "macho-metadata",
+      "outputs": [
+        "deobfuscated/decoded/macho/laser.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -13438,8 +13799,10 @@
       "size": 620,
       "sha256": "5e41a162652cf52ab23ef7420cf0cc925ca35502c64cd1efe65534be66bd36dd",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15042,8 +15405,10 @@
       "size": 20560,
       "sha256": "4d8757b0b22729292712d6fd5729b6aaaea3d18d4b3f87cb4988a0cf6f519ba3",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15051,8 +15416,10 @@
       "size": 52000,
       "sha256": "3fa92b905ee4eacdb4f642e47e38bbfff6a8793dd12a470f5342f6a7481f27ae",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15060,8 +15427,10 @@
       "size": 965664,
       "sha256": "f65be77156a6ff7e53d60cd951e95fbc52dd862178f12737ab34eef6780a0265",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15100,8 +15469,10 @@
       "size": 696600,
       "sha256": "24fe962ce57a26d132f60257d58f6a8694cae03ecb45004bfe0d2e4d15bcf894",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15109,8 +15480,10 @@
       "size": 28092,
       "sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15118,8 +15491,10 @@
       "size": 132268,
       "sha256": "0cb1a01ec7d61d93407c37d1d2da27470a0601bfdbc115f3e2a1723d39625c86",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -15127,8 +15502,10 @@
       "size": 297204,
       "sha256": "fa233ea202b70fc91f6ff6ee8fdbb06adea338889970d34322724603b9f0fd05",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-font-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -17953,8 +18330,10 @@
       "size": 5806057,
       "sha256": "4536618e9607d69d869f6e20773ff8b1dcf227d5532ead0704614c826a40424a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "standard-mp4-metadata",
+      "outputs": [
+        "deobfuscated/decoded/standard/standard-asset-metadata.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -197992,8 +198371,10 @@
       "size": 260,
       "sha256": "4be67c23b4614c5ac1910e37b91910c4087bc7d3afd2c8b62bd1b0004b9b4eec",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {
@@ -210033,8 +210414,10 @@
       "size": 304,
       "sha256": "f5c3997496227842ac8daefbd00aaf7d4594afe998664a7ecf11893b8e9ef26a",
       "kind": "unknown binary",
-      "status": "preserved-original",
-      "outputs": [],
+      "status": "opaque-binary-analysis",
+      "outputs": [
+        "deobfuscated/decoded/opaque/opaque-analysis.json"
+      ],
       "outputsPresent": true
     },
     {

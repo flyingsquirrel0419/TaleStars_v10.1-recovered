@@ -1,0 +1,4776 @@
+{
+  "source": "Frameworks/sensors_plus.framework/sensors_plus",
+  "size": 147856,
+  "sha256": "8d9d4ccabe733fbb164fe42134de83e9a0e96d9154ba9f3c139f725da9000fe5",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 1114245,
+    "numberOfCommands": 42,
+    "commandsSize": 5064,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/sensors_plus.framework/sensors_plus",
+    "@rpath/Flutter.framework/Flutter",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreMotion.framework/CoreMotion",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/swift/libswiftCore.dylib",
+    "/usr/lib/swift/libswiftCoreAudio.dylib",
+    "/usr/lib/swift/libswiftCoreFoundation.dylib",
+    "/usr/lib/swift/libswiftCoreImage.dylib",
+    "/usr/lib/swift/libswiftCoreLocation.dylib",
+    "/usr/lib/swift/libswiftCoreMedia.dylib",
+    "/usr/lib/swift/libswiftDarwin.dylib",
+    "/usr/lib/swift/libswiftDispatch.dylib",
+    "/usr/lib/swift/libswiftMetal.dylib",
+    "/usr/lib/swift/libswiftOSLog.dylib",
+    "/usr/lib/swift/libswiftObjectiveC.dylib",
+    "/usr/lib/swift/libswiftQuartzCore.dylib",
+    "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+    "/usr/lib/swift/libswiftXPC.dylib",
+    "/usr/lib/swift/libswiftos.dylib",
+    "/usr/lib/swift/libswiftsimd.dylib",
+    "/usr/lib/swift/libswiftFoundation.dylib",
+    "/usr/lib/swift/libswiftUIKit.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 21852,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 1020,
+      "offset": 38236,
+      "virtualAddress": 38236,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 1020,
+      "offset": 39256,
+      "virtualAddress": 39256,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 440,
+      "offset": 40288,
+      "virtualAddress": 40288,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_classname",
+      "size": 23,
+      "offset": 40728,
+      "virtualAddress": 40728,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 2102,
+      "offset": 40751,
+      "virtualAddress": 40751,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 3149,
+      "offset": 42864,
+      "virtualAddress": 42864,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__constg_swiftt",
+      "size": 532,
+      "offset": 46016,
+      "virtualAddress": 46016,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_typeref",
+      "size": 188,
+      "offset": 46548,
+      "virtualAddress": 46548,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_fieldmd",
+      "size": 144,
+      "offset": 46736,
+      "virtualAddress": 46736,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_capture",
+      "size": 200,
+      "offset": 46880,
+      "virtualAddress": 46880,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_types",
+      "size": 20,
+      "offset": 47080,
+      "virtualAddress": 47080,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_reflstr",
+      "size": 15,
+      "offset": 47100,
+      "virtualAddress": 47100,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_protos",
+      "size": 4,
+      "offset": 47116,
+      "virtualAddress": 47116,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_proto",
+      "size": 16,
+      "offset": 47120,
+      "virtualAddress": 47120,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 544,
+      "offset": 47136,
+      "virtualAddress": 47136,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__eh_frame",
+      "size": 104,
+      "offset": 47680,
+      "virtualAddress": 47680,
+      "type": "TYPE.COALESCED",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 152,
+      "offset": 49152,
+      "virtualAddress": 49152,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__const",
+      "size": 968,
+      "offset": 49304,
+      "virtualAddress": 49304,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 48,
+      "offset": 50272,
+      "virtualAddress": 50272,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_protolist",
+      "size": 40,
+      "offset": 50320,
+      "virtualAddress": 50320,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 50360,
+      "virtualAddress": 50360,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA_CONST"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 664,
+      "offset": 65536,
+      "virtualAddress": 65536,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 1992,
+      "offset": 66200,
+      "virtualAddress": 66200,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 208,
+      "offset": 68192,
+      "virtualAddress": 68192,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_protorefs",
+      "size": 40,
+      "offset": 68400,
+      "virtualAddress": 68400,
+      "type": "TYPE.COALESCED",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 64,
+      "offset": 68440,
+      "virtualAddress": 68440,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 3320,
+      "offset": 68504,
+      "virtualAddress": 68504,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 352,
+      "offset": 71824,
+      "virtualAddress": 71824,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift51_hooks",
+      "size": 184,
+      "offset": 72176,
+      "virtualAddress": 72176,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__s_async_hook",
+      "size": 400,
+      "offset": 72360,
+      "virtualAddress": 72360,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift56_hooks",
+      "size": 176,
+      "offset": 72760,
+      "virtualAddress": 72760,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__common",
+      "size": 32,
+      "offset": 0,
+      "virtualAddress": 72936,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__bss",
+      "size": 304,
+      "offset": 0,
+      "virtualAddress": 72968,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "PodsDummy_sensors_plus",
+    "applicationWillEnterForeground:",
+    "application:continueUserActivity:restorationHandler:",
+    "isProxy",
+    "application:didFinishLaunchingWithOptions:",
+    "setAccelerometerUpdateInterval:",
+    "application:didReceiveRemoteNotification:fetchCompletionHandler:",
+    "acceleration",
+    "dealloc",
+    "application:didFailToRegisterForRemoteNotificationsWithError:",
+    "release",
+    "application:didReceiveLocalNotification:",
+    "stopGyroUpdates",
+    "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+    "application:didRegisterUserNotificationSettings:",
+    "application:handleEventsForBackgroundURLSession:completionHandler:",
+    "application:handleOpenURL:",
+    "application:openURL:options:",
+    "application:openURL:sourceApplication:annotation:",
+    "application:performActionForShortcutItem:completionHandler:",
+    "application:performFetchWithCompletionHandler:",
+    "application:willFinishLaunchingWithOptions:",
+    "applicationDidBecomeActive:",
+    "applicationDidEnterBackground:",
+    "applicationWillResignActive:",
+    "applicationWillTerminate:",
+    "arguments",
+    "autorelease",
+    "class",
+    "conformsToProtocol:",
+    "debugDescription",
+    "description",
+    "detachFromEngineForRegistrar:",
+    "errorWithCode:message:details:",
+    "eventChannelWithName:binaryMessenger:",
+    "handleMethodCall:result:",
+    "hash",
+    "init",
+    "isEqual:",
+    "isKindOfClass:",
+    "isMemberOfClass:",
+    "magneticField",
+    "messenger",
+    "method",
+    "methodChannelWithName:binaryMessenger:",
+    "onCancelWithArguments:",
+    "onListenWithArguments:eventSink:",
+    "performSelector:",
+    "performSelector:withObject:",
+    "performSelector:withObject:withObject:",
+    "registerWithRegistrar:",
+    "respondsToSelector:",
+    "retain",
+    "retainCount",
+    "rotationRate",
+    "self",
+    "setDeviceMotionUpdateInterval:",
+    "setGyroUpdateInterval:",
+    "setMagnetometerUpdateInterval:",
+    "setMethodCallHandler:",
+    "setPluginRegistrantCallback:",
+    "setStreamHandler:",
+    "startAccelerometerUpdatesToQueue:withHandler:",
+    "startDeviceMotionUpdatesToQueue:withHandler:",
+    "startGyroUpdatesToQueue:withHandler:",
+    "startMagnetometerUpdatesToQueue:withHandler:",
+    "stopAccelerometerUpdates",
+    "stopDeviceMotionUpdates",
+    "superclass",
+    "typedDataWithFloat64:",
+    "userAcceleration",
+    "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+    "userNotificationCenter:openSettingsForNotification:",
+    "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+    "zone"
+  ],
+  "importedFunctions": [
+    "_$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc",
+    "_$s10Foundation13__DataStorageCMa",
+    "_$s10Foundation4DataV14RangeReferenceCMa",
+    "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+    "_$s8Dispatch0A13WorkItemFlagsVMa",
+    "_$s8Dispatch0A13WorkItemFlagsVMn",
+    "_$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc",
+    "_$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+    "_$s8Dispatch0A3QoSVMa",
+    "_$sBOWV",
+    "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+    "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+    "_$sSS4hash4intoys6HasherVz_tF",
+    "_$sSSN",
+    "_$sSaMa",
+    "_$sSayxGSTsMc",
+    "_$sSiN",
+    "_$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ",
+    "_$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF",
+    "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+    "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+    "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+    "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+    "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+    "_$ss18_DictionaryStorageCMn",
+    "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+    "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+    "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+    "_$ss5ErrorP10FoundationE20localizedDescriptionSSvg",
+    "_$ss6HasherV5_seedABSi_tcfC",
+    "_$ss6HasherV9_finalizeSiyF",
+    "_$sypN",
+    "_FlutterMethodNotImplemented",
+    "_OBJC_CLASS_$_CMMotionManager",
+    "_OBJC_CLASS_$_FlutterError",
+    "_OBJC_CLASS_$_FlutterEventChannel",
+    "_OBJC_CLASS_$_FlutterMethodChannel",
+    "_OBJC_CLASS_$_FlutterStandardTypedData",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$_NSOperationQueue",
+    "_OBJC_CLASS_$_OS_dispatch_queue",
+    "_OBJC_METACLASS_$_NSObject",
+    "__Block_copy",
+    "__Block_release",
+    "__NSConcreteStackBlock",
+    "__ZdlPv",
+    "__Znwm",
+    "___chkstk_darwin",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__dyld_register_func_for_add_image",
+    "__objc_empty_cache",
+    "__swiftEmptyArrayStorage",
+    "__swiftEmptyDictionarySingleton",
+    "__swift_FORCE_LOAD_$_swiftCoreAudio",
+    "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+    "__swift_FORCE_LOAD_$_swiftCoreImage",
+    "__swift_FORCE_LOAD_$_swiftCoreLocation",
+    "__swift_FORCE_LOAD_$_swiftCoreMedia",
+    "__swift_FORCE_LOAD_$_swiftDispatch",
+    "__swift_FORCE_LOAD_$_swiftFoundation",
+    "__swift_FORCE_LOAD_$_swiftMetal",
+    "__swift_FORCE_LOAD_$_swiftOSLog",
+    "__swift_FORCE_LOAD_$_swiftObjectiveC",
+    "__swift_FORCE_LOAD_$_swiftQuartzCore",
+    "__swift_FORCE_LOAD_$_swiftUIKit",
+    "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+    "__swift_FORCE_LOAD_$_swiftXPC",
+    "__swift_FORCE_LOAD_$_swift_Builtin_float",
+    "__swift_FORCE_LOAD_$_swiftos",
+    "__swift_FORCE_LOAD_$_swiftsimd",
+    "__swift_stdlib_operatingSystemVersion",
+    "_abort",
+    "_bzero",
+    "_dispatch_once_f",
+    "_dlsym",
+    "_free",
+    "_getsectiondata",
+    "_malloc",
+    "_memcmp",
+    "_memcpy",
+    "_memmove",
+    "_objc_allocWithZone",
+    "_objc_autoreleaseReturnValue",
+    "_objc_getClass",
+    "_objc_lookUpClass",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_opt_self",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleasedReturnValue",
+    "_os_release",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_posix_memalign",
+    "_pthread_getspecific",
+    "_pthread_mutex_init",
+    "_pthread_mutex_lock",
+    "_pthread_mutex_unlock",
+    "_pthread_setspecific",
+    "_realloc",
+    "_strcmp",
+    "_strlen",
+    "_swift_allocObject",
+    "_swift_beginAccess",
+    "_swift_bridgeObjectRelease",
+    "_swift_bridgeObjectRetain",
+    "_swift_coroFrameAlloc",
+    "_swift_deallocObject",
+    "_swift_deletedMethodError",
+    "_swift_dynamicCast",
+    "_swift_endAccess",
+    "_swift_errorRetain",
+    "_swift_getErrorValue",
+    "_swift_getObjCClassMetadata",
+    "_swift_getObjectType",
+    "_swift_getTypeByMangledNameInContext",
+    "_swift_getWitnessTable",
+    "_swift_isUniquelyReferenced_nonNull_native",
+    "_swift_lookUpClassMethod",
+    "_swift_once",
+    "_swift_release",
+    "_swift_retain",
+    "_swift_unknownObjectRelease",
+    "_swift_unknownObjectRetain",
+    "_voucher_adopt",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_$s12sensors_plus19MotionStreamHandlerMp",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivMTj",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivMTq",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivgTj",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivgTq",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivsTj",
+    "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivsTq",
+    "_$s12sensors_plus19MotionStreamHandlerTL",
+    "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCACycfC",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCACycfc",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCMa",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCMn",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCMo",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCMu",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCN",
+    "_$s12sensors_plus20FPPSensorsPlusPluginCfD",
+    "_OBJC_CLASS_$_PodsDummy_sensors_plus",
+    "_OBJC_CLASS_$__TtC12sensors_plus20FPPSensorsPlusPlugin",
+    "_OBJC_METACLASS_$_PodsDummy_sensors_plus",
+    "_OBJC_METACLASS_$__TtC12sensors_plus20FPPSensorsPlusPlugin",
+    "_sensors_plusVersionNumber",
+    "_sensors_plusVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "_$s12sensors_plus14_eventChannels_WZ",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus15_streamHandlers_WZ",
+      "value": 16420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZySo0H10MethodCallC_yypSgctcfU_",
+      "value": 16460,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo17FlutterMethodCallCypSgIegn_Ieggg_AByXlSgIeyBy_IeyByy_TR",
+      "value": 17720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZTo",
+      "value": 17864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCACycfcTo",
+      "value": 17992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5",
+      "value": 18100,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5",
+      "value": 18200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_So19FlutterEventChannelCTg5",
+      "value": 18380,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV4copyyyFSS_12sensors_plus19MotionStreamHandler_pTg5",
+      "value": 18724,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV4copyyyFSS_So19FlutterEventChannelCTg5",
+      "value": 19104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_12sensors_plus19MotionStreamHandler_pTg5",
+      "value": 19468,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So19FlutterEventChannelCTg5",
+      "value": 20160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So19FlutterEventChannelCTt0g5Tf4g_n",
+      "value": 20836,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_12sensors_plus19MotionStreamHandler_pTt0g5Tf4g_n",
+      "value": 21096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_12sensors_plus19MotionStreamHandler_pTg5Tf4ennn_nAF016FPPAccelerometerlM4PlusC_Tg5Tm",
+      "value": 21376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZTf4nd_n",
+      "value": 21732,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZySo0H10MethodCallC_yypSgctcfU_TA",
+      "value": 23868,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 23924,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 23940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA",
+      "value": 23984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo8NSObjectCMa",
+      "value": 23992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOh",
+      "value": 24060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_instantiateConcreteTypeFromMangledNameV2",
+      "value": 24132,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypWOb",
+      "value": 24200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TR",
+      "value": 24240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus18_initMotionManageryyF",
+      "value": 24464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus11sendTriplet1x1y1z4sinkySd_S2dyypSgctF",
+      "value": 24708,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus11sendTriplet1x1y1z4sinkySd_S2dyypSgctFyyScMYccfU_",
+      "value": 25296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sIeg_IeyB_TR",
+      "value": 25508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo",
+      "value": 25552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo",
+      "value": 25580,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCACycfcTo",
+      "value": 25592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCfD",
+      "value": 25612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCMa",
+      "value": 25624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivgTW",
+      "value": 25656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivsTW",
+      "value": 25720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW",
+      "value": 25740,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW.resume.0",
+      "value": 25848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo19CMAccelerometerDataCSg_s0N0_pSgtcfU_Tm",
+      "value": 25860,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo",
+      "value": 26396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFToTm",
+      "value": 26424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCACycfcTo",
+      "value": 26644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCfD",
+      "value": 26664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCMa",
+      "value": 26676,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0A2aDP14samplingPeriodSivgTW",
+      "value": 26708,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0A2aDP14samplingPeriodSivsTW",
+      "value": 26772,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0A2aDP14samplingPeriodSivMTW",
+      "value": 26792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0A2aDP14samplingPeriodSivMTW.resume.0",
+      "value": 26900,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo",
+      "value": 26912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo",
+      "value": 26940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCACycfcTo",
+      "value": 26952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCfD",
+      "value": 26972,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCMa",
+      "value": 26984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivgTW",
+      "value": 27016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivsTW",
+      "value": 27080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW",
+      "value": 27100,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW.resume.0",
+      "value": 27208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo10CMGyroDataCSg_s0N0_pSgtcfU_Tm",
+      "value": 27220,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo19CMAccelerometerDataCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TRTm",
+      "value": 27732,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTo",
+      "value": 27852,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFToTm",
+      "value": 27880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCACycfcTo",
+      "value": 27996,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCACycfcToTm",
+      "value": 28016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCfD",
+      "value": 28092,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCfDTm",
+      "value": 28104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCMa",
+      "value": 28152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivgTW",
+      "value": 28184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivsTW",
+      "value": 28248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivsTWTm",
+      "value": 28268,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW",
+      "value": 28392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW.resume.0",
+      "value": 28500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0A2aDP14samplingPeriodSivMTW.resume.0Tm",
+      "value": 28512,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n",
+      "value": 28660,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n",
+      "value": 28840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n",
+      "value": 28960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n",
+      "value": 29088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTf4nnd_n",
+      "value": 29188,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTf4nnd_n",
+      "value": 29476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTf4nnd_n",
+      "value": 29764,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTf4nnd_n",
+      "value": 30052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo18CMMagnetometerDataCSg_s0N0_pSgtcfU_TA",
+      "value": 30340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 30372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 30388,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_project_boxed_opaque_existential_0",
+      "value": 30396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_0",
+      "value": 30432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus11sendTriplet1x1y1z4sinkySd_S2dyypSgctFyyScMYccfU_TA",
+      "value": 30500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm",
+      "value": 30516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSay8Dispatch0A13WorkItemFlagsVGMa",
+      "value": 30580,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV15_RepresentationOWOe",
+      "value": 30664,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo12FlutterErrorCMaTm",
+      "value": 30728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgWOc",
+      "value": 30792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo10CMGyroDataCSg_s0N0_pSgtcfU_TA",
+      "value": 30908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo14CMDeviceMotionCSg_s0O0_pSgtcfU_TA",
+      "value": 30940,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFySo19CMAccelerometerDataCSg_s0N0_pSgtcfU_TA",
+      "value": 30972,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.11",
+      "value": 31004,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.21",
+      "value": 31008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.31",
+      "value": 31012,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.41",
+      "value": 31016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.12",
+      "value": 31044,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.22",
+      "value": 31048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.32",
+      "value": 31052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.42",
+      "value": 31056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo14CMDeviceMotionCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR",
+      "value": 31060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo10CMGyroDataCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR",
+      "value": 31060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo18CMMagnetometerDataCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR",
+      "value": 31060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo19CMAccelerometerDataCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR",
+      "value": 31060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo",
+      "value": 31064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTo",
+      "value": 31068,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA.27",
+      "value": 31072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA.37",
+      "value": 31072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$syXlSgIeyBy_ypSgIegn_TRTA.17",
+      "value": 31072,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv",
+      "value": 31076,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+      "value": 31124,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv",
+      "value": 32424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE",
+      "value": 32520,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm",
+      "value": 33208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvENUlPvE_8__invokeES8_",
+      "value": 33492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_",
+      "value": 33540,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvENUlPvE_8__invokeES6_",
+      "value": 33584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_",
+      "value": 33632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE",
+      "value": 33956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header",
+      "value": 34160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl",
+      "value": 34612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_1",
+      "value": 34616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OUTLINED_FUNCTION_0",
+      "value": 34616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv.cold.1",
+      "value": 34624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.1",
+      "value": 34644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.1",
+      "value": 34644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.3",
+      "value": 34668,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.5",
+      "value": 34668,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.2",
+      "value": 34668,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E.cold.4",
+      "value": 34704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.2",
+      "value": 34740,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE.cold.3",
+      "value": 34760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE",
+      "value": 34780,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E",
+      "value": 35360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE",
+      "value": 35592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E",
+      "value": 35600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE",
+      "value": 35872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE",
+      "value": 35888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask18flagAsRunning_slowEv",
+      "value": 35904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask20flagAsSuspended_slowEv",
+      "value": 36256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE",
+      "value": 36608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvENUlPvE_8__invokeES4_",
+      "value": 36688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE",
+      "value": 36736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE.cold.1",
+      "value": 36968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift28swift_Concurrency_fatalErrorEjPKcz",
+      "value": 36992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift21swift_task_getCurrentEv",
+      "value": 37004,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift24_swift_task_clearCurrentEv",
+      "value": 37012,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE",
+      "value": 37064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE",
+      "value": 37108,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL27_initializeVouchersDisabledPv",
+      "value": 37284,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE",
+      "value": 37340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_",
+      "value": 37536,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE.cold.1",
+      "value": 37584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE.cold.1",
+      "value": 37584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv",
+      "value": 37608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv",
+      "value": 37680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 37752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 37800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv.cold.1",
+      "value": 37848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv.cold.1",
+      "value": 37872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb",
+      "value": 37896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s",
+      "value": 37904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s",
+      "value": 37908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s",
+      "value": 37928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc",
+      "value": 37948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc",
+      "value": 38020,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 38092,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 38140,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 38188,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc.cold.1",
+      "value": 38212,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMR",
+      "value": 40408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySS12sensors_plus19MotionStreamHandler_pGMR",
+      "value": 40416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySSSo19FlutterEventChannelCGMR",
+      "value": 40424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_reflection_version",
+      "value": 40432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0AAMc",
+      "value": 40644,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0AAMc",
+      "value": 40660,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0AAMc",
+      "value": 40676,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0AAMc",
+      "value": 40692,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSay8Dispatch0A13WorkItemFlagsVGMR",
+      "value": 40720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plusMXM",
+      "value": 46016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC28detachFromEngineForRegistrar9registrarySo8NSObjectCSg_tFTq",
+      "value": 46080,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCMn",
+      "value": 46148,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivgTq",
+      "value": 46200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivsTq",
+      "value": 46208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivMTq",
+      "value": 46216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+      "value": 46224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+      "value": 46232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC7deallocyyFTq",
+      "value": 46240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCMn",
+      "value": 46248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivgTq",
+      "value": 46300,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivsTq",
+      "value": 46308,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivMTq",
+      "value": 46316,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+      "value": 46324,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+      "value": 46332,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC7deallocyyFTq",
+      "value": 46340,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCMn",
+      "value": 46348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivgTq",
+      "value": 46400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivsTq",
+      "value": 46408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivMTq",
+      "value": 46416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+      "value": 46424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+      "value": 46432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC7deallocyyFTq",
+      "value": 46440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCMn",
+      "value": 46448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivgTq",
+      "value": 46500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivsTq",
+      "value": 46508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivMTq",
+      "value": 46516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+      "value": 46524,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+      "value": 46532,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC7deallocyyFTq",
+      "value": 46540,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So8NSObjectC",
+      "value": 46548,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 12sensors_plus20FPPSensorsPlusPluginC",
+      "value": 46562,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS",
+      "value": 46568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yXlSgIeyBy_",
+      "value": 46572,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ypSg",
+      "value": 46584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySS______pG s18_DictionaryStorageC 12sensors_plus19MotionStreamHandlerP",
+      "value": 46590,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySSSo19FlutterEventChannelCG s18_DictionaryStorageC",
+      "value": 46608,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s12sensors_plus19MotionStreamHandlerP",
+      "value": 46642,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic x",
+      "value": 46682,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 12sensors_plus33FPPAccelerometerStreamHandlerPlusC",
+      "value": 46684,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Si",
+      "value": 46690,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 12sensors_plus29FPPUserAccelStreamHandlerPlusC",
+      "value": 46694,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 12sensors_plus29FPPGyroscopeStreamHandlerPlusC",
+      "value": 46700,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 12sensors_plus32FPPMagnetometerStreamHandlerPlusC",
+      "value": 46706,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ypSgIegn_",
+      "value": 46712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Sd",
+      "value": 46722,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Say_____G 8Dispatch0A13WorkItemFlagsV",
+      "value": 46726,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMF",
+      "value": 46736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandler_pMF",
+      "value": 46752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCMF",
+      "value": 46768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCMF",
+      "value": 46796,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCMF",
+      "value": 46824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCMF",
+      "value": 46852,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos_$_sensors_plus",
+      "value": 49304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC_$_sensors_plus",
+      "value": 49312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float_$_sensors_plus",
+      "value": 49320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC_$_sensors_plus",
+      "value": 49328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch_$_sensors_plus",
+      "value": 49336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation_$_sensors_plus",
+      "value": 49344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation_$_sensors_plus",
+      "value": 49352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreLocation_$_sensors_plus",
+      "value": 49360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit_$_sensors_plus",
+      "value": 49368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore_$_sensors_plus",
+      "value": 49376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal_$_sensors_plus",
+      "value": 49384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage_$_sensors_plus",
+      "value": 49392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_sensors_plus",
+      "value": 49400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog_$_sensors_plus",
+      "value": 49408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia_$_sensors_plus",
+      "value": 49416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd_$_sensors_plus",
+      "value": 49424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio_$_sensors_plus",
+      "value": 49432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51_$_sensors_plus",
+      "value": 49440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_sensors_plus",
+      "value": 49448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56_$_sensors_plus",
+      "value": 49456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 49504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCAA06MotiondE0AAWP",
+      "value": 49584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCAA06MotiondE0AAWP",
+      "value": 49616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCAA06MotioneF0AAWP",
+      "value": 49648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCAA06MotiondE0AAWP",
+      "value": 49680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 49792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.13",
+      "value": 49872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.23",
+      "value": 49992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.33",
+      "value": 50112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.43",
+      "value": 50232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_METACLASS_RO_$_PodsDummy_sensors_plus",
+      "value": 66200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__OBJC_CLASS_RO_$_PodsDummy_sensors_plus",
+      "value": 66272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterPlugin",
+      "value": 66344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 66440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 66456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus20FPPSensorsPlusPlugin.1",
+      "value": 66528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_NSObject",
+      "value": 66544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterApplicationLifeCycleDelegate",
+      "value": 66640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterPlugin",
+      "value": 66736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterPlugin",
+      "value": 66760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROPERTIES_NSObject",
+      "value": 66816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_NSObject",
+      "value": 66888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_UNUserNotificationCenterDelegate",
+      "value": 67104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_FlutterApplicationLifeCycleDelegate",
+      "value": 67200,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate",
+      "value": 67216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_PROTOCOLS_UNUserNotificationCenterDelegate",
+      "value": 67424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate",
+      "value": 67440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_FlutterStreamHandler",
+      "value": 67488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 67584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 67600,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus.1",
+      "value": 67672,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 67688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 67728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 67744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus.2",
+      "value": 67816,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 67832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 67872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 67888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus.3",
+      "value": 67960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 67976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 68016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 68032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOLS__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus.4",
+      "value": 68104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 68120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_METHOD_TYPES_FlutterStreamHandler",
+      "value": 68160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__CLASS_METHODS__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 68584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 68616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 68648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMf",
+      "value": 68720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_FlutterPlugin",
+      "value": 68832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin",
+      "value": 68888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin",
+      "value": 68992,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_NSObject",
+      "value": 69024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_NSObject",
+      "value": 69656,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate",
+      "value": 69688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate",
+      "value": 70320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 70472,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 70552,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCMf",
+      "value": 70624,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 70648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusCN",
+      "value": 70648,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 70784,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 70864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCMf",
+      "value": 70936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 70960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusCN",
+      "value": 70960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 71096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 71176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCMf",
+      "value": 71248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 71272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusCN",
+      "value": 71272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 71408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 71488,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCMf",
+      "value": 71560,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 71584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusCN",
+      "value": 71584,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__PROTOCOL_INSTANCE_METHODS_FlutterStreamHandler",
+      "value": 71720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus14_eventChannels_Wz",
+      "value": 71824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus15_streamHandlers_Wz",
+      "value": 71832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo8NSObjectCML",
+      "value": 71880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypSgMd",
+      "value": 71888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySS12sensors_plus19MotionStreamHandler_pGMd",
+      "value": 71896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCySSSo19FlutterEventChannelCGMd",
+      "value": 71904,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus33FPPAccelerometerStreamHandlerPlusC14samplingPeriodSivpWvd",
+      "value": 71912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC12sensors_plus33FPPAccelerometerStreamHandlerPlus",
+      "value": 71920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPUserAccelStreamHandlerPlusC14samplingPeriodSivpWvd",
+      "value": 71960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC12sensors_plus29FPPUserAccelStreamHandlerPlus",
+      "value": 71968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus29FPPGyroscopeStreamHandlerPlusC14samplingPeriodSivpWvd",
+      "value": 72008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC12sensors_plus29FPPGyroscopeStreamHandlerPlus",
+      "value": 72016,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus32FPPMagnetometerStreamHandlerPlusC14samplingPeriodSivpWvd",
+      "value": 72056,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC12sensors_plus32FPPMagnetometerStreamHandlerPlus",
+      "value": 72064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo12FlutterErrorCML",
+      "value": 72104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueCML",
+      "value": 72112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL",
+      "value": 72120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSay8Dispatch0A13WorkItemFlagsVGMd",
+      "value": 72128,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL",
+      "value": 72136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSay8Dispatch0A13WorkItemFlagsVGML",
+      "value": 72144,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo24FlutterStandardTypedDataCML",
+      "value": 72152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51",
+      "value": 72160,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56",
+      "value": 72161,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency",
+      "value": 72162,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 72168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift51Overrides",
+      "value": 72176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56ConcurrencyOverrides",
+      "value": 72360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56RuntimeOverrides",
+      "value": 72760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus14_eventChannelsSDySSSo19FlutterEventChannelCGvp",
+      "value": 72936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus15_streamHandlersSDySSAA19MotionStreamHandler_pGvp",
+      "value": 72944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus10_isCleanUpSbvp",
+      "value": 72952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus14_motionManagerSo08CMMotionD0CSgvp",
+      "value": 72960,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_112ConformancesE",
+      "value": 72968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvE7TheLazy",
+      "value": 73104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvE7TheLazy",
+      "value": 73120,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvE7TheLazy",
+      "value": 73136,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvE7TheLazy",
+      "value": 73152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL20StatusRecordLockLockE",
+      "value": 73168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL23voucherDisableCheckOnce",
+      "value": 73176,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL16vouchersDisabled",
+      "value": 73184,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvE7TheLazy",
+      "value": 73192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvE7TheLazy",
+      "value": 73208,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvE7TheLazy",
+      "value": 73224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 73240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 73256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerMp",
+      "value": 46088,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivMTj",
+      "value": 24232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivMTq",
+      "value": 46140,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivgTj",
+      "value": 24216,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivgTq",
+      "value": 46124,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivsTj",
+      "value": 24224,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerP14samplingPeriodSivsTq",
+      "value": 46132,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus19MotionStreamHandlerTL",
+      "value": 46116,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+      "value": 16456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCACycfC",
+      "value": 17912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCACycfc",
+      "value": 17944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMa",
+      "value": 23764,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMn",
+      "value": 46028,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMo",
+      "value": 40392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCMu",
+      "value": 23796,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCN",
+      "value": 68744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s12sensors_plus20FPPSensorsPlusPluginCfD",
+      "value": 18052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_PodsDummy_sensors_plus",
+      "value": 68544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 68744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_PodsDummy_sensors_plus",
+      "value": 68504,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtC12sensors_plus20FPPSensorsPlusPlugin",
+      "value": 71840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sensors_plusVersionNumber",
+      "value": 40336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sensors_plusVersionString",
+      "value": 40288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation13__DataStorageCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV14RangeReferenceCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s8Dispatch0A3QoSVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sBOWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSS4hash4intoys6HasherVz_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSSN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSaMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSayxGSTsMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSiN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss5ErrorP10FoundationE20localizedDescriptionSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV5_seedABSi_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$ss6HasherV9_finalizeSiyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$sypN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_FlutterMethodNotImplemented",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_CMMotionManager",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterEventChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterMethodChannel",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_FlutterStandardTypedData",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSOperationQueue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_OS_dispatch_queue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZdlPv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Znwm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___chkstk_darwin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_add_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyArrayStorage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyDictionarySingleton",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreAudio",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreLocation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreMedia",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftOSLog",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftos",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsimd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_stdlib_operatingSystemVersion",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_abort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bzero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_once_f",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsectiondata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcpy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memmove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_allocWithZone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_autoreleaseReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_lookUpClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_opt_self",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_memalign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_getspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_realloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_beginAccess",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_coroFrameAlloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deletedMethodError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_dynamicCast",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_endAccess",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getErrorValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjectType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getTypeByMangledNameInContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getWitnessTable",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_isUniquelyReferenced_nonNull_native",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_lookUpClassMethod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_once",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_voucher_adopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

@@ -1,0 +1,6203 @@
+{
+  "source": "Frameworks/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities",
+  "size": 179808,
+  "sha256": "9800aeae339bba5a27b029169145e0560e28dad4358c4de513319f05d0d7b663",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 68223109,
+    "numberOfCommands": 37,
+    "commandsSize": 4712,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/System/Library/Frameworks/UIKit.framework/UIKit",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/swift/libswiftDataDetection.dylib",
+    "/usr/lib/swift/libswiftFileProvider.dylib",
+    "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+    "@rpath/libswiftCore.dylib",
+    "@rpath/libswiftCoreFoundation.dylib",
+    "@rpath/libswiftCoreImage.dylib",
+    "@rpath/libswiftDarwin.dylib",
+    "@rpath/libswiftDispatch.dylib",
+    "@rpath/libswiftMetal.dylib",
+    "@rpath/libswiftObjectiveC.dylib",
+    "@rpath/libswiftQuartzCore.dylib",
+    "@rpath/libswiftXPC.dylib",
+    "@rpath/libswiftFoundation.dylib",
+    "@rpath/libswiftUIKit.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 46532,
+      "offset": 32768,
+      "virtualAddress": 32768,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stubs",
+      "size": 2256,
+      "offset": 79300,
+      "virtualAddress": 79300,
+      "type": "TYPE.SYMBOL_STUBS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__stub_helper",
+      "size": 2256,
+      "offset": 81556,
+      "virtualAddress": 81556,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 2583,
+      "offset": 83824,
+      "virtualAddress": 83824,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__cstring",
+      "size": 2017,
+      "offset": 86416,
+      "virtualAddress": 86416,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__objc_methname",
+      "size": 1040,
+      "offset": 88433,
+      "virtualAddress": 88433,
+      "type": "TYPE.CSTRING_LITERALS",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__constg_swiftt",
+      "size": 872,
+      "offset": 89476,
+      "virtualAddress": 89476,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_typeref",
+      "size": 979,
+      "offset": 90348,
+      "virtualAddress": 90348,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_reflstr",
+      "size": 461,
+      "offset": 91328,
+      "virtualAddress": 91328,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_fieldmd",
+      "size": 624,
+      "offset": 91792,
+      "virtualAddress": 91792,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_builtin",
+      "size": 80,
+      "offset": 92416,
+      "virtualAddress": 92416,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_assocty",
+      "size": 168,
+      "offset": 92496,
+      "virtualAddress": 92496,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_proto",
+      "size": 128,
+      "offset": 92664,
+      "virtualAddress": 92664,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_types",
+      "size": 60,
+      "offset": 92792,
+      "virtualAddress": 92792,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_capture",
+      "size": 360,
+      "offset": 92852,
+      "virtualAddress": 92852,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__swift5_protos",
+      "size": 12,
+      "offset": 93212,
+      "virtualAddress": 93212,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 1152,
+      "offset": 93224,
+      "virtualAddress": 93224,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__eh_frame",
+      "size": 836,
+      "offset": 94376,
+      "virtualAddress": 94376,
+      "type": "TYPE.COALESCED",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__got",
+      "size": 440,
+      "offset": 98304,
+      "virtualAddress": 98304,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__mod_init_func",
+      "size": 8,
+      "offset": 98744,
+      "virtualAddress": 98744,
+      "type": "TYPE.MOD_INIT_FUNC_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "size": 1488,
+      "offset": 98752,
+      "virtualAddress": 98752,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__const",
+      "size": 2760,
+      "offset": 100240,
+      "virtualAddress": 100240,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classlist",
+      "size": 32,
+      "offset": 103000,
+      "virtualAddress": 103000,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "size": 8,
+      "offset": 103032,
+      "virtualAddress": 103032,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_const",
+      "size": 928,
+      "offset": 103040,
+      "virtualAddress": 103040,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_selrefs",
+      "size": 320,
+      "offset": 103968,
+      "virtualAddress": 103968,
+      "type": "TYPE.LITERAL_POINTERS",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_classrefs",
+      "size": 112,
+      "offset": 104288,
+      "virtualAddress": 104288,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__objc_data",
+      "size": 336,
+      "offset": 104400,
+      "virtualAddress": 104400,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__data",
+      "size": 1245,
+      "offset": 104736,
+      "virtualAddress": 104736,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift_hooks",
+      "size": 184,
+      "offset": 105984,
+      "virtualAddress": 105984,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift51_hooks",
+      "size": 184,
+      "offset": 106168,
+      "virtualAddress": 106168,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__s_async_hook",
+      "size": 400,
+      "offset": 106352,
+      "virtualAddress": 106352,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__swift56_hooks",
+      "size": 176,
+      "offset": 106752,
+      "virtualAddress": 106752,
+      "type": "TYPE.REGULAR",
+      "segment": "__DATA"
+    },
+    {
+      "name": "__bss",
+      "size": 4088,
+      "offset": 0,
+      "virtualAddress": 106928,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [
+    "dealloc",
+    "addAttributes:range:",
+    "removeObserver:",
+    "addAttribute:value:range:",
+    "initWithDouble:",
+    "addObserver:selector:name:object:",
+    "defaultCenter",
+    "defaultSessionConfiguration",
+    "enumerateAttributesInRange:options:usingBlock:",
+    "familyName",
+    "fontName",
+    "getRed:green:blue:alpha:",
+    "init",
+    "initWithAttributedString:",
+    "initWithData:options:documentAttributes:error:",
+    "initWithHipaaAttachmentFlag:",
+    "initWithHipaaAttachmentFlag:canUserSeeConversationList:isMultiConvoEnabled:canUserCreateMoreConversations:isMultiAttachmentsEnabled:",
+    "initWithInteger:",
+    "initWithMarkerFormat:options:",
+    "initWithPattern:options:error:",
+    "invalidate",
+    "length",
+    "listOptions",
+    "markerFormat",
+    "matchesInString:options:range:",
+    "mutableString",
+    "onApplicationStateNotificationWithNotification:",
+    "preferredFontForTextStyle:",
+    "range",
+    "replaceOccurrencesOfString:withString:options:range:",
+    "scheduledTimerWithTimeInterval:repeats:block:",
+    "setAttributedString:",
+    "setHTTPCookieAcceptPolicy:",
+    "setParagraphStyle:",
+    "setRequestCachePolicy:",
+    "setTextLists:",
+    "setTimeoutIntervalForResource:",
+    "sharedApplication",
+    "string",
+    "textLists",
+    "userInterfaceLayoutDirection"
+  ],
+  "importedFunctions": [
+    "_$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj",
+    "_$s10Foundation11JSONDecoderCACycfc",
+    "_$s10Foundation11JSONDecoderCMa",
+    "_$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ",
+    "_$s10Foundation12NotificationV4nameSo18NSNotificationNameavg",
+    "_$s10Foundation12NotificationVMa",
+    "_$s10Foundation13URLComponentsV4pathSSvs",
+    "_$s10Foundation13URLComponentsV5querySSSgvs",
+    "_$s10Foundation13URLComponentsV6stringACSgSSh_tcfC",
+    "_$s10Foundation13URLComponentsV6stringSSSgvg",
+    "_$s10Foundation13URLComponentsVMa",
+    "_$s10Foundation13URLComponentsVMn",
+    "_$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+    "_$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC",
+    "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+    "_$s10Foundation4DateV21timeIntervalSince1970Sdvg",
+    "_$s10Foundation4DateVACycfC",
+    "_$s10Foundation4DateVMa",
+    "_$s10ObjectiveC8ObjCBoolVMn",
+    "_$s15_ObjectiveCTypes01_A11CBridgeablePTl",
+    "_$s8Dispatch0A13WorkItemFlagsV7barrierACvgZ",
+    "_$s8Dispatch0A13WorkItemFlagsVMa",
+    "_$s8Dispatch0A13WorkItemFlagsVMn",
+    "_$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc",
+    "_$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+    "_$s8Dispatch0A3QoSVMa",
+    "_$s8RawValueSYTl",
+    "_$sBOWV",
+    "_$sBbWV",
+    "_$sBoWV",
+    "_$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF",
+    "_$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+    "_$sSD11removeValue6forKeyq_Sgx_tF",
+    "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC",
+    "_$sSD4KeysVMa",
+    "_$sSD4KeysVyxq__GSTsMc",
+    "_$sSD4keysSD4KeysVyxq__Gvg",
+    "_$sSD6ValuesVMa",
+    "_$sSD6ValuesVyxq__GSTsMc",
+    "_$sSD6valuesSD6ValuesVyxq__Gvg",
+    "_$sSDMa",
+    "_$sSDyq_Sgxcis",
+    "_$sSH13_rawHashValue4seedS2i_tFTq",
+    "_$sSH4hash4intoys6HasherVz_tFTq",
+    "_$sSH9hashValueSivgTq",
+    "_$sSHMp",
+    "_$sSHSQTb",
+    "_$sSQ2eeoiySbx_xtFZTq",
+    "_$sSQMp",
+    "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+    "_$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ",
+    "_$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ",
+    "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+    "_$sSS10FoundationE8EncodingV4utf8ACvgZ",
+    "_$sSS10FoundationE8EncodingV8rawValueSuvg",
+    "_$sSS10FoundationE8EncodingVMa",
+    "_$sSS4hash4intoys6HasherVz_tF",
+    "_$sSS5countSivg",
+    "_$sSS6appendyySSF",
+    "_$sSS9hashValueSivg",
+    "_$sSSN",
+    "_$sSSSHsWP",
+    "_$sSSSysMc",
+    "_$sSTsE6filterySay7ElementQzGSbACKXEKF",
+    "_$sSTsE7forEachyyy7ElementQzKXEKF",
+    "_$sSTsSQ7ElementRpzrlE8containsySbABF",
+    "_$sSY8rawValue03RawB0QzvgTq",
+    "_$sSY8rawValuexSg03RawB0Qz_tcfCTq",
+    "_$sSYMp",
+    "_$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF",
+    "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+    "_$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ",
+    "_$sSaMa",
+    "_$sSayxGSTsMc",
+    "_$sSbN",
+    "_$sSd11descriptionSSvg",
+    "_$sSdN",
+    "_$sSe4fromxs7Decoder_p_tKcfCTq",
+    "_$sSeMp",
+    "_$sSiN",
+    "_$sSis23CustomStringConvertiblesWP",
+    "_$sSo17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvgZ",
+    "_$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa",
+    "_$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC",
+    "_$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa",
+    "_$sSo17OS_dispatch_queueC8DispatchE4sync5flags7executexAC0D13WorkItemFlagsV_xyKXEtKlF",
+    "_$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF",
+    "_$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC",
+    "_$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ",
+    "_$sSqMa",
+    "_$sSuN",
+    "_$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF",
+    "_$sSy10FoundationE13lengthOfBytes5usingSiSSAAE8EncodingV_tF",
+    "_$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF",
+    "_$sSy10FoundationE23removingPercentEncodingSSSgvg",
+    "_$sSy10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF",
+    "_$sSy10FoundationE7padding8toLength7withPad10startingAtSSSi_qd__SitSyRd__lF",
+    "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+    "_$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF",
+    "_$ss11_StringGutsV4growyySiF",
+    "_$ss12StaticStringVMn",
+    "_$ss12_ArrayBufferV18_typeCheckSlowPathyySiF",
+    "_$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF",
+    "_$ss18_CocoaArrayWrapperV13_copyContents8subRange12initializingSpyyXlGSnySiG_AFtF",
+    "_$ss18_CocoaArrayWrapperV8endIndexSivg",
+    "_$ss18_CocoaArrayWrapperVyyXlSicig",
+    "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+    "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+    "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+    "_$ss18_DictionaryStorageCMn",
+    "_$ss20_SwiftNewtypeWrapperMp",
+    "_$ss20_SwiftNewtypeWrapperPSYTb",
+    "_$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb",
+    "_$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF",
+    "_$ss21_ObjectiveCBridgeableMp",
+    "_$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq",
+    "_$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq",
+    "_$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq",
+    "_$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq",
+    "_$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF",
+    "_$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySdSgSdm_xtKF",
+    "_$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF",
+    "_$ss22KeyedDecodingContainerVMn",
+    "_$ss23CustomStringConvertibleMp",
+    "_$ss23CustomStringConvertibleP11descriptionSSvgTj",
+    "_$ss23CustomStringConvertibleP11descriptionSSvgTq",
+    "_$ss23_ContiguousArrayStorageCMn",
+    "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+    "_$ss28CustomDebugStringConvertibleMp",
+    "_$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq",
+    "_$ss35_HasCustomAnyHashableRepresentationMp",
+    "_$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq",
+    "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+    "_$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ",
+    "_$ss6HasherV5_seedABSi_tcfC",
+    "_$ss6HasherV8_combineyySuF",
+    "_$ss6HasherV9_finalizeSiyF",
+    "_$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj",
+    "_$ss9CodingKeyMp",
+    "_$ss9CodingKeyP11stringValueSSvgTq",
+    "_$ss9CodingKeyP11stringValuexSgSS_tcfCTq",
+    "_$ss9CodingKeyP8intValueSiSgvgTq",
+    "_$ss9CodingKeyP8intValuexSgSi_tcfCTq",
+    "_$ss9CodingKeyPs23CustomStringConvertibleTb",
+    "_$ss9CodingKeyPs28CustomDebugStringConvertibleTb",
+    "_$ss9CodingKeyPsE11descriptionSSvg",
+    "_$ss9CodingKeyPsE16debugDescriptionSSvg",
+    "_$ss9_typeName_9qualifiedSSypXp_SbtF",
+    "_$sypN",
+    "_$sytN",
+    "_$sytWV",
+    "_NSBackgroundColorAttributeName",
+    "_NSCharacterEncodingDocumentOption",
+    "_NSDocumentTypeDocumentOption",
+    "_NSFontAttributeName",
+    "_NSForegroundColorAttributeName",
+    "_NSHTMLTextDocumentType",
+    "_NSParagraphStyleAttributeName",
+    "_NSTextListMarkerBox",
+    "_NSTextListMarkerSquare",
+    "_OBJC_CLASS_$_NSMutableAttributedString",
+    "_OBJC_CLASS_$_NSMutableParagraphStyle",
+    "_OBJC_CLASS_$_NSNotificationCenter",
+    "_OBJC_CLASS_$_NSNumber",
+    "_OBJC_CLASS_$_NSObject",
+    "_OBJC_CLASS_$_NSRegularExpression",
+    "_OBJC_CLASS_$_NSTextCheckingResult",
+    "_OBJC_CLASS_$_NSTextList",
+    "_OBJC_CLASS_$_NSTimer",
+    "_OBJC_CLASS_$_NSURLSessionConfiguration",
+    "_OBJC_CLASS_$_OS_dispatch_queue",
+    "_OBJC_CLASS_$_UIApplication",
+    "_OBJC_CLASS_$_UIColor",
+    "_OBJC_CLASS_$_UIFont",
+    "_OBJC_CLASS_$__TtCs12_SwiftObject",
+    "_OBJC_METACLASS_$_NSObject",
+    "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+    "_UIApplicationDidEnterBackgroundNotification",
+    "_UIApplicationWillEnterForegroundNotification",
+    "_UIApplicationWillTerminateNotification",
+    "_UIFontTextStyleBody",
+    "__Block_copy",
+    "__Block_release",
+    "__NSConcreteStackBlock",
+    "__ZdlPv",
+    "__Znwm",
+    "___stack_chk_fail",
+    "___stack_chk_guard",
+    "__availability_version_check",
+    "__dyld_register_func_for_add_image",
+    "__objc_empty_cache",
+    "__swiftEmptyArrayStorage",
+    "__swiftEmptyDictionarySingleton",
+    "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+    "__swift_FORCE_LOAD_$_swiftCoreImage",
+    "__swift_FORCE_LOAD_$_swiftDarwin",
+    "__swift_FORCE_LOAD_$_swiftDataDetection",
+    "__swift_FORCE_LOAD_$_swiftDispatch",
+    "__swift_FORCE_LOAD_$_swiftFileProvider",
+    "__swift_FORCE_LOAD_$_swiftFoundation",
+    "__swift_FORCE_LOAD_$_swiftMetal",
+    "__swift_FORCE_LOAD_$_swiftObjectiveC",
+    "__swift_FORCE_LOAD_$_swiftQuartzCore",
+    "__swift_FORCE_LOAD_$_swiftUIKit",
+    "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+    "__swift_FORCE_LOAD_$_swiftXPC",
+    "__swift_FORCE_LOAD_$_swift_Builtin_float",
+    "__swift_FORCE_LOAD_$_swift_errno",
+    "__swift_FORCE_LOAD_$_swift_math",
+    "__swift_FORCE_LOAD_$_swift_signal",
+    "__swift_FORCE_LOAD_$_swift_stdio",
+    "__swift_FORCE_LOAD_$_swift_time",
+    "__swift_FORCE_LOAD_$_swiftsys_time",
+    "__swift_FORCE_LOAD_$_swiftunistd",
+    "__swift_stdlib_operatingSystemVersion",
+    "__swift_stdlib_reportUnimplementedInitializer",
+    "_abort",
+    "_bzero",
+    "_dispatch_once_f",
+    "_dlsym",
+    "_fclose",
+    "_fopen",
+    "_fread",
+    "_free",
+    "_fseek",
+    "_ftell",
+    "_getsectiondata",
+    "_malloc",
+    "_malloc_size",
+    "_memcmp",
+    "_memcpy",
+    "_memmove",
+    "_objc_allocWithZone",
+    "_objc_getClass",
+    "_objc_lookUpClass",
+    "_objc_msgSend",
+    "_objc_msgSendSuper2",
+    "_objc_release",
+    "_objc_retain",
+    "_objc_retainAutoreleasedReturnValue",
+    "_objc_setHook_getClass",
+    "_os_release",
+    "_os_unfair_lock_lock",
+    "_os_unfair_lock_unlock",
+    "_posix_memalign",
+    "_pthread_getspecific",
+    "_pthread_mutex_init",
+    "_pthread_mutex_lock",
+    "_pthread_mutex_unlock",
+    "_pthread_setspecific",
+    "_realloc",
+    "_rewind",
+    "_sscanf",
+    "_strcmp",
+    "_strlen",
+    "_swift_allocObject",
+    "_swift_allocateGenericClassMetadata",
+    "_swift_arrayDestroy",
+    "_swift_arrayInitWithCopy",
+    "_swift_beginAccess",
+    "_swift_bridgeObjectRelease",
+    "_swift_bridgeObjectRelease_n",
+    "_swift_bridgeObjectRetain",
+    "_swift_bridgeObjectRetain_n",
+    "_swift_deallocClassInstance",
+    "_swift_deallocObject",
+    "_swift_deletedMethodError",
+    "_swift_dynamicCast",
+    "_swift_dynamicCastObjCClass",
+    "_swift_endAccess",
+    "_swift_errorRelease",
+    "_swift_errorRetain",
+    "_swift_getForeignTypeMetadata",
+    "_swift_getFunctionTypeMetadata1",
+    "_swift_getGenericMetadata",
+    "_swift_getInitializedObjCClass",
+    "_swift_getObjCClassMetadata",
+    "_swift_getObjectType",
+    "_swift_getTupleTypeMetadata2",
+    "_swift_getTypeByMangledNameInContext",
+    "_swift_getWitnessTable",
+    "_swift_initClassMetadata2",
+    "_swift_initStackObject",
+    "_swift_initStaticObject",
+    "_swift_isEscapingClosureAtFileLocation",
+    "_swift_isUniquelyReferencedNonObjC_nonNull_bridgeObject",
+    "_swift_isUniquelyReferenced_nonNull_native",
+    "_swift_lookUpClassMethod",
+    "_swift_once",
+    "_swift_release",
+    "_swift_retain",
+    "_swift_setDeallocating",
+    "_swift_unknownObjectRelease",
+    "_swift_unknownObjectRetain",
+    "_swift_unknownObjectWeakAssign",
+    "_swift_unknownObjectWeakCopyAssign",
+    "_swift_unknownObjectWeakCopyInit",
+    "_swift_unknownObjectWeakDestroy",
+    "_swift_unknownObjectWeakInit",
+    "_swift_unknownObjectWeakLoadStrong",
+    "_swift_unknownObjectWeakTakeAssign",
+    "_swift_unknownObjectWeakTakeInit",
+    "_swift_weakDestroy",
+    "_swift_weakInit",
+    "_swift_weakLoadStrong",
+    "_swift_willThrow",
+    "_voucher_adopt",
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_OBJC_CLASS_$_ZDKFeatureFlagManager",
+    "_OBJC_METACLASS_$_ZDKFeatureFlagManager",
+    "_ZendeskSDKCoreUtilitiesVersionNumber",
+    "_ZendeskSDKCoreUtilitiesVersionString"
+  ],
+  "symbols": [
+    {
+      "name": "___swift_memcpy16_8",
+      "value": 33620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_noop_void_return",
+      "value": 33632,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 40972,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 40988,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_instantiateConcreteTypeFromMangledName",
+      "value": 40996,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objectdestroy.7Tm",
+      "value": 41556,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_instantiateGenericMetadata",
+      "value": 41724,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper.20",
+      "value": 41768,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper.21",
+      "value": 41772,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_project_boxed_opaque_existential_1",
+      "value": 43372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_0",
+      "value": 43476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_destroy_boxed_opaque_existential_1",
+      "value": 43476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_memcpy25_8",
+      "value": 44420,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_memcpy1_1",
+      "value": 44680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper7destroyER16os_unfair_lock_s",
+      "value": 45032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 54408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 54424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_copy_helper",
+      "value": 64008,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_destroy_helper",
+      "value": 64024,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_memcpy32_8",
+      "value": 67464,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_compatibilityInitializeAvailabilityCheck",
+      "value": 70164,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___isPlatformVersionAtLeast",
+      "value": 70172,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_initializeAvailabilityCheck",
+      "value": 70564,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__initializeAvailabilityCheck",
+      "value": 70572,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E",
+      "value": 71388,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL24registerAddImageCallbackPv",
+      "value": 71516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL16addImageCallbackPK11mach_headerl",
+      "value": 71528,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL29installGetClassHook_untrustedv",
+      "value": 71680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL35getObjCClassByMangledName_untrustedPKcPP10objc_class",
+      "value": 71748,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE",
+      "value": 71804,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift17getRootSuperclassEv",
+      "value": 71996,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+      "value": 72064,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift4LazyIN12_GLOBAL__N_116ConformanceStateEE19defaultInitCallbackEPv",
+      "value": 73540,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_124searchInConformanceCacheEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EE",
+      "value": 73640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116ConformanceState12cacheFailureEPKvPKN5swift24TargetProtocolDescriptorINS3_9InProcessEEEm",
+      "value": 74380,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvENUlPvE_8__invokeES8_",
+      "value": 74652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvENUlPvE_8__invokeES1_",
+      "value": 74700,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvENUlPvE_8__invokeES6_",
+      "value": 74744,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL26getExistentialTypeMetadataN5swift23ProtocolClassConstraintEPKNS_14TargetMetadataINS_9InProcessEEEmPKNS_27TargetProtocolDescriptorRefIS2_EEENK3$_0clEvENUlPvE_8__invokeESB_",
+      "value": 74792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122override_equalContextsEPKN5swift23TargetContextDescriptorINS0_9InProcessEEES5_",
+      "value": 74840,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_122getTypeContextIdentityEPKN5swift27TargetTypeContextDescriptorINS0_9InProcessEEE",
+      "value": 75148,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_header",
+      "value": 75336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_116addImageCallbackEPK11mach_headerl",
+      "value": 75788,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE",
+      "value": 75792,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift38swift56override_swift_task_future_waitEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S7_S3_E",
+      "value": 76380,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL31task_future_wait_resume_adapterPN5swift12AsyncContextE",
+      "value": 76612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift47swift56override_swift_task_future_wait_throwingEPNS_11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_PU14swiftasynccallFvS1_U19swift_async_contextS3_S5_S8_S3_E",
+      "value": 76620,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL33task_wait_throwing_resume_adapterPN5swift12AsyncContextE",
+      "value": 76892,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift40swift56override_swift_task_create_commonEmPNS_16TaskOptionRecordEPKNS_14TargetMetadataINS_9InProcessEEEPU14swiftasynccallFvU19swift_async_contextPNS_12AsyncContextEEPvmPU9swiftcallFNS_19AsyncTaskAndContextEmS1_S6_SA_SB_mE",
+      "value": 76908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask18flagAsRunning_slowEv",
+      "value": 76924,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift9AsyncTask20flagAsSuspended_slowEv",
+      "value": 77288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityE",
+      "value": 77652,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvENUlPvE_8__invokeES4_",
+      "value": 77752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL25waitForStatusRecordUnlockEPNS_9AsyncTaskERNS_16ActiveTaskStatusE",
+      "value": 77800,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift28swift_Concurrency_fatalErrorEjPKcz",
+      "value": 78032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift21swift_task_getCurrentEv",
+      "value": 78044,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift24_swift_task_clearCurrentEv",
+      "value": 78052,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE",
+      "value": 78104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE",
+      "value": 78148,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL27_initializeVouchersDisabledPv",
+      "value": 78336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift14VoucherManager9swapToJobEPNS_3JobE",
+      "value": 78396,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvENUlPvE_8__invokeES2_",
+      "value": 78612,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_acquireEPv",
+      "value": 78660,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19_swift_tsan_releaseEPv",
+      "value": 78760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 78860,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvENUlS0_E_8__invokeES0_",
+      "value": 78908,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4initER16os_unfair_lock_sb",
+      "value": 78956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper4lockER16os_unfair_lock_s",
+      "value": 78964,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift19MutexPlatformHelper6unlockER16os_unfair_lock_s",
+      "value": 78984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPc",
+      "value": 79004,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPc",
+      "value": 79104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 79204,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvENUlPvE_8__invokeES2_",
+      "value": 79252,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___swift_reflection_version",
+      "value": 86048,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL27ProtocolConformancesSection",
+      "value": 86392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So8NSObjectC",
+      "value": 90348,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities18FeatureFlagManagerC",
+      "value": 90362,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Sb",
+      "value": 90368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ So42NSAttributedStringDocumentReadingOptionKeya",
+      "value": 90372,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So8NSStringC",
+      "value": 90378,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ So30NSAttributedStringDocumentTypea",
+      "value": 90392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ So8_NSRangeV",
+      "value": 90398,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Si",
+      "value": 90404,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ So21NSAttributedStringKeya",
+      "value": 90408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SS",
+      "value": 90414,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $sSY",
+      "value": 90418,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So42NSAttributedStringDocumentReadingOptionKeyas20_SwiftNewtypeWrapperSCSY",
+      "value": 90424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So42NSAttributedStringDocumentReadingOptionKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation",
+      "value": 90432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So42NSAttributedStringDocumentReadingOptionKeyaSHSCSQ",
+      "value": 90440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $ss21_ObjectiveCBridgeableP",
+      "value": 90448,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So30NSAttributedStringDocumentTypeas20_SwiftNewtypeWrapperSCSY",
+      "value": 90476,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So30NSAttributedStringDocumentTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation",
+      "value": 90484,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So30NSAttributedStringDocumentTypeaSHSCSQ",
+      "value": 90492,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCSY",
+      "value": 90500,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So21NSAttributedStringKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation",
+      "value": 90508,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance So21NSAttributedStringKeyaSHSCSQ",
+      "value": 90516,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____yxGSgXw 23ZendeskSDKCoreUtilities0A10ObservableC",
+      "value": 90524,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities0A10ObservableC",
+      "value": 90538,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So17OS_dispatch_queueC",
+      "value": 90544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SDy_____yxcG 23ZendeskSDKCoreUtilities16ObservableEntityV",
+      "value": 90568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic xytIegnr_",
+      "value": 90582,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic x",
+      "value": 90592,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic B0",
+      "value": 90594,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic xIegn_",
+      "value": 90598,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Say_____G 8Dispatch0A13WorkItemFlagsV",
+      "value": 90606,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Say_____G 23ZendeskSDKCoreUtilities16ObservableEntityV",
+      "value": 90616,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yXlSgXw",
+      "value": 90626,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yXlSgXwz_Xx",
+      "value": 90634,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____yxGSgXwz_x_lXX 23ZendeskSDKCoreUtilities0A10ObservableC",
+      "value": 90646,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y_____G s22KeyedDecodingContainerV 23ZendeskSDKCoreUtilities3JWTV10CodingKeys33_103C907CE828F1B7988ED7A9CCAF7D23LLO",
+      "value": 90666,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities3JWTV",
+      "value": 90680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SdSg",
+      "value": 90686,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities10JWTDecoderV",
+      "value": 90692,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities3JWTV10CodingKeys33_103C907CE828F1B7988ED7A9CCAF7D23LLO",
+      "value": 90698,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 23ZendeskSDKCoreUtilities3JWTV10CodingKeys33_103C907CE828F1B7988ED7A9CCAF7D23LLOSHAASQ",
+      "value": 90704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 23ZendeskSDKCoreUtilities3JWTV10CodingKeys33_103C907CE828F1B7988ED7A9CCAF7D23LLOs0E3KeyAAs28CustomDebugStringConvertible",
+      "value": 90712,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 23ZendeskSDKCoreUtilities3JWTV10CodingKeys33_103C907CE828F1B7988ED7A9CCAF7D23LLOs0E3KeyAAs23CustomStringConvertible",
+      "value": 90720,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y_____G s23_ContiguousArrayStorageC s12StaticStringV",
+      "value": 90728,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y______yptG s23_ContiguousArrayStorageC So42NSAttributedStringDocumentReadingOptionKeya",
+      "value": 90742,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______ypt So42NSAttributedStringDocumentReadingOptionKeya",
+      "value": 90760,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So25NSMutableAttributedStringC",
+      "value": 90770,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SDy_____ypG_____Spy_____GIggyy_ So21NSAttributedStringKeya So8_NSRangeV 10ObjectiveC8ObjCBoolV",
+      "value": 90802,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySd_____G s18_DictionaryStorageC 23ZendeskSDKCoreUtilities13ScheduledTaskV",
+      "value": 90834,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y______yptG s23_ContiguousArrayStorageC So21NSAttributedStringKeya",
+      "value": 90850,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ______ypt So21NSAttributedStringKeya",
+      "value": 90868,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y_____ypG s18_DictionaryStorageC So21NSAttributedStringKeya",
+      "value": 90878,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y_____ypG s18_DictionaryStorageC So42NSAttributedStringDocumentReadingOptionKeya",
+      "value": 90894,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic ypSg",
+      "value": 90910,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____y_____G s23_ContiguousArrayStorageC So8_NSRangeV",
+      "value": 90916,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 23ZendeskSDKCoreUtilities16ObservableEntityVSHAASQ",
+      "value": 90930,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities16ObservableEntityV",
+      "value": 90938,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SO",
+      "value": 90944,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____Sg 10Foundation13URLComponentsV",
+      "value": 90948,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s23ZendeskSDKCoreUtilities10PasteboardP",
+      "value": 90956,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s23ZendeskSDKCoreUtilities24ApplicationStateObserverP",
+      "value": 90998,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC",
+      "value": 91054,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic y_____cSg 23ZendeskSDKCoreUtilities16ApplicationStateO",
+      "value": 91060,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ytIegnr_ 23ZendeskSDKCoreUtilities16ApplicationStateO",
+      "value": 91070,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____Iegn_ 23ZendeskSDKCoreUtilities16ApplicationStateO",
+      "value": 91084,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_associated conformance 23ZendeskSDKCoreUtilities16ApplicationStateOSHAASQ",
+      "value": 91096,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities16ApplicationStateO",
+      "value": 91104,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Ieg_",
+      "value": 91110,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____SgXw 23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC",
+      "value": 91116,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic So7NSTimerC",
+      "value": 91126,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____SgXwz_Xx 23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC",
+      "value": 91138,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic $s23ZendeskSDKCoreUtilities9SchedulerP",
+      "value": 91152,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities13ScheduledTaskV",
+      "value": 91192,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic yycSg",
+      "value": 91198,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC",
+      "value": 91204,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SaySo7NSTimerCG",
+      "value": 91210,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ 23ZendeskSDKCoreUtilities13MockSchedulerC",
+      "value": 91226,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic SDySd_____G 23ZendeskSDKCoreUtilities13ScheduledTaskV",
+      "value": 91232,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic Sd",
+      "value": 91244,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____SgXw 23ZendeskSDKCoreUtilities13MockSchedulerC",
+      "value": 91248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____SgXwz_Xx 23ZendeskSDKCoreUtilities13MockSchedulerC",
+      "value": 91258,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySo7NSTimerCG s23_ContiguousArrayStorageC",
+      "value": 91272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____yyXlG s23_ContiguousArrayStorageC",
+      "value": 91292,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_symbolic _____ySo10NSTextListCG s23_ContiguousArrayStorageC",
+      "value": 91304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation_$_ZendeskSDKCoreUtilities",
+      "value": 100240,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_errno_$_ZendeskSDKCoreUtilities",
+      "value": 100248,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_signal_$_ZendeskSDKCoreUtilities",
+      "value": 100256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsys_time_$_ZendeskSDKCoreUtilities",
+      "value": 100264,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_time_$_ZendeskSDKCoreUtilities",
+      "value": 100272,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftunistd_$_ZendeskSDKCoreUtilities",
+      "value": 100280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_stdio_$_ZendeskSDKCoreUtilities",
+      "value": 100288,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_math_$_ZendeskSDKCoreUtilities",
+      "value": 100296,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float_$_ZendeskSDKCoreUtilities",
+      "value": 100304,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDarwin_$_ZendeskSDKCoreUtilities",
+      "value": 100312,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC_$_ZendeskSDKCoreUtilities",
+      "value": 100320,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation_$_ZendeskSDKCoreUtilities",
+      "value": 100328,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch_$_ZendeskSDKCoreUtilities",
+      "value": 100336,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC_$_ZendeskSDKCoreUtilities",
+      "value": 100344,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit_$_ZendeskSDKCoreUtilities",
+      "value": 100352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage_$_ZendeskSDKCoreUtilities",
+      "value": 100360,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal_$_ZendeskSDKCoreUtilities",
+      "value": 100368,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore_$_ZendeskSDKCoreUtilities",
+      "value": 100376,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_ZendeskSDKCoreUtilities",
+      "value": 100384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFileProvider_$_ZendeskSDKCoreUtilities",
+      "value": 100392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDataDetection_$_ZendeskSDKCoreUtilities",
+      "value": 100400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility50_$_ZendeskSDKCoreUtilities",
+      "value": 100408,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51_$_ZendeskSDKCoreUtilities",
+      "value": 100416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements_$_ZendeskSDKCoreUtilities",
+      "value": 100424,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_ZendeskSDKCoreUtilities",
+      "value": 100432,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56_$_ZendeskSDKCoreUtilities",
+      "value": 100440,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___unnamed_1",
+      "value": 100952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 101256,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor.22",
+      "value": 101416,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 102032,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_block_descriptor",
+      "value": 102640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA_ZDKFeatureFlagManager",
+      "value": 103040,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS_ZDKFeatureFlagManager",
+      "value": 103112,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC23ZendeskSDKCoreUtilities17ZendeskObservable",
+      "value": 103280,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC23ZendeskSDKCoreUtilities31DefaultApplicationStateObserver",
+      "value": 103384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC23ZendeskSDKCoreUtilities31DefaultApplicationStateObserver",
+      "value": 103456,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC23ZendeskSDKCoreUtilities31DefaultApplicationStateObserver",
+      "value": 103496,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC23ZendeskSDKCoreUtilities20DefaultTimeScheduler",
+      "value": 103568,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC23ZendeskSDKCoreUtilities20DefaultTimeScheduler",
+      "value": 103640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC23ZendeskSDKCoreUtilities20DefaultTimeScheduler",
+      "value": 103680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__METACLASS_DATA__TtC23ZendeskSDKCoreUtilities13MockScheduler",
+      "value": 103752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__IVARS__TtC23ZendeskSDKCoreUtilities13MockScheduler",
+      "value": 103824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA__TtC23ZendeskSDKCoreUtilities13MockScheduler",
+      "value": 103896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS_ZDKFeatureFlagManager",
+      "value": 104400,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__DATA_ZDKFeatureFlagManager",
+      "value": 104480,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__INSTANCE_METHODS__TtC23ZendeskSDKCoreUtilities31DefaultApplicationStateObserver",
+      "value": 104704,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_private",
+      "value": 104736,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_DummyTargetContextDescriptor",
+      "value": 105968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility50",
+      "value": 105976,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility51",
+      "value": 105977,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibility56",
+      "value": 105978,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency",
+      "value": 105979,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements",
+      "value": 105980,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift50Overrides",
+      "value": 105984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift51Overrides",
+      "value": 106168,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56ConcurrencyOverrides",
+      "value": 106352,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_Swift56RuntimeOverrides",
+      "value": 106752,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__MergedGlobals",
+      "value": 110640,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_EE5token",
+      "value": 110680,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL15OldGetClassHook",
+      "value": 110688,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN12_GLOBAL__N_112ConformancesE",
+      "value": 110696,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL20getObjCClassMetadataPKN5swift19TargetClassMetadataINS_9InProcessENS_33TargetAnyClassMetadataObjCInteropIS1_EEEEENK3$_0clEvE7TheLazy",
+      "value": 110832,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift17getRootSuperclassEvENK3$_0clEvE7TheLazy",
+      "value": 110848,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL24getTypeContextDescriptorPKN5swift14TargetMetadataINS_9InProcessEEEENK3$_0clEvE7TheLazy",
+      "value": 110864,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL26getExistentialTypeMetadataN5swift23ProtocolClassConstraintEPKNS_14TargetMetadataINS_9InProcessEEEmPKNS_27TargetProtocolDescriptorRefIS2_EEENK3$_0clEvE7TheLazy",
+      "value": 110880,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift31swift_task_escalateBackdeploy56EPNS_9AsyncTaskENS_11JobPriorityEENK3$_0clEvE7TheLazy",
+      "value": 110896,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZN5swiftL20StatusRecordLockLockE",
+      "value": 110912,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL23voucherDisableCheckOnce",
+      "value": 110920,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZL16vouchersDisabled",
+      "value": 110928,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZL25swift_voucher_needs_adoptP9voucher_sENKUlvE_clEvE7TheLazy",
+      "value": 110936,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_acquireEPvENK3$_0clEvE7TheLazy",
+      "value": 110952,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift19_swift_tsan_releaseEPvENK3$_0clEvE7TheLazy",
+      "value": 110968,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift46swift_task_enterThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 110984,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZZZN5swift45swift_task_exitThreadLocalContextBackdeploy56EPcENK3$_0clEvE7TheLazy",
+      "value": 111000,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_ZDKFeatureFlagManager",
+      "value": 104576,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_ZDKFeatureFlagManager",
+      "value": 104872,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ZendeskSDKCoreUtilitiesVersionNumber",
+      "value": 83888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ZendeskSDKCoreUtilitiesVersionString",
+      "value": 83824,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSBackgroundColorAttributeName",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSCharacterEncodingDocumentOption",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSDocumentTypeDocumentOption",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSFontAttributeName",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSForegroundColorAttributeName",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSHTMLTextDocumentType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSParagraphStyleAttributeName",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSTextListMarkerBox",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_NSTextListMarkerSquare",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSMutableAttributedString",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSMutableParagraphStyle",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNotificationCenter",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSNumber",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSRegularExpression",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSTextCheckingResult",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSTextList",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSTimer",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_NSURLSessionConfiguration",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_OS_dispatch_queue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIApplication",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIColor",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$_UIFont",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_CLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$_NSObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIApplicationDidEnterBackgroundNotification",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIApplicationWillEnterForegroundNotification",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIApplicationWillTerminateNotification",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_UIFontTextStyleBody",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_copy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Block_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__NSConcreteStackBlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__ZdlPv",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__Znwm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_fail",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "___stack_chk_guard",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__availability_version_check",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__dyld_register_func_for_add_image",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__objc_empty_cache",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyArrayStorage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swiftEmptyDictionarySingleton",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftCoreImage",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDarwin",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDataDetection",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftDispatch",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFileProvider",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftFoundation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftMetal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftObjectiveC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftQuartzCore",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUIKit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftXPC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_Builtin_float",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_errno",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_math",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_signal",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_stdio",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swift_time",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftsys_time",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_FORCE_LOAD_$_swiftunistd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_stdlib_operatingSystemVersion",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "__swift_stdlib_reportUnimplementedInitializer",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_abort",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_bzero",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dispatch_once_f",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_dlsym",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fclose",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fopen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fread",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_free",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_fseek",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_ftell",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_getsectiondata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_malloc_size",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memcpy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_memmove",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_allocWithZone",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_lookUpClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSend",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_msgSendSuper2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_retainAutoreleasedReturnValue",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_objc_setHook_getClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_os_unfair_lock_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_posix_memalign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_getspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_init",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_lock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_mutex_unlock",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_pthread_setspecific",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_realloc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_rewind",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_sscanf",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strcmp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_strlen",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_allocateGenericClassMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_arrayDestroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_arrayInitWithCopy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_beginAccess",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRelease_n",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_bridgeObjectRetain_n",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocClassInstance",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deallocObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_deletedMethodError",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_dynamicCast",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_dynamicCastObjCClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_endAccess",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_errorRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getForeignTypeMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getFunctionTypeMetadata1",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getGenericMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getInitializedObjCClass",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjCClassMetadata",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getObjectType",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getTupleTypeMetadata2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getTypeByMangledNameInContext",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_getWitnessTable",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_initClassMetadata2",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_initStackObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_initStaticObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_isEscapingClosureAtFileLocation",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_isUniquelyReferencedNonObjC_nonNull_bridgeObject",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_isUniquelyReferenced_nonNull_native",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_lookUpClassMethod",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_once",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_release",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_retain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_setDeallocating",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRelease",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectRetain",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakAssign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakCopyAssign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakCopyInit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakDestroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakInit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakLoadStrong",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakTakeAssign",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_unknownObjectWeakTakeInit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_weakDestroy",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_weakInit",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_weakLoadStrong",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_swift_willThrow",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_voucher_adopt",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC11addObserveryyyXl_yxctFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC11addObserveryyyXl_yxctFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueACyxGSo17OS_dispatch_queueC_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueACyxGSo17OS_dispatch_queueC_tcfCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueACyxGSo17OS_dispatch_queueC_tcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueACyxGSo17OS_dispatch_queueC_tcfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueSo17OS_dispatch_queueCvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC13callbackQueueSo17OS_dispatch_queueCvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC14removeObserveryyyXlFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC14removeObserveryyyXlFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC15notifyObserversyyxFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableC15notifyObserversyyxFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCMo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCMu",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCfD",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities0A10ObservableCfd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10JWTDecoderV6decode3jwtxSgSS_tSeRzlFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10JWTDecoderVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10JWTDecoderVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10JWTDecoderVN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10PasteboardMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10PasteboardP9setStringyySSSgFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10PasteboardP9setStringyySSSgFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities10PasteboardTL",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities13ScheduledTaskV6action12cancelActionACyyc_yyctcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities13ScheduledTaskV6cancelyyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities13ScheduledTaskVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities13ScheduledTaskVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities13ScheduledTaskVN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO13willTerminateyA2CmFWC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO18didEnterBackgroundyA2CmFWC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO19willEnterForegroundyA2CmFWC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO2eeoiySbAC_ACtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO4hash4intoys6HasherVz_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateO9hashValueSivpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateOMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateOMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateON",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateOSHAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ApplicationStateOSQAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityV2eeoiySbAC_ACtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityV4hash4intoys6HasherVz_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityV5valueACyXl_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityV9hashValueSivpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityVN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityVSHAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities16ObservableEntityVSQAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0ACSb_S4btcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0ACSb_S4btcfCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0ACSb_S4btcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE026canUserSeeConversationList19isMultiConvoEnabled0iJ23CreateMoreConversations0no11AttachmentsQ0ACSb_S4btcfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0ACSb_tcfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0Sbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC015hipaaAttachmentE0SbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC19isMultiConvoEnabledSbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC25isMultiAttachmentsEnabledSbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC25isMultiAttachmentsEnabledSbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC26canUserSeeConversationListSbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerC30canUserCreateMoreConversationsSbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCACycfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCACycfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCMo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCMu",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities18FeatureFlagManagerCfD",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerC8schedule5after_AA13ScheduledTaskVSd_yyctF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCAA0F0AAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCAA0F0AAWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCACycfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCMm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCMo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCMu",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCfD",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities20DefaultTimeSchedulerCfd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP011registerFordE13NotificationsyyFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP011registerFordE13NotificationsyyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP013unregisterFordE13NotificationsyyFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP013unregisterFordE13NotificationsyyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvMTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvMTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvgTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvsTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverP02ondE5EventyAA0dE0OcSgvsTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities24ApplicationStateObserverTL",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC011registerForeF13NotificationsyyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC013unregisterForeF13NotificationsyyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvM",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverC02oneF5EventyAA0eF0OcSgvs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCAA0efG0AAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCAA0efG0AAWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCACycfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCMm",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCMo",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCMu",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCfD",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities31DefaultApplicationStateObserverCfd",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV10externalIdSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV10externalIdSSvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV12isJWTExpiredSbvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV3expSdSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV3expSdSgvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTV4fromACs7Decoder_p_tKcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTVN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities3JWTVSeAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities9SchedulerMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities9SchedulerP8schedule5after_AA13ScheduledTaskVSd_yyctFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities9SchedulerP8schedule5after_AA13ScheduledTaskVSd_yyctFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s23ZendeskSDKCoreUtilities9SchedulerTL",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSS23ZendeskSDKCoreUtilitiesE10getBaseUrlSSSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSS23ZendeskSDKCoreUtilitiesE10getBaseUrlSSSgvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSS23ZendeskSDKCoreUtilitiesE22htmlToAttributedString4with9textColor14codeBlocksFont0kl4TextJ00kl10BackgroundJ0So012NSAttributedG0CSgSo6UIFontC_So7UIColorCAl2NtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSo25NSURLSessionConfigurationC23ZendeskSDKCoreUtilitiesE28defaultRespectingServerCacheABvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSq23ZendeskSDKCoreUtilitiesSdRszlE10toNSNumberSo0E0CSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSq23ZendeskSDKCoreUtilitiesSdRszlE10toNSNumberSo0E0CSgvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSq23ZendeskSDKCoreUtilitiesSiRszlE10toNSNumberSo0E0CSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$sSq23ZendeskSDKCoreUtilitiesSiRszlE10toNSNumberSo0E0CSgvpMV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_EXPORT"
+    },
+    {
+      "name": "_$s15_ObjectiveCTypes01_A11CBridgeablePTl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8RawValueSYTl",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sBOWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sBbWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sBoWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD4KeysVyxq__GSTsMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD6ValuesVyxq__GSTsMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSH13_rawHashValue4seedS2i_tFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSH4hash4intoys6HasherVz_tFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSH9hashValueSivgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSHMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSHSQTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSQ2eeoiySbx_xtFZTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSQMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS9hashValueSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSSN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSSSHsWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSSSysMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSY8rawValue03RawB0QzvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSY8rawValuexSg03RawB0Qz_tcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSYMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSayxGSTsMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSbN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSdN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSe4fromxs7Decoder_p_tKcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSeMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSiN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSis23CustomStringConvertiblesWP",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSuN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss12StaticStringVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss20_SwiftNewtypeWrapperMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss20_SwiftNewtypeWrapperPSYTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_ObjectiveCBridgeableMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss22KeyedDecodingContainerVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss23CustomStringConvertibleMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss23CustomStringConvertibleP11descriptionSSvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss23_ContiguousArrayStorageCMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss28CustomDebugStringConvertibleMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss35_HasCustomAnyHashableRepresentationMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyMp",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyP11stringValueSSvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyP11stringValuexSgSS_tcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyP8intValueSiSgvgTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyP8intValuexSgSi_tcfCTq",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyPs23CustomStringConvertibleTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyPs28CustomDebugStringConvertibleTb",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sypN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sytN",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sytWV",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10ObjectiveC8ObjCBoolVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsVMn",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation11JSONDecoderCACycfc",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation11JSONDecoderCMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation12NotificationV4nameSo18NSNotificationNameavg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation12NotificationVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsV4pathSSvs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsV5querySSSgvs",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsV6stringACSgSSh_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsV6stringSSSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation13URLComponentsVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation4DateV21timeIntervalSince1970Sdvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation4DateVACycfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s10Foundation4DateVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A13WorkItemFlagsV7barrierACvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$s8Dispatch0A3QoSVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD11removeValue6forKeyq_Sgx_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD4KeysVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD4keysSD4KeysVyxq__Gvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD6ValuesVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSD6valuesSD6ValuesVyxq__Gvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSDMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSDyq_Sgxcis",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE8EncodingV4utf8ACvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE8EncodingV8rawValueSuvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS10FoundationE8EncodingVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS4hash4intoys6HasherVz_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS5countSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSS6appendyySSF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSTsE6filterySay7ElementQzGSbACKXEKF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSTsE7forEachyyy7ElementQzKXEKF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSTsSQ7ElementRpzrlE8containsySbABF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSaMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSd11descriptionSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvgZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE4sync5flags7executexAC0D13WorkItemFlagsV_xyKXEtKlF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSqMa",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE10components11separatedBySaySSGqd___tSyRd__lF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE13lengthOfBytes5usingSiSSAAE8EncodingV_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE23removingPercentEncodingSSSgvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$sSy10FoundationE7padding8toLength7withPad10startingAtSSSi_qd__SitSyRd__lF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss11_StringGutsV4growyySiF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss12_ArrayBufferV18_typeCheckSlowPathyySiF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_CocoaArrayWrapperV13_copyContents8subRange12initializingSpyyXlGSnySiG_AFtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_CocoaArrayWrapperV8endIndexSivg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_CocoaArrayWrapperVyyXlSicig",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySdSgSdm_xtKF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss23CustomStringConvertibleP11descriptionSSvgTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss6HasherV5_seedABSi_tcfC",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss6HasherV8_combineyySuF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss6HasherV9_finalizeSiyF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyPsE11descriptionSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9CodingKeyPsE16debugDescriptionSSvg",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    },
+    {
+      "name": "_$ss9_typeName_9qualifiedSSypXp_SbtF",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.DYLD_BIND"
+    }
+  ]
+}

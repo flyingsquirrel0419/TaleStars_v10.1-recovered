@@ -33,6 +33,13 @@ for (const file of manifest.files) {
   } else if (ext === ".sc") {
     status = "decoded-container-and-textures";
     outputs = [`deobfuscated/decoded/sc/${source.replace(/\.sc$/i, "")}/data.json`];
+  } else if (ext === ".si") {
+    status = "svg-vector-recovery";
+    const basename = path.basename(source).replace(/\.si$/i, ".svg");
+    outputs = [`deobfuscated/decoded/si-svg/${basename}`];
+  } else if (file.kind === "Mach-O 64-bit") {
+    status = "macho-metadata";
+    outputs = [`deobfuscated/decoded/macho/${source}.json`];
   } else if (file.kind === "Apple binary plist") {
     status = "xml-plist";
     outputs = [`deobfuscated/compiled/plist/${source}.xml`];
@@ -45,6 +52,21 @@ for (const file of manifest.files) {
   } else if (exists(`deobfuscated/source/${source}`)) {
     status = "readable-source-copy";
     outputs = [`deobfuscated/source/${source}`];
+  } else if (source === "Frameworks/App.framework/flutter_assets/AssetManifest.bin") {
+    status = "flutter-manifest-paired-json";
+    outputs = ["deobfuscated/decoded/flutter/AssetManifest.bin.json"];
+  } else if (ext === ".ttf" || ext === ".otf") {
+    status = "standard-font-metadata";
+    outputs = ["deobfuscated/decoded/standard/standard-asset-metadata.json"];
+  } else if (ext === ".mp4") {
+    status = "standard-mp4-metadata";
+    outputs = ["deobfuscated/decoded/standard/standard-asset-metadata.json"];
+  } else if (source.endsWith("Frameworks/Flutter.framework/icudtl.dat")) {
+    status = "icu-data-metadata";
+    outputs = ["deobfuscated/decoded/standard/standard-asset-metadata.json"];
+  } else if (file.kind === "unknown binary") {
+    status = "opaque-binary-analysis";
+    outputs = ["deobfuscated/decoded/opaque/opaque-analysis.json"];
   }
   statuses.push({
     source,

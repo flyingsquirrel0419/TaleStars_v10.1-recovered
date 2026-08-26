@@ -1,0 +1,107 @@
+{
+  "source": "Frameworks/App.framework/App",
+  "size": 15353984,
+  "sha256": "7b897398484af993a1fc6050af62538223a1278a718202dc6460784f9a2ed2b5",
+  "parser": "LIEF Mach-O",
+  "header": {
+    "cpuType": "CPU_TYPE.ARM64",
+    "cpuSubtype": "0",
+    "fileType": "FILE_TYPE.DYLIB",
+    "flags": 34603141,
+    "numberOfCommands": 17,
+    "commandsSize": 1024,
+    "entrypoint": 0,
+    "imagebase": 0,
+    "isPIE": false
+  },
+  "libraries": [
+    "@rpath/App.framework/App",
+    "/usr/lib/libSystem.B.dylib"
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "size": 10261504,
+      "offset": 16384,
+      "virtualAddress": 16384,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__const",
+      "size": 4603856,
+      "offset": 10277888,
+      "virtualAddress": 10277888,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__unwind_info",
+      "size": 104,
+      "offset": 14881744,
+      "virtualAddress": 14881744,
+      "type": "TYPE.REGULAR",
+      "segment": "__TEXT"
+    },
+    {
+      "name": "__bss",
+      "size": 48,
+      "offset": 0,
+      "virtualAddress": 14893056,
+      "type": "TYPE.ZEROFILL",
+      "segment": "__DATA"
+    }
+  ],
+  "objcStrings": [],
+  "importedFunctions": [
+    "dyld_stub_binder"
+  ],
+  "exportedFunctions": [
+    "_kDartIsolateSnapshotData",
+    "_kDartIsolateSnapshotInstructions",
+    "_kDartVmSnapshotData",
+    "_kDartVmSnapshotInstructions"
+  ],
+  "symbols": [
+    {
+      "name": "_kDartIsolateSnapshotData",
+      "value": 10316544,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kDartIsolateSnapshotInstructions",
+      "value": 59392,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kDartVmSnapshotData",
+      "value": 10277888,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "_kDartVmSnapshotInstructions",
+      "value": 16384,
+      "size": 0,
+      "type": "TYPE.SECTION",
+      "external": false,
+      "origin": "ORIGIN.SYMTAB"
+    },
+    {
+      "name": "dyld_stub_binder",
+      "value": 0,
+      "size": 0,
+      "type": "TYPE.UNDEFINED",
+      "external": true,
+      "origin": "ORIGIN.SYMTAB"
+    }
+  ]
+}

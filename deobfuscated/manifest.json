@@ -134,6 +134,30 @@
       "files": 66,
       "strings": 18485,
       "output": "deobfuscated/decoded/compiled-strings"
+    },
+    "si": {
+      "sourceCount": 112,
+      "svg": 112,
+      "output": "deobfuscated/decoded/si-svg"
+    },
+    "macho": {
+      "sources": 56,
+      "reports": 56,
+      "parser": "LIEF Mach-O",
+      "output": "deobfuscated/decoded/macho"
+    },
+    "opaque": {
+      "sources": 1929,
+      "report": "deobfuscated/decoded/opaque/opaque-analysis.json"
+    },
+    "flutterManifest": {
+      "source": "Frameworks/App.framework/flutter_assets/AssetManifest.bin",
+      "assetCount": 750,
+      "output": "deobfuscated/decoded/flutter/AssetManifest.bin.json"
+    },
+    "standardAssets": {
+      "sources": 12,
+      "output": "deobfuscated/decoded/standard/standard-asset-metadata.json"
     }
   }
 }
