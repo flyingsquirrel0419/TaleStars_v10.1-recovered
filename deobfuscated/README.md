@@ -63,5 +63,11 @@ exact type, size, and path are recorded in `manifest.json` and
 it becomes available. The ECC blobs are encrypted and cannot be converted to
 source or plaintext without their runtime key.
 
+The remaining opaque set is limited to three ECC payloads under `res/ecc/`,
+`res/badge/default.edges`, `res/sfx/robotwin_atk_01.ogg.sfk`, the encrypted
+`res/tale/csv_logic/transactions.csv`, and one hashed binary text resource.
+Their hashes, entropy, headers, and bounded string evidence are recorded in
+`decoded/opaque/opaque-analysis.json`; no bytes were discarded or replaced.
+
 All files in this directory are derived artifacts. The shipped app bundle was
 not overwritten.
