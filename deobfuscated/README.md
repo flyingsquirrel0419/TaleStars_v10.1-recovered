@@ -54,18 +54,24 @@ metadata for every file still detected as an unknown binary. Standard font,
 MP4, ICU, and Flutter manifest metadata is under `decoded/standard/` and
 `decoded/flutter/`.
 
+`decoded/recovered-sections/` contains deterministic extracts of the three
+Mach-O sections named by the `.ecc` headers. `decoded/opaque/` also contains
+structured views of the `.edges` UInt16 stream and the `.sfk` waveform-cache
+header/table. Native loader observations for the ECC format are recorded in
+`decoded/opaque/ecc-loader-analysis.json`.
+
 ## Recovery boundary
 
 Some files remain compiled or packaged artifacts: Mach-O executables and
 frameworks, compiled Flutter manifests, fonts, OGG audio, and ECC blobs. Their
 exact type, size, and path are recorded in `manifest.json` and
 `binary-manifest.json`; format-specific metadata is added under `decoded/` as
-it becomes available. The ECC blobs are encrypted and cannot be converted to
-source or plaintext without their runtime key.
+it becomes available. The ECC payload bytes themselves remain high-entropy;
+the matching Mach-O sections are extracted separately from the offsets declared
+in their headers.
 
-The remaining opaque set is limited to three ECC payloads under `res/ecc/`,
-`res/badge/default.edges`, `res/sfx/robotwin_atk_01.ogg.sfk`, the encrypted
-`res/tale/csv_logic/transactions.csv`, and one hashed binary text resource.
+The remaining non-readable set is limited to the encrypted or hashed
+`res/tale/csv_logic/transactions.csv` and one hashed binary text resource.
 Their hashes, entropy, headers, and bounded string evidence are recorded in
 `decoded/opaque/opaque-analysis.json`; no bytes were discarded or replaced.
 

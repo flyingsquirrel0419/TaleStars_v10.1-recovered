@@ -1,0 +1,54 @@
+{
+  "executable": "laser",
+  "architecture": "arm64",
+  "evidence": {
+    "pathFormat": "%s/laser.%s.ecc",
+    "sectionNames": ["text", "const", "cstring"],
+    "loaderReadsWholeFiles": true,
+    "chunkSizeBytes": 239,
+    "perChunkOutputBytes": 16,
+    "currentHeaderFormat": "legacy four-word little-endian header",
+    "currentHeaderMagic": "not CE2C"
+  },
+  "functions": [
+    {
+      "fileOffset": "0x50cc94",
+      "role": "constructs ECC paths, reads each file, validates the header, and stores records"
+    },
+    {
+      "fileOffset": "0x50d1fc",
+      "role": "iterates records and processes ceil(fileSize / 239) chunks"
+    },
+    {
+      "fileOffset": "0x50d438",
+      "role": "initializes the custom state and produces the per-chunk 16-byte result"
+    },
+    {
+      "fileOffset": "0x50d53c",
+      "role": "initializes GF(256)-style lookup tables in a 0xc00-byte state"
+    },
+    {
+      "fileOffset": "0x50df08",
+      "role": "inner table-based transform"
+    }
+  ],
+  "eccHeaders": [
+    {
+      "path": "res/ecc/laser.text.ecc",
+      "headerWordsLE": [16384, 1, 14424256, 0],
+      "declaredExecutableSection": "laser file offset 0x4000, size 0xdc18c0"
+    },
+    {
+      "path": "res/ecc/laser.const.ecc",
+      "headerWordsLE": [14787488, 1, 306752, 0],
+      "declaredExecutableSection": "laser file offset 0xe1a3a0, size 0x4ae40"
+    },
+    {
+      "path": "res/ecc/laser.cstring.ecc",
+      "headerWordsLE": [15163424, 1, 776493, 0],
+      "declaredExecutableSection": "laser file offset 0xe76020, size 0xbd92d"
+    }
+  ],
+  "recoveryResult": "The declared sections were extracted exactly from laser and stored under decoded/recovered-sections/. The ECC payload bytes remain high-entropy; this static bundle does not expose a plaintext decoder or runtime key for them.",
+  "source": "Static disassembly and byte-level inspection of the bundled laser Mach-O; file offsets are relative to the laser file."
+}

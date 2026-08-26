@@ -55,6 +55,21 @@ for (const file of manifest.files) {
   } else if (source === "Frameworks/App.framework/flutter_assets/AssetManifest.bin") {
     status = "flutter-manifest-paired-json";
     outputs = ["deobfuscated/decoded/flutter/AssetManifest.bin.json"];
+  } else if (source === "res/ecc/laser.text.ecc") {
+    status = "mach-o-section-recovery";
+    outputs = ["deobfuscated/decoded/recovered-sections/res/ecc/laser.text.section.bin"];
+  } else if (source === "res/ecc/laser.const.ecc") {
+    status = "mach-o-section-recovery";
+    outputs = ["deobfuscated/decoded/recovered-sections/res/ecc/laser.const.section.bin"];
+  } else if (source === "res/ecc/laser.cstring.ecc") {
+    status = "mach-o-section-recovery";
+    outputs = ["deobfuscated/decoded/recovered-sections/res/ecc/laser.cstring.section.bin"];
+  } else if (source === "res/badge/default.edges") {
+    status = "structured-binary-metadata";
+    outputs = ["deobfuscated/decoded/opaque/res/badge/default.edges.json"];
+  } else if (source === "res/sfx/robotwin_atk_01.ogg.sfk") {
+    status = "structured-binary-metadata";
+    outputs = ["deobfuscated/decoded/opaque/res/sfx/robotwin_atk_01.ogg.sfk.json"];
   } else if (ext === ".ttf" || ext === ".otf") {
     status = "standard-font-metadata";
     outputs = ["deobfuscated/decoded/standard/standard-asset-metadata.json"];
