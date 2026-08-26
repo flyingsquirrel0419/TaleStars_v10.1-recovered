@@ -1,0 +1,139 @@
+{
+  "bundle": "Tale Stars",
+  "bundleRoot": ".",
+  "generatedAt": "2026-08-26",
+  "preservation": {
+    "originalBundleModified": false,
+    "originalFileCount": 19941,
+    "originalByteCount": 1736592116
+  },
+  "readableCopies": {
+    "root": "deobfuscated/source",
+    "fileCount": 1729,
+    "byteCount": 80362636,
+    "copiedOriginalPaths": 1729,
+    "extensions": {
+      "[no extension]": 57,
+      ".json": 865,
+      ".css": 3,
+      ".html": 4,
+      ".strings": 204,
+      ".frag": 2,
+      ".xcprivacy": 32,
+      ".txt": 2,
+      ".stringsdict": 1,
+      ".plist": 2,
+      ".xcent": 1,
+      ".csv": 170,
+      ".fnt": 1,
+      ".shader": 216,
+      ".fsh": 13,
+      ".vsh": 13,
+      ".ui": 143
+    }
+  },
+  "javascriptRecovery": {
+    "original": "Frameworks/Tale.framework/build.js",
+    "originalBytes": 1501560,
+    "sha256": "fbc0968dfc500bb3ee3b419fa62a7f35823c1137a7432ece4fdd6424b993be58",
+    "wrapperHeaderBytes": 13,
+    "javascriptCoreStartByte": 13,
+    "quickJsTrailerStartByte": 1501468,
+    "formatted": "deobfuscated/build.pretty.js",
+    "formattedBytes": 2365378,
+    "readableBehavior": "deobfuscated/agent.js",
+    "decoderExplanation": "deobfuscated/decoder.js",
+    "observedNodeStdout": "THE BLACKWHALE\\n"
+  },
+  "decompressedResources": {
+    "original": "Frameworks/App.framework/flutter_assets/NOTICES.Z",
+    "readable": "deobfuscated/resources/NOTICES"
+  },
+  "notCopiedAsText": {
+    "count": 18212,
+    "byExtension": {
+      ".png": 1005,
+      ".car": 8,
+      "[no extension]": 55,
+      ".plist": 74,
+      ".bin": 1,
+      ".z": 1,
+      ".otf": 2,
+      ".si": 112,
+      ".ttf": 8,
+      ".dat": 1,
+      ".nib": 58,
+      ".dylib": 1,
+      ".js": 1,
+      ".txt": 1,
+      ".edges": 1,
+      ".flex": 1,
+      ".ecc": 3,
+      ".mp4": 1,
+      ".ogg": 7211,
+      ".sc": 275,
+      ".glb": 7390,
+      ".sctx": 2000,
+      ".sfk": 1,
+      ".csv": 1
+    },
+    "examples": [
+      "laser",
+      "Frameworks/Flutter.framework/Flutter",
+      "Frameworks/Tale.framework/Tale.dylib",
+      "Frameworks/Tale.framework/build.js",
+      "Assets.car",
+      "Frameworks/App.framework/flutter_assets/AssetManifest.bin",
+      "res/sc/ui.sc",
+      "res/sc3d/ollie_pure_gold_face_tex.sctx",
+      "res/ecc/laser.text.ecc",
+      "res/tale/csv_logic/transactions.csv",
+      "com/supercell/laser/dd0b45e28ed1abe4371e.txt"
+    ],
+    "reason": "compiled, packaged, encrypted, or non-text bytes; no source text can be recovered from the bundle alone"
+  },
+  "runtimeObservation": {
+    "traceSource": "/tmp/tale-stack-traced.js",
+    "decoderCallCount": 10202,
+    "uniqueDecodedStringCount": 58,
+    "textDecoderCallCount": 42,
+    "consoleArguments": [
+      "THE BLACKWHALE"
+    ],
+    "output": "THE BLACKWHALE\n"
+  },
+  "decodedRecovery": {
+    "binaryInventory": "deobfuscated/binary-manifest.json",
+    "binaryStringIndex": "deobfuscated/binary-strings.tsv",
+    "binaryPlists": {
+      "sources": 74,
+      "output": "deobfuscated/compiled/plist"
+    },
+    "sctx": {
+      "containers": 2000,
+      "previews": 2000,
+      "output": "deobfuscated/decoded/sctx"
+    },
+    "sc": {
+      "containers": 275,
+      "previews": 383,
+      "output": "deobfuscated/decoded/sc"
+    },
+    "glb": {
+      "containers": 7390,
+      "jsonSidecars": 7390,
+      "standardGlb": 7390,
+      "output": "deobfuscated/decoded/glb-json and deobfuscated/decoded/glb-standard"
+    },
+    "flexbuffers": {
+      "source": "res/csv_client/particle_emitters.json.flex",
+      "output": "deobfuscated/decoded/particle_emitters.json",
+      "topLevelEntries": 27917
+    },
+    "compiledStrings": {
+      "files": 66,
+      "strings": 18485,
+      "output": "deobfuscated/decoded/compiled-strings"
+    }
+  }
+}
