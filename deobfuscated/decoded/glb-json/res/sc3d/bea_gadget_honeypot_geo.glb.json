@@ -1,0 +1,258 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 360,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 720,
+      "componentType": 5123,
+      "count": 1482,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 1,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 17344
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 17276
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17280,
+      "byteLength": 64
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "EMISSION",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_emit_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "emission": [
+                1.0,
+                0.137255,
+                0.098039,
+                0.058824
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 3696,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 13396,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.983359,
+              2.786536,
+              0.269946
+            ],
+            [
+              2.983359,
+              3.878129,
+              0.432891
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.037701,
+              -0.000268,
+              -2.314245
+            ],
+            [
+              2.037701,
+              4.364565,
+              1.828413
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "bea_gadget_honeypot_GEO",
+      "extensions": {}
+    },
+    {
+      "name": "bea_gadget_honeypot",
+      "extensions": {}
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "honeypot_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "name": "honeypot_wings_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 2,
+      "joints": [
+        1
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.983359,
+              -0.000268,
+              -2.314245,
+              2.983359,
+              4.364565,
+              1.828413
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

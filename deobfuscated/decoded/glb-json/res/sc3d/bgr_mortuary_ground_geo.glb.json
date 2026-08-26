@@ -1,0 +1,195 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6390,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12780,
+      "componentType": 5123,
+      "count": 3342,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 110372
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 110372
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_mortuary",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_mortuary_tex.sctx#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 19472,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 74012,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.5,
+              -54.809738,
+              -5.334544
+            ],
+            [
+              38.528572,
+              4.881865,
+              0.018481
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.485127,
+              -44.147465,
+              -3.222712
+            ],
+            [
+              29.623886,
+              -0.040339,
+              0.186802
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ground",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        1.243714,
+        -0.084799,
+        0.0
+      ],
+      "name": "ground_rocks",
+      "extensions": {}
+    }
+  ]
+}

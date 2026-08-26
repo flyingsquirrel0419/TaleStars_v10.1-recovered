@@ -1,0 +1,183 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 480,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 960,
+      "componentType": 5123,
+      "count": 480,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 8560
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 8560
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "brock_rocket_blue-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "brock_rocket_purple.png#repeat",
+              "lightmapSpecularTex2D": "metal_specular_lightmap.png#repeat",
+              "lightmapTex2D": "metal_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "brock_rocket_blue_non_metal-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "brock_rocket_purple.png#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 1920,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 5904,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.117126,
+              -0.531834,
+              -0.117126
+            ],
+            [
+              0.117126,
+              -0.002307,
+              0.117126
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "name": "brock_rocket",
+      "extensions": {}
+    }
+  ]
+}

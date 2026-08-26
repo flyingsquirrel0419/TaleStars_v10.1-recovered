@@ -1,0 +1,388 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1644,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 3,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 16688
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 16484
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16496,
+      "byteLength": 192
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SPECULAR"
+          ],
+          "name": "character_mat",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableStencilTex": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "clipPlane": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorizeTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "diffuse": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emissionTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacityTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "stencilScaleOffset": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "stencilTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "floats": {
+              "opacity": 1.0
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bea_luckycat_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat",
+              "specularTex2D": "sc3d/bea_luckycat_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 3296,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 12716,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.13389,
+              -0.948836,
+              -1.122713
+            ],
+            [
+              1.13389,
+              1.030111,
+              1.051698
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "bee_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.948836,
+        0.0
+      ],
+      "name": "beeCatGeo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "bee_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "translation": [
+        -0.0,
+        0.948836,
+        -0.0
+      ],
+      "name": "beeCatGeo:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "translation": [
+        0.723883,
+        0.407325,
+        -0.410073
+      ],
+      "name": "L_bee_wing_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.726497,
+        0.407322,
+        -0.410073
+      ],
+      "name": "R_bee_wing_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.384615,
+        0.923077
+      ],
+      "name": "L_bee_wing_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.923077,
+        0.384615,
+        -0.0,
+        0.0
+      ],
+      "name": "R_bee_wing_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        5,
+        10,
+        9
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.095111,
+              -0.948836,
+              -1.122713,
+              1.095111,
+              1.023934,
+              1.051698
+            ],
+            [
+              -1.13389,
+              0.157861,
+              -1.122713,
+              -0.32694,
+              1.030111,
+              -0.247009
+            ],
+            [
+              0.32694,
+              0.157861,
+              -1.122713,
+              1.13389,
+              1.030111,
+              -0.247009
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

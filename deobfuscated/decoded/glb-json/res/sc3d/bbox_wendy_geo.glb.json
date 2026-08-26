@@ -1,0 +1,472 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 15600,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 35520,
+      "componentType": 5123,
+      "count": 12750,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 61968,
+      "componentType": 5123,
+      "count": 1260,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31200,
+      "componentType": 5123,
+      "count": 2160,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 61020,
+      "componentType": 5123,
+      "count": 474,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 64488,
+      "componentType": 5123,
+      "count": 1668,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 1101,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 12,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 241464
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 239124
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 239136,
+      "byteLength": 2202
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 241344,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 241440,
+      "byteLength": 24
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.333333,
+        "yfov": 0.660595,
+        "zfar": 99.900002,
+        "znear": 0.1
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 261,
+        "lastFrame": 260.0,
+        "packed": {
+          "dataAccessor": 6,
+          "nodeAccessor": 7,
+          "nodes": [
+            {
+              "dataSize": 828,
+              "flags": 30,
+              "frameCount": 261,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 151,
+              "flags": 6,
+              "frameCount": 261,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 122,
+              "flags": 2,
+              "frameCount": 261,
+              "nodeIndex": 3
+            }
+          ],
+          "stride": 24,
+          "uintAccessor": 8
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "diffuse",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.371,
+                0.371,
+                0.371,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bbox_wendy_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_hair_specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_shiny.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "lit",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.371,
+                0.371,
+                0.371,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bbox_wendy_tex.sctx#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "specular",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.371,
+                0.371,
+                0.371,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bbox_wendy_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "sc3d/menu_specular_lightmap_balloon.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 67824,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 170604,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.766992,
+              -0.48291,
+              -0.956793
+            ],
+            [
+              1.766992,
+              1.021811,
+              1.301653
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.163104,
+              0.080918,
+              -0.186668
+            ],
+            [
+              1.163104,
+              1.216678,
+              0.186668
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 5,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.23234,
+              -0.043374,
+              -0.907832
+            ],
+            [
+              1.23234,
+              1.266531,
+              0.907832
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "rotation": [
+        -0.024447,
+        0.25605,
+        0.006478,
+        0.966333
+      ],
+      "translation": [
+        4.135967,
+        1.676323,
+        7.063255
+      ],
+      "name": "bbox_camera",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        -0.047095,
+        0.357724,
+        -0.121734,
+        0.92466
+      ],
+      "scale": [
+        0.9,
+        1.2,
+        0.9
+      ],
+      "translation": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "name": "bbox_l_frame",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.0,
+        0.220504,
+        0.0
+      ],
+      "name": "bbox_l_swivel",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.026177,
+        0.0,
+        0.0,
+        0.999657
+      ],
+      "translation": [
+        0.0,
+        1.007526,
+        0.0
+      ],
+      "name": "bbox_l_lid",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    }
+  ]
+}

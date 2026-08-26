@@ -1,0 +1,742 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 324,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5772,
+      "componentType": 5123,
+      "count": 378,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 648,
+      "componentType": 5123,
+      "count": 324,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1296,
+      "componentType": 5123,
+      "count": 468,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2232,
+      "componentType": 5123,
+      "count": 552,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3336,
+      "componentType": 5123,
+      "count": 1002,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5340,
+      "componentType": 5123,
+      "count": 216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 5,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 31152
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 30832
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30832,
+      "byteLength": 320
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "STENCIL",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "EMISSION",
+            "LIGHTMAP",
+            "CUTOUT"
+          ],
+          "name": "character_emit_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "emission": [
+                1.0,
+                0.137255,
+                0.098039,
+                0.058824
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 6528,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 23888,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.52647,
+              0.3857,
+              -0.77798
+            ],
+            [
+              0.52647,
+              1.097007,
+              0.258899
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              1.954977,
+              0.992269,
+              -0.967217
+            ],
+            [
+              2.327105,
+              1.813756,
+              -0.595161
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              1.957587,
+              0.14376,
+              -1.241173
+            ],
+            [
+              2.3487,
+              1.064977,
+              -0.319955
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 4,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.700748,
+              0.543898,
+              -1.563478
+            ],
+            [
+              1.700748,
+              1.366363,
+              0.484784
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.96814,
+              0.000969,
+              -1.52458
+            ],
+            [
+              1.96814,
+              1.28927,
+              1.337156
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 6,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.581586,
+              0.268397,
+              1.295177
+            ],
+            [
+              1.581586,
+              0.870178,
+              1.8074
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "turret_GEO",
+      "extensions": {}
+    },
+    {
+      "name": "TURRET_RIG",
+      "extensions": {}
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "led_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "name": "antenna_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 2,
+      "name": "antenna_base_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 3,
+      "name": "lid_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 4,
+      "name": "cartridge_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 5,
+      "name": "blow_hole_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.499061,
+        -0.500937,
+        0.499061,
+        0.500937
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.001292,
+        -0.707106,
+        -0.001292,
+        0.707106
+      ],
+      "scale": [
+        2.639132,
+        2.639132,
+        2.639132
+      ],
+      "name": "Root_POS",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.562731,
+        0.82664,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.588746,
+        0.002189,
+        0.0
+      ],
+      "name": "cartridge_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "name": "Root_CON",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.551502,
+        0.834174
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.31479,
+        -0.092552,
+        0.0
+      ],
+      "name": "led_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.551502,
+        0.834174
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.721603,
+        0.298111,
+        2.14043
+      ],
+      "name": "antenna_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.551502,
+        0.834174
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.369558,
+        0.569498,
+        0.0
+      ],
+      "name": "lid_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "Root_SDK",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.274249,
+        -0.651757,
+        -0.274249,
+        0.651757
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.077989,
+        0.076256,
+        -0.0
+      ],
+      "name": "led_light_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.274249,
+        -0.651757,
+        -0.274249,
+        0.651757
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.316136,
+        0.30911,
+        -0.0
+      ],
+      "name": "antenna_end_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 13
+        }
+      }
+    },
+    {
+      "name": "Root_control",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 15
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 7,
+      "joints": [
+        16,
+        17,
+        13,
+        14,
+        10
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.52647,
+              0.3857,
+              -0.77798,
+              0.52647,
+              1.097007,
+              0.258899
+            ],
+            [
+              1.954977,
+              0.992269,
+              -0.967217,
+              2.327105,
+              1.813756,
+              -0.595161
+            ],
+            [
+              1.957587,
+              0.14376,
+              -1.241173,
+              2.3487,
+              1.064977,
+              -0.319955
+            ],
+            [
+              -1.700748,
+              0.543898,
+              -1.563478,
+              1.700748,
+              1.366363,
+              0.484784
+            ],
+            [
+              -1.96814,
+              0.000969,
+              -1.52458,
+              1.96814,
+              1.28927,
+              1.8074
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

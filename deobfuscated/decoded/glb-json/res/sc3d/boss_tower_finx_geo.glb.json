@@ -1,0 +1,642 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 3234,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6468,
+      "componentType": 5123,
+      "count": 528,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 7524,
+      "componentType": 5123,
+      "count": 114,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 7752,
+      "componentType": 5123,
+      "count": 1212,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 10176,
+      "componentType": 5123,
+      "count": 192,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 10560,
+      "componentType": 5123,
+      "count": 1440,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13440,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 3,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 79,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 12,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 80888
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 80404
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80416,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80608,
+      "byteLength": 158
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80768,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80864,
+      "byteLength": 24
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.25,
+        "frameRate": 30.0,
+        "keyframeCount": 50,
+        "lastFrame": 50.0,
+        "packed": {
+          "dataAccessor": 8,
+          "nodeAccessor": 9,
+          "nodes": [
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 50,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 50,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 79,
+              "flags": 4,
+              "frameCount": 50,
+              "nodeIndex": 3
+            }
+          ],
+          "stride": 4,
+          "uintAccessor": 10
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "Material_diffuse_lit",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "Material_specular",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.797,
+                0.797,
+                0.797,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "Material_diffuse",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "Material_specular_shiny_no_sd",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.915,
+                0.915,
+                0.915,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_shiny.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_shiny.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 5,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "LIGHTMAP"
+          ],
+          "name": "gem",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "opacity": [
+                0.662,
+                0.662,
+                0.662,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_shiny.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_shiny.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 5,
+          "constants": [
+            "DIFFUSE",
+            "COLORIZE",
+            "OPACITY",
+            "LIGHTMAP"
+          ],
+          "name": "gem_edges",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "colorize": [
+                0.945,
+                0.945,
+                0.945,
+                1.0
+              ],
+              "opacity": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/boss_tower_finx_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_shiny.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_shiny.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 2,
+          "constants": [
+            "SHADOWMAP",
+            "DIFFUSE"
+          ],
+          "name": "black_goo",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "effects.sc#24,24,tex_finx_goo_2"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 13456,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 61276,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.019469,
+              -0.00193,
+              -1.0
+            ],
+            [
+              1.019469,
+              3.354414,
+              1.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            15,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 4,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 5,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.315358,
+              2.576289,
+              -0.315357
+            ],
+            [
+              0.315356,
+              3.480541,
+              0.315357
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 6,
+          "material": 6,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.230101,
+              2.941716,
+              -0.162706
+            ],
+            [
+              0.2301,
+              3.267127,
+              0.162706
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        0.0,
+        0.097673,
+        0.0
+      ],
+      "name": "tower_armature",
+      "extensions": {}
+    },
+    {
+      "name": "bone_tower",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        2.291975,
+        0.0
+      ],
+      "name": "gone_crystal",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        3.586711,
+        0.0
+      ],
+      "name": "bone_goo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "tower",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "name": "tower_gem",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 2,
+      "name": "tower_goo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 7,
+      "joints": [
+        1,
+        2,
+        3
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.019469,
+              -0.00193,
+              -1.0,
+              1.019469,
+              3.354414,
+              1.0
+            ],
+            [
+              -0.315358,
+              2.576289,
+              -0.315357,
+              0.315356,
+              3.480541,
+              0.315357
+            ],
+            [
+              -0.230101,
+              2.941716,
+              -0.162706,
+              0.2301,
+              3.267127,
+              0.162706
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

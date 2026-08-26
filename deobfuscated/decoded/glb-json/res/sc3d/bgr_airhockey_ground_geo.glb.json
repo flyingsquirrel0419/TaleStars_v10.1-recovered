@@ -1,0 +1,349 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 3192,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 34416,
+      "componentType": 5123,
+      "count": 1020,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6384,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 57264
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 57264
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_airhockey",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.04,
+                0.04,
+                0.04,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_airhockey_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_airhockey_ice",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.37,
+                0.37,
+                0.37,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_airhockey_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 6400,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 29,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 20404,
+              "stride": 12
+            }
+          ]
+        },
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 36464,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 29,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                },
+                {
+                  "format": 29,
+                  "index": 3,
+                  "name": "a_uv1",
+                  "offset": 12
+                },
+                {
+                  "format": 9,
+                  "index": 4,
+                  "name": "a_color",
+                  "offset": 20
+                },
+                {
+                  "format": 9,
+                  "index": 15,
+                  "name": "a_color1",
+                  "offset": 24
+                }
+              ],
+              "offset": 42704,
+              "stride": 28
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.864227,
+              -17.079636,
+              0.0
+            ],
+            [
+              10.877158,
+              17.134392,
+              0.0
+            ]
+          ],
+          "isPretransformed": false,
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 1
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.240796,
+              -1.025902,
+              -0.470252
+            ],
+            [
+              4.193686,
+              36.550209,
+              2.164716
+            ]
+          ],
+          "isPretransformed": false,
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.895512,
+              -12.563011,
+              0.0
+            ],
+            [
+              10.895512,
+              12.562675,
+              0.0
+            ]
+          ],
+          "isPretransformed": false,
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        10.5,
+        -16.5,
+        0.0
+      ],
+      "name": "Center",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        10.522479,
+        -16.510626,
+        0.010001
+      ],
+      "name": "airhockey_Ground",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        10.523555,
+        -34.262154,
+        -0.315429
+      ],
+      "name": "airhockey_front_foundation",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "scale": [
+        1.0,
+        1.028075,
+        1.0
+      ],
+      "translation": [
+        10.5,
+        -16.5,
+        0.0
+      ],
+      "name": "airhockey_ice_Ground",
+      "extensions": {}
+    }
+  ]
+}

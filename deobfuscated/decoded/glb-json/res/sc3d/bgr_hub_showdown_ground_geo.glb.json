@@ -1,0 +1,213 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 258,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 516,
+      "componentType": 5123,
+      "count": 30930,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 337464
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 337464
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_hub_ground",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_hub_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 62384,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 227432,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.152874,
+              -68.931427,
+              -0.009
+            ],
+            [
+              70.152878,
+              0.62907,
+              1.305346
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.153053,
+              -80.800461,
+              0.0
+            ],
+            [
+              70.148628,
+              5.830021,
+              1.312164
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        30.0,
+        -30.0,
+        0.0
+      ],
+      "name": "Center_showdown",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.0,
+        -0.01
+      ],
+      "name": "ground_showdown",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.0,
+        0.0,
+        -0.005
+      ],
+      "name": "ground_showdown.002",
+      "extensions": {}
+    },
+    {
+      "scale": [
+        80.301697,
+        86.630478,
+        0.015
+      ],
+      "translation": [
+        29.997789,
+        -37.485222,
+        0.0025
+      ],
+      "name": "Lattice.004",
+      "extensions": {}
+    }
+  ]
+}

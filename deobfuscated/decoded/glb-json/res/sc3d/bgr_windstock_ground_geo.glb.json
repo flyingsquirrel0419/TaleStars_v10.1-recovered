@@ -1,0 +1,261 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 15396,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30792,
+      "componentType": 5123,
+      "count": 7548,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 45888,
+      "componentType": 5123,
+      "count": 714,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 250788
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 250788
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "Material_diffuse",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_windstock_tex.sctx#repeat",
+              "lightmapTex2D": "sc3d/diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 47328,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 169404,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.326681,
+              -42.902786,
+              -0.003212
+            ],
+            [
+              31.678747,
+              25.59384,
+              3.927169
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.385181,
+              -8.73946,
+              -0.897205
+            ],
+            [
+              5.037347,
+              3.874404,
+              -0.87078
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.385227,
+              -1.032251,
+              -0.89689
+            ],
+            [
+              1.432745,
+              -3e-06,
+              -0.87078
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        0.983799,
+        0.997733,
+        1.005669
+      ],
+      "name": "ground_3vs3.001",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        3.233394,
+        3.233394,
+        3.233394
+      ],
+      "translation": [
+        9.13624,
+        -8.187056,
+        2.9
+      ],
+      "name": "Cylinder.155",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "scale": [
+        3.233394,
+        3.233394,
+        3.233394
+      ],
+      "translation": [
+        10.5,
+        3.3,
+        2.9
+      ],
+      "name": "Cylinder.154",
+      "extensions": {}
+    },
+    {
+      "translation": [
+        10.667169,
+        1.798446,
+        5.632659
+      ],
+      "name": "Empty.039",
+      "extensions": {}
+    }
+  ]
+}

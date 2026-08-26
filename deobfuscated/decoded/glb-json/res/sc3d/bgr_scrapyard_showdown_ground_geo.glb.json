@@ -1,0 +1,252 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 924,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1848,
+      "componentType": 5123,
+      "count": 1458,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4764,
+      "componentType": 5123,
+      "count": 5796,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 69868
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 69868
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_scrapyard",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_scrapyard_tex.sctx#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 16368,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 48468,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.72333,
+              0.304053,
+              -0.013112
+            ],
+            [
+              3.72333,
+              1.21205,
+              5.740029
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -30.620314,
+              -30.741604,
+              -0.0
+            ],
+            [
+              30.620316,
+              30.741604,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -11.17609,
+              -45.521645,
+              -0.0
+            ],
+            [
+              40.907379,
+              2.640154,
+              0.006793
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        10.5,
+        16.5,
+        1.0
+      ],
+      "translation": [
+        29.750933,
+        -1.535895,
+        0.0
+      ],
+      "name": "ground.002",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        30.033188,
+        -30.176697,
+        0.036045
+      ],
+      "name": "bgr_scrapyard_shd_ground_lines",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "scale": [
+        1.504212,
+        1.504212,
+        1.472018
+      ],
+      "translation": [
+        7.468344,
+        0.0,
+        0.0
+      ],
+      "name": "bgr_scrapyard_shd_ground",
+      "extensions": {}
+    }
+  ]
+}

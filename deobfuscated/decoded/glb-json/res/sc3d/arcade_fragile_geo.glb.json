@@ -1,0 +1,232 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 630,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1260,
+      "componentType": 5123,
+      "count": 396,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 9444
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 9444
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_arcade",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_arcade_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 2064,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 6492,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.393902,
+              -0.3939,
+              0.0
+            ],
+            [
+              0.393899,
+              0.393903,
+              1.020537
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.426274,
+              -0.144407,
+              -0.297933
+            ],
+            [
+              0.285396,
+              0.184443,
+              0.372201
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "traffic_cone",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.696025,
+        -0.298024,
+        -0.228481,
+        0.611986
+      ],
+      "name": "traffic_cone_destroyed",
+      "extensions": {}
+    }
+  ]
+}

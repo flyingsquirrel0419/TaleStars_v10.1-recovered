@@ -1,0 +1,298 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 270,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 540,
+      "componentType": 5123,
+      "count": 1884,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4308,
+      "componentType": 5123,
+      "count": 192,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 128,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 8,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 4,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 21464
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 21164
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21168,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21424,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21456,
+      "byteLength": 8
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 61,
+        "lastFrame": 60.0,
+        "packed": {
+          "dataAccessor": 3,
+          "nodeAccessor": 4,
+          "nodes": [
+            {
+              "dataSize": 128,
+              "flags": 24,
+              "frameCount": 61,
+              "nodeIndex": 1
+            }
+          ],
+          "stride": 4,
+          "uintAccessor": 5
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "bgr_airhockey_tiles",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.125,
+                0.125,
+                0.125,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_airhockey_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 1,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "tex_teleport_1",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                0.93,
+                0.878,
+                0.092,
+                1.0
+              ],
+              "specular": [
+                0.565,
+                0.565,
+                0.565,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#128,128,tex_teleport_1"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 4704,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 14580,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.419759,
+              -0.340927,
+              0.0
+            ],
+            [
+              0.33327,
+              0.511206,
+              0.143002
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.574754,
+              -0.574754,
+              -0.002523
+            ],
+            [
+              0.574754,
+              0.574754,
+              1.600071
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        -0.067607,
+        -0.004691
+      ],
+      "name": "blocking_1_bb_destroyed",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "name": "blocking_1_bb",
+      "extensions": {}
+    }
+  ]
+}

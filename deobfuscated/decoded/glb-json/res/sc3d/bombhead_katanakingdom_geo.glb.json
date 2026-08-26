@@ -1,0 +1,1551 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 8730,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 1,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 69872
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 69804
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69808,
+      "byteLength": 64
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "CLIP_PLANE",
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SPECULAR"
+          ],
+          "name": "character_mat",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "animatedComplexMode": false,
+              "disableAnimatedOverride": false,
+              "enableAnimatedScreenSpace": false,
+              "enableFlattenOverride": false,
+              "enableGlow": false,
+              "enableGlowDirectional": false,
+              "enableGlowSpherical": false,
+              "enableGroundClip": false,
+              "enableIngameScale": false,
+              "enableIngameVertexOffset": false,
+              "enableMayaColorCorrect": false,
+              "enableNormalOutline": false,
+              "enableOpacityAnimation": false,
+              "enableOpacityHeightBlend": false,
+              "enableOpacityScreenSpace": false,
+              "enableSSColorize": false,
+              "enableSSEmmisive": false,
+              "enableSnapAngle": false,
+              "enableSpecularAddDirectly": false,
+              "enableVertexAnimation": false,
+              "enableVertexColor": false,
+              "hasNormalOutline": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "clipPlane": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorizeTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "diffuse": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emissionTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "glowDir": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "opacityTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "outlineColor": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "stencilScaleOffset": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "stencilTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "floats": {
+              "glowDefault": 0.0,
+              "glowIntensity": 1.0,
+              "glowSpeed": 1.0,
+              "glowSphericalSpeed": 1.0,
+              "glowWorldScale": 1.0,
+              "ingameScaleChange": 1.0,
+              "opacity": 1.0,
+              "opacityTexSpeed": 0.0,
+              "outlineIngameMul": 2.0,
+              "outlineWidth": 0.0,
+              "screenSpaceTextureScale": 1.0,
+              "screenSpaceTextureSpeed": 0.0,
+              "snapAngleIngame": 45.0,
+              "snapAngleLobby": 15.0,
+              "vertextAnimationDistance": 0.1
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/tick_katanakingdom_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat",
+              "specularTex2D": "sc3d/tick_katanakingdom_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 17472,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 54852,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.308502,
+              -0.009294,
+              -2.254264
+            ],
+            [
+              2.308502,
+              4.598582,
+              2.228768
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "geoGrp",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        2.82213,
+        -0.081189
+      ],
+      "name": "hips_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "head_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "hips_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.386054,
+        -1.925645
+      ],
+      "name": "skirt_03_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        2.20037,
+        -0.008501,
+        0.239347
+      ],
+      "name": "skirt_02_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.402958,
+        2.403787
+      ],
+      "name": "skirt_01_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        -2.20037,
+        -0.008501,
+        0.239347
+      ],
+      "name": "skirt_04_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "R_upperLeg_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "L_upperLeg_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.053287,
+        0.02571
+      ],
+      "name": "spine_lower_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.003586,
+        -0.799366,
+        0.600832,
+        -0.001332
+      ],
+      "name": "skirt_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.224627,
+        0.710587,
+        -0.085105,
+        0.661336
+      ],
+      "name": "skirt_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.701494,
+        0.0,
+        0.0,
+        0.712675
+      ],
+      "name": "skirt_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "name": "skirt_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.000445,
+        0.999144,
+        -0.041359,
+        1.8e-05
+      ],
+      "name": "R_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.8e-05,
+        0.041359,
+        0.999144,
+        0.000443
+      ],
+      "name": "L_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.026082,
+        0.0,
+        0.0,
+        0.99966
+      ],
+      "name": "spine_lower_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "R_lowerLeg_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "name": "L_lowerLeg_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 18
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.085354,
+        0.025154
+      ],
+      "name": "spine_mid_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 19
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.07202,
+        1e-06,
+        0.000149,
+        0.997403
+      ],
+      "name": "R_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 20
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.07202,
+        -1e-06,
+        0.000142,
+        0.997403
+      ],
+      "name": "L_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.046085,
+        0.0,
+        0.0,
+        0.998937
+      ],
+      "name": "spine_mid_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 22
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "R_ankle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 23
+        }
+      }
+    },
+    {
+      "translation": [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "name": "L_ankle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 24
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.093595,
+        0.01505
+      ],
+      "name": "spine_upper_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 25
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.9e-05,
+        0.039428,
+        -0.999222,
+        0.000297
+      ],
+      "name": "R_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.7e-05,
+        0.039428,
+        -0.999222,
+        0.000301
+      ],
+      "name": "L_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 27
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.008234,
+        0.0,
+        0.0,
+        0.999966
+      ],
+      "name": "spine_upper_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 28
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.071352,
+        0.009245
+      ],
+      "name": "chest_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.028247,
+        0.0,
+        0.0,
+        0.999601
+      ],
+      "name": "chest_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 32
+        }
+      }
+    },
+    {
+      "translation": [
+        -2.53843,
+        2.791004,
+        1.071054
+      ],
+      "name": "noodle3_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        2.545169,
+        2.791004,
+        0.609509
+      ],
+      "name": "noodle2_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.206273,
+        2.791004,
+        3.676543
+      ],
+      "name": "noodle1_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        3.554899,
+        -3.464505
+      ],
+      "name": "cape01_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        2.733157,
+        2.943712,
+        3.486344
+      ],
+      "name": "noddle03_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        2.275889,
+        2.906502,
+        3.811927
+      ],
+      "name": "noddle01_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        -2.146454,
+        2.289495,
+        -0.592957
+      ],
+      "name": "detail03_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.092878,
+        2.777839,
+        -1.309811
+      ],
+      "name": "group1_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.092878,
+        2.777839,
+        -1.309811
+      ],
+      "name": "detail02_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.480316,
+        3.860959
+      ],
+      "name": "emblem_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.074077,
+        1.569602,
+        0.504517
+      ],
+      "name": "R_clavicle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.074077,
+        1.569599,
+        0.504516
+      ],
+      "name": "L_clavicle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.004606,
+        -0.100756
+      ],
+      "name": "neck_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.716082,
+        0.0,
+        -0.698016
+      ],
+      "name": "noodle3_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 34
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.779611,
+        0.0,
+        0.626264
+      ],
+      "name": "noodle2_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 35
+        }
+      }
+    },
+    {
+      "name": "noodle1_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 36
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.113959,
+        0.0,
+        0.0,
+        0.993485
+      ],
+      "name": "cape01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 37
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.071126,
+        -0.21506,
+        0.305837,
+        0.924745
+      ],
+      "name": "noddle03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.051336,
+        -0.220623,
+        0.220742,
+        0.948664
+      ],
+      "name": "noddle01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 39
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.146976,
+        0.464051,
+        0.132873,
+        0.863365
+      ],
+      "name": "detail03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 40
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.064982,
+        0.018431,
+        -0.272251,
+        0.959853
+      ],
+      "name": "group1_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 41
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.074124,
+        0.01788,
+        0.289251,
+        0.954212
+      ],
+      "name": "detail02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 42
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.067432,
+        0.0,
+        0.0,
+        0.997724
+      ],
+      "name": "emblem_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "R_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 44
+        }
+      }
+    },
+    {
+      "name": "L_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 45
+        }
+      }
+    },
+    {
+      "name": "neck_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 46
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.853392,
+        0.005538
+      ],
+      "name": "cape02_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 50
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.009429,
+        -0.544901,
+        0.005538
+      ],
+      "name": "noddle04_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 51
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.013838,
+        -0.799586,
+        -0.0
+      ],
+      "name": "noddle02_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 52
+        }
+      }
+    },
+    {
+      "translation": [
+        -3.861193,
+        -0.46981,
+        -0.039634
+      ],
+      "name": "R_shoulderPad_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 57
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "name": "R_shoulder_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 57
+        }
+      }
+    },
+    {
+      "translation": [
+        3.861188,
+        0.469816,
+        0.039635
+      ],
+      "name": "L_shoulderPad_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 58
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "L_shoulder_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 58
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        -2.072805,
+        0.132388
+      ],
+      "name": "head_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 59
+        }
+      }
+    },
+    {
+      "name": "cape02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 60
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.230004,
+        0.97319
+      ],
+      "name": "noddle04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 61
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.230004,
+        0.97319
+      ],
+      "name": "noddle02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 62
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.200304,
+        0.979734
+      ],
+      "name": "R_shoulderPad_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 63
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.652394,
+        0.27411,
+        0.65334,
+        -0.269061
+      ],
+      "name": "R_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 64
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.200304,
+        0.979734
+      ],
+      "name": "L_shoulderPad_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 65
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.652393,
+        0.274113,
+        0.653338,
+        -0.269064
+      ],
+      "name": "L_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 66
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.139415,
+        0.0,
+        0.0,
+        0.990234
+      ],
+      "name": "head_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 67
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.883189,
+        -0.0
+      ],
+      "name": "cape03_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 68
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "name": "R_elbow_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 72
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "L_elbow_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 74
+        }
+      }
+    },
+    {
+      "name": "cape03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 76
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.007469,
+        6.5e-05,
+        0.009248,
+        0.999929
+      ],
+      "name": "R_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 77
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.007477,
+        6.3e-05,
+        0.009247,
+        0.999929
+      ],
+      "name": "L_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 78
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "R_wrist_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 80
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.537499,
+        -3.286476,
+        2.333772
+      ],
+      "name": "R_forearm_twist_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 80
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "L_wrist_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 81
+        }
+      }
+    },
+    {
+      "translation": [
+        -1.461859,
+        3.339113,
+        -4.330704
+      ],
+      "name": "L_forearm_twist_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 81
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.273273,
+        0.275691,
+        -0.638327,
+        0.664722
+      ],
+      "name": "R_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 82
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.270229,
+        -0.652895,
+        0.26316,
+        0.65685
+      ],
+      "name": "R_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 83
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.273272,
+        0.275694,
+        -0.638328,
+        0.66472
+      ],
+      "name": "L_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 84
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.656852,
+        0.263159,
+        0.652894,
+        0.270226
+      ],
+      "name": "L_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 85
+        }
+      }
+    },
+    {
+      "translation": [
+        0.71449,
+        -2.051525,
+        1.38495
+      ],
+      "name": "R_muzzle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 86
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.714488,
+        2.051525,
+        -1.38495
+      ],
+      "name": "L_muzzle_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 88
+        }
+      }
+    },
+    {
+      "translation": [
+        -5.000372,
+        -0.647154,
+        1.723077
+      ],
+      "name": "L_gunbone_01_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 88
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.707107,
+        -0.707107,
+        0.0
+      ],
+      "name": "R_muzzle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 90
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.707107,
+        -0.707107,
+        0.0
+      ],
+      "name": "L_muzzle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 91
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.51045,
+        -0.489327,
+        -0.489327,
+        0.51045
+      ],
+      "name": "L_gunbone_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 92
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.147692,
+        0.0
+      ],
+      "name": "L_gunbone_02_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 95
+        }
+      }
+    },
+    {
+      "name": "L_gunbone_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 96
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        75
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.308502,
+              -0.009294,
+              -2.254264,
+              2.308502,
+              4.598582,
+              2.228768
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

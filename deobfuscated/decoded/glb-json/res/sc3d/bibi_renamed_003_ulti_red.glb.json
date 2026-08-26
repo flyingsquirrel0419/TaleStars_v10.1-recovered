@@ -1,0 +1,407 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1278,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3864,
+      "componentType": 5123,
+      "count": 612,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5088,
+      "componentType": 5123,
+      "count": 612,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2556,
+      "componentType": 5123,
+      "count": 654,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 998,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 22592
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 20420
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20432,
+      "byteLength": 1996
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22432,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22560,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 30,
+        "lastFrame": 29.0,
+        "packed": {
+          "dataAccessor": 4,
+          "nodeAccessor": 5,
+          "nodes": [
+            {
+              "dataSize": 293,
+              "flags": 30,
+              "frameCount": 30,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 206,
+              "flags": 6,
+              "frameCount": 30,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 206,
+              "flags": 6,
+              "frameCount": 30,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 293,
+              "flags": 30,
+              "frameCount": 30,
+              "nodeIndex": 4
+            }
+          ],
+          "stride": 38,
+          "uintAccessor": 6
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "diffuse",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "bibi_003_ulti_red.pvr#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "multi",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0,
+              "opacity": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "bibi_003_ulti_red.pvr#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat",
+              "opacityTex2D": "bibi_003_ulti_alpha.pvr#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 6320,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 14780,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.205068,
+              -1.543767,
+              -3.315893
+            ],
+            [
+              3.205068,
+              3.89518,
+              3.520051
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              1.854259,
+              -2.197361,
+              1.832039
+            ],
+            [
+              4.66749,
+              -1.088445,
+              5.6884
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.66749,
+              -2.197361,
+              1.832039
+            ],
+            [
+              -1.854259,
+              -1.088445,
+              5.6884
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.306275,
+              -2.974134,
+              0.141137
+            ],
+            [
+              2.306275,
+              -0.648839,
+              3.5135
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "scale": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "name": "pivot",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "name": "head",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "hand_L",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "name": "hand_R",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "jaw",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 4212,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 6,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 35360
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 34976
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34976,
+      "byteLength": 384
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "OPACITY",
+            "SPECULAR"
+          ],
+          "name": "character_mat",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableStencilTex": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorizeTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "diffuse": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emissionTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacityTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specularTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "stencilScaleOffset": [
+                -9.869980178575109e+28,
+                0.0,
+                -9.870002845934227e+28,
+                -9.874135861080034e+28
+              ],
+              "stencilTex2D": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "floats": {
+              "opacity": 1.0
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/tick_crab_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 8432,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 27392,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.484133,
+              -0.000211,
+              -2.474069
+            ],
+            [
+              2.484133,
+              5.201704,
+              2.089973
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        2.045061,
+        -0.13073
+      ],
+      "name": "head_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "head_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.139415,
+        0.0,
+        0.0,
+        0.990234
+      ],
+      "name": "head_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.000274,
+        1.832744,
+        0.495509
+      ],
+      "name": "C_Horn:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        -1.53338,
+        0.807079,
+        -1.479117
+      ],
+      "name": "R_Horn:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        1.533379,
+        0.807079,
+        -1.479114
+      ],
+      "name": "L_Horn:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        -1.06394,
+        1.443542,
+        -1.253364
+      ],
+      "name": "R_Ear:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        1.063935,
+        1.443547,
+        -1.253365
+      ],
+      "name": "L_Ear:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.567644,
+        -1.997774
+      ],
+      "name": "hat_01_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.432184,
+        -0.559658,
+        0.432184,
+        0.559658
+      ],
+      "name": "C_Horn",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.267662,
+        0.902511,
+        -0.023093,
+        0.336598
+      ],
+      "name": "R_Horn",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.023093,
+        0.3366,
+        0.267659,
+        0.902511
+      ],
+      "name": "L_Horn",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.609171,
+        -0.232898,
+        -0.460002,
+        0.60255
+      ],
+      "name": "R_Ear",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.60255,
+        -0.460002,
+        0.232898,
+        0.609171
+      ],
+      "name": "L_Ear",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.413047,
+        0.04909,
+        0.107325,
+        0.90303
+      ],
+      "name": "hat_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 1,
+      "joints": [
+        5,
+        16,
+        15,
+        14,
+        13,
+        12
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.484133,
+              -0.000211,
+              -2.474069,
+              2.484133,
+              4.512167,
+              2.089973
+            ],
+            [
+              1.129357,
+              3.973474,
+              -0.837797,
+              1.769924,
+              5.201704,
+              -0.038324
+            ],
+            [
+              -1.769924,
+              3.973474,
+              -0.837797,
+              -1.129357,
+              5.201704,
+              -0.038324
+            ],
+            [
+              1.209308,
+              2.896594,
+              -1.882205,
+              2.05669,
+              3.751693,
+              -0.920754
+            ],
+            [
+              -2.05669,
+              2.896594,
+              -1.882205,
+              -1.209308,
+              3.751693,
+              -0.920754
+            ],
+            [
+              -0.668367,
+              3.520257,
+              0.369382,
+              0.677384,
+              4.592941,
+              1.509669
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1680,
+      "componentType": 5123,
+      "count": 2472,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6624,
+      "componentType": 5123,
+      "count": 11670,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 148328
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 148328
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "SHADOWMAP"
+          ],
+          "name": "ground_plane",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_katana_kingdom_nn2_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 29968,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 100984,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.922756,
+              -2.855134,
+              -0.008635
+            ],
+            [
+              2.894212,
+              2.961926,
+              0.022258
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -16.603399,
+              -18.097174,
+              -0.0
+            ],
+            [
+              16.327246,
+              18.912668,
+              -0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.201316,
+              -34.564327,
+              -0.005649
+            ],
+            [
+              21.25593,
+              0.346117,
+              0.002091
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        10.5,
+        -16.5,
+        0.0
+      ],
+      "name": "bgr_bb_katana_kingdom_nn_ground_center",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        10.638076,
+        -15.842442,
+        0.02
+      ],
+      "name": "ground_3vs3_cell",
+      "extensions": {}
+    },
+    {
+      "name": "bgr_bb_katana_kingdom_nn_ground.010",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "name": "bgr_bb_katana_kingdom_nn_ground.002",
+      "extensions": {}
+    },
+    {
+      "translation": [
+        0.0,
+        0.455099,
+        0.0
+      ],
+      "name": "bgr_bb_katana_kingdom_nn_ground.003",
+      "extensions": {}
+    }
+  ]
+}

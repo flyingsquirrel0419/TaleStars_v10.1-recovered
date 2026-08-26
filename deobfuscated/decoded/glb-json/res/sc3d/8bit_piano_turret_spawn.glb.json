@@ -1,0 +1,254 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 467,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 48,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1184
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 934
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 944,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1136,
+      "byteLength": 48
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 19,
+        "lastFrame": 18.0,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 17,
+              "flags": 4,
+              "frameCount": 19,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 44,
+              "flags": 24,
+              "frameCount": 19,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 86,
+              "flags": 28,
+              "frameCount": 19,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 86,
+              "flags": 28,
+              "frameCount": 19,
+              "nodeIndex": 10
+            },
+            {
+              "dataSize": 134,
+              "flags": 26,
+              "frameCount": 19,
+              "nodeIndex": 11
+            },
+            {
+              "dataSize": 100,
+              "flags": 26,
+              "frameCount": 19,
+              "nodeIndex": 12
+            }
+          ],
+          "stride": 38,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "TURRET_RIG",
+      "extensions": {}
+    },
+    {
+      "name": "GEO",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        -0.49907,
+        -0.500929,
+        0.49907,
+        0.500929
+      ],
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "piano_turret",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        3.760593,
+        0.01398,
+        -0.0
+      ],
+      "name": "cartridge_s:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "needleGeo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "name": "metronomeGeo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "name": "keyGeo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.562728,
+        -0.826642,
+        0.0,
+        0.0
+      ],
+      "name": "cartridge_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "translation": [
+        -1.111432,
+        -0.464747,
+        -0.0
+      ],
+      "name": "needle_01_joint:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.098184,
+        0.417772,
+        1.851248
+      ],
+      "name": "key_01_joint:SSC",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.103974,
+        -0.699421,
+        0.157165,
+        0.689419
+      ],
+      "name": "needle_01_joint",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.130665,
+        -0.694929,
+        0.130665,
+        0.694929
+      ],
+      "name": "key_01_joint",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    }
+  ]
+}

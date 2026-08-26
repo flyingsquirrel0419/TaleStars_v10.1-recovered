@@ -1,0 +1,622 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.306853,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    },
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.688609,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "cameras",
+      "extensions": {}
+    },
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.082366,
+        0.033042,
+        -0.002732,
+        0.99605
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.110217,
+        3.910967,
+        16.508989
+      ],
+      "name": "portrait_small",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.111587,
+        0.032948,
+        -0.003702,
+        0.993201
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.064015,
+        3.794934,
+        13.786702
+      ],
+      "name": "portrait_large",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "toEngineGrp",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "camera": 0,
+      "name": "portrait_smallShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "camera": 1,
+      "name": "portrait_largeShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "name": "EngineJoints",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "name": "Geometry",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.120347,
+        0.0,
+        0.992732
+      ],
+      "translation": [
+        0.0,
+        3.604565,
+        0.0
+      ],
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.003923,
+        -0.029181,
+        0.001499,
+        0.999565
+      ],
+      "translation": [
+        0.0066,
+        6.007984,
+        0.058912
+      ],
+      "name": "reverse_chain_0_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.0,
+        5.155849,
+        -0.015513
+      ],
+      "name": "offsetBody_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "name": "wheel_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "keyrings",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "helmet_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "head_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        -0.281753,
+        0.0
+      ],
+      "name": "reverse_chain_1_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.999375,
+        0.0,
+        0.0,
+        0.035354
+      ],
+      "translation": [
+        0.020135,
+        2.201933,
+        -0.070683
+      ],
+      "name": "helmet_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.001268,
+        3.092536,
+        -0.078309
+      ],
+      "name": "body_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "name": "star_power_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "name": "hypercharge_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "name": "gadget_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "name": "diamond_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "name": "chain_GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        -0.348022,
+        -0.0
+      ],
+      "name": "reverse_chain_2_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.039259,
+        -0.02911,
+        0.00253,
+        0.998802
+      ],
+      "translation": [
+        -0.003566,
+        -0.692567,
+        -0.077707
+      ],
+      "name": "headphones_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 18
+        }
+      }
+    },
+    {
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -1.795281,
+        -1.468651,
+        0.0
+      ],
+      "name": "R_wheel_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 19
+        }
+      }
+    },
+    {
+      "scale": [
+        1.006991,
+        1.0,
+        1.059902
+      ],
+      "translation": [
+        1.842092,
+        -1.440078,
+        0.0
+      ],
+      "name": "L_wheel_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 19
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.004913,
+        7.9e-05,
+        0.001235,
+        0.999987
+      ],
+      "translation": [
+        0.010644,
+        -0.990625,
+        0.042278
+      ],
+      "name": "body_base_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 19
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.218664,
+        0.0
+      ],
+      "name": "reverse_chain_3_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 25
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.734995,
+        0.675657,
+        0.038744,
+        0.042066
+      ],
+      "translation": [
+        -1.758882,
+        2.08378,
+        0.001312
+      ],
+      "name": "R_headphones_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.042276,
+        0.038764,
+        -0.673832,
+        0.736655
+      ],
+      "translation": [
+        1.77367,
+        2.092499,
+        0.000713
+      ],
+      "name": "L_headphones_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.27046,
+        -0.006813,
+        0.08271,
+        0.959148
+      ],
+      "translation": [
+        -0.002238,
+        -0.010005,
+        0.039966
+      ],
+      "name": "chain_0_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 30
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.997205,
+        0.057347,
+        -0.001421,
+        0.047874
+      ],
+      "translation": [
+        -2.103152,
+        -0.080313,
+        -0.039389
+      ],
+      "name": "R_speaker_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.997205,
+        0.057347,
+        -0.001421,
+        0.047874
+      ],
+      "translation": [
+        2.103149,
+        0.080312,
+        0.039389
+      ],
+      "name": "L_speaker_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 32
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.074503,
+        -0.011137,
+        0.080418,
+        0.993911
+      ],
+      "translation": [
+        -0.0,
+        0.218664,
+        -0.0
+      ],
+      "name": "chain_1_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.074503,
+        -0.011137,
+        0.080418,
+        0.993911
+      ],
+      "translation": [
+        -0.022513,
+        0.260518,
+        -0.024401
+      ],
+      "name": "chain_2_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 36
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.172691,
+        0.023862,
+        0.088966,
+        0.98066
+      ],
+      "translation": [
+        0.0,
+        0.281753,
+        0.0
+      ],
+      "name": "chain_3_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 37
+        }
+      }
+    },
+    {
+      "name": "starpower_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    },
+    {
+      "name": "hypercharge_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    },
+    {
+      "name": "gadget_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    },
+    {
+      "name": "diamond_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    }
+  ]
+}

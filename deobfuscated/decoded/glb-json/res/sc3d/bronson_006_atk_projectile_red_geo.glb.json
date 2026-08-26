@@ -1,0 +1,336 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1122,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2244,
+      "componentType": 5123,
+      "count": 942,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4128,
+      "componentType": 5123,
+      "count": 660,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 88,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 16,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 8,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 33344
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 33076
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33088,
+      "byteLength": 176
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33264,
+      "byteLength": 64
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33328,
+      "byteLength": 16
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 113,
+        "lastFrame": 112.5,
+        "packed": {
+          "dataAccessor": 3,
+          "nodeAccessor": 4,
+          "nodes": [
+            {
+              "dataSize": 44,
+              "flags": 6,
+              "frameCount": 113,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 44,
+              "flags": 6,
+              "frameCount": 113,
+              "nodeIndex": 1
+            }
+          ],
+          "stride": 16,
+          "uintAccessor": 5
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SHADOWMAP"
+          ],
+          "name": "Material",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/bronson_006_atk_projectile_red_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 5456,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 22028,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.0,
+              -1.671326,
+              -0.872042
+            ],
+            [
+              1.0,
+              1.182094,
+              1.972367
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.000114,
+              -1.289575,
+              -0.795547
+            ],
+            [
+              1.000114,
+              0.626218,
+              1.245319
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.157627,
+              -0.371956,
+              -0.5563
+            ],
+            [
+              1.157627,
+              0.844496,
+              0.648003
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "scale": [
+        0.505649,
+        0.505649,
+        0.505649
+      ],
+      "translation": [
+        7.8e-05,
+        -0.00181,
+        0.532025
+      ],
+      "name": "Cube",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        -0.573577,
+        0.819152,
+        0.0
+      ],
+      "scale": [
+        -0.505649,
+        -0.505649,
+        -0.505649
+      ],
+      "translation": [
+        7.8e-05,
+        0.004108,
+        -0.006052
+      ],
+      "name": "Cube.001",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        -0.304816,
+        0.0,
+        0.0,
+        0.952411
+      ],
+      "scale": [
+        0.505649,
+        0.505649,
+        0.505649
+      ],
+      "translation": [
+        0.000318,
+        0.289392,
+        0.282214
+      ],
+      "name": "Sphere.001",
+      "extensions": {}
+    }
+  ]
+}

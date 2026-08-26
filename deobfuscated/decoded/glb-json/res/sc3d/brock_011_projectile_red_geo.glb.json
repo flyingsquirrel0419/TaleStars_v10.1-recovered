@@ -1,0 +1,206 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 3300,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 297,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 8,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 4,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 48968
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 48308
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48320,
+      "byteLength": 594
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48928,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48960,
+      "byteLength": 8
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.25,
+        "frameRate": 30.0,
+        "keyframeCount": 74,
+        "lastFrame": 75.0,
+        "packed": {
+          "dataAccessor": 1,
+          "nodeAccessor": 2,
+          "nodes": [
+            {
+              "dataSize": 297,
+              "flags": 2,
+              "frameCount": 74,
+              "nodeIndex": 0
+            }
+          ],
+          "stride": 5,
+          "uintAccessor": 3
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SHADOWMAP"
+          ],
+          "name": "Material.001",
+          "shader": "uber",
+          "variables": {
+            "textures": {
+              "diffuseTex2D": "sc3d/brock_011_projectile_red_texture.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 6608,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 31628,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.943731,
+              -2.59756,
+              -0.762079
+            ],
+            [
+              0.941379,
+              1.186077,
+              0.720499
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "scale": [
+        0.330171,
+        0.330171,
+        0.413945
+      ],
+      "translation": [
+        0.0,
+        -0.350573,
+        0.0
+      ],
+      "name": "main_body",
+      "extensions": {}
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 18,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 36,
+      "componentType": 5123,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 780,
+      "componentType": 5123,
+      "count": 216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 396,
+      "componentType": 5123,
+      "count": 192,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1212,
+      "componentType": 5123,
+      "count": 6600,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14412,
+      "componentType": 5123,
+      "count": 1098,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 67988
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 67988
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_bb_arena_adidas_night",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_bb_arena_adidas_tex.sctx#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_bb_arena_adidas_specular_night",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_bb_arena_adidas_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_night.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap_night.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "bgr_bb_arena_adidas_lit",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_bb_arena_adidas_tex.sctx#repeat",
+              "lightmapTex2D": "sc3d/diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "bgr_bb_arena_adidas",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.727,
+                0.727,
+                0.727,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_bb_arena_adidas_tex.sctx#repeat",
+              "lightmapTex2D": "sc3d/diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 16608,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 47436,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -25.80055,
+              -53.802734,
+              -8.691772
+            ],
+            [
+              25.762798,
+              22.678371,
+              -8.574717
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -15.483966,
+              -42.461369,
+              -8.691772
+            ],
+            [
+              15.474669,
+              -2.189678,
+              -3.710202
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -18.859219,
+              -24.225639,
+              -1.429439
+            ],
+            [
+              18.859219,
+              24.225639,
+              1.291528
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 4,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              10.196028,
+              26.414822,
+              -1.771655
+            ],
+            [
+              39.710663,
+              61.994179,
+              10.649816
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.76704,
+              -36.727074,
+              0.0
+            ],
+            [
+              25.741106,
+              3.654296,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        10.518862,
+        5.76617,
+        2.939013
+      ],
+      "name": "Icosphere.052",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        10.518862,
+        5.76617,
+        2.939013
+      ],
+      "name": "Base.046",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        10.517069,
+        -16.472767,
+        -1.104572
+      ],
+      "name": "Lip.046",
+      "extensions": {}
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.009704,
+        0.019837,
+        0.439345,
+        0.898047
+      ],
+      "translation": [
+        30.222588,
+        -40.876381,
+        -5.736622
+      ],
+      "name": "tree_cluster_top.018",
+      "extensions": {}
+    },
+    {
+      "mesh": 4,
+      "name": "ground.046",
+      "extensions": {}
+    }
+  ]
+}

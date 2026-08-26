@@ -1,0 +1,275 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2244,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4488,
+      "componentType": 5123,
+      "count": 234,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 601,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 8,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 4,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 22648
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 21380
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21392,
+      "byteLength": 1202
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22608,
+      "byteLength": 32
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22640,
+      "byteLength": 8
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 100,
+        "lastFrame": 100.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 601,
+              "flags": 28,
+              "frameCount": 100,
+              "nodeIndex": 1
+            }
+          ],
+          "stride": 7,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "bgr_airhockey_tiles",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.125,
+                0.125,
+                0.125,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_airhockey_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 6,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "town_gem_spawn_glow",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.366,
+                0.366,
+                0.366,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/default_gem_spawn_glow_tex.sctx#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 4960,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 14812,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.111342,
+              -1.111342,
+              -0.0
+            ],
+            [
+              1.358492,
+              1.234739,
+              0.67472
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.020502,
+              -1.004438,
+              0.077968
+            ],
+            [
+              0.943678,
+              1.004437,
+              2.989918
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "gem_spawn",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        0.475,
+        0.475,
+        0.0
+      ],
+      "name": "gem_spawn_glow",
+      "extensions": {}
+    }
+  ]
+}

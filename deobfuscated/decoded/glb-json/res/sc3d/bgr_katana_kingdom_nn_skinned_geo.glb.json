@@ -1,0 +1,569 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 1140,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2280,
+      "componentType": 5123,
+      "count": 1140,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 8,
+      "type": "MAT4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136194,
+      "count": 10806,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201734,
+      "count": 64,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 267266,
+      "count": 32,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 52992
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 30544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30544,
+      "byteLength": 512
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31056,
+      "byteLength": 21612
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52672,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52928,
+      "byteLength": 64
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 450,
+        "lastFrame": 450.0,
+        "packed": {
+          "dataAccessor": 3,
+          "nodeAccessor": 4,
+          "nodes": [
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 450,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 450,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 6
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 7
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 10
+            },
+            {
+              "dataSize": 1801,
+              "flags": 2,
+              "frameCount": 450,
+              "nodeIndex": 11
+            }
+          ],
+          "stride": 30,
+          "uintAccessor": 5
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "Material_diffuse",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "bgr_katana_kingdom_nanonoodleattack_tex.png#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 4560,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 23120,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              21.18047,
+              -9.864205,
+              0.306073
+            ],
+            [
+              22.291489,
+              -8.736447,
+              4.0303
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.412245,
+              -14.524346,
+              0.255208
+            ],
+            [
+              -1.184187,
+              -14.206698,
+              6.206578
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.924618,
+        -0.380895,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.386059,
+        1.386059,
+        1.386059
+      ],
+      "translation": [
+        21.623714,
+        -9.200747,
+        3.816937
+      ],
+      "name": "banner_1_armature.001",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.0,
+        0.99618,
+        0.0,
+        0.087327
+      ],
+      "translation": [
+        -2.626356,
+        -14.359508,
+        5.995677
+      ],
+      "name": "banner_2_armature.001",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.707107,
+        0.0,
+        -0.0,
+        0.707107
+      ],
+      "translation": [
+        -1e-06,
+        2e-06,
+        -0.159857
+      ],
+      "name": "banner_1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "Cube.291",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.707107,
+        0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        -0.0,
+        -0.292828
+      ],
+      "name": "banner_1:1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "name": "Cube.292",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.348215,
+        1e-06
+      ],
+      "name": "banner_2",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.637863,
+        1e-06
+      ],
+      "name": "banner_2:1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.664953,
+        1e-06
+      ],
+      "name": "banner_3",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.218066,
+        -0.0
+      ],
+      "name": "banner_3:1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        0.747249,
+        1e-06
+      ],
+      "name": "banner_4",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.368816,
+        -1e-06
+      ],
+      "name": "banner_4:1",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 2,
+      "joints": [
+        2,
+        6,
+        8,
+        10,
+        4,
+        7,
+        9,
+        11
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              21.18047,
+              -9.864205,
+              0.306073,
+              22.291489,
+              -8.760075,
+              4.0303
+            ],
+            [
+              21.231071,
+              -9.591443,
+              2.289461,
+              22.028637,
+              -8.798705,
+              3.672745
+            ],
+            [
+              21.21537,
+              -9.607267,
+              1.306813,
+              22.027452,
+              -8.799898,
+              2.788678
+            ],
+            [
+              21.21537,
+              -9.607267,
+              0.517807,
+              22.090414,
+              -8.736447,
+              1.739947
+            ],
+            [
+              -3.412245,
+              -14.512314,
+              0.255208,
+              -1.88699,
+              -14.206698,
+              6.206578
+            ],
+            [
+              -2.937546,
+              -14.432102,
+              3.868825,
+              -1.607889,
+              -14.304468,
+              5.763334
+            ],
+            [
+              -2.777837,
+              -14.430334,
+              2.603199,
+              -1.372883,
+              -14.281023,
+              4.692486
+            ],
+            [
+              -2.527026,
+              -14.524346,
+              1.586977,
+              -1.184187,
+              -14.281023,
+              3.341745
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

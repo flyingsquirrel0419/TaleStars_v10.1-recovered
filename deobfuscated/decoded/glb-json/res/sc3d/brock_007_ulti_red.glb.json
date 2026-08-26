@@ -1,0 +1,208 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 984
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 984
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.5,
+        "yfov": 0.47109,
+        "zfar": 10000.0,
+        "znear": 10.0
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "CUTOUT",
+            "SHADOWMAP"
+          ],
+          "name": "mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "diffuseTex2D": "brock_007_atk_red.pvr#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 144,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 648,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.915806,
+              -1.011801,
+              -0.167157
+            ],
+            [
+              3.740269,
+              1.285717,
+              0.1629
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.16905,
+        0.755896,
+        -0.272153,
+        0.570943
+      ],
+      "scale": [
+        100.000008,
+        100.0,
+        100.0
+      ],
+      "translation": [
+        407.624542,
+        590.38623,
+        -100.545395
+      ],
+      "name": "Light",
+      "extensions": {}
+    },
+    {
+      "camera": 0,
+      "rotation": [
+        -0.209956,
+        0.385771,
+        0.090614,
+        0.893806
+      ],
+      "scale": [
+        99.999992,
+        100.000015,
+        99.999992
+      ],
+      "translation": [
+        735.88916,
+        495.830933,
+        692.579102
+      ],
+      "name": "Camera_ncl1_1",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.707107,
+        0.707107,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.4
+      ],
+      "translation": [
+        0.0,
+        -0.21,
+        0.0
+      ],
+      "name": "obj",
+      "extensions": {}
+    }
+  ]
+}

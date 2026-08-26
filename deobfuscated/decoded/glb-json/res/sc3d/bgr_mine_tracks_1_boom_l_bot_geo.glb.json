@@ -1,0 +1,417 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 360,
+      "componentType": 5123,
+      "count": 276,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 241,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 48,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 6128
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 5392
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5392,
+      "byteLength": 482
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5888,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6080,
+      "byteLength": 48
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 60,
+        "lastFrame": 60.0,
+        "packed": {
+          "dataAccessor": 2,
+          "nodeAccessor": 3,
+          "nodes": [
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 60,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 60,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 60,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 60,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 60,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 241,
+              "flags": 2,
+              "frameCount": 60,
+              "nodeIndex": 5
+            }
+          ],
+          "stride": 5,
+          "uintAccessor": 4
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "generic_1",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_mine_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 912,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 3600,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.075737,
+              -0.875571,
+              -0.166129
+            ],
+            [
+              8.844347,
+              0.891167,
+              0.161525
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            [
+              1.0,
+              1.0,
+              0.589635
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.489914,
+        -0.313032,
+        -0.508076,
+        0.635495
+      ],
+      "scale": [
+        0.191699,
+        0.191699,
+        0.191699
+      ],
+      "translation": [
+        21.481718,
+        -5.550513,
+        0.91032
+      ],
+      "name": "train_boom_base.004",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.489914,
+        -0.313032,
+        -0.508076,
+        0.635495
+      ],
+      "scale": [
+        0.191699,
+        0.191699,
+        0.191699
+      ],
+      "translation": [
+        21.481718,
+        -15.630472,
+        0.91032
+      ],
+      "name": "train_boom_base.005",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.354794,
+        0.353779,
+        0.613223,
+        0.610671
+      ],
+      "scale": [
+        0.191699,
+        0.191699,
+        0.191699
+      ],
+      "translation": [
+        -0.88345,
+        -17.246065,
+        0.923873
+      ],
+      "name": "train_boom_base.006",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.354794,
+        0.353779,
+        0.613223,
+        0.610671
+      ],
+      "scale": [
+        0.191699,
+        0.191699,
+        0.191699
+      ],
+      "translation": [
+        -0.859316,
+        -27.283363,
+        0.893247
+      ],
+      "name": "train_boom_base.007",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.354794,
+        0.353779,
+        0.613223,
+        0.610671
+      ],
+      "scale": [
+        0.191699,
+        0.191699,
+        0.191699
+      ],
+      "translation": [
+        -0.859316,
+        -27.283363,
+        0.893247
+      ],
+      "name": "train_boom_base",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -1.4e-05,
+        -3e-06,
+        -9e-06
+      ],
+      "name": "train_boom_l_bot",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    }
+  ]
+}

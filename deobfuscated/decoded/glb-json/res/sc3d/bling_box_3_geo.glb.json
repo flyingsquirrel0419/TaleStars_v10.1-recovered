@@ -1,0 +1,777 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5123,
+      "count": 2424,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4860,
+      "componentType": 5123,
+      "count": 4458,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 21684,
+      "componentType": 5123,
+      "count": 3618,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 31992,
+      "componentType": 5123,
+      "count": 30,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 28920,
+      "componentType": 5123,
+      "count": 672,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13776,
+      "componentType": 5123,
+      "count": 3954,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30264,
+      "componentType": 5123,
+      "count": 864,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 2111,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 140320
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 135924
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135936,
+      "byteLength": 4222
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 140160,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 140288,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.333333,
+        "yfov": 0.660595,
+        "zfar": 99.900002,
+        "znear": 0.1
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 261,
+        "lastFrame": 260.0,
+        "packed": {
+          "dataAccessor": 8,
+          "nodeAccessor": 9,
+          "nodes": [
+            {
+              "dataSize": 968,
+              "flags": 30,
+              "frameCount": 261,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 25,
+              "flags": 6,
+              "frameCount": 261,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 122,
+              "flags": 2,
+              "frameCount": 261,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 996,
+              "flags": 2,
+              "frameCount": 261,
+              "nodeIndex": 5
+            }
+          ],
+          "stride": 29,
+          "uintAccessor": 10
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 1,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "bling_box_glow",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                0.451991,
+                0.451991,
+                0.451991,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#60,60,tex_bling_box_glow",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "bling_box_3_specular",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                0.275,
+                0.275,
+                0.275,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_bling_box_3",
+              "lightmapSpecularTex2D": "menu_blingbox_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_blingbox_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "bling_box_3_diffuse",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                0.181002,
+                0.181002,
+                0.181002,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_bling_box_3",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "highlight",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableShadowMap": false
+            },
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                0.181002,
+                0.181002,
+                0.181002,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_bling_box_5",
+              "lightmapSpecularTex2D": "#repeat",
+              "lightmapTex2D": "#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 32064,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 94380,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.974186,
+              0.206119,
+              0.247939
+            ],
+            [
+              0.982103,
+              0.212714,
+              1.95735
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.767396,
+              -0.12956,
+              -0.120446
+            ],
+            [
+              0.767396,
+              0.548648,
+              0.124076
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.551604,
+              -0.932356,
+              -0.449844
+            ],
+            [
+              1.551604,
+              0.944005,
+              0.939292
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.127686,
+              -0.186668,
+              0.080918
+            ],
+            [
+              1.127686,
+              0.186668,
+              1.216678
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 6,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 7,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.183679,
+              -0.851066,
+              -0.007797
+            ],
+            [
+              1.183679,
+              0.853049,
+              1.345343
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 4,
+      "rotation": [
+        -0.047095,
+        0.121734,
+        0.357724,
+        0.92466
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        1.2
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "name": "bling_box_3_frame",
+      "extensions": {}
+    },
+    {
+      "camera": 0,
+      "rotation": [
+        0.666013,
+        0.176474,
+        0.185636,
+        0.700587
+      ],
+      "translation": [
+        4.135967,
+        -7.063255,
+        1.676323
+      ],
+      "name": "bling_box_3_camera",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        -0.007047,
+        0.076756
+      ],
+      "name": "bling_box_3_glow",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0.0,
+        0.0,
+        0.220504
+      ],
+      "name": "bling_box_3_swivel",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.026177,
+        0.0,
+        0.0,
+        0.999657
+      ],
+      "translation": [
+        0.0,
+        -0.000408,
+        1.016746
+      ],
+      "name": "bling_box_3_lid",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.840094,
+        0.0,
+        0.0,
+        0.542442
+      ],
+      "translation": [
+        0.0,
+        0.012002,
+        0.852721
+      ],
+      "name": "bbox_l_handle.001",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    }
+  ]
+}

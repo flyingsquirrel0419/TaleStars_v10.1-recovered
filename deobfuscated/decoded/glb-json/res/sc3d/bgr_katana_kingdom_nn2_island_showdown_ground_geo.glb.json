@@ -1,0 +1,321 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 48,
+      "componentType": 5123,
+      "count": 21744,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 43536,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 215424
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 215424
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR"
+          ],
+          "name": "island_water",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                0.0,
+                0.725,
+                0.71,
+                1.0
+              ],
+              "specular": [
+                0.091,
+                0.091,
+                0.091,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,64,tex_water_tile_katana_kingdom"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "SHADOWMAP"
+          ],
+          "name": "ground_plane.001",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/bgr_katana_kingdom_nn2_tex.sctx#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 1,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "SHADOWMAP"
+          ],
+          "name": "tex_light_gradient_enchanted_1",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                0.719,
+                0.719,
+                0.719,
+                1.0
+              ],
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "effects.sc#64,1,tex_light_gradient_enchanted_1"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 43584,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 146688,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -19.101807,
+              -79.12429,
+              0.0
+            ],
+            [
+              79.363815,
+              19.34133,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3e-06,
+              -60.000008,
+              -0.025
+            ],
+            [
+              60.000011,
+              0.0,
+              -0.025
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -19.101807,
+              -79.12429,
+              0.0
+            ],
+            [
+              79.363815,
+              19.34133,
+              0.0
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        0.991667,
+        0.991667,
+        1.0
+      ],
+      "translation": [
+        0.25,
+        -0.25,
+        0.0
+      ],
+      "name": "ground_water",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "scale": [
+        1.010251,
+        1.010251,
+        1.010251
+      ],
+      "translation": [
+        -0.307528,
+        0.307528,
+        0.000256
+      ],
+      "name": "ground_plane_SD_1.001",
+      "extensions": {}
+    },
+    {
+      "mesh": 2,
+      "scale": [
+        0.991667,
+        0.991667,
+        1.0
+      ],
+      "translation": [
+        0.25,
+        -0.25,
+        0.01
+      ],
+      "name": "ground_water_light",
+      "extensions": {}
+    }
+  ]
+}
