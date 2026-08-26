@@ -1,0 +1,3527 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 294,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13116,
+      "componentType": 5123,
+      "count": 6696,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 26508,
+      "componentType": 5123,
+      "count": 2976,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32460,
+      "componentType": 5123,
+      "count": 1692,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 35844,
+      "componentType": 5123,
+      "count": 168,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 36180,
+      "componentType": 5123,
+      "count": 1992,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40164,
+      "componentType": 5123,
+      "count": 4278,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 48720,
+      "componentType": 5123,
+      "count": 1584,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 51888,
+      "componentType": 5123,
+      "count": 864,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 588,
+      "componentType": 5123,
+      "count": 888,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 53616,
+      "componentType": 5123,
+      "count": 3006,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 59628,
+      "componentType": 5123,
+      "count": 5256,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 70140,
+      "componentType": 5123,
+      "count": 4290,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2364,
+      "componentType": 5123,
+      "count": 2016,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 78720,
+      "componentType": 5123,
+      "count": 4296,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 87312,
+      "componentType": 5123,
+      "count": 642,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6396,
+      "componentType": 5123,
+      "count": 2688,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 11772,
+      "componentType": 5123,
+      "count": 672,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 78,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 434528
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 429536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 429536,
+      "byteLength": 4992
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "STENCIL",
+            "LIGHTMAP",
+            "CUTOUT",
+            "CLIP_PLANE",
+            "COLOR_MUL",
+            "COLOR_ADD"
+          ],
+          "name": "character_metal_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "clipPlane": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "metal_specular_lightmap.png#repeat",
+              "lightmapTex2D": "metal_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "SPECULAR",
+            "STENCIL",
+            "LIGHTMAP",
+            "CUTOUT",
+            "CLIP_PLANE",
+            "COLOR_MUL",
+            "COLOR_ADD"
+          ],
+          "name": "character_mat",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "clipPlane": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            },
+            "textures": {
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 88608,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 332128,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              13.512916,
+              13.972253,
+              -0.6037
+            ],
+            [
+              16.580238,
+              17.067398,
+              0.6037
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -10.557497,
+              1.964593,
+              -2.714711
+            ],
+            [
+              10.557497,
+              8.903017,
+              2.454605
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 2,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.665958,
+              0.007536,
+              -1.843701
+            ],
+            [
+              2.665958,
+              2.84911,
+              2.439077
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 3,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.468869,
+              9.643869,
+              -0.421854
+            ],
+            [
+              2.468869,
+              14.154094,
+              1.441008
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 4,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.335428,
+              11.059513,
+              2.381886
+            ],
+            [
+              1.335428,
+              11.51351,
+              2.904583
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.85445,
+              8.426622,
+              -1.566035
+            ],
+            [
+              1.812293,
+              13.569662,
+              2.855343
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 6,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -4.409322,
+              3.7977,
+              -3.163516
+            ],
+            [
+              4.409322,
+              11.461136,
+              2.295611
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 7,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.579207,
+              1.749337,
+              -2.438369
+            ],
+            [
+              2.579207,
+              4.928889,
+              1.770713
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 8,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 9,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.812899,
+              9.89086,
+              -2.604656
+            ],
+            [
+              3.062237,
+              15.011518,
+              3.26771
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            3,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 10,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -2.440861,
+              4.553924,
+              2.671814
+            ],
+            [
+              2.440861,
+              8.242341,
+              4.215986
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 11,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -8.565398,
+              3.527905,
+              -2.704876
+            ],
+            [
+              8.565398,
+              8.011355,
+              1.769353
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 12,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.844892,
+              6.089633,
+              -3.552511
+            ],
+            [
+              3.844892,
+              10.989462,
+              3.694139
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 13,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -9.324516,
+              4.801357,
+              -3.129587
+            ],
+            [
+              9.324516,
+              8.279696,
+              2.163063
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 14,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              10.225828,
+              4.820206,
+              -4.820206
+            ],
+            [
+              19.867462,
+              14.092748,
+              4.820206
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 15,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              14.238847,
+              -0.03851,
+              -0.810166
+            ],
+            [
+              15.848455,
+              5.413297,
+              0.801392
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 16,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              12.251416,
+              7.544019,
+              -2.653879
+            ],
+            [
+              17.841795,
+              11.433192,
+              2.65333
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 17,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.527239,
+              7.022287,
+              2.057757
+            ],
+            [
+              3.540383,
+              8.721125,
+              3.160002
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "superROOT_zeroG",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.014703,
+        4.267729,
+        -0.483623
+      ],
+      "name": "hips_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "tree_star_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 1,
+      "name": "arms_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 2,
+      "name": "legs_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 3,
+      "name": "headphones_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 4,
+      "name": "eyebrows_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 5,
+      "name": "head_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 6,
+      "name": "tuxedo_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 7,
+      "name": "shorts_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 8,
+      "name": "lampshade_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 9,
+      "name": "bowtie_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 10,
+      "name": "arms_cables_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 11,
+      "name": "wreath_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 12,
+      "name": "arms_lights_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 13,
+      "name": "tree_leaves_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 14,
+      "name": "tree_trunk_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 15,
+      "name": "tree_baubles_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 16,
+      "name": "wreath_baubles_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "spaceSwitchTargetG_superROOT",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.582849,
+        0.064588
+      ],
+      "name": "spine_lower_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.010519,
+        0.999945,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.330816,
+        0.103261,
+        0.114198
+      ],
+      "name": "L_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.999945,
+        0.010519,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.330813,
+        0.103261,
+        0.114199
+      ],
+      "name": "R_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.986495,
+        0.0,
+        0.0,
+        -0.16379
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.014703,
+        0.505335,
+        -2.186048
+      ],
+      "name": "back_item_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "name": "superROOT",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 22
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.663037,
+        0.037319
+      ],
+      "name": "spine_upper_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 23
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.012611,
+        0.0,
+        0.0,
+        0.99992
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.012198,
+        1.786447,
+        0.256115
+      ],
+      "name": "L_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 24
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.012611,
+        0.0,
+        0.0,
+        0.99992
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.0122,
+        -1.786444,
+        -0.256115
+      ],
+      "name": "R_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 25
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.097073,
+        0.0,
+        0.0,
+        0.995277
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        1.050201,
+        -0.171475
+      ],
+      "name": "back_item_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.986495,
+        0.0,
+        0.0,
+        0.16379
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.024453,
+        0.035774
+      ],
+      "name": "tuxedoBackPiece_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.577828,
+        0.006595
+      ],
+      "name": "chest_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 28
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.02313,
+        0.999732,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.018569,
+        1.932222,
+        -0.320245
+      ],
+      "name": "L_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 29
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.02313,
+        0.999732,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.01856,
+        -1.932224,
+        0.320245
+      ],
+      "name": "R_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 30
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.930413,
+        -0.119014
+      ],
+      "name": "back_item_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 31
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        2.628897,
+        0.000722
+      ],
+      "name": "neck_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        0.297441,
+        1.531623,
+        0.240705
+      ],
+      "name": "L_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.297441,
+        1.531627,
+        0.240705
+      ],
+      "name": "R_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.377474,
+        -0.597924,
+        -0.377474,
+        0.597924
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.014703,
+        1.507605,
+        4.148157
+      ],
+      "name": "tie_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.182429,
+        -0.206944,
+        -0.395955,
+        0.87585
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.548111,
+        2.014617,
+        2.832239
+      ],
+      "name": "L_wreathBauble_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.95192,
+        0.251237,
+        0.00569,
+        0.175202
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -2.36566,
+        2.382826,
+        2.837991
+      ],
+      "name": "R_wreathBauble_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "translation": [
+        14.985131,
+        -1.073156,
+        0.380314
+      ],
+      "name": "L_gunbone_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.684471,
+        0.72904,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.001939,
+        -0.599379,
+        1.805165
+      ],
+      "name": "L_toes_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 34
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.684471,
+        0.72904,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.00193,
+        0.599379,
+        -1.805164
+      ],
+      "name": "R_toes_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 35
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        2.364325,
+        0.138353
+      ],
+      "name": "head_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 37
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.63514,
+        0.309034,
+        0.626589,
+        -0.329366
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.577896,
+        0.130524,
+        -0.914059
+      ],
+      "name": "L_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 38
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.64033,
+        0.299065,
+        0.63424,
+        -0.313491
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -2.577892,
+        -0.13052,
+        0.914063
+      ],
+      "name": "R_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 39
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.223615,
+        0.974678
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.837657,
+        -0.451328,
+        -0.0
+      ],
+      "name": "tie_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 40
+        }
+      }
+    },
+    {
+      "translation": [
+        0.046904,
+        8.278545,
+        -0.005273
+      ],
+      "name": "L_gunbone_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "translation": [
+        0.046981,
+        1.845719,
+        1.56864
+      ],
+      "name": "treeLeavesA_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        1.56864,
+        1.845719,
+        -0.046981
+      ],
+      "name": "treeLeavesA_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.046981,
+        1.845719,
+        -1.56864
+      ],
+      "name": "treeLeavesA_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        -1.56864,
+        1.845719,
+        0.046981
+      ],
+      "name": "treeLeavesA_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.382664,
+        0.0,
+        0.923887
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.054057,
+        4.790373,
+        1.012731
+      ],
+      "name": "treeLeavesB_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.923887,
+        0.0,
+        0.382664
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.012731,
+        4.790373,
+        -1.054057
+      ],
+      "name": "treeLeavesB_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.923887,
+        0.0,
+        -0.382664
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.054057,
+        4.790373,
+        -1.012731
+      ],
+      "name": "treeLeavesB_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.382664,
+        0.0,
+        0.923887
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.012731,
+        4.790373,
+        1.054057
+      ],
+      "name": "treeLeavesB_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "translation": [
+        0.020899,
+        7.310295,
+        0.824179
+      ],
+      "name": "treeLeavesC_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        0.824179,
+        7.310295,
+        -0.020899
+      ],
+      "name": "treeLeavesC_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.020899,
+        7.310295,
+        -0.824179
+      ],
+      "name": "treeLeavesC_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        -0.824179,
+        7.310295,
+        0.020899
+      ],
+      "name": "treeLeavesC_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 43
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.056902,
+        -0.001046,
+        0.059763,
+        0.996589
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.402882,
+        3.436795,
+        1.295886
+      ],
+      "name": "hat_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 46
+        }
+      }
+    },
+    {
+      "translation": [
+        0.746235,
+        0.187514,
+        2.959245
+      ],
+      "name": "L_eyebrow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 46
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.746235,
+        0.187536,
+        2.959248
+      ],
+      "name": "R_eyebrow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 46
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.003137,
+        0.041955,
+        -0.074989,
+        0.996296
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.338188,
+        2.999208,
+        0.08095
+      ],
+      "name": "L_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 47
+        }
+      }
+    },
+    {
+      "name": "L_arm_roll_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 47
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.012919,
+        -0.008766,
+        -0.056196,
+        0.998298
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.169094,
+        1.499604,
+        0.040475
+      ],
+      "name": "L_arm_roll_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 47
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.667734,
+        0.296388,
+        0.584318,
+        0.353353
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.114435,
+        1.53037,
+        1.291383
+      ],
+      "name": "L_armLights_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 47
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.019378,
+        -0.257784,
+        -0.072528,
+        0.963282
+      ],
+      "scale": [
+        0.999999,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.310922,
+        -2.996364,
+        -0.203261
+      ],
+      "name": "R_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 48
+        }
+      }
+    },
+    {
+      "name": "R_arm_roll_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 48
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.033311,
+        -0.007536,
+        -0.051828,
+        0.998072
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.155461,
+        -1.498182,
+        -0.101631
+      ],
+      "name": "R_arm_roll_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 48
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.673463,
+        0.28744,
+        0.591829,
+        0.336993
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.101289,
+        -1.500367,
+        -1.371114
+      ],
+      "name": "R_armLights_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 48
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.223595,
+        -0.0
+      ],
+      "name": "L_gunbone_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 50
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.382664,
+        0.0,
+        0.923887
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.10748,
+        -1.120017,
+        1.695829
+      ],
+      "name": "treeBaublesB_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 55
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.923887,
+        0.0,
+        -0.382664
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.158472,
+        -1.120018,
+        1.703284
+      ],
+      "name": "treeBaublesB_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 56
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.923887,
+        0.0,
+        0.382664
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.033585,
+        -1.120018,
+        1.636842
+      ],
+      "name": "treeBaublesB_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 57
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.382664,
+        0.0,
+        0.923887
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.099484,
+        -1.120017,
+        1.629388
+      ],
+      "name": "treeBaublesB_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 58
+        }
+      }
+    },
+    {
+      "translation": [
+        0.049467,
+        -0.895139,
+        1.169672
+      ],
+      "name": "treeBaublesC_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 59
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        0.007756,
+        -0.895139,
+        1.221923
+      ],
+      "name": "treeBaublesC_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 60
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        -0.091265,
+        -0.89514,
+        1.180213
+      ],
+      "name": "treeBaublesC_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 61
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.707107,
+        0.0,
+        0.707107
+      ],
+      "translation": [
+        -0.049557,
+        -0.89514,
+        1.127963
+      ],
+      "name": "treeBaublesC_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 62
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.021008,
+        0.0,
+        0.999779
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.09952,
+        1.202711,
+        0.064788
+      ],
+      "name": "L_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 66
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.548648,
+        0.492974,
+        0.446835,
+        0.506262
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.510842,
+        2.305069,
+        1.886783
+      ],
+      "name": "L_armLights_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 66
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.112823,
+        0.549229,
+        0.576574,
+        0.594291
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.855526,
+        0.363866,
+        0.315569
+      ],
+      "name": "L_armLights_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 66
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.645997,
+        0.518471,
+        0.181938,
+        0.529882
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        2.155272,
+        0.143885,
+        0.522225
+      ],
+      "name": "L_armLights_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 66
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.130018,
+        0.0,
+        0.991512
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.101377,
+        -1.202862,
+        0.05885
+      ],
+      "name": "R_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 70
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.644694,
+        0.632298,
+        0.250557,
+        0.348984
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.467852,
+        -2.405921,
+        -1.166546
+      ],
+      "name": "R_armLights_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 70
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.265537,
+        0.715378,
+        0.503145,
+        0.405672
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.343817,
+        -0.428792,
+        -1.315305
+      ],
+      "name": "R_armLights_03_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 70
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.657868,
+        0.657314,
+        -0.031835,
+        0.366244
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.000001
+      ],
+      "translation": [
+        -2.072348,
+        -0.160845,
+        0.790788
+      ],
+      "name": "R_armLights_04_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 70
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.933211,
+        0.0
+      ],
+      "name": "star_fx",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 74
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.036356,
+        -0.021962,
+        0.008059,
+        0.999065
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.102154,
+        1.202711,
+        0.06055
+      ],
+      "name": "L_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 83
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.013165,
+        0.129587,
+        0.000338,
+        0.991481
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.113123,
+        -1.202862,
+        0.03072
+      ],
+      "name": "R_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 87
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.040386,
+        0.999026,
+        0.016363,
+        0.00689
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.054351,
+        2.018853,
+        0.18341
+      ],
+      "name": "L_middle_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 92
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.01135,
+        0.999287,
+        0.029005,
+        0.021316
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.52518,
+        1.770258,
+        -0.03584
+      ],
+      "name": "L_index_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 92
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.572179,
+        0.747198,
+        -0.200426,
+        -0.272279
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.303795,
+        0.343369,
+        -0.448607
+      ],
+      "name": "L_thumb_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 92
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.040386,
+        0.999026,
+        0.016363,
+        0.00689
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.054351,
+        -2.01885,
+        -0.183412
+      ],
+      "name": "R_middle_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 93
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.01135,
+        0.999287,
+        0.029005,
+        0.021316
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.525178,
+        -1.770258,
+        0.035832
+      ],
+      "name": "R_index_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 93
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.572179,
+        0.747198,
+        -0.200426,
+        -0.272279
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.303792,
+        -0.343371,
+        0.448609
+      ],
+      "name": "R_thumb_01_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 93
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.00123,
+        0.008182,
+        -0.024669,
+        0.999661
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.061764,
+        0.864942,
+        0.306136
+      ],
+      "name": "L_middle_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 94
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.019532,
+        0.010796,
+        0.001015,
+        0.99975
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.209231,
+        0.922399,
+        0.428924
+      ],
+      "name": "L_index_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 95
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.020178,
+        0.007321,
+        0.018732,
+        0.999594
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.097365,
+        1.348408,
+        0.244155
+      ],
+      "name": "L_thumb_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 96
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.00123,
+        0.008182,
+        -0.024669,
+        0.999661
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        0.061763,
+        -0.864941,
+        -0.30613
+      ],
+      "name": "R_middle_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 97
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.019501,
+        0.010796,
+        0.001015,
+        0.999751
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.209233,
+        -0.922408,
+        -0.42891
+      ],
+      "name": "R_index_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 98
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.020178,
+        0.007321,
+        0.018732,
+        0.999594
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -0.097354,
+        -1.348413,
+        -0.244142
+      ],
+      "name": "R_thumb_02_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 99
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 18,
+      "joints": [
+        74,
+        50,
+        94,
+        100,
+        95,
+        101,
+        102,
+        97,
+        103,
+        98,
+        104,
+        105,
+        33,
+        67,
+        71,
+        38,
+        39,
+        66,
+        83,
+        92,
+        96,
+        68,
+        70,
+        87,
+        93,
+        99,
+        72,
+        34,
+        44,
+        35,
+        45,
+        24,
+        25,
+        29,
+        30,
+        46,
+        64,
+        65,
+        28,
+        37,
+        26,
+        31,
+        4,
+        23,
+        63,
+        40,
+        49,
+        84,
+        85,
+        86,
+        69,
+        88,
+        89,
+        90,
+        73,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        43,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81,
+        82,
+        80,
+        41,
+        42
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              13.512916,
+              14.150213,
+              -0.6037,
+              16.580238,
+              17.067398,
+              0.6037
+            ],
+            [
+              14.383011,
+              13.271455,
+              -0.4467,
+              15.436357,
+              14.590652,
+              0.4467
+            ],
+            [
+              8.237329,
+              1.979206,
+              -1.704163,
+              10.471444,
+              4.868619,
+              1.825935
+            ],
+            [
+              8.65655,
+              1.964593,
+              -1.634671,
+              10.557497,
+              4.095447,
+              1.432042
+            ],
+            [
+              7.739848,
+              2.27081,
+              -0.205876,
+              10.365583,
+              4.626049,
+              2.169496
+            ],
+            [
+              8.730912,
+              2.182809,
+              1.218697,
+              9.993123,
+              3.585951,
+              2.322766
+            ],
+            [
+              6.40912,
+              2.315298,
+              1.384308,
+              7.592422,
+              3.366761,
+              2.454605
+            ],
+            [
+              -10.471444,
+              1.979206,
+              -1.704163,
+              -8.237329,
+              4.868619,
+              1.825935
+            ],
+            [
+              -10.557497,
+              1.964593,
+              -1.634671,
+              -8.65655,
+              4.095447,
+              1.432042
+            ],
+            [
+              -10.365583,
+              2.27081,
+              -0.205876,
+              -7.739848,
+              4.626049,
+              2.169496
+            ],
+            [
+              -9.993123,
+              2.182809,
+              1.218697,
+              -8.730912,
+              3.585951,
+              2.322766
+            ],
+            [
+              -7.592422,
+              2.315298,
+              1.254417,
+              -6.40912,
+              4.159742,
+              2.454605
+            ],
+            [
+              -5.355059,
+              3.813855,
+              -3.552511,
+              5.375517,
+              11.095572,
+              3.694139
+            ],
+            [
+              1.190461,
+              3.527905,
+              -3.01299,
+              8.565398,
+              9.750708,
+              1.572817
+            ],
+            [
+              -8.565398,
+              3.527905,
+              -3.01299,
+              -1.190461,
+              9.750708,
+              1.572817
+            ],
+            [
+              -1.52038,
+              4.581352,
+              -3.552511,
+              5.068844,
+              10.989462,
+              3.694139
+            ],
+            [
+              -5.068844,
+              4.581352,
+              -3.552511,
+              1.52038,
+              10.989462,
+              3.694139
+            ],
+            [
+              3.492105,
+              2.965724,
+              -2.704876,
+              9.252098,
+              8.312665,
+              2.23574
+            ],
+            [
+              4.786464,
+              3.307985,
+              -2.704876,
+              9.173514,
+              7.545337,
+              1.793787
+            ],
+            [
+              4.965307,
+              2.610798,
+              -2.396154,
+              10.042806,
+              7.089005,
+              2.23574
+            ],
+            [
+              6.060219,
+              2.860188,
+              -1.262211,
+              9.145588,
+              5.544114,
+              2.23574
+            ],
+            [
+              2.854518,
+              4.716607,
+              -2.704876,
+              6.648774,
+              8.312665,
+              0.906807
+            ],
+            [
+              -9.252098,
+              2.965075,
+              -2.704876,
+              -3.352148,
+              8.314289,
+              2.23574
+            ],
+            [
+              -9.173514,
+              3.307985,
+              -2.704876,
+              -4.786464,
+              7.543064,
+              1.793463
+            ],
+            [
+              -10.042806,
+              2.610798,
+              -2.397778,
+              -4.965307,
+              7.089005,
+              2.23574
+            ],
+            [
+              -9.145588,
+              2.860188,
+              -1.262535,
+              -6.060219,
+              5.544114,
+              2.23574
+            ],
+            [
+              -6.648774,
+              4.716607,
+              -2.704876,
+              -2.785826,
+              8.314289,
+              0.906807
+            ],
+            [
+              0.026816,
+              0.007536,
+              -1.843701,
+              2.665958,
+              1.836779,
+              1.915297
+            ],
+            [
+              0.026816,
+              0.007624,
+              -0.136619,
+              2.665958,
+              1.836779,
+              2.439077
+            ],
+            [
+              -2.665958,
+              0.007536,
+              -1.843701,
+              -0.026816,
+              1.836779,
+              1.915297
+            ],
+            [
+              -2.665958,
+              0.007624,
+              -0.136619,
+              -0.026816,
+              1.836779,
+              2.439077
+            ],
+            [
+              -1.478879,
+              0.579514,
+              -2.656945,
+              2.760938,
+              5.023765,
+              1.939566
+            ],
+            [
+              -2.760938,
+              0.579514,
+              -2.656945,
+              1.478879,
+              5.023765,
+              1.996322
+            ],
+            [
+              0.0,
+              0.110855,
+              -2.068005,
+              2.579207,
+              4.103112,
+              1.247837
+            ],
+            [
+              -2.579207,
+              0.110855,
+              -2.068005,
+              -0.092628,
+              4.103112,
+              1.247837
+            ],
+            [
+              -2.468869,
+              8.426622,
+              -1.566035,
+              2.468869,
+              14.154094,
+              2.855343
+            ],
+            [
+              0.218145,
+              11.059513,
+              2.381886,
+              1.335428,
+              11.51351,
+              2.904583
+            ],
+            [
+              -1.335428,
+              11.059513,
+              2.381886,
+              -0.218145,
+              11.51351,
+              2.904583
+            ],
+            [
+              -1.643097,
+              5.001556,
+              -3.026033,
+              1.643097,
+              7.591522,
+              2.295611
+            ],
+            [
+              -2.850831,
+              7.491406,
+              -2.717578,
+              2.850831,
+              11.461136,
+              2.106308
+            ],
+            [
+              -3.522734,
+              4.294401,
+              -3.163516,
+              3.522734,
+              8.856364,
+              0.225965
+            ],
+            [
+              -0.723019,
+              4.76854,
+              -2.522282,
+              0.723019,
+              4.76854,
+              -2.522282
+            ],
+            [
+              -3.40464,
+              2.035107,
+              -2.656945,
+              3.40464,
+              8.611715,
+              2.295611
+            ],
+            [
+              -3.605929,
+              3.7977,
+              -3.163516,
+              3.605929,
+              8.440391,
+              2.295611
+            ],
+            [
+              -2.812899,
+              9.89086,
+              -2.604656,
+              3.062237,
+              15.011518,
+              3.26771
+            ],
+            [
+              -1.636198,
+              5.780692,
+              3.313466,
+              1.636198,
+              8.242341,
+              4.215986
+            ],
+            [
+              -2.440861,
+              4.553924,
+              2.671814,
+              2.440861,
+              7.003658,
+              3.83495
+            ],
+            [
+              8.194802,
+              5.285767,
+              -0.129635,
+              9.324516,
+              6.219594,
+              0.727904
+            ],
+            [
+              5.941683,
+              4.801357,
+              -3.129587,
+              6.805532,
+              6.068163,
+              -2.309906
+            ],
+            [
+              5.372381,
+              5.283185,
+              1.290323,
+              6.198658,
+              6.399133,
+              2.163063
+            ],
+            [
+              4.889692,
+              7.474355,
+              -1.317857,
+              6.281831,
+              8.279696,
+              -0.477813
+            ],
+            [
+              -9.324516,
+              5.285767,
+              -0.129635,
+              -8.194802,
+              6.219594,
+              0.727904
+            ],
+            [
+              -6.805532,
+              4.801357,
+              -3.129587,
+              -5.941683,
+              6.068163,
+              -2.309906
+            ],
+            [
+              -6.198658,
+              5.283185,
+              1.290323,
+              -5.372381,
+              6.399133,
+              2.163063
+            ],
+            [
+              -6.281831,
+              7.474355,
+              -1.317857,
+              -4.889692,
+              8.279696,
+              -0.477813
+            ],
+            [
+              11.009233,
+              4.820206,
+              0.388036,
+              18.95573,
+              8.020437,
+              4.820206
+            ],
+            [
+              11.908745,
+              4.820206,
+              -4.820206,
+              19.867462,
+              8.020437,
+              4.105241
+            ],
+            [
+              11.56715,
+              4.820206,
+              -4.820206,
+              18.52614,
+              8.020437,
+              -0.826181
+            ],
+            [
+              10.225828,
+              4.820206,
+              -4.820206,
+              18.184546,
+              8.020437,
+              4.152295
+            ],
+            [
+              14.32007,
+              8.020437,
+              -1.282048,
+              17.899782,
+              10.564978,
+              2.853137
+            ],
+            [
+              13.59105,
+              8.247759,
+              -2.853137,
+              17.899782,
+              11.231667,
+              1.971347
+            ],
+            [
+              12.192897,
+              7.579847,
+              -2.853137,
+              16.502239,
+              10.877851,
+              1.971347
+            ],
+            [
+              12.192897,
+              7.579847,
+              -1.395098,
+              15.527566,
+              10.564978,
+              2.853137
+            ],
+            [
+              12.865087,
+              10.877851,
+              -0.761407,
+              16.970327,
+              12.702538,
+              2.273832
+            ],
+            [
+              14.694052,
+              10.877851,
+              -2.036733,
+              17.320477,
+              12.702538,
+              1.923683
+            ],
+            [
+              13.122352,
+              10.877851,
+              -2.273832,
+              16.668453,
+              12.702538,
+              -0.367871
+            ],
+            [
+              12.772202,
+              10.877851,
+              -2.181559,
+              15.276411,
+              12.702538,
+              1.780079
+            ],
+            [
+              10.297935,
+              -0.03851,
+              -4.820206,
+              19.19894,
+              13.27451,
+              4.475556
+            ],
+            [
+              16.816132,
+              7.544019,
+              1.628217,
+              17.841795,
+              8.688216,
+              2.65333
+            ],
+            [
+              16.816132,
+              7.544019,
+              -2.653879,
+              17.841795,
+              8.688216,
+              -1.628217
+            ],
+            [
+              12.251416,
+              7.544019,
+              -2.653879,
+              13.277079,
+              8.688216,
+              -1.628217
+            ],
+            [
+              12.251416,
+              7.544019,
+              1.628217,
+              13.277079,
+              8.688216,
+              2.65333
+            ],
+            [
+              14.557372,
+              10.288995,
+              1.486084,
+              15.582485,
+              11.433192,
+              2.511746
+            ],
+            [
+              14.557372,
+              10.288995,
+              -2.511746,
+              15.582485,
+              11.433192,
+              -1.486084
+            ],
+            [
+              12.534585,
+              10.288995,
+              -0.536154,
+              13.560246,
+              11.433192,
+              0.488959
+            ],
+            [
+              16.532965,
+              10.288995,
+              -0.536154,
+              17.558626,
+              11.433192,
+              0.488959
+            ],
+            [
+              -3.527239,
+              7.022287,
+              2.057757,
+              3.540383,
+              8.479161,
+              3.160002
+            ],
+            [
+              -3.527239,
+              7.022287,
+              2.113017,
+              3.540383,
+              8.721125,
+              3.147931
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

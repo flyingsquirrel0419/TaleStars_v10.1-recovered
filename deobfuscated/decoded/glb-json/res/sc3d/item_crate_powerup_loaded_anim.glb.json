@@ -1,0 +1,149 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 501,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 12,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1128
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1002
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1008,
+      "byteLength": 96
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1104,
+      "byteLength": 24
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.25,
+        "frameRate": 30.0,
+        "keyframeCount": 125,
+        "lastFrame": 124.999992,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 125,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 125,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 501,
+              "flags": 2,
+              "frameCount": 125,
+              "nodeIndex": 3
+            }
+          ],
+          "stride": 5,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "scale": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "name": "powercube_armature",
+      "extensions": {}
+    },
+    {
+      "translation": [
+        0.0,
+        -0.294771,
+        0.0
+      ],
+      "name": "root_shadow_bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.357764,
+        0.0
+      ],
+      "name": "cube_bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.6802,
+        0.0
+      ],
+      "name": "question_bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    }
+  ]
+}

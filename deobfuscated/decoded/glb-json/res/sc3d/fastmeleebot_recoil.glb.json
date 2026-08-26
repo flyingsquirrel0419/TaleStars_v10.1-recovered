@@ -1,0 +1,534 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 1624,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 104,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 52,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 3768
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3248
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3248,
+      "byteLength": 416
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3664,
+      "byteLength": 104
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 0.0,
+        "frameRate": 30.0,
+        "keyframeCount": 25,
+        "lastFrame": 24.0,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 176,
+              "flags": 6,
+              "frameCount": 25,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 5
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 8
+            },
+            {
+              "dataSize": 176,
+              "flags": 6,
+              "frameCount": 25,
+              "nodeIndex": 9
+            },
+            {
+              "dataSize": 176,
+              "flags": 6,
+              "frameCount": 25,
+              "nodeIndex": 10
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 11
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 12
+            },
+            {
+              "dataSize": 101,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 13
+            },
+            {
+              "dataSize": 176,
+              "flags": 6,
+              "frameCount": 25,
+              "nodeIndex": 14
+            },
+            {
+              "dataSize": 176,
+              "flags": 6,
+              "frameCount": 25,
+              "nodeIndex": 15
+            },
+            {
+              "dataSize": 45,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 18
+            },
+            {
+              "dataSize": 93,
+              "flags": 2,
+              "frameCount": 25,
+              "nodeIndex": 19
+            }
+          ],
+          "stride": 80,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "rotation": [
+        -0.707107,
+        0.0,
+        0.0,
+        0.707107
+      ],
+      "name": "RootBone",
+      "extensions": {}
+    },
+    {
+      "name": "robo_geo",
+      "extensions": {}
+    },
+    {
+      "name": "PelvisBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.07465,
+        0.99721
+      ],
+      "translation": [
+        1.125093,
+        0.05106,
+        0.0
+      ],
+      "name": "ChestBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "RLegBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "LLegBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.100643,
+        -0.703454,
+        -0.104365,
+        0.695795
+      ],
+      "scale": [
+        1.000001,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.023159,
+        0.82111,
+        0.253532
+      ],
+      "name": "LCollarBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.100643,
+        0.703454,
+        -0.104365,
+        0.695795
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.023157,
+        0.82111,
+        -0.253534
+      ],
+      "name": "RCollarBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "name": "NeckBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "name": "RKneeBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "name": "LKneeBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "name": "LArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "name": "RArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "name": "HeadBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "name": "RAnkleBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "name": "LAnkleBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.080003,
+        -0.032573,
+        0.1776,
+        0.980304
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        1.155749,
+        -0.0,
+        0.0
+      ],
+      "name": "LForeArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 11
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.080003,
+        0.032573,
+        0.1776,
+        0.980304
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.155747,
+        -0.0,
+        1e-06
+      ],
+      "name": "RForeArmBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 12
+        }
+      }
+    },
+    {
+      "name": "RFootBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "name": "LFootBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 15
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.823772,
+        -0.059302,
+        -0.08354,
+        0.557588
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.072991,
+        0.0,
+        -0.0
+      ],
+      "name": "LWristBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 16
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.82377,
+        0.059333,
+        -0.08354,
+        0.557587
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        1.07299,
+        -0.0,
+        -3e-06
+      ],
+      "name": "RHandBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 17
+        }
+      }
+    },
+    {
+      "translation": [
+        0.50123,
+        0.002304,
+        -0.008967
+      ],
+      "name": "LFinger1Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 20
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.020178,
+        0.013472,
+        -0.370645,
+        0.928458
+      ],
+      "scale": [
+        1.0,
+        0.999999,
+        1.0
+      ],
+      "translation": [
+        0.41039,
+        -0.24652,
+        0.007291
+      ],
+      "name": "LThumbBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 20
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.020178,
+        -0.013472,
+        -0.370645,
+        0.928458
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.410387,
+        -0.246521,
+        -0.007291
+      ],
+      "name": "RThumbBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    },
+    {
+      "scale": [
+        1.0,
+        1.000001,
+        1.0
+      ],
+      "translation": [
+        0.501226,
+        0.002305,
+        0.008967
+      ],
+      "name": "RFinger1Bone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    },
+    {
+      "translation": [
+        -1e-06,
+        0.0,
+        -0.0
+      ],
+      "name": "RGunBone",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 21
+        }
+      }
+    }
+  ]
+}

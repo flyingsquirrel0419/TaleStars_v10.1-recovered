@@ -1,0 +1,424 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 90,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 180,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 372,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 564,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 756,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 948,
+      "componentType": 5123,
+      "count": 144,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1236,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 6420
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 6420
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "CUTOUT"
+          ],
+          "name": "zone-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                0.458824,
+                0.513726,
+                0.682353
+              ]
+            },
+            "floats": {
+              "cutout": 0.0,
+              "opacity": 0.25
+            },
+            "textures": {
+              "opacityTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "CUTOUT"
+          ],
+          "name": "outline_blue-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                0.254902,
+                0.615686,
+                0.815686
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "CUTOUT"
+          ],
+          "name": "zone_blue-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                0.317647,
+                0.364706,
+                1.0
+              ]
+            },
+            "floats": {
+              "cutout": 0.0,
+              "opacity": 0.25
+            },
+            "textures": {
+              "opacityTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "OPACITY",
+            "CUTOUT"
+          ],
+          "name": "zone_red-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                1.0,
+                0.25098,
+                0.337255
+              ]
+            },
+            "floats": {
+              "cutout": 0.0,
+              "opacity": 0.25
+            },
+            "textures": {
+              "opacityTex2D": "#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "CUTOUT"
+          ],
+          "name": "outline_red-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                0.764706,
+                0.368627,
+                0.458824
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "DIFFUSE",
+            "CUTOUT"
+          ],
+          "name": "outline-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                0.862745,
+                0.109804,
+                0.235294
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            }
+          }
+        },
+        {
+          "blendMode": 0,
+          "constants": [
+            "DIFFUSE",
+            "CUTOUT"
+          ],
+          "name": "center-material",
+          "shader": "shader/uber",
+          "variables": {
+            "floatVectors": {
+              "diffuse": [
+                1.0,
+                1.0,
+                0.423529,
+                0.305882
+              ]
+            },
+            "floats": {
+              "cutout": 0.0
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 1440,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 4428,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.488035,
+              -3.488035,
+              0.065873
+            ],
+            [
+              3.488035,
+              3.487928,
+              0.065873
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "primitives": [
+        {
+          "indices": 5,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 6,
+          "material": 6,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -0.75,
+              -0.75,
+              0.149975
+            ],
+            [
+              0.75,
+              0.75,
+              0.149975
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.0,
+        0.041321
+      ],
+      "name": "Zone",
+      "extensions": {}
+    },
+    {
+      "mesh": 1,
+      "name": "Circle",
+      "extensions": {}
+    }
+  ]
+}

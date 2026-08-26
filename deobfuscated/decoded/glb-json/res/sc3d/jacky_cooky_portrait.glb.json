@@ -1,0 +1,791 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 1
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.376488,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    },
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 0.765058,
+        "yfov": 0.497479,
+        "zfar": 100.0,
+        "znear": 1.0
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "cameras",
+      "extensions": {}
+    },
+    {
+      "name": "CHARACTER",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.026353,
+        -0.071473,
+        0.001889,
+        0.997093
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -2.006166,
+        5.489002,
+        16.873432
+      ],
+      "name": "portrait_small",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.10355,
+        -0.05032,
+        0.005246,
+        0.993337
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -1.448649,
+        2.103913,
+        17.852875
+      ],
+      "name": "portrait_large",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "name": "Root",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.0,
+        0.109684
+      ],
+      "name": "GEO",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "name": "portrait_small:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 2
+        }
+      }
+    },
+    {
+      "name": "portrait_large:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 3
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.106105,
+        -0.370455,
+        0.062448,
+        0.920655
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "translation": [
+        0.009915,
+        0.0,
+        1.054178
+      ],
+      "name": "drillRoot_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.008828,
+        -0.050414,
+        -0.120397,
+        0.991406
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ],
+      "translation": [
+        0.473393,
+        1.689324,
+        -0.711879
+      ],
+      "name": "hips_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        -0.0,
+        -0.109684
+      ],
+      "name": "GEO:PIV",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "camera": 0,
+      "name": "portrait_smallShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "camera": 1,
+      "name": "portrait_largeShape",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 7
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        1.51053,
+        -0.0
+      ],
+      "name": "drillBodys",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 8
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.027972,
+        0.368917,
+        -0.85195,
+        0.370539
+      ],
+      "translation": [
+        -0.896686,
+        -0.118606,
+        -0.0
+      ],
+      "name": "R_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.026263,
+        -0.284947,
+        -0.952985,
+        0.099677
+      ],
+      "translation": [
+        0.896686,
+        -0.118602,
+        -0.0
+      ],
+      "name": "L_upperLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.007924,
+        -0.001034,
+        0.129388,
+        0.991562
+      ],
+      "translation": [
+        -0.0,
+        0.359261,
+        0.033014
+      ],
+      "name": "spine_lower_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 9
+        }
+      }
+    },
+    {
+      "name": "suspenders_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "head_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "hat_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "glasses_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "drill_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "name": "body_Geo",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 10
+        }
+      }
+    },
+    {
+      "translation": [
+        -0.0,
+        2.62292,
+        -0.001078
+      ],
+      "name": "drillHandle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 13
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.690876,
+        0.0,
+        0.0,
+        0.722973
+      ],
+      "translation": [
+        0.0,
+        -0.655778,
+        0.0
+      ],
+      "name": "R_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 14
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.561537,
+        0.0,
+        0.0,
+        0.827452
+      ],
+      "translation": [
+        0.0,
+        0.655782,
+        0.0
+      ],
+      "name": "L_lowerLeg_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 15
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.026048,
+        -0.026317,
+        0.032676,
+        0.99878
+      ],
+      "translation": [
+        -0.001179,
+        0.370755,
+        0.016276
+      ],
+      "name": "spine_mid_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 16
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.182616,
+        0.067835,
+        -0.9477,
+        0.252815
+      ],
+      "translation": [
+        -0.0,
+        -0.752738,
+        -0.0
+      ],
+      "name": "R_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 24
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.007424,
+        0.311098,
+        -0.949834,
+        0.031278
+      ],
+      "translation": [
+        -0.0,
+        0.752737,
+        0.0
+      ],
+      "name": "L_ankle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 25
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.031591,
+        0.001378,
+        0.030557,
+        0.999033
+      ],
+      "translation": [
+        1.6e-05,
+        0.404704,
+        0.002937
+      ],
+      "name": "spine_upper_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 26
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.002561,
+        -0.707156,
+        -0.707048,
+        0.002561
+      ],
+      "translation": [
+        -0.001939,
+        0.494203,
+        -0.701708
+      ],
+      "name": "R_toes_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 27
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.002561,
+        0.707156,
+        0.707048,
+        -0.002562
+      ],
+      "translation": [
+        0.001939,
+        -0.494203,
+        0.701708
+      ],
+      "name": "L_toes_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 28
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.003217,
+        0.009092,
+        -0.096918,
+        0.995246
+      ],
+      "translation": [
+        0.000108,
+        0.368952,
+        0.010139
+      ],
+      "name": "chest_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 29
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.985877,
+        0.0,
+        -0.167474,
+        0.0
+      ],
+      "translation": [
+        -0.291685,
+        0.384907,
+        0.191884
+      ],
+      "name": "R_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 32
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.017187,
+        0.155611,
+        0.108426,
+        0.981699
+      ],
+      "translation": [
+        0.291685,
+        0.384903,
+        0.191884
+      ],
+      "name": "L_clavicle_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 32
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.083027,
+        0.996547
+      ],
+      "translation": [
+        -0.0,
+        0.940284,
+        -0.100756
+      ],
+      "name": "neck_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 32
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.390282,
+        0.648246,
+        0.481578,
+        -0.442199
+      ],
+      "translation": [
+        -1.276915,
+        0.10584,
+        0.232863
+      ],
+      "name": "R_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 33
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.51521,
+        -0.226085,
+        -0.663563,
+        0.49308
+      ],
+      "translation": [
+        1.276916,
+        -0.105841,
+        -0.232863
+      ],
+      "name": "L_shoulder_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 34
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.019597,
+        0.164768,
+        -0.04167,
+        0.985257
+      ],
+      "translation": [
+        -0.0,
+        0.489191,
+        -0.022946
+      ],
+      "name": "head_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 35
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.078171,
+        0.045126,
+        -0.05585,
+        0.994351
+      ],
+      "translation": [
+        0.0,
+        -0.04,
+        -0.0
+      ],
+      "name": "R_shoulder_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 36
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.037945,
+        -0.005127,
+        -0.279485,
+        0.959386
+      ],
+      "translation": [
+        -0.120886,
+        -1.00448,
+        -0.153934
+      ],
+      "name": "R_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 36
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.199944,
+        0.0,
+        0.979807
+      ],
+      "translation": [
+        0.0,
+        0.04,
+        -0.0
+      ],
+      "name": "L_shoulder_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 37
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.245884,
+        0.173802,
+        -0.653515,
+        0.694444
+      ],
+      "translation": [
+        -0.0,
+        0.756517,
+        0.0
+      ],
+      "name": "L_elbow_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 37
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.086153,
+        0.062601,
+        0.19206,
+        0.975588
+      ],
+      "translation": [
+        0.0,
+        -0.730323,
+        -0.0
+      ],
+      "name": "R_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 40
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.025055,
+        0.0,
+        0.999686
+      ],
+      "translation": [
+        0.0,
+        -0.243441,
+        -0.0
+      ],
+      "name": "R_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 40
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.440434,
+        0.084453,
+        -0.261458,
+        0.854708
+      ],
+      "translation": [
+        0.0,
+        0.730322,
+        -0.0
+      ],
+      "name": "L_wrist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 42
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        -0.147438,
+        0.0,
+        0.989071
+      ],
+      "translation": [
+        0.0,
+        0.243441,
+        -0.0
+      ],
+      "name": "L_forearm_twist_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 42
+        }
+      }
+    }
+  ]
+}

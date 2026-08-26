@@ -1,0 +1,285 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 193,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 64,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 32,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 720
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 386
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 400,
+      "byteLength": 256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 656,
+      "byteLength": 64
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 30,
+        "lastFrame": 30.0,
+        "packed": {
+          "dataAccessor": 0,
+          "nodeAccessor": 1,
+          "nodes": [
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 30,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 19,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 2
+            },
+            {
+              "dataSize": 19,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 50,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 4
+            },
+            {
+              "dataSize": 0,
+              "flags": 0,
+              "frameCount": 30,
+              "nodeIndex": 5
+            },
+            {
+              "dataSize": 35,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 6
+            },
+            {
+              "dataSize": 35,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 7
+            },
+            {
+              "dataSize": 35,
+              "flags": 4,
+              "frameCount": 30,
+              "nodeIndex": 8
+            }
+          ],
+          "stride": 24,
+          "uintAccessor": 2
+        }
+      },
+      "bufferView": 0
+    }
+  },
+  "nodes": [
+    {
+      "name": "turret",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        -0.933815,
+        0.0
+      ],
+      "name": "turret_base",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.000136,
+        -0.011662,
+        0.011662,
+        0.999864
+      ],
+      "translation": [
+        -0.3,
+        0.467974,
+        0.0
+      ],
+      "name": "hatch_left",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "rotation": [
+        2.7e-05,
+        0.005218,
+        -0.005218,
+        0.999973
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3,
+        0.467974,
+        -0.0
+      ],
+      "name": "hatch_right",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.001206,
+        0.0
+      ],
+      "name": "turret_bottom",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.656308,
+        0.0
+      ],
+      "name": "turret_hull",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 4
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.337466,
+        -0.425926
+      ],
+      "name": "turret_gunbone_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "translation": [
+        0.635669,
+        0.261493,
+        0.938584
+      ],
+      "name": "extension_right",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "translation": [
+        -0.616671,
+        0.261493,
+        0.938584
+      ],
+      "name": "extension_left",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    }
+  ]
+}

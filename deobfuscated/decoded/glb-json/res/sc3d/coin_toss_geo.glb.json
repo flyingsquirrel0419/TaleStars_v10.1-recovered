@@ -1,0 +1,308 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 4272,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70658,
+      "count": 508,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 136198,
+      "count": 32,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 201730,
+      "count": 16,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 40240
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 39044
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39056,
+      "byteLength": 1016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40080,
+      "byteLength": 128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40208,
+      "byteLength": 32
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.0,
+        "yfov": 0.691111,
+        "zfar": 1000.0,
+        "znear": 0.1
+      }
+    }
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "animation": {
+        "firstFrame": 1.0,
+        "frameRate": 30.0,
+        "keyframeCount": 90,
+        "lastFrame": 90.0,
+        "packed": {
+          "dataAccessor": 1,
+          "nodeAccessor": 2,
+          "nodes": [
+            {
+              "dataSize": 205,
+              "flags": 6,
+              "frameCount": 90,
+              "nodeIndex": 0
+            },
+            {
+              "dataSize": 205,
+              "flags": 6,
+              "frameCount": 90,
+              "nodeIndex": 1
+            },
+            {
+              "dataSize": 79,
+              "flags": 10,
+              "frameCount": 90,
+              "nodeIndex": 3
+            },
+            {
+              "dataSize": 19,
+              "flags": 8,
+              "frameCount": 90,
+              "nodeIndex": 4
+            }
+          ],
+          "stride": 24,
+          "uintAccessor": 3
+        }
+      },
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "SHADOWMAP"
+          ],
+          "name": "coin",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "ambient": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorAdd": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "colorMul": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "colorize": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emission": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "opacity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "specular": [
+                0.540594,
+                0.540594,
+                0.540594,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/coin_toss_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "menu_hair_specular_lightmap.png#repeat",
+              "lightmapTex2D": "menu_diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                }
+              ],
+              "offset": 8544,
+              "stride": 12
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 26844,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -3.630305,
+              -3.630511,
+              -0.792128
+            ],
+            [
+              3.630305,
+              3.630508,
+              0.792128
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "coin_blue_root",
+      "extensions": {}
+    },
+    {
+      "name": "coin_red_root",
+      "extensions": {}
+    },
+    {
+      "camera": 0,
+      "translation": [
+        0.0,
+        0.0,
+        22.045115
+      ],
+      "name": "Camera",
+      "extensions": {}
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Coin_Blue",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Coin_Red",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    }
+  ]
+}

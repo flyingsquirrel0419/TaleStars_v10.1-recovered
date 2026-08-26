@@ -1,0 +1,601 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2226,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4452,
+      "componentType": 5123,
+      "count": 372,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5196,
+      "componentType": 5123,
+      "count": 6018,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 17232,
+      "componentType": 5123,
+      "count": 1548,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 20328,
+      "componentType": 5123,
+      "count": 138,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 70662,
+      "count": 8,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "version": "2.0",
+    "generator": "Supercell glTF Converter by DaniilSV"
+  },
+  "buffers": [
+    {
+      "byteLength": 124336
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 123816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 123824,
+      "byteLength": 512
+    }
+  ],
+  "extensionsRequired": [
+    "SC_odin_format"
+  ],
+  "extensionsUsed": [
+    "SC_odin_format"
+  ],
+  "extensions": {
+    "SC_odin_format": {
+      "bufferView": 0,
+      "materials": [
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "CLIP_PLANE"
+          ],
+          "name": "specular_shiny_clip",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableGroundClip": true
+            },
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/item_moba_turret_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_shiny.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "CLIP_PLANE"
+          ],
+          "name": "lit_clip",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableGroundClip": true
+            },
+            "floatVectors": {
+              "specular": [
+                0.597,
+                0.597,
+                0.597,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/item_moba_turret_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap_shiny.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "CLIP_PLANE"
+          ],
+          "name": "metal_clip",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableGroundClip": true
+            },
+            "floatVectors": {
+              "specular": [
+                0.552,
+                0.552,
+                0.552,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/item_moba_turret_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "metal_specular_lightmap.png#repeat",
+              "lightmapTex2D": "metal_diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP",
+            "CLIP_PLANE"
+          ],
+          "name": "diffuse_clip",
+          "shader": "uber",
+          "variables": {
+            "booleans": {
+              "enableGroundClip": true
+            },
+            "floatVectors": {
+              "specular": [
+                0.296,
+                0.296,
+                0.296,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/item_moba_turret_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        },
+        {
+          "blendMode": 4,
+          "constants": [
+            "VERTEX_COLOR",
+            "DIFFUSE",
+            "SPECULAR",
+            "LIGHTMAP"
+          ],
+          "name": "diffuse",
+          "shader": "uber",
+          "variables": {
+            "floatVectors": {
+              "specular": [
+                0.296,
+                0.296,
+                0.296,
+                1.0
+              ]
+            },
+            "textures": {
+              "diffuseTex2D": "sc3d/item_moba_turret_tex.sctx#repeat",
+              "lightmapSpecularTex2D": "specular_lightmap.png#repeat",
+              "lightmapTex2D": "diffuse_lightmap.png#repeat"
+            }
+          }
+        }
+      ],
+      "meshDataInfos": [
+        {
+          "vertexDescriptors": [
+            {
+              "attributes": [
+                {
+                  "format": 30,
+                  "index": 0,
+                  "name": "a_pos",
+                  "offset": 0
+                },
+                {
+                  "format": 3,
+                  "index": 5,
+                  "name": "a_boneindex",
+                  "offset": 12
+                },
+                {
+                  "format": 36,
+                  "index": 6,
+                  "name": "a_boneweights",
+                  "offset": 16
+                }
+              ],
+              "offset": 20608,
+              "stride": 20
+            },
+            {
+              "attributes": [
+                {
+                  "format": 12,
+                  "index": 1,
+                  "name": "a_normal",
+                  "offset": 0
+                },
+                {
+                  "format": 22,
+                  "index": 2,
+                  "name": "a_uv0",
+                  "offset": 4
+                }
+              ],
+              "offset": 94328,
+              "stride": 8
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 1,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 2,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 3,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        },
+        {
+          "indices": 4,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "SC_odin_format": {
+              "meshDataInfoIndex": 0
+            }
+          }
+        }
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.493525,
+              -0.275115,
+              -1.493525
+            ],
+            [
+              1.493525,
+              2.018542,
+              2.02213
+            ]
+          ],
+          "skinnedSubMeshMask": [
+            31,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "turret",
+      "extensions": {}
+    },
+    {
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        -0.933815,
+        0.0
+      ],
+      "name": "turret_base",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "skin": 0,
+      "mesh": 0,
+      "name": "base",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 0
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.000136,
+        -0.011662,
+        0.011662,
+        0.999864
+      ],
+      "translation": [
+        -0.3,
+        0.467974,
+        0.0
+      ],
+      "name": "hatch_left",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "rotation": [
+        2.7e-05,
+        0.005218,
+        -0.005218,
+        0.999973
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.3,
+        0.467974,
+        -0.0
+      ],
+      "name": "hatch_right",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        1.001206,
+        0.0
+      ],
+      "name": "turret_bottom",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        0.656308,
+        0.0
+      ],
+      "name": "turret_hull",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 5
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.337466,
+        -0.425926
+      ],
+      "name": "turret_gunbone_s",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "translation": [
+        0.635669,
+        0.261493,
+        0.938584
+      ],
+      "name": "extension_right",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    },
+    {
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "translation": [
+        -0.616671,
+        0.261493,
+        0.938584
+      ],
+      "name": "extension_left",
+      "extensions": {
+        "SC_odin_format": {
+          "parent": 6
+        }
+      }
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 5,
+      "joints": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extensions": {
+        "SC_odin_format": {
+          "bounds": [
+            [
+              -1.493525,
+              -0.275115,
+              -1.493525,
+              1.493525,
+              0.397065,
+              1.493525
+            ],
+            [
+              -0.0,
+              -0.063142,
+              -1.227911,
+              0.316868,
+              0.061942,
+              1.239214
+            ],
+            [
+              -0.316868,
+              -0.063142,
+              -1.227911,
+              -0.0,
+              0.061942,
+              1.239214
+            ],
+            [
+              -1.071404,
+              0.0,
+              -1.071404,
+              1.071404,
+              0.877742,
+              1.071404
+            ],
+            [
+              -1.016679,
+              0.451526,
+              -1.085918,
+              1.016679,
+              2.018542,
+              1.016679
+            ],
+            [
+              -0.339115,
+              0.731802,
+              0.710358,
+              0.339116,
+              1.399851,
+              2.02213
+            ],
+            [
+              -1.242231,
+              0.752877,
+              -0.621217,
+              -0.720138,
+              1.24876,
+              0.755097
+            ],
+            [
+              0.774862,
+              0.752877,
+              -0.621217,
+              1.245615,
+              1.24876,
+              0.605626
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
